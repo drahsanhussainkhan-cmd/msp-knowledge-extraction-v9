@@ -1,0 +1,9 @@
+# MSP Knowledge Extraction & Decision Support System
+# Core dependencies
+pdfplumber>=0.9.0
+
+# Optional - for static chart generation
+matplotlib>=3.5.0
+
+# Optional - for Excel export
+openpyxl>=3.0.0

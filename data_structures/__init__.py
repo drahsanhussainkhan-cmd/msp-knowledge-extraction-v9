@@ -1,0 +1,50 @@
+"""
+Data structures for MSP Extractor - All extraction models
+"""
+from .extraction_models import (
+    DistanceExtraction,
+    EnvironmentalExtraction,
+    TemporalExtraction,
+    PenaltyExtraction,
+    PermitExtraction,
+    ProtectedAreaExtraction,
+    ProhibitionExtraction,
+    CoordinateExtraction,
+    SpeciesExtraction,
+    StakeholderExtraction,
+    ConflictExtraction,
+    MethodExtraction,
+    FindingExtraction,
+    PolicyExtraction,
+    DataSourceExtraction,
+    LegalReferenceExtraction,
+    InstitutionExtraction,
+    ResearchObjectiveExtraction,
+    ResultExtraction,
+    ConclusionExtraction,
+    GapIdentifiedExtraction
+)
+
+__all__ = [
+    'DistanceExtraction',
+    'EnvironmentalExtraction',
+    'TemporalExtraction',
+    'PenaltyExtraction',
+    'PermitExtraction',
+    'ProtectedAreaExtraction',
+    'ProhibitionExtraction',
+    'CoordinateExtraction',
+    'SpeciesExtraction',
+    'StakeholderExtraction',
+    'ConflictExtraction',
+    'MethodExtraction',
+    'FindingExtraction',
+    'PolicyExtraction',
+    'DataSourceExtraction',
+    'LegalReferenceExtraction',
+    'InstitutionExtraction',
+    'ResearchObjectiveExtraction',
+    'ResultExtraction',
+    'ConclusionExtraction',
+    'GapIdentifiedExtraction'
+]
