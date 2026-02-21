@@ -1,0 +1,250 @@
+﻿id,source_file,method_type,description,tools_used,exact_text,context,page_number,confidence,marine_relevance,is_correct,is_relevant,error_type,notes
+1,Prioritising-multiple-objectives-in-marine-spatial-pla_2023_Ocean---Coastal-.pdf,conservation_planning_tool,"ally important exploited species, and use boosted regression trees to determine areas of high
+Big old fat fecund female fish reproductive potential. Model results were then used to incorporate reprodu",R; Zonation,Zonation,"ally important exploited species, and use boosted regression trees to determine areas of high
+Big old fat fecund female fish reproductive potential. Model results were then used to incorporate reprodu",1,0.9,1.0,y,y,,Zonation's reverse stepwise heuristic algorithm described for identifying high conservation value areas while considering fishing value
+2,Accelerating-marine-spatial-planning-in-the-Western-Pacif_2025_Ocean---Coast.pdf,ecosystem_based_management,"Consulting, both of which worked closely with the Wildlife Conservation
+organizations produced 273 documents combined, of which, China Society, which launched the Fiji Program to protect biodiversity ",R,ecosystem-based management,"Consulting, both of which worked closely with the Wildlife Conservation
+organizations produced 273 documents combined, of which, China Society, which launched the Fiji Program to protect biodiversity ",4,0.9,1.0,n,n,vague_or_generic,EBM term appears in a bibliometric listing of organizations/documents; no evidence of EBM being applied as an actual method in this context
+3,33.pdf,ecosystem_based_management,"icies can create challenges for ecosystem-based management.
+Moreover, the coherence and synergies in implementing regional and EU marine policy frameworks at the na-
+tional and local levels can guide ",R,ecosystem-based management,"icies can create challenges for ecosystem-based management.
+Moreover, the coherence and synergies in implementing regional and EU marine policy frameworks at the na-
+tional and local levels can guide ",1,0.9,1.0,y,y,,Study actively examines coherence of EBM policies for offshore wind and marine planning in Finland
+4,The-emerging-intersection-between-marine-spatial-planning-and-o_2022_Marine-.pdf,gis_analysis,"ddition to
+oceans by 2030, Global (1996) developing SEEA
+Ocean Alliance (30×30 ecosystem accounts.
+initiative)
+Areas (MPAs). account with environment flows from thematic SEEA-CF accounts.14
+In 2019, T",R,performed a spatial analysis,"ddition to
+oceans by 2030, Global (1996) developing SEEA
+Ocean Alliance (30×30 ecosystem accounts.
+initiative)
+Areas (MPAs). account with environment flows from thematic SEEA-CF accounts.14
+In 2019, T",6,0.9,1.0,y,y,,Spatial analysis method referenced in marine spatial planning and ocean accounting context
+5,Enabling-conditions-for-effective-marine-spatial-planning_2022_Marine-Policy.pdf,ecosystem_based_management,"erv. Manag. 8 (1–2) (2012) 107–121.
+[37] c. Ehler, J. Zaucha, K. Gee, Maritime/marine spatial planning at the interface of [61] b.S. Halpern, K.L. McLeod, a.a. Rosenberg, L.b. Crowder, Managing for
+re",R,ecosystem-based management,"erv. Manag. 8 (1–2) (2012) 107–121.
+[37] C. Ehler, J. Zaucha, K. Gee, Maritime/marine spatial planning at the interface of [61] B.S. Halpern, K.L. McLeod, A.A. Rosenberg, L.B. Crowder, Managing for
+re",9,0.9,0.8,n,n,reference_only,EBM appears in the bibliography/reference section among citation entries; not a method applied in the study
+6,Current-status--advancements-and-development-needs-of-geosp_2021_Ocean---Coa.pdf,conservation_planning_tool,") were developed to analyse the benefits that humans derive non-experts, and at national and transboundary levels in their respective
+from nature (Guerry et al., 2012), including applications in the m",R,InVEST,") were developed to analyse the benefits that humans derive non-experts, and at national and transboundary levels in their respective
+from nature (Guerry et al., 2012), including applications in the m",2,0.9,1.0,y,y,,InVEST (Integrated Valuation of Ecosystem Services) identified as a geospatial DST for MSP-oriented applications
+7,Conservation-ready-marine-spatial-planning_2023_Marine-Policy.pdf,ecosystem_based_management,"Maritime Strategic Framework Directive, which requires Member States
+Ecosystem-based management (EBM) is widely accepted as the to implement EBM [25].",R,Ecosystem-based management,". For example, the EU’s Integrated Maritime
+ocean, biodiversity, and climate are inextricably linked, and that by Policy identifies MSP as an essential planning tool and provides the
+protecting the oc",1,0.9,1.0,y,y,,EBM actively discussed as management approach requiring MSFD Member States to implement; used as core method concept
+8,Addressing-transboundary-challenges--Exploring-the-interactive-re_2023_Marin.pdf,ecosystem_based_management,"work, leading to the following main findings. [9] F. Douvere, The importance of marine spatial planning in advancing ecosystem-
+(1)CG provides a theoretical and practical basis for TMSP. based sea use",R,ecosystem-based management,"work, leading to the following main findings. [9] F. Douvere, The importance of marine spatial planning in advancing ecosystem-
+(1)CG provides a theoretical and practical basis for TMSP. based sea use",11,0.9,1.0,n,n,reference_only,EBM appears in a bibliographic reference citation ([9] F. Douvere) not as a method applied in the study
+9,Using-ecosystem-service-assessments-to-support-partici_2020_Ocean---Coastal-.pdf,conservation_planning_tool,"der-led development of Local managers, user and Yes
+Normand recreational services provided by ecosystem functions and four qualitative scenario narratives interest groups involved in the
+Breton, tidal",R,InVEST,"der-led development of Local managers, user and Yes
+Normand recreational services provided by ecosystem functions and four qualitative scenario narratives interest groups involved in the
+Breton, tidal",4,0.9,1.0,y,y,,InVEST referenced as conservation planning tool used with scenario narratives for ecosystem service assessments in MSP
+10,A-robust--systematic-approach-for-developing-the-biodivers_2022_Ocean---Coas.pdf,conservation_planning_tool,"Marxan analysis and CBA Map development
+ecosystems; and a is the area of the planning unit in km2.",R,Marxan,"selected if they are the only options for
+0–100) based on their current and/or future sea use as a measure of how meeting biodiversity feature targets.
+strongly a planning unit should be avoided to re",5,0.9,0.5,y,y,,Marxan used as a systematic approach for developing biodiversity conservation planning in South Africa
+11,Prospects-of-marine-spatial-planning-in-T_2025_Regional-Studies-in-Marine-Sc.pdf,ecosystem_based_management,"esources to meet societal needs while
+particularly highlighted by the country’s aquaculture sector. This protecting and preserving the health of the environment in a balanced
+upswing aligns with Türki",R,EBM,"esources to meet societal needs while
+particularly highlighted by the country’s aquaculture sector. This protecting and preserving the health of the environment in a balanced
+upswing aligns with Türki",2,0.9,1.0,y,y,,EBM discussed as a management approach for balancing aquaculture and environmental protection in Turkey
+12,Marine-Spatial-Planning-Scheme-evaluation-based-on-the-co_2022_Ocean---Coast.pdf,ecosystem_based_management,"he work for the analysis of MSP effectiveness in multiple European sea
+significance of monitoring and evaluation of the effectiveness was also areas (Buhl-Mortensen et al., 2017), the comparative eval",R,EBM,"he work for the analysis of MSP effectiveness in multiple European sea
+significance of monitoring and evaluation of the effectiveness was also areas (Buhl-Mortensen et al., 2017), the comparative eval",2,0.9,1.0,y,y,,EBM referenced as management approach for MSP scheme evaluation and effectiveness analysis
+13,A-system-dynamics-model-to-support-marine-spatial-_2023_Environmental-Modell.pdf,conservation_planning_tool,"These escalating pressures are partly a (McClintock and Gordon, 2015)), spatial optimisation (e.g. MARXAN
+result of inadequacies or failure in ocean governance, and the lack of (Ball et al., 2009), SI",R,MARXAN,"or different functions, with some
+ocean warming and acidification (Halpern et al., 2017; Hameed et al., explicitly developed to assist in spatial mapping (e.g. Sea Sketch
+2017; McCauley et al., 2015).",1,0.9,1.0,y,y,,MARXAN cited as an example of a spatial optimisation tool used in marine governance
+14,Marine-spatial-planning-and-ocean-accounting--Synergistic-tools_2022_Marine-.pdf,ecosystem_based_management,"D . e P g e e re o i r r g a e , s,
+toward ecosystem-based management. IOC Manual and Guides: ICAM Dossier No. J. Bengtsson.K. Gocheva, c. Marta-Pedroso, T. Sn¨all, c. Estreguil, J. San-Miguel-
+6.",R,ecosystem-based management,"e Spatial Planning: a step-by-step approach P C . . K Fi r o is r t i e n n a s , e F n . , S A a . n B to a s s - t M ru a p r - t B ín ir , k V , . K N . a B r i u a ˇs la e , v i C ˇc . i u P s i ,",11,0.9,0.5,n,n,reference_only,"EBM appears in bibliography citation (Halpern et al., Managing for cumulative impacts); not a method applied in the study"
+15,Gender-based-ocean-uses-and-values--Implications-for-marine-_2025_Marine-Pol.pdf,conservation_planning_tool,"he Nature Conservancy examined the data from Belize. All
+resenting the other gender) contained a numeric value — this was done heatmaps created for these analyses are freely available on the SeaS-
+to ",R,seasketch,"he Nature Conservancy examined the data from Belize. All
+resenting the other gender) contained a numeric value — this was done heatmaps created for these analyses are freely available on the SeaS-
+to ",5,0.9,0.5,y,y,,SeaSketch platform used to host heatmaps from ocean use survey analyses in Belize
+16,33.pdf,ecosystem_based_management,"National strategies
+contribute to EU targets for increasing offshore wind energy. The Na- We studied the coherence of the ecosystem-based management pol-
+tional Climate and Energy Strategy of Finland ",R,ecosystem-based management,"he current 12GW to at least 60GW by 2030 and 300GW
+by 2050 [20]. This requires multiplying the capacity for offshore 5. Discussion
+renewable energy almost 30 times by 2050 [20]. National strategies
+co",6,0.9,1.0,y,y,,Study actively examines coherence of EBM policies for offshore wind and marine planning in Finland
+17,33.pdf,ecosystem_based_management,"There are multiple benefits of ecosystem-based management, such objectives of improved and systematic data across the EU, stakeholder
+as addressing cumulative impacts, delivering ecosystem benefits an",R,ecosystem-based management,"8–11]. Also, the HELCOM implement the ecosystem-based member states to develop programmes of measures to achieve objectives
+management, which is multi-scale, place-based and locally designed such as g",1,0.9,0.5,y,y,,Study actively examines coherence of EBM policies for offshore wind and marine planning in Finland
+18,A-two-way-process---Social-capacity-as-a-driver-and-outcome-of_2023_Marine-P.pdf,participatory_method,"ate Indigenous and local
+know and understand the ocean and coast. These approaches served as knowledge into MSP in the Bay and more broadly in South Africa [98].
+points of connection and provided oppo",R,Participatory mapping,"ate Indigenous and local
+know and understand the ocean and coast. These approaches served as knowledge into MSP in the Bay and more broadly in South Africa [98].
+points of connection and provided oppo",7,0.9,1.0,y,y,,Participatory mapping used to integrate Indigenous and local knowledge into MSP in South Africa
+19,Contrasting-performance-of-marine-spatial-planning-for-ach_2024_Ocean---Coas.pdf,conservation_planning_tool,"Mean species representation provides an integrated
+Zonation’s requirement for cost layers to have no zero values (Moilanen measure of performance that is averaged both across all species and
+et al., 2",R; Zonation,Zonation,"ecies representation
+currently trawled sites when prioritising sites for protection. A small throughout the removal process (herein referred to as “mean species
+additional value (0.0001) was added to ",4,0.9,0.5,y,y,,Zonation used for all spatial conservation prioritisation analyses based on species composition layers
+20,Coordination-of-planning-regulations-at-the-edge-of-water-and-land_2025_Mari.pdf,stakeholder_interview,"etting the adequate scale for both types of
+plans. plans, introducing a set of compatible functions for designated spatial
+Besides the incoherency of planning provisions, the additional zones, ensurin",R,conducted interviews,"etting the adequate scale for both types of
+plans. plans, introducing a set of compatible functions for designated spatial
+Besides the incoherency of planning provisions, the additional zones, ensurin",9,0.9,1.0,y,y,,Interviews conducted as research method to study planning provisions and spatial zoning incoherency
+21,Integrating-issue-oriented-solution-of-marine-spatial-pla_2024_Ocean---Coast.pdf,conservation_planning_tool,"Quantitative indices are normal- and details may be overlooked when the InVEST model is applied in
+ized using specific standardization methods, as detailed in Equations (1) larger scale spaces, the st",R,InVEST,"der transport routes and berthing areas
+indices are assigned categories based on their values: excellent (1), good were collected; (2) Habitat Risk Assessment - Considering local features
+(0.75), aver",4,0.9,1.0,y,y,,InVEST model applied for habitat risk assessment and quantitative index standardization in marine spatial planning
+22,Marine-spatial-planning-to-solve-increasing-conflicts-at_2023_Journal-of-Env.pdf,conservation_planning_tool,"Project administration,
+an overview) to predict changes in fishing fleet and fish population Funding acquisition; Gae¨l Lavialle: Methodology.Formal analysis,
+dynamics. In 2015, Reecht et al. evaluate",R,Marxan,"Project administration,
+an overview) to predict changes in fishing fleet and fish population Funding acquisition; Gae¨l Lavialle: Methodology, Formal analysis,
+dynamics. In 2015, Reecht et al. evaluat",11,0.9,1.0,y,y,,Marxan referenced as conservation planning tool compared against prioritizr for computational efficiency in marine conflict resolution
+23,33.pdf,ecosystem_based_management,"Climate change is predicted to increase internal pressures, WFD introduces ecosystem-based management, which runs in a cyclical
+further exacerbating eutrophication in the Archipelago Sea and posing pl",R,ecosystem-based management,"als, building, or strengthening capacity, co-producing knowledge, co-
+Sea region, caused by nutrient pollution, with agriculture being the main innovating solutions, and practicing adaptive management",1,0.9,1.0,y,y,,Study actively examines coherence of EBM policies for offshore wind and marine planning in Finland
+24,Marine-aquaculture-spatial-planning-on-market-orientation-for-P_2024_Aquacul.pdf,suitability_analysis,"rter breeding cycles mean higher
+and Xky to the half-saturation coefficient related to TSS concentration.
+returns for farmers. Minimum Time (MT; day) was a significant indi-
+Other DEB functions used i",R,suitability analysis,"rter breeding cycles mean higher
+and Xky to the half-saturation coefficient related to TSS concentration.
+returns for farmers. Minimum Time (MT; day) was a significant indi-
+Other DEB functions used i",4,0.9,0.5,y,y,,Suitability analysis applied for marine aquaculture spatial planning using DEB model parameters
+25,Cetacean-habitat-modelling-to-inform-conservation-management_2021_Ocean---Co.pdf,conservation_planning_tool,"different gions. Ideally, the number of occurrence data point is >15 sightings to
+regions characterised by different complex environmental variables prevent inconsistent model results (Aguirre-Guti´er",R,Maxent,"different gions. Ideally, the number of occurrence data point is >15 sightings to
+regions characterised by different complex environmental variables prevent inconsistent model results (Aguirre-Guti´er",15,0.9,1.0,y,y,,Maxent used for cetacean habitat modelling to inform MPA conservation management
+26,The-complex-relationships-between-marine-protected-areas-and-mar_2021_Marine.pdf,ecosystem_based_management,"MPAs could thus be viewed as a substitute for MSP or indeed as
+system-based sea use management”, with reference to wider notion of the basis for maritime planning and strategy. Conversely, in a second",R,ecosystem-based management,"based marine spatial
+MSP is often presented as an essential means and tool to achieve “eco- plan”. MPAs could thus be viewed as a substitute for MSP or indeed as
+system-based sea use management”, with",2,0.9,1.0,y,y,,EBM actively discussed as core management paradigm for eco-system-based sea use management in MPA-MSP relationship
+27,Prioritising-multiple-objectives-in-marine-spatial-pla_2023_Ocean---Coastal-.pdf,conservation_planning_tool,"number of features overlapping with a cell, allows easy division across feature layers to allow proportional
+with higher value given to cells with multiple features. The repre- weighting. Following Sc",R; Zonation,Zonation,"number of features overlapping with a cell, allows easy division across feature layers to allow proportional
+with higher value given to cells with multiple features. The repre- weighting. Following Sc",4,0.9,0.5,y,y,,Zonation's reverse stepwise heuristic algorithm described for identifying high conservation value areas while considering fishing value
+28,Seascape-genomics--Assisting-marine-biodiversity-management-by-c_2025_Marine.pdf,ecosystem_based_management,"single-species coral cover in recent years [44], with active Australian legislation and
+approach, future studies are likely to shift towards community-level collaborations aiming to conserve and unloc",R,ecosystem-based management,"single-species coral cover in recent years [44], with active Australian legislation and
+approach, future studies are likely to shift towards community-level collaborations aiming to conserve and unloc",3,0.9,0.5,y,y,,EBM discussed in context of shifting from single-species to community-level approaches for marine biodiversity management
+29,Gender-based-ocean-uses-and-values--Implications-for-marine-_2025_Marine-Pol.pdf,conservation_planning_tool,"Heatmap methods
+the Maldives, representing 5050, 2265, and 25,330 people respectively.
+These data are spatial and disaggregated by gender, providing critical Heatmaps were generated from shapes drawn ",R,SeaSketch,"ision-making [25–27].
+Three Ocean Use Surveys were conducted in the Azores, Belize, and 2.1. Heatmap methods
+the Maldives, representing 5050, 2265, and 25,330 people respectively.
+These data are spati",3,0.9,1.0,y,y,,SeaSketch used for generating gender-disaggregated ocean use heatmaps in Azores Belize and Maldives
+30,Contrasting-performance-of-marine-spatial-planning-for-ach_2024_Ocean---Coas.pdf,conservation_planning_tool,"each biodiversity feature is avail- include a suspicion of science-based tools that may be poorly explained
+able throughout the prioritisation process. Alternatively, a ‘mixed’ or understood, fears by",R; Zonation,Zonation,"each biodiversity feature is avail- include a suspicion of science-based tools that may be poorly explained
+able throughout the prioritisation process. Alternatively, a ‘mixed’ or understood, fears by",9,0.9,1.0,y,y,,Zonation used for all spatial conservation prioritisation analyses based on species composition layers
+31,Identifying-ecologically-valuable-marine-areas-to-support-conser_2023_Marine.pdf,conservation_planning_tool,"A) An example of the high value areas for conservation, based on spatial prioritization (Zonation), used in the first phase to identify potential EMMA
+candidates, and B) filtered high value areas deli",R; Zonation,Zonation,"isualized with natural breaks,
+where the average deviation of each class is minimized from the mean of the class. The grid size is 5km.
+4
+
+L.M.J. Kuismanen et al. M a r i n e P o l i c y 158(2023)1058",5,0.9,1.0,y,y,,Zonation used to support identification of ecologically valuable marine areas (EMMAs) and their boundaries
+32,Marine-spatial-planning-and-ocean-accounting--Synergistic-tools_2022_Marine-.pdf,ecosystem_based_management,"The human relationship with our ocean new synthesis, Cambridge University Press, Cambridge, UK, 2010.
+[31] b.S. Halpern, K.L. Mcleod, a.a. Rosenberg, L.b. Crowder, Managing for cumulative
+planet. Wash",R,ecosystem-based management,"a
+[1] Allison, E.H., Kurien, J. & Ota, Y. 2020. The human relationship with our ocean new synthesis, Cambridge University Press, Cambridge, UK, 2010.
+[31] B.S. Halpern, K.L. Mcleod, A.A. Rosenberg, L.",11,0.9,0.8,n,n,reference_only,"EBM appears in bibliography citation (Halpern et al., Managing for cumulative impacts); not a method applied in the study"
+33,Cumulative-effects-of-offshore-renewables--From-prag_2023_Environmental-Impa.pdf,conservation_planning_tool,Fig. 4).The HRA of choice is one of the InVEST (Integrated Valuation of 7 https://www.marinedataexchange.co.uk/.,R,InVEST,"ies (e.g. seabird and fish (Sadykova et al.,
+2017)) to be used in a Habitat Risk Assessment model (HRA) highlighted
+5 https://naturalcapitalproject.stanford.edu/.
+in (Declerck et al., 2021; Trifonova ",10,0.9,0.5,y,y,,InVEST HRA (Habitat Risk Assessment) model used for offshore renewable cumulative effects assessment
+34,41.pdf,stakeholder_interview,"ce revised: conflict and of a national park office by a community was the response to a fit of
+Management Plan renegotiation
+anger but left no room for the expression of arguments and feelings.
+Rapa N",R,through interviews,"ce revised: conflict and of a national park office by a community was the response to a fit of
+Management Plan renegotiation
+anger but left no room for the expression of arguments and feelings.
+Rapa N",4,0.9,1.0,y,y,,Stakeholder interviews used as a method for understanding conflict and renegotiation in marine park management (Rapa Nui)
+35,Using-systematic-conservation-planning-to-align-priority-areas-_2022_Biologi.pdf,conservation_planning_tool,"This entailed
+4
+
+S.d. Holness et al. B i o lo g i c a l C o n s e r v a t i o n 271(2022)109574
+Table 1
+Summary of the input data (biodiversity features, nature-based activities, and commercial and in",R,Marxan,"L+SPF
+projects (e.g., Addo Elephant MPA planning process). This entailed
+4
+
+S.D. Holness et al. B i o lo g i c a l C o n s e r v a t i o n 271(2022)109574
+Table 1
+Summary of the input data (biodiversi",5,0.9,0.667,y,y,,Marxan run via CLUZ interface in ArcView for systematic conservation planning with planning-unit selection
+36,Cetacean-habitat-modelling-to-inform-conservation-management_2021_Ocean---Co.pdf,conservation_planning_tool,"Seven regions in Indonesia (regions #1–6, region #7 on the next page) that were included in this study with the reported presences of the 15 selected cetacean
+species (in total n =1276) used in Maxent",R,Maxent,"reached the
+2
+
+A. Sahri et al. O c e a n a n d C o a s t a l M a n a g e m e n t 205(2021)105555
+Fig. 1. Seven regions in Indonesia (regions #1–6, region #7 on the next page) that were included in thi",3,0.9,1.0,y,y,,Maxent used for cetacean habitat modelling to inform MPA conservation management
+37,Scenario-based-cumulative-impacts-assessment-on-iconic-s_2026_Environmental-.pdf,conservation_planning_tool,"the fishing ban. based on ecological components, this study proposes a CIA method for
+These findings highlight the utility of scenario-based, habitat-pres- estuarine ecosystems that incorporates iconi",R,MaxEnt,"the fishing ban. based on ecological components, this study proposes a CIA method for
+These findings highlight the utility of scenario-based, habitat-pres- estuarine ecosystems that incorporates iconi",9,0.9,0.667,y,y,,MaxEnt used for scenario-based cumulative impacts assessment on iconic species in estuarine ecosystems
+38,Exploring-spatial-similarity-and-performance-among-marine_2022_Global-Ecolog.pdf,conservation_planning_tool,"Exploratory representations of Marxan solutions using clustering and ordination methods can support the evaluation of scenarios in
+conservation planning by showing how spatially similar one scenario i",R,Marxan,"of PUs that are spatially
+clustered. Moreover, it is most flexible among solutions (along with Scenario
+FTMed).
+9
+
+K. Teschke et al. G l o b a l E c o l o g y a n d C o n s e r v a t i o n 38(2022)e02",10,0.9,1.0,y,y,,Marxan used to compare efficiencies of different spatial planning scenarios including mixed-target approaches
+39,Cetacean-habitat-modelling-to-inform-conservation-management_2021_Ocean---Co.pdf,conservation_planning_tool,"on and management planning. Maximum Entropy
+Marine spatial planning
+(Maxent) modelling was used to map the distribution of 15 selected cetacean species in seven areas within
+Marine traffic
+Indonesian ",R,Maxent,"on and management planning. Maximum Entropy
+Marine spatial planning
+(Maxent) modelling was used to map the distribution of 15 selected cetacean species in seven areas within
+Marine traffic
+Indonesian ",1,0.9,1.0,y,y,,Maxent used for cetacean habitat modelling to inform MPA conservation management
+40,Contrasting-performance-of-marine-spatial-planning-for-ach_2024_Ocean---Coas.pdf,conservation_planning_tool,"alysis with a weight of zero, preventing
+a ‘cost’ layer. In particular, it having any influence on prioritisation outcomes, but facilitating
+{
+a+0.0001forunfishedcells analysis of overlaps between hig",R; Zonation,Zonation,"alysis with a weight of zero, preventing
+a ‘cost’ layer. In particular, it having any influence on prioritisation outcomes, but facilitating
+{
+a+0.0001forunfishedcells analysis of overlaps between hig",4,0.9,1.0,y,y,,Zonation used for all spatial conservation prioritisation analyses based on species composition layers
+41,Using-systematic-conservation-planning-to-align-priority-areas-_2022_Biologi.pdf,conservation_planning_tool,"ibrated using an iterative
+with values between 0 and 100 based on the intensity of the activity (or
+0 or 100 where the activity was respectively absent or present); EX =the manual calibration method, ",R,Marxan,"ibrated using an iterative
+with values between 0 and 100 based on the intensity of the activity (or
+0 or 100 where the activity was respectively absent or present); EX =the manual calibration method, ",6,0.9,0.5,y,y,,Marxan run via CLUZ interface in ArcView for systematic conservation planning with planning-unit selection
+42,Exploring-spatial-similarity-and-performance-among-marine_2022_Global-Ecolog.pdf,conservation_planning_tool,"use greater variation in reserve
+configurations. It appears that the higher the targets, the more different solutions have to be found to achieve the targets. In our case
+study, this is especially evi",R,Marxan,"use greater variation in reserve
+configurations. It appears that the higher the targets, the more different solutions have to be found to achieve the targets. In our case
+study, this is especially evi",9,0.9,1.0,y,y,,Marxan used to compare efficiencies of different spatial planning scenarios including mixed-target approaches
+43,Finding-harmony-in-the-sea--Resolving-conflicts-by-reg_2024_Ocean---Coastal-.pdf,suitability_analysis,"Various studies have geographic information, transport details, ports, fisheries, aquaculture,
+reported GIS applications in MSP, indicating that GIS can be utilized as a cable and conduit information,",R,overlap analysis,"s (Douvere, 2008). Various studies have geographic information, transport details, ports, fisheries, aquaculture,
+reported GIS applications in MSP, indicating that GIS can be utilized as a cable and c",3,0.9,1.0,y,y,,GIS overlap analysis used for marine spatial planning with geographic information and transport/fisheries/aquaculture data
+44,A-robust--systematic-approach-for-developing-the-biodivers_2022_Ocean---Coas.pdf,conservation_planning_tool,"ely. South Africa has a long
+Sustainable development
+history and real-world success in spatial planning on land; we aim to draw on this experience to develop an
+Marxan
+approach by which the biodiversi",R,Marxan,"ely. South Africa has a long
+Sustainable development
+history and real-world success in spatial planning on land; we aim to draw on this experience to develop an
+Marxan
+approach by which the biodiversi",1,0.9,1.0,y,y,,Marxan used as a systematic approach for developing biodiversity conservation planning in South Africa
+45,Ecologically-and-Biologically-Significant-Areas--EBSAs--as-an-en_2024_Marine.pdf,conservation_planning_tool,"nimizing costs. Marxan generates several
+4.1.",R,Marxan,"nimizing costs. Marxan generates several
+4.1. Governance mechanism different options (termed ‘solutions’), which represent networks of
+complementary areas that efficiently achieve the overall objectiv",4,0.9,0.5,y,y,,Marxan described as generating multiple solution options for efficiently achieving conservation objectives while minimizing costs
+46,Exploring-spatial-similarity-and-performance-among-marine_2022_Global-Ecolog.pdf,conservation_planning_tool,"s and efficiencies of the different spatial planning
+scenarios, documenting the superiority of the mixed-target scenario. Whereas the earlier scenario selection had a strong focus on
+conservation asse",R,Marxan,"s and efficiencies of the different spatial planning
+scenarios, documenting the superiority of the mixed-target scenario. Whereas the earlier scenario selection had a strong focus on
+conservation asse",10,0.9,1.0,y,y,,Marxan used to compare efficiencies of different spatial planning scenarios including mixed-target approaches
+47,Marine-spatial-planning-in-the-Eastern-Caribbean--Trends-an_2022_Marine-Poli.pdf,survey,"In Barbuda, there was significant input from the
+renewable energy, resource fisheries and tourism sectors through surveys and participatory mapping
+exploration, marine biotechnology) [10].",R,through survey,"rine Zoning Plan was
+sector.
+Plan • Investing in marine research to stakeholder-guided, using spatial data collected from expert mapping
+pursue new sectors (e.g., marine and fisher surveys [8]. In Bar",5,0.9,1.0,y,y,,Survey method used in Barbuda for stakeholder-guided marine zoning plan with spatial data collection from expert mapping
+48,Enabling-conditions-for-effective-marine-spatial-planning_2022_Marine-Policy.pdf,ecosystem_based_management,", especially regarding the apparent
+tension between a Blue Growth approach vs. a conservation-first approach (loosely aligning with ‘soft’ and ‘hard’
+conceptualizations of sustainability) shaped the d",R,EBM,", especially regarding the apparent
+tension between a Blue Growth approach vs. a conservation-first approach (loosely aligning with ‘soft’ and ‘hard’
+conceptualizations of sustainability) shaped the d",3,0.9,1.0,y,y,,Discusses EBM as a management approach relevant to MSP integration across agencies
+49,50.pdf,conservation_planning_tool,"Participatory mapping techniques
+Statistical data on individuals with disabilities, including wheelchair using digital tools such as SeaSketch, could significantly enhance data
+users, remain sparse in",R,SeaSketch,"igned with EU principles of equity and so- ping approaches tailored to the needs of individuals with mobility im-
+cial inclusion. pairments could be explored [53,54]. Participatory mapping techniques
+",8,0.9,1.0,y,y,,SeaSketch participatory mapping tool proposed for enhancing accessibility data in Greek marine spatial planning
+50,Using-GIS-fuzzy-set-modelling-to-integrate-social-ecological_2021_Ocean---Co.pdf,participatory_method,"Data collection
+random forest methods (Parravicini et al., 2012), decision-trees (Dunn
+et al., 2011), and Boosted Regression Trees (Smallhorn-West et al., A total of 74 semi-structured participatory m",R,participatory mapping,"elling using statistical organisation
+tools have been increasingly used in spatial applications such as using 2.2. Data collection
+random forest methods (Parravicini et al., 2012), decision-trees (Dun",2,0.9,1.0,y,y,,Participatory mapping used with semi-structured interviews for social-ecological data collection in marine GIS fuzzy set modelling

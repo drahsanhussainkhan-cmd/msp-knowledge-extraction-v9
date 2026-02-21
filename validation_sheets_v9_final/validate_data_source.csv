@@ -1,0 +1,149 @@
+﻿id,source_file,source_type,source_name,spatial_coverage,temporal_coverage,exact_text,context,page_number,confidence,marine_relevance,is_correct,is_relevant,error_type,notes
+1,Progress-in-the-modelling-and-management-of-offshore-wind-f_2026_Ocean-Engin.pdf,data_source,ERA5,,,ERA5 ,"cost of multi-year LES runs. By applying a conditional
+kinematics derived from high-order wave modelling and (2) a probability correction technique, the authors relate wind-farm power
+wave-phase-avera",5,0.9,0.5,y,y,,ERA5 reanalysis dataset used for wind-wave modelling in offshore wind farm management context
+2,A-review-of-geospatial-technologies-for-improving-Marine_2023_Ocean---Coasta.pdf,data_source,VMS,,,VMS,"erms we chose connect GTs and marine-related
+2017) planning activities. As such, queries used to identify GTs included
+(Ban et al., 2010; Bronwyn either of the terms (or combinations of) “remote sensi",3,0.9,1.0,y,y,,VMS (Vessel Monitoring System) referenced as a geospatial technology for marine spatial planning activities
+3,26.pdf,data_source,ICES,,1214-1225,ICES ,"A, 2020.
+[4] B.H. Buck, R. Langan, Aquaculture perspective of multi-use sites in the open ocean: [33] A.L. Lusher, C.O. Donnell, R. Officer, I.O. Connor, Microplastic interactions with
+The untapped po",5,0.9,1.0,n,n,reference_only,ICES appears in the bibliography/reference section among citation page numbers; not describing actual data source usage
+4,Spatial-temporal-big-data-analysis-of-ship-avoidance-patter_2025_Ocean-Engin.pdf,data_source,AIS,,,AIS data,"gu, Busan, Republic of Korea
+A R T I C L E I N F O A B S T R A C T
+Keywords: Typhoons pose a significant threat to maritime safety, affecting numerous ships and ports in South Korea
+Typhoon annually. ",1,0.9,1.0,y,y,,AIS data used for spatial-temporal analysis of ship avoidance patterns during typhoons in South Korea
+5,Cetacean-habitat-modelling-to-inform-conservation-management_2021_Ocean---Co.pdf,data_source,AIS,,,AIS,"ly large vessels (>300 tons) making international jurisdiction, or in future open-sea MSP establishment beyond 12 nm.
+voyages and all passenger ships regardless of their size are required to Given cur",17,0.9,1.0,y,y,,AIS used for tracking large vessels in cetacean habitat modelling for MSP conservation management
+6,Avoiding-sudden-maritime-risk--A-new-variable-speed-route-pla_2023_Ocean-Eng.pdf,data_source,Copernicus,,,Copernicus ,"wave direction, wind speed, wind uniform scheme and initial variable speed scheme in all aspects when
+direction, wave period and so on. Among these variables, the tempera- faced with sudden risk. A co",8,0.9,1.0,y,y,,"Copernicus data used for wave direction, wind speed, and temperature in ship route planning"
+7,Analysis-of-uses-and-activities-in-the-Argentine-Sea--Bases-for-_2022_Marine.pdf,data_source,ais,,,ais,"arine Traffic, 2021. Obtained from: 〈https://www.marinetraffic.
+[11] B M a . l t H ic e r S n e a´ a n s d p e a z c O e, r t 2 i 0 z, 1 1 C . o G nc e e e p st t h os a c y h t c , o A nt le e m xt a",15,0.9,1.0,y,y,,AIS referenced alongside MarineTraffic for maritime traffic analysis in Argentine Sea MSP baseline study
+8,A-spatial-temporal-data-mining-method-for-the-extraction-of-_2024_Ocean-Engi.pdf,data_source,AIS,"area is often divided into
+traffic patterns, it is necessary to find a new method tha",,AIS data,"ten reduced the dimension of AIS data and imposed the statistics of all grids, the traffic situation in the area such as the
+constraints such as a Gaussian distribution. As a result, they unavoidably ",2,0.9,1.0,y,y,,AIS data used for traffic pattern extraction and grid-based spatial analysis of maritime traffic
+9,Spatial-footprint-of-maritime-vessels-in-the-waters-of-a-fast-_2025_Marine-P.pdf,data_source,vessel movements,,,dataset of vessel movements,"assessments of
+mation can be used to make informed decisions about marine spatial daily disturbance on specific habitats (Chinese white dolphin and sea-
+planning, policy and coastal management [4,46,1",8,0.9,1.0,y,y,,Named dataset of vessel movements used for assessing maritime vessel spatial footprint and habitat disturbance
+10,A-novel-anytime-repairing-A--path-planning-methodology-in-dyna_2025_Ocean-En.pdf,data_source,ECMWF,,,ECMWF,"rmation on tides, currents, waves, and weather. Wind
+According to the international regulation IMO 2020initiative, ships data (wind speed and direction) and wave data (wave height and period)
+are requ",3,0.9,0.5,y,y,,ECMWF used for wind and wave data (speed/direction/height/period) in dynamic ship path planning
+11,Ship-path-planning-based-on-safety-potential-field-in-in_2022_Ocean-Engineer.pdf,data_source,AIS,,,AIS ,"open action between various factors also affects the navigation safety of ships
+waters (Fiskin et al., 2020). To flexibly adapt the fixed safety area set by (Yu et al., 2021). In waterborne traffic, s",2,0.9,1.0,y,y,,AIS data used for ship path planning and navigation safety analysis in inland waters
+12,Using-systematic-conservation-planning-to-align-priority-areas-_2022_Biologi.pdf,data_source,ais,,,ais,"p-to-ship bunkering) arts-navigation.html?title=A+Port+Elizabeth
+Shipping lanes (4) +boating+app#9.45/-33.8813/25.8934).
+Shipping intensity (1) Areas of highest shipping intensity in Algoa Bay. High s",6,0.9,1.0,y,y,,AIS referenced alongside ship-to-ship bunkering and shipping lanes for conservation planning in Algoa Bay
+13,Intelligent-decision-and-planning-for-unmanned-surface-vehicl_2025_Ocean-Eng.pdf,data_source,AIS,,,AIS,"ations and its future development directions. This review aims to provide a valuable
+reference for researchers in related fields, highlighting the potential of ML in marine unmanned systems and
+promot",1,0.9,1.0,y,y,,AIS data referenced for intelligent decision-making in unmanned surface vehicles - marine vessel tracking data
+14,A-critique-of-the-use-of-domain-analysis-for-spatial-colli_2021_Ocean-Engine.pdf,database,"these incidents from 2002 to
+One method to validate the resul",,,"database of these incidents from 2002 to
+One method to validate the resul","g that a great variability in re- rine casualty or accident occurring within the United States navigable
+sults can be derived by alternative implementations of the same meth- waters, including groundi",3,0.9,1.0,y,y,,Database of marine casualties and incidents from US navigable waters used to validate collision risk domain analysis
+15,Marine-spatial-planning-to-solve-increasing-conflicts-at_2023_Journal-of-Env.pdf,data_source,ICES,,,ICES,"ter video survey conducted by towing a sledge equipped
+with a camera along transects. Videos of 7 minutes were analyzed to
+2.2.1. Study area count individuals of various taxa. EVHOE is part of the Int",4,0.9,1.0,y,y,,ICES data from underwater video survey (EVHOE) for MSP conflict resolution study in marine environment
+16,Finding-harmony-in-the-sea--Resolving-conflicts-by-reg_2024_Ocean---Coastal-.pdf,data_source,AIS,"area in Taiwan, predominantly employing a floating raft
+culture system (Yang and Cha",,AIS data,"The designation of
+techniques (Gimpel et al., 2018; Stelzenmüller et al., 2013).
+Anping Port (Fig. 1) as an international free-trade zone harbor in 2014
+further amplified cargo shipments, tourist ferr",2,0.9,0.5,y,y,,AIS data used for maritime traffic analysis in Anping Port area for marine conflict resolution
+17,40.pdf,data_source,AIS,,,AIS,"ition also depends on enhanced monitoring guard juveniles and large spawners, and enhance the recruitment of
+capacity. Current enforcement systems rely on Vessel Monitoring Sys- sailfin grouper stocks",6,0.9,1.0,y,y,,AIS mentioned in context of vessel monitoring for fisheries enforcement and stock management
+18,40.pdf,data_source,VMS,,,VMS,"age structure, safe-
+The success of this transition also depends on enhanced monitoring guard juveniles and large spawners, and enhance the recruitment of
+capacity. Current enforcement systems rely on",6,0.9,1.0,y,y,,VMS (Vessel Monitoring System) used for enforcement monitoring in marine fisheries management
+19,A-novel-path-planning-algorithm-for-ships-in-dynamic-curr_2023_Ocean-Enginee.pdf,data_source,AIS,,,AIS data,"to the objective
+function to be used as emission units. In (Yu et al., 2021), the A*-VVGO
+1.1.2. Dynamic path planning algorithm was proposed to optimize the global navigation path of USVs
+Many resear",2,0.9,1.0,y,y,,AIS data used in ship path planning algorithms with emission optimization
+20,Analysis-of-uses-and-activities-in-the-Argentine-Sea--Bases-for-_2022_Marine.pdf,data_source,marinetraffic,,2005-2020,marinetraffic,"raffic was calculated as an average of the number of
+out in each of the sectors was calculated. For this, the method pro-
+vessels that circulated on the different routes per year (2005–2020) posed by ",4,0.9,1.0,y,y,,MarineTraffic data for vessel traffic analysis in Argentine Sea with temporal coverage 2005-2020
+21,Assessing-marine-traffic-and-related-pressures-and-threats-to-cet_2025_Marin.pdf,data_source,GEBCO,,,GEBCO ,"Map of the study area. Marine activities are hosted by the eight harbours mostly distributed on the west coast. The territorial waters of R´eunion Island (i.e.,
+the study area; in darker blue) are del",2,0.9,1.0,y,y,,GEBCO bathymetric data used for marine traffic and cetacean pressure assessment around Reunion Island
+22,Integrating-cultural-and-natural-assets-in-marine-spatial_2024_Journal-for-N.pdf,data_source,COPERNICUS,,,COPERNICUS ,"ficient co-management in the context of MSP. Second, mapping of tionofphysicalcharacteristicsatlargerspatialscales(e.g.,hundredsof
+naturalandculturalassetsisincomplete,unliketypicallywell-mapped meter",7,0.9,1.0,y,y,,COPERNICUS data for physical oceanographic characteristics in marine spatial planning and cultural-natural asset integration
+23,Novel-computer-vision-tools-applied-to-marine-recreational_2024_Fisheries-Re.pdf,data_source,VMS,,,VMS,"S T R A C T
+Handled by Jie Cao Successful marine spatial planning relies on understanding patterns of human use, with accurate, detailed, and
+up-to-date information about the spatial distribution of f",1,0.9,0.714,y,y,,VMS referenced in abstract discussing spatial distribution data needs for marine spatial planning
+24,Using-systematic-conservation-planning-to-align-priority-areas-_2022_Biologi.pdf,data_source,VMS,,,VMS,"nsity in Algoa Bay. High shipping intensity areas digitized from the Marine Traffic
+website (https://www.marinetraffic.com/en/ais/home/cent
+erx:-12.0/centery:25.0/zoom:4).
+Commercial fishing Commercia",6,0.9,0.643,y,y,,VMS (Vessel Monitoring System) used for commercial fishing intensity analysis in Algoa Bay conservation planning
+25,MUTE-DSS--A-digital-twin-based-decision-support-system-for-min_2026_Ocean-En.pdf,data_source,vary- kernel,,,dataset of vary- kernel,"uared interpolation matrix (𝚿) particularly in regions of large TL variation. These artifacts are exag-
+in Eq. (7) has dimensions equal to the number of data points, making gerated and spatially dispe",7,0.9,0.5,n,n,false_positive,"Garbled extraction; 'dataset of vary- kernel' is fragmented text about interpolation matrices and kernel methods, not a named dataset"
+26,An-ensemble-unsupervised-machine-learning-GIS-framework-for-t_2026_Ocean-Eng.pdf,data_source,EMODnet,,,"EMODnet
+","the
+71 16 55 19 56 (cid:0) 37 Eastern Black Sea, this study has several limitations. Primarily, for
+69 17 52 22 57 (cid:0) 35 geophysical and geotechnical parameters (e.g., bathymetry, sediment
+32 18 ",16,0.9,1.0,y,y,,"EMODnet used for geophysical and geotechnical parameter data (bathymetry, sediment) in Eastern Black Sea study"
+27,Sharing-the-waters--Application-of-a-marine-spatial-planning-ap_2022_Marine-.pdf,data_source,AIS,,2018-2020,AIS,"16 distribution M´enard
+subject to compulsory pilotage. Voluntary protection measures were 2018–2020 and use by et al., 2018
+feasible since marine pilots have the responsibility to ensure safety and r",5,0.9,1.0,y,y,,AIS data with temporal coverage 2018-2020 used for shipping and whale conservation MSP study
+28,Quiet-power--How-security-interests-shape-offshore-wi_2025_Energy-Research--.pdf,data_source,ICES,,2022-2024,ICES,"cal risks. politics narrative, where offshore wind is treated as part of routine spatial
+OSPAR ICG-ORED Precautionary OSPAR Parties, Best-practice planning and long-term policy development.
+ToR (2022–",6,0.9,1.0,y,y,,ICES data used for offshore wind energy and fisheries policy analysis with 2022-2024 coverage
+29,So-far-and-so-close--Opportunities-for-marine-spatial-p_2021_Ocean---Coastal.pdf,data_source,AIS,,,AIS ,"services of Argentina (SHN), and Uruguay (SOHMA), and pub- permanent, more than 1 year) and d) spatial scale (1 =low extent, up to
+lished reports (Echevarría et al., 2016). Transport, services, and fi",3,0.9,0.5,y,y,,AIS referenced alongside hydrographic services data for marine spatial planning in Argentina and Uruguay
+30,The-development-of-a-spatial-data-infrastructure-to-sup_2022_Ocean---Coastal.pdf,satellite,Sentinel,,,Sentinel,"ds for the creation of the appropriate web services. It supports two
+tions interactively (Fig. 10). For example, users can navigate through the data incorporation methods: (a) local copy uploading and",9,0.9,1.0,y,y,,Sentinel satellite data used in spatial data infrastructure for marine spatial planning web services
+31,Finding-harmony-in-the-sea--Resolving-conflicts-by-reg_2024_Ocean---Coastal-.pdf,data_source,AIS,,,AIS,"c and Ocean Engineering, National Cheng Kung University (NCKU), No.1, University Rd., Tainan City, 701, Taiwan
+A R T I C L E I N F O A B S T R A C T
+Keywords: Ocean space is of paramount importance to",1,0.9,1.0,y,y,,AIS referenced in abstract for ocean space conflict resolution and marine regulatory analysis
+32,Analysis-of-uses-and-activities-in-the-Argentine-Sea--Bases-for-_2022_Marine.pdf,data_source,MarineTraffic,,,MarineTraffic,"´diz. 18), Oxford University Press, Oxford, USA, 1992.
+[40] M. Begon, J.L. Harper, C.R. Townsend, Ecología, individuos, poblaciones y
+Revista Costas, 2021, 1:22. comunidades, 1995, OMEGA, Barcelona, E",15,0.9,1.0,n,n,reference_only,MarineTraffic appears in the bibliography/reference section; not describing actual data source usage in the study
+33,Deriving-spatial-wave-data-from-a-network-of-buoys-and-_2023_Ocean-Engineeri.pdf,data_source,copernicus,,,copernicus,"O) wave model product at the boundaries could reduce wave data from open waters, the model biases of 𝜇 are within +/−
+𝑚
+theseerrors.Therefore,inthisstudy,theUKMOregionalwavehindcast
+product was used t",6,0.9,1.0,y,y,,Copernicus regional wave hindcast product used for deriving spatial wave data from buoy networks - marine wave data
+34,Marine-spatial-planning-initiatives-off-the-coast-of-large_2025_Ocean---Coas.pdf,data_source,marinetraffic,,,marinetraffic,"theregional ratherlongcoastlinesinvolvingasetofmaritimeactivitiesrepresenta-
+economy(Campostrinietal.,2019;UNESCO-IOC,2021).Finally,among tiveoftheoverallNorthwesternMediterranean(Table1).Alltheseciti",3,0.9,0.5,y,y,,MarineTraffic referenced as a data source for maritime activities in Northwestern Mediterranean MSP initiatives
+35,Cetacean-habitat-modelling-to-inform-conservation-management_2021_Ocean---Co.pdf,data_source,VMS,,,VMS,"(Shelmerdine, 2015). Small recreational boats do not have conservation management. Our species distribution prediction maps can
+AIS transmitters and can exist unnoticed in large numbers in certain hel",17,0.9,1.0,y,y,,VMS referenced alongside AIS for vessel tracking in cetacean habitat modelling and conservation management
+36,32.pdf,data_source,EMODnet,,,EMODnet,"sandsofindividualtaxa,requiringadvancedsta-
+tisticalmethodstomodelpatternsinbiodiversityusingheterogeneousandsparsesourcedatawithbiasesin
+spatial,temporal,andtaxonomiccoverage.Weillustratethesechallen",1,0.9,0.5,y,y,,EMODnet data used for modeling biodiversity patterns with heterogeneous and sparse source data in marine spatial analysis
+37,A-temporal-and-spatial-resolution-wind-and-wave-power-resou_2022_Ocean-Engin.pdf,data_source,ECMWF,,1992-2002,ECMWF,"o previous researches. The wind and
+shore condition (Kamranzad et al., 2016). assessed the temporal and wave power are assessed over 42 years from 1979 to 2020 based on the
+spatial distributions of wa",3,0.9,1.0,y,y,,ECMWF data used for 42-year wind and wave power resource assessment (1979-2020)
+38,Ship-path-planning-methods--A-state-of-the-art-survey_2025_Ocean-Engineering.pdf,data_source,AIS,,,AIS,") developed a
+Gradient (APF-DDPG) to improve convergence efficiency and decision COLREGs-constrained real-time path planning algorithm based on a
+adaptability in uncertain conditions (Lyu and Yin, 201",4,0.9,1.0,y,y,,AIS referenced as key data source in comprehensive ship path planning methods survey
+39,Thresholds-of-seascape-fauna-composition-along-gradients-_2024_Science-of-Th.pdf,survey,trawl surveys,,,database of trawl surveys ,"as recovery rates of We used epibenthic fauna data from the international offshore beam-
+marine ecological structure, functions, resilience, and ecosystem ser- trawl surveys (BTS; ICES, 2021), downloa",2,0.9,1.0,y,y,,ICES Beam Trawl Surveys (BTS) used as a specific named survey dataset for epibenthic fauna composition analysis
+40,Cumulative-effects-of-offshore-renewables--From-prag_2023_Environmental-Impa.pdf,data_source,EMODnet,,,EMODnet,"approval.
+challenges must be addressed to strengthen data sharing across Euro-
+pean countries and the UK at MSFD and MSPD European levels.
+3.4. Solution 4: from international to a national scale for E",9,0.9,1.0,y,y,,EMODnet used for data sharing across European countries for MSFD and MSPD implementation - marine spatial data
+41,Spatial-planning-for-dugong-conservation--Assessing-habitat-suit_2025_Marine.pdf,data_source,OBIS,,,OBIS,". ovalis, H. uninervis and C. rotundata
+relatively isolated populations [8], with the most substantial pop- from the Global Biodiversity Information Facility (GBIF, http://www.
+ulations found in north",2,0.9,1.0,y,y,,OBIS (Ocean Biodiversity Information System) used alongside GBIF for dugong species occurrence data in conservation planning
+42,A-temporal-and-spatial-resolution-wind-and-wave-power-resou_2022_Ocean-Engin.pdf,data_source,ERA5,,,ERA5 ,"ehran, Iran
+cDepartment of Computer Engineering, Persian Gulf University, Bushehr, Iran
+A R T I C L E I N F O A B S T R A C T
+Keywords: The main aim of this paper is to investigate the long-term wind ",1,0.9,1.0,y,y,,ERA5 reanalysis dataset used for long-term wind and wave power resource assessment
+43,Spatial-temporal-quantification-of-Yangtze-River-traffic-f_2025_Ocean-Engine.pdf,data_source,AIS,area of the Yangtze River cha,,"AIS
+","Zhang et al., 2022c). While this numbers, corresponding to AIS data relative to the Yangtze River’s
+method offers precise identification of ship behavior and journey char- nearest folding point, revea",6,0.9,1.0,y,y,,AIS data used for Yangtze River traffic flow analysis with ship trajectory data at folding points
+44,Energy-optimal-path-planning-of-ocean-energy-driven-unmann_2025_Ocean-Engine.pdf,data_source,sea wind,,,dataset of sea wind,"t model, when the
+In this paper, we take a scenario that the Yulang conducts sea surface Yulang expands from the current node n xn ,yn ,tn to child nodes in eight
+observation mission around Hainan Pro",5,0.9,1.0,n,y,false_positive,Generic term; 'dataset of sea wind' is not a named database or monitoring system but a generic description of sea wind observations for Hainan Province
+45,Unveiling-the-mesophotic-South-Atlantic-reef-system--SARS---M_2025_Journal-o.pdf,data_source,coral reefs from all oceans,,,dataset of coral reefs from all oceans ,"oliths in the Amazon shelf have
+11
+
+J.R. Santos Filho et al. J o u r n a l o f M a r i n e S y s t e m s 251 (2025) 104119
+Fig. 10. Comparison between the SARS dating dataset with the sea-level curve ",12,0.9,1.0,y,y,,Named dataset of coral reefs from all oceans used for comparison with South Atlantic Reef System (SARS) dating dataset and sea-level curve
+46,Thresholds-of-seascape-fauna-composition-along-gradients-_2024_Science-of-Th.pdf,data_source,ICES,,,ICES,"t other levels than assumed or predicted for single species (Rilov
+et al., 2019). Indeed, mitigation success, expressed as recovery rates of We used epibenthic fauna data from the international offsho",2,0.9,1.0,y,y,,ICES data used for epibenthic fauna analysis from international offshore beam-trawl surveys
+47,Exploring-spatial-patterns-and-environmental-risk-factors-for_2023_Ocean-Eng.pdf,data_source,AIS,,,AIS data,"metric analysis of artifi- with a step size of 0.1◦. The results show that a cell size of 0.5◦is chosen,
+cial intelligence applications in the marine industry and identified four which ensures accurac",3,0.9,1.0,y,y,,AIS data used with grid-based spatial analysis for environmental risk factor exploration in the marine industry
+48,A-novel-path-planning-algorithm-for-ships-in-dynamic-curr_2023_Ocean-Enginee.pdf,data_source,Copernicus,,,Copernicus ,"exhaust gas emissions from ships. (Grifoll et al., 2022) proposed a ship navigation. Additionally, obtaining high-resolution current data
+weather route planning method called SIMROUTE. It integrates t",3,0.9,1.0,y,y,,Copernicus ocean data used for current field information in dynamic ship path planning
+49,Exploring-barriers-to-the-implementation-of-geospatial-technolog_2024_Marine.pdf,data_source,VMS,,,VMS,"ater trust in the expertise of a human than they
+for scientific needs.
+have in technology, e.g., wanting to know what the expert thinks about a
+Practitioners reported a shortage of fishery data. While",4,0.9,0.667,y,y,,VMS referenced as a fishery data source with practitioners reporting shortage in geospatial technology implementation
+50,Cumulative-effects-of-offshore-renewables--From-prag_2023_Environmental-Impa.pdf,data_source,emodnet,,,emodnet,"aboration
+made primarily based on EIA (Slater and Claydon, 2020). Therefore, the of statutory groups and enacted by industry by integrating
+MCAA should link the OSPAR/MSFD and the EIA procedure since ",9,0.9,1.0,y,y,,EMODnet data used for collaborative European marine data infrastructure and cumulative effects assessment

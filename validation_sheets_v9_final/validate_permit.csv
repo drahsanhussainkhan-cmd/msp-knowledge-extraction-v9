@@ -1,0 +1,33 @@
+﻿id,source_file,permit_type,issuing_authority,activity,exact_text,context,page_number,confidence,marine_relevance,is_correct,is_relevant,error_type,notes
+1,1.5.1380_Su Ürünleri Kanunu (No. 1380).pdf,permit,,aquaculture,izin verilir,"rdurulmasına ve masrafları kendilerine
+ait olmak üzere tesislerinin zarar vermeyecek hale getirilmesine kontrolü yapan kurum tarafından
+karar verilir.
+20 nci maddeye aykırılık teşkil eden durumun kalk",13,0.9,1.0,y,y,,Valid aquaculture permit from Turkish Fisheries Law
+2,7.5.18679_Özel Çevre Koruma Bölgeleri Mevzuatı.pdf,construction_permit,,shipping_navigation,izin verilir,"arın sökülüp götürülebilecek sabit
+olmayan tesis ve yapılara değer takdir edilmez. Trampa yapılsa dahi, Milli Emlak Genel Müdürlüğünce
+verilen süre içinde malik tarafından sabit olmayan tesis ve yapıl",3,0.9,0.5,n,y,wrong_category,Context is about land/property swap and removable structures; activity is not shipping_navigation
+3,7.5.18340_Özel Çevre Koruma Bölgeleri Mevzuatı.pdf,permit,,tourism,izin alınır,"cak yerlerin ve
+turistik tesislerin, enerji üretimi tesisleri ile iletim ve dağıtım, doğal gaz iletim, dağıtım ve depolama
+tesis ve şebekelerinin ihtiyacı olan arazilerin 10yıldan fazla süreyle kiraya",11,0.9,0.5,y,y,,Valid permit for tourism facilities in Special Environmental Protection Zones
+4,7.5.5217_Su Ürünleri Yetiştiriciliği Yönetmeliği.pdf,construction_permit,,conservation,izin verilir,"değerlendirir ve uygun görülmesi halinde ön izin verebilir. Aynı su kaynağına veya
+aynı alana birden fazla müracaat olması halinde, Müracaat Değerlendirme Komisyonu tarafından
+Müracaat Değerlendirme K",4,0.9,0.5,y,y,,Valid aquaculture establishment permit from Aquaculture Farming Regulation
+5,7.5.5217_Su Ürünleri Yetiştiriciliği Yönetmeliği.pdf,permit,,unspecified,izin verilir,"ştiricilik tesisinin kurulması amacıyla verilen ön izin ile ilgili genel
+hükümler aşağıda açıklanmıştır:
+a) (Değişik: RG-18/06/2007-26556) 6 ncı maddedeki işlemlerin tamamlanması halinde
+müteşebbise, ",5,0.9,0.5,y,y,,Valid aquaculture establishment permit from Aquaculture Farming Regulation
+6,1.5.3194_3194 Sayılı İmar Kanunu.pdf,construction_permit,,unspecified,izin verilir,"getirerek veya ruhsat alarak, belediyeden veya valilikten mühürün kaldırılmasını ister.
+Ruhsata aykırılık olan yapıda, bu aykırılığın giderilmiş olduğu veya ruhsat alındığı ve
+yapının bu ruhsata uygun",26,0.9,0.5,n,y,wrong_category,Context is about telecom installations and distance requirements; not a conservation activity
+7,1.5.3194_3194 Sayılı İmar Kanunu.pdf,construction_permit,,conservation,izin verilir,"işletmeci arasında yapılan kiralamaya veya kullanıma ilişkin belgenin
+sunulması ve Bilgi Teknolojileri ve İletişim Kurumunun ilgili mevzuatında belirlenen gerekli
+ve yeterli koruma mesafesinin bırakıl",40,0.9,0.5,n,y,wrong_category,Context is about telecom installations and distance requirements; not a conservation activity
+8,7.5.23722_Planlı Alanlar İmar Yönetmeliği.pdf,construction_permit,,unspecified,izin verilir,"salar mevzuat hükümlerine göre yapı
+yapılmasına müsait hale getirilinceye kadar veya bu mümkün olmadığı takdirde kamulaştırılıncaya
+kadar, bu parsellerdeki mevzuatına uygun yapılmış mevcut yapıların o",13,0.9,0.5,n,y,wrong_category,Context is about electronic engineers' reports for telecom installations; not shipping/navigation
+9,7.5.23722_Planlı Alanlar İmar Yönetmeliği.pdf,construction_permit,,conservation,izin verilir,"işletmeci arasında yapılan
+kiralamaya veya kullanıma ilişkin belgenin sunulması ve Bilgi Teknolojileri ve İletişim Kurumunun ilgili
+mevzuatında belirlenen gerekli ve yeterli koruma mesafesinin bırakıl",48,0.9,0.5,n,y,wrong_category,Context is about electronic engineers' reports for telecom installations; not shipping/navigation
+10,7.5.23722_Planlı Alanlar İmar Yönetmeliği.pdf,construction_permit,,shipping_navigation,izin verilir,"/elektronik mühendislerince hazırlanacak rapor ile bu meslek mensuplarınca fennî
+mesuliyetin üstlenildiğine dair taahhütname verilmek ve malik ya da tasarruf sahibi ile işletmeci
+arasında yapılan kira",48,0.9,0.5,n,y,wrong_category,Context is about electronic engineers' reports for telecom installations; not shipping/navigation

@@ -83,13 +83,32 @@ class ResultExtractor(BaseExtractor):
                        page_texts: Dict[int, str], language: str) -> Optional[ResultExtraction]:
         """Process a result match"""
         try:
+
+            # Skip bibliography and garbled text
+            if self._should_skip_match(converted_text, match.start(), match.group(0), category="result"):
+                return None
             groups = match.groupdict()
             result_text = (groups.get('result') or '').strip()
 
             if not result_text or len(result_text) < 10:
                 return None
 
+            # Reject cross-line garbled text (newlines in result text)
+            if '\n' in result_text or '\r' in result_text:
+                return None
+
+            # Reject results that are clearly garbled (no spaces = concatenated words)
+            words = result_text.split()
+            if words and any(len(w) > 30 for w in words):
+                return None
+
             sentence, context = self._get_sentence_context(converted_text, match.start(), match.end())
+
+            # Require quantitative content (numbers, percentages, statistics)
+            has_quant = bool(re.search(r'\d+(?:\.\d+)?%|\d+(?:\.\d+)?\s*(?:km|ha|m²|species|individuals|dB)', result_text, re.IGNORECASE))
+            has_stat = bool(re.search(r'p\s*[<>=]|r\s*=|CI\s*=|SD\s*=|±', result_text))
+            if not has_quant and not has_stat:
+                return None
 
             marine_score = self.fp_filter.get_marine_relevance_score(sentence, language)
             if marine_score < 0.1:

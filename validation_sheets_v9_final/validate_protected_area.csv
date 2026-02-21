@@ -1,0 +1,156 @@
+﻿id,source_file,area_type,name,designation,exact_text,context,page_number,confidence,marine_relevance,is_correct,is_relevant,error_type,notes
+1,7.5.18679_Özel Çevre Koruma Bölgeleri Mevzuatı.pdf,sit alanı,Doğal,, Doğal sit alanı,"unun 15 inci maddesinin birinci fıkrasının (f) bendine
+dayanılarak hazırlanmıştır.
+Tanımlar
+MADDE 3 – (1) Bu Yönetmelikte geçen;
+a) Bakanlık: (Değişik ibare:RG-29/4/2022-31824) Çevre, Şehircilik ve İk",1,0.9,1.0,y,y,,Natural site area designation under Turkish environmental protection law
+2,7.5.18679_Özel Çevre Koruma Bölgeleri Mevzuatı.pdf,Özel çevre koruma bölgesi,,, Özel çevre koruma bölgesi,"arda maliki, birlikte mülkiyet halinde paydaşların
+tamamını, kullanıma kapalı/kısıtlı mülkiyetini kamuya devretmek isteyen gerçek ve özel hukuk tüzel
+kişilerini,
+f) Müdürlük: (Değişik ibare:RG-29/4/20",1,0.8,0.5,n,n,false_positive,Context is generic property ownership/transfer legal text not specific to marine or coastal protection
+3,7.5.18679_Özel Çevre Koruma Bölgeleri Mevzuatı.pdf,sit alanı,Tapu kütüklerinde doğal,, Tapu kütüklerinde doğal sit alanı,"olan,
+b) 26/1/1939 tarihli ve 3573 sayılı Zeytinciliğin Islahı ve Yabanilerinin Aşılattırılması Hakkında
+Kanun hükümleri gereğince Devletçe dağıtımı yapılan taşınmazlardan sit alanı olarak belirlenen
+",2,0.9,1.0,y,y,,Natural site area recorded in land registry - legitimate protected area reference
+4,7.5.18679_Özel Çevre Koruma Bölgeleri Mevzuatı.pdf,Milli Park,1983 tarihli ve 2873 sayılı,,1983 tarihli ve 2873 sayılı Milli Park,"Reformu Kanununa göre uygulama alanı ilan edilen bölgelerde kalan,
+f) 18/12/1981 tarihli ve 2565 sayılı Askeri Yasak Bölgeler ve Güvenlik Bölgeleri Kanunu
+kapsamında kalıp Milli Savunma Bakanlığınca k",2,0.9,0.5,n,n,false_positive,Generic legal cross-reference to National Parks Law 2873; not identifying a specific marine protected area
+5,7.5.18679_Özel Çevre Koruma Bölgeleri Mevzuatı.pdf,sit alanı,1 inci derece doğal,, 1 inci derece doğal sit alanı,"006 tarihli ve 5543 sayılı İskân Kanunu kapsamında kalan,
+k) İmar planında yola, oto parka, yeşil sahaya rastlayan veya diğer kamu kurum ve
+kuruluşlarının görevleri kapsamında sorumlu bulundukları vey",2,0.9,1.0,y,y,,1st degree natural site area - highest level Turkish conservation designation
+6,7.5.18679_Özel Çevre Koruma Bölgeleri Mevzuatı.pdf,sit alanı,ile 1 inci ve 2 nci derece arkeolojik,, ile 1 inci ve 2 nci derece arkeolojik sit alanı,"İmar planında yola, oto parka, yeşil sahaya rastlayan veya diğer kamu kurum ve
+kuruluşlarının görevleri kapsamında sorumlu bulundukları veya bakım ve onarım ile görevli oldukları,
+taşınmazlar, Hazine ",2,0.9,1.0,n,n,wrong_category,Archaeological site area (1st and 2nd degree) - cultural heritage designation not a marine/environmental protected area
+7,7.5.18679_Özel Çevre Koruma Bölgeleri Mevzuatı.pdf,özel çevre koruma bölgesi,doğal sit alanları ve,, doğal sit alanları ve özel çevre koruma bölgesi,"e Kanunu ile 19/6/2007 tarihli ve 26557 sayılı Resmî Gazete’de yayımlanan Hazine
+Taşınmazlarının İdaresi Hakkında Yönetmelik hükümlerine göre belirlenir.
+(2) (Değişik:RG-29/4/2022-31824) Gerçek ve öze",3,0.9,0.5,n,n,false_positive,Generic property administration legal text; not identifying a specific marine protected area
+8,7.5.18679_Özel Çevre Koruma Bölgeleri Mevzuatı.pdf,Milli Park,,, Milli Park,"defaya mahsus olmak üzere izin verilir.
+Trampaya konu edilemeyecek Hazine taşınmazları
+MADDE 8 – (1) Hazine taşınmazlarından;
+a) Kamu hizmetlerine tahsisli bulunan,
+b) Devletin hüküm ve tasarrufu altı",3,0.8,1.0,y,y,,National Park listed as non-exchangeable treasury property category
+9,7.5.18679_Özel Çevre Koruma Bölgeleri Mevzuatı.pdf,milli park,lar Kanunu uyarınca,,lar Kanunu uyarınca milli park,"us olmak üzere izin verilir.
+Trampaya konu edilemeyecek Hazine taşınmazları
+MADDE 8 – (1) Hazine taşınmazlarından;
+a) Kamu hizmetlerine tahsisli bulunan,
+b) Devletin hüküm ve tasarrufu altında olup ta",3,0.9,1.0,y,y,,National park under National Parks Law - protected area type in treasury property regulation
+10,7.5.18679_Özel Çevre Koruma Bölgeleri Mevzuatı.pdf,tabiat parkı,,, tabiat parkı,"ampaya konu edilemeyecek Hazine taşınmazları
+MADDE 8 – (1) Hazine taşınmazlarından;
+a) Kamu hizmetlerine tahsisli bulunan,
+b) Devletin hüküm ve tasarrufu altında olup tapuda Hazine adına tescil edilme",3,0.8,1.0,y,y,,Nature park listed as non-exchangeable treasury property category
+11,7.5.18679_Özel Çevre Koruma Bölgeleri Mevzuatı.pdf,protected_area,Doğal,sit alanı,Doğal sit alanı,"nun 15 inci maddesinin birinci fıkrasının (f) bendine
+dayanılarak hazırlanmıştır.
+Tanımlar
+MADDE 3 – (1) Bu Yönetmelikte geçen;
+a) Bakanlık: (Değişik ibare:RG-29/4/2022-31824) Çevre, Şehircilik ve İkl",1,0.95,1.0,y,y,,Natural site area definition in environmental protection regulation
+12,7.5.18679_Özel Çevre Koruma Bölgeleri Mevzuatı.pdf,protected_area,Tapu kütüklerinde doğal,sit alanı,Tapu kütüklerinde doğal sit alanı,"lan,
+b) 26/1/1939 tarihli ve 3573 sayılı Zeytinciliğin Islahı ve Yabanilerinin Aşılattırılması Hakkında
+Kanun hükümleri gereğince Devletçe dağıtımı yapılan taşınmazlardan sit alanı olarak belirlenen
+t",2,0.95,1.0,y,y,,Natural site area in land registry records - protected area reference
+13,7.5.18679_Özel Çevre Koruma Bölgeleri Mevzuatı.pdf,protected_area,Milli Parklar Kanunu uyarınca,milli park,Milli Parklar Kanunu uyarınca milli park,"efaya mahsus olmak üzere izin verilir.
+Trampaya konu edilemeyecek Hazine taşınmazları
+MADDE 8 – (1) Hazine taşınmazlarından;
+a) Kamu hizmetlerine tahsisli bulunan,
+b) Devletin hüküm ve tasarrufu altın",3,0.95,1.0,y,y,,National park under National Parks Law - protected area designation
+14,7.5.18340_Özel Çevre Koruma Bölgeleri Mevzuatı.pdf,Özel çevre koruma bölgesi,,, Özel çevre koruma bölgesi,"ale yapılan istekli veya isteklileri,
+ö) (Değişik:RG-23/6/2018-30457) Ön izin: Kullanma izni verilmeden önce; imar planlarının,
+uygulama projelerinin hazırlanması, onaylatılması, ilgili kurum kuruluş ",2,0.8,1.0,y,y,,Special Environmental Protection Zone - Turkish coastal/environmental designation
+15,7.5.19788_Mekânsal Planlar Yapım Yönetmeliği.pdf,Milli park,,, Milli park,"li imar uygulama programlarına
+esas olacak uygulama etaplarını ve diğer bilgileri ayrıntıları ile gösteren ve varsa kadastral durumu
+işlenmiş olarak 1/1.000 ölçekte onaylı halihazır haritalar üzerinde",2,0.8,0.5,n,n,false_positive,Generic spatial planning regulation about implementation plans; no marine/coastal context
+16,7.5.19788_Mekânsal Planlar Yapım Yönetmeliği.pdf,milli park,,, milli park,"1tehlikenin söz konusu olduğu alanlar, biyolojik çeşitlilik açısından önemli olan,
+tarımsal ekosistemler ve ormanlar, tatlı su ekosistemleri ve su kaynakları, kıyı ekosistemleri gibi
+endemik türlerin ",9,0.8,1.0,y,y,,National park mentioned alongside coastal ecosystems and biodiversity areas in spatial planning
+17,7.5.19788_Mekânsal Planlar Yapım Yönetmeliği.pdf,koruma alanı,tabiatı,, tabiatı koruma alanı,"söz konusu olduğu alanlar, biyolojik çeşitlilik açısından önemli olan,
+tarımsal ekosistemler ve ormanlar, tatlı su ekosistemleri ve su kaynakları, kıyı ekosistemleri gibi
+endemik türlerin bulunduğu ve",9,0.9,1.0,y,y,,Nature conservation area in context of coastal ecosystems and biodiversity planning
+18,7.5.19788_Mekânsal Planlar Yapım Yönetmeliği.pdf,koruma alanı,yaban hayatı,, yaban hayatı koruma alanı,"lar, biyolojik çeşitlilik açısından önemli olan,
+tarımsal ekosistemler ve ormanlar, tatlı su ekosistemleri ve su kaynakları, kıyı ekosistemleri gibi
+endemik türlerin bulunduğu veya ekolojik açıdan öne",9,0.9,1.0,y,y,,Wildlife conservation area listed with coastal ecosystem protections
+19,7.5.19788_Mekânsal Planlar Yapım Yönetmeliği.pdf,tabiat parkı,,, tabiat parkı,"izleri.
+e) Bitki örtüsü.
+f) Toprak niteliği ve tarımsal arazi kullanımı.
+g) Ekolojik yapı (ekosistem tipleri, flora ve fauna varlığı).
+ğ) Koruma statüsü verilmiş alanlar, hassas alanlar (sit alanları,",13,0.8,1.0,y,y,,Nature park in spatial planning context listing protected and sensitive areas
+20,7.5.19788_Mekânsal Planlar Yapım Yönetmeliği.pdf,koruma alanı,tür,, tür koruma alanı,", flora ve fauna varlığı).
+ğ) Koruma statüsü verilmiş alanlar, hassas alanlar (sit alanları, uluslararası sözleşmelerle
+korunan alanlar, sulak alanlar, özel çevre koruma bölgeleri, milli park, tabiat ",13,0.9,1.0,y,y,,Species conservation area listed alongside wetlands and special environmental protection zones
+21,7.5.19788_Mekânsal Planlar Yapım Yönetmeliği.pdf,sit alanı,Planlama aşamasında,, Planlama aşamasında sit alanı,".
+f) (Değişik:RG-17/5/2017-30069) Doğal sit alanlarına ait koruma amaçlı imar planlarında bölge
+komisyonu kararı; tabiat varlıkları ve doğal sitlerin, tarihi arkeolojik, kentsel, kentsel arkeolojik si",17,0.9,1.0,y,y,,Site area during planning phase - conservation planning regulation
+22,7.5.19788_Mekânsal Planlar Yapım Yönetmeliği.pdf,protected_area,Planlama aşamasında,sit alanı,Planlama aşamasında sit alanı,"f) (Değişik:RG-17/5/2017-30069) Doğal sit alanlarına ait koruma amaçlı imar planlarında bölge
+komisyonu kararı; tabiat varlıkları ve doğal sitlerin, tarihi arkeolojik, kentsel, kentsel arkeolojik sitl",17,0.95,1.0,y,y,,Site area in conservation planning - duplicate extraction with different area_type
+23,1.5.2872_2872 Sayılı Çevre Kanunu.pdf,Özel Çevre Koruma Bölgesi,,, Özel Çevre Koruma Bölgesi,") Ülke ve dünya ölçeğinde ekolojik önemi olan, çevre kirlenmeleri ve bozulmalarına
+duyarlı toprak ve su alanlarını, biyolojik çeşitliliğin, doğal kaynakların ve bunlarla ilgili
+kültürel kaynakların ge",7,0.8,0.5,y,y,,Special Environmental Protection Zone definition in Environmental Law 2872 covering ecologically significant land and water areas
+24,1.5.2863_2863 Sayılı Kültür ve Tabiat Varlıklarını Koruma Kanunu.pdf,koruma alanı,,, koruma alanı,"hasını da göz önünde bulundurarak, kültür
+ve tabiat varlıklarının sürdürülebilirlik ilkesi doğrultusunda korunması amacıyla arkeolojik,
+tarihi, doğal, mimarî, demografik, kültürel, sosyo-ekonomik, mül",2,0.8,1.0,y,y,,Protection area under Cultural and Natural Heritage Law covering natural assets
+25,1.5.2863_2863 Sayılı Kültür ve Tabiat Varlıklarını Koruma Kanunu.pdf,Sit alanı,,, Sit alanı,"sı gerekli taşınmaz kültür ve tabiat varlıkları şunlardır:
+a) Korunması gerekli tabiat varlıkları ile 19 uncu yüzyıl sonuna kadar yapılmış taşınmazlar,
+b) Belirlenen tarihten sonra yapılmış olup önem ",4,0.8,1.0,y,y,,Site area designation under cultural and natural heritage protection law
+26,1.5.2863_2863 Sayılı Kültür ve Tabiat Varlıklarını Koruma Kanunu.pdf,sit alanı,Koruma bölge kurulunca,,"
+Koruma bölge kurulunca sit alanı","usul ve esaslar, Bakanlıkça hazırlanan
+yönetmelikle belirlenir.
+Koruma amaçlı imar plânlarının yapımı için belediyelere aktarılmak üzere İller Bankası
+Genel Müdürlüğü Bütçesine yeteri kadar ödenek kon",12,0.9,1.0,y,y,,Site area designated by conservation regional board
+27,1.5.2863_2863 Sayılı Kültür ve Tabiat Varlıklarını Koruma Kanunu.pdf,sit alanı,kaydı konulmuş olan taşınmaz kültür varlıkları ile arkeolojik,, kaydı konulmuş olan taşınmaz kültür varlıkları ile arkeolojik sit alanı,"edeceği tazminat zarar
+görene ödenir.
+İstisnalar ve muafiyetler:
+Madde 21 – (Değişik: 17/6/1987 - 3386/8 md.)
+(Mülga birinci fıkra: 14/7/2004-5226/27 md.)
+(Mülga ikinci fıkra: 14/7/2004-5226/27 md.)
+(",14,0.9,1.0,n,n,wrong_category,Archaeological site area with registered immovable cultural assets - cultural heritage not marine protected area
+28,1.5.2863_2863 Sayılı Kültür ve Tabiat Varlıklarını Koruma Kanunu.pdf,sit alanı,,,"
+sit alanı","dar hapis ve adlî para cezası verilir.
+İzinsiz araştırma, kazı ve sondaj yapanlar:
+Madde 74 –(Değişik: 23/1/2008-5728/416 md.)
+Kültür varlıkları bulmak amacıyla, izinsiz olarak kazı veya sondaj yapan ",31,0.8,1.0,n,n,wrong_category,Criminal penalty provision about unauthorized excavation in site areas - not a protected area designation
+29,1.5.2863_2863 Sayılı Kültür ve Tabiat Varlıklarını Koruma Kanunu.pdf,Milli Park,2873 sayılı,, 2873 sayılı Milli Park,"ar. İlgili idareler bu raporları değerlendirmeye almak zorundadır.
+
+Bu maddenin uygulanması ile ilgili usul ve esaslar Bakanlıkça hazırlanacak 1yönetmelikle düzenlenir.
+Ek Madde 3 – (Ek:14/7/2004 – 52",33,0.9,0.5,n,n,false_positive,Generic legal cross-reference to National Parks Law 2873 in cultural heritage statute; no marine context
+30,1.5.2863_2863 Sayılı Kültür ve Tabiat Varlıklarını Koruma Kanunu.pdf,protected_area,Koruma bölge kurulunca,sit alanı,Koruma bölge kurulunca sit alanı,"usul ve esaslar, Bakanlıkça hazırlanan
+yönetmelikle belirlenir.
+Koruma amaçlı imar plânlarının yapımı için belediyelere aktarılmak üzere İller Bankası
+Genel Müdürlüğü Bütçesine yeteri kadar ödenek kon",12,0.95,1.0,y,y,,Site area designated by conservation regional board - legitimate protected area extraction
+31,7.5.7221.pdf,Özel çevre koruma bölgesi,,,"
+Özel çevre koruma bölgesi","i,
+(Değişik:RG-13/2/2008-26786) Ötrofikasyon: Suların besi maddelerince özellikle azot ve/veya
+fosfor bileşiklerince; alg ve daha yüksek yapılı bitkilerin üremesini hızlandıracak, böylece sudaki
+canlı",4,0.8,0.5,y,y,,Special Environmental Protection Zone in water pollution control regulation - relevant to marine/coastal water quality
+32,7.5.7221.pdf,Koruma Alanı,Mutlak,,"
+Mutlak Koruma Alanı","(Mülga:RG-30/11/2012-28483)
+Deniz ve Kıyı Sularının Kalite Kriterleri
+Madde 15 - (Mülga:RG-30/11/2012-28483)
+DÖRDÜNCÜ BÖLÜM
+Su Kalitesine İlişkin Planlama Esasları ve Yasaklar
+İçme ve Kullanma Suyu Te",7,0.9,1.0,y,y,,Absolute Protection Area in water quality regulation near marine and coastal water quality criteria
+33,7.5.7221.pdf,Koruma Alanı,Kısa Mesafeli,,"
+Kısa Mesafeli Koruma Alanı","Kriterleri
+Madde 15 - (Mülga:RG-30/11/2012-28483)
+DÖRDÜNCÜ BÖLÜM
+Su Kalitesine İlişkin Planlama Esasları ve Yasaklar
+İçme ve Kullanma Suyu Temin Edilen Kıtaiçi Yüzeysel Sularla İlgili Kirletme Yasakla",7,0.9,1.0,y,y,,Short Distance Protection Area - water quality buffer zone designation
+34,7.5.7221.pdf,Koruma Alanı,Orta Mesafeli,,"
+Orta Mesafeli Koruma Alanı","Su Kalitesine İlişkin Planlama Esasları ve Yasaklar
+İçme ve Kullanma Suyu Temin Edilen Kıtaiçi Yüzeysel Sularla İlgili Kirletme Yasakları
+
+Madde 16 - (Mülga:RG-14/2/2018-30332)
+Mutlak Koruma Alanı
+Mad",8,0.9,1.0,y,y,,Medium Distance Protection Area - water quality buffer zone designation
+35,7.5.7221.pdf,Koruma Alanı,Uzun Mesafeli,,"
+Uzun Mesafeli Koruma Alanı","anma Suyu Temin Edilen Kıtaiçi Yüzeysel Sularla İlgili Kirletme Yasakları
+
+Madde 16 - (Mülga:RG-14/2/2018-30332)
+Mutlak Koruma Alanı
+Madde 17 - (Mülga:RG-14/2/2018-30332)
+Kısa Mesafeli Koruma Alanı
+Ma",8,0.9,1.0,y,y,,Long Distance Protection Area - water quality buffer zone designation
+36,7.5.23722_Planlı Alanlar İmar Yönetmeliği.pdf,milli park,,, milli park,"erinde, akaryakıt
+istasyonlarında, oteller ve benzeri turizm tesislerinde, kullanıcıların, çalışanların veya müşterilerin
+ihtiyaçlarının karşılanması amacıyla mescit, bebek emzirme yeri, çocuk bakım v",19,0.8,1.0,y,y,,National park referenced in zoning regulation for planned areas
+37,7.5.23722_Planlı Alanlar İmar Yönetmeliği.pdf,tabiat parkı,,,"
+tabiat parkı","yakıt
+istasyonlarında, oteller ve benzeri turizm tesislerinde, kullanıcıların, çalışanların veya müşterilerin
+ihtiyaçlarının karşılanması amacıyla mescit, bebek emzirme yeri, çocuk bakım ve oyun alanı",19,0.8,1.0,y,y,,Nature park referenced in zoning regulation for planned areas

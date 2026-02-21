@@ -1,0 +1,75 @@
+﻿id,source_file,penalty_type,amount,currency,violation,exact_text,context,page_number,confidence,marine_relevance,is_correct,is_relevant,error_type,notes
+1,1.3.4373.pdf,license_revocation,,TL,,izin kaldırılır,"ılmıştır.
+2 2/7/2018 tarihli ve 698 sayılı KHK’nin 18 inci maddesiyle, bu maddede yer alan “Nafıa Vekaletinin teklifi
+üzerine İcra Vekilleri Heyetinin” ibaresi “Cumhurbaşkanı” şeklinde değiştirilmişti",2,0.8,0.5,n,n,wrong_category,Context is about administrative restructuring via presidential decree; not a penalty
+2,1.3.4373.pdf,fine,,TL,,cezalandırılır,"ar.
+(Değişik ikinci fıkra: 23/1/2008-5728/113 md.) Davet anında köy ve kasabalarında
+bulunup da sıhhi vaziyetleri müsait olduğu hâlde ve başkaca makbul 1sebep olmaksızın bu
+davete icabet etmeyenler il",4,0.8,0.5,n,n,non_marine,Penalty for failure to respond to forestry emergency calls; not marine/coastal relevant
+3,1.4.167.pdf,fine,,TL,,cezalandırılır,"ılan ve derinliği 8 inci madde gereğince ilan edilen
+haddi aşmayan kuyular bu hüküm dışındadır.
+Ceza hükümleri:
+Madde 18 – (Değişik: 23/1/2008-5728/270 md.)
+Bu Kanundaki vecibeleri yerine getirmeyenle",5,0.8,0.5,y,y,,Valid penalty clause from groundwater law for non-compliance with obligations
+4,1.3.6200.pdf,unspecified_penalty,,TL,,ızın iptal,"6 md.)
+Bu maddenin yayımı tarihinde kadroları iptal edilenlerin görevi hiçbir işleme gerek
+kalmaksızın bu maddenin yayımı tarihinde sona erer ve bunlar (I) sayılı cetvel ile ihdas edilen
+Müşavir kadro",17,0.8,0.5,n,n,wrong_category,Context is about staff position abolishment during organizational restructuring; not a penalty
+5,1.5.3621_3621 Sayılı Kıyı Kanunu.pdf,fine,,TL,,cezalandırılır,"nbeşbin
+Türk Lirasına kadar idarî para cezası verilir.
+Birinci fıkrada sayılan yerlere moloz, toprak, cüruf, çöp gibi atık ve artıkları dökenler,
+atılan veya dökülen maddenin niteliğine, çevreyi kirle",7,0.8,0.5,y,y,,Valid coastal penalty for dumping waste; Turkish Coastal Law
+6,1.5.3621_3621 Sayılı Kıyı Kanunu.pdf,unspecified_penalty,,TL,,yaptırım,"zasına hükmolunur.
+Birinci fıkrada sayılan yerlerde ruhsatsız veya ruhsat ve eklerine aykırı olarak yapı
+yapan kişilere Türk Ceza Kanunu veya İmar Kanunu hükümlerine göre verilecek ceza 1kat
+artırılır",7,0.8,0.5,y,y,,Valid coastal penalty for unauthorized construction; doubled penalties under Coastal Law
+7,7.5.16806.pdf,unspecified_penalty,,TL,,yaptırım,"arın kalite ve miktarının izlenmesi
+sağlanır. Elde edilen veriler Ulusal Su Veri Tabanına aktarılarak su kalitesinin değerlendirilmesi ve
+sınıflandırılması Bakanlıkça yapılır.
+(2) (Değişik ibare:RG-15",7,0.8,0.5,n,y,wrong_category,Context is about water quality monitoring procedures; not a penalty provision
+8,1.5.1380_Su Ürünleri Kanunu (No. 1380).pdf,unspecified_penalty,,TL,,İdari yaptırım,"ere Hazine veznesine
+yatırılır.
+b) İstihsal vasıtaları kamu kurum ve kuruluşlarına veya bilimsel kuruluşlara bağışlanabilir,
+
+bağışlanamayanlar imha edilir.
+Yasak olan eşyadan satışı mahzurlu görülenl",12,0.8,0.5,y,y,,Valid administrative sanction for illegal fishing equipment; Fisheries Law
+9,7.5.16726_Limanlar Yönetmeliği_Ulaştırma Mevzuatı.pdf,unspecified_penalty,,TL,,idari yaptırım,"ör sayısı ve bu römorkörlerin asgari çekme
+güçleri ek-5’te yer almaktadır.
+(3) (Değişik:RG-24/9/2019-30898) Ek-5’te belirtilen şartların sağlanamadığı durumlarda; gemi
+ve deniz araçları kıyı tesisleri",8,0.8,1.0,y,y,,Valid maritime administrative sanction for non-compliance with tugboat requirements; Ports Regulation
+10,1.5.2872_2872 Sayılı Çevre Kanunu.pdf,unspecified_penalty,,TL,,yaptırım,"vam eden ve/veya
+tekniğine ve belirlenen kurallara aykırı ölçümler yapanlara 5.000 Türk lirası (57.279 TL),
+4) Bu Kanun kapsamında yapılan düzenlemelerle öngörülen belge olmadan emisyon
+ölçümü yapanla",16,0.8,0.5,y,y,,Valid environmental fine for improper emissions measurements; Environmental Law
+11,1.5.2872_2872 Sayılı Çevre Kanunu.pdf,fine,,TL,,cezalandırılır,"görüşü alınarak Bakanlıkça çıkarılacak yönetmelikle belirlenir.
+Adlî nitelikteki cezalar:37
+Madde 26 – (Değişik: 26/4/2006-5491/18 md.)
+Bu Kanunun 12 nci maddesinde öngörülen bildirim ve bilgi verme y",24,0.8,0.5,y,y,,Valid criminal penalty for notification violations under Environmental Law
+12,7.5.4897_Kıyı Kanununun Uygulanmasına Dair Yönetmelik.pdf,license_revocation,,TL,,izin iptal,"ve kıyının doğal yapısını bozacak nitelikte kazı yapılamaz. Valilikçe
+uygun görülmesi ve yazılı izin verilmesi halinde Valilik denetiminde kıyının doğal yapısını
+değiştirmeyecek boyut ve nitelikte yap",4,0.8,1.0,y,y,,Valid coastal permit revocation for unauthorized excavation; Coastal Law Implementation Regulation
+13,1.5.2863_2863 Sayılı Kültür ve Tabiat Varlıklarını Koruma Kanunu.pdf,unspecified_penalty,,TL,,ızın iptal,"kanlığının izni ile yapılır.
+
+Bu ticareti yapmak isteyenler, Kültür ve Turizm Bakanlığından ruhsatname almak
+zorundadırlar. Bu ruhsatnameler 3yıl için geçerlidir. Bu sürenin bitiminden 1ay önce
+ruhsat",18,0.8,0.5,n,y,wrong_category,Context is about license renewal process for cultural artifact trade; not a penalty
+14,1.5.2863_2863 Sayılı Kültür ve Tabiat Varlıklarını Koruma Kanunu.pdf,fine,,TL,,cezalandırılır,"a ilan edilmiş olmasına rağmen yıkılmasına,
+bozulmasına, tahribine, yok olmasına veya her ne suretle olursa olsun zarar görmesine kasten
+sebebiyet verenler ile (…)27 izin alınmaksızın inşaî ve fiziki ",29,0.8,0.5,y,y,,Valid penalty for intentional destruction of cultural/natural heritage sites
+15,1.5.3194_3194 Sayılı İmar Kanunu.pdf,fine,1000.0,TL,,1000Türk Lirası idari para cezası,"ları içinde
+köyün nüfusuna kayıtlı olan ve köyde sürekli oturanlar tarafından, projeleri (…)41 (…)41 fen,
+sanat ve sağlık şartlarına uygun olmasına rağmen valilik onayı alınmadan ve muhtarlığa
+bildiri",32,0.9,0.5,y,y,,Valid administrative fine of 1000 TL for building without governor approval; Zoning Law
+16,1.5.3194_3194 Sayılı İmar Kanunu.pdf,license_revocation,,TL,,ruhsat iptal,"15 inci maddesiyle bu fıkraya “ruhsat ve eklerine”
+ibaresinden sonra gelmek üzere “veya ruhsat alınmadan yapılabilecek yapılarda projelerine ve ilgili
+mevzuatına” ibaresi eklenmiş, fıkrada yer alan “r",26,0.8,0.5,n,y,wrong_category,Context describes legislative text amendments to the law; not an actual penalty provision
+17,1.5.3194_3194 Sayılı İmar Kanunu.pdf,unspecified_penalty,,TL,,idari yaptırım,"işlemler ile yapı malzemelerini; denetlemeye, aykırılıklar
+hakkında işlem tesis etmeye, aykırılıkları gidererek mevzuata uygun hale getirmeye yönelik
+değişiklik yapmaya ve onaylamaya, yapı tatil tutan",6,0.8,0.5,y,y,,Valid administrative enforcement powers for building inspection and compliance; Zoning Law
+18,7.5.7221.pdf,unspecified_penalty,,TL,,yaptırım,"me yapılır.
+(Değişik beşinci fıkra:RG-17/12/2022-32046) İdare tarafından yapılacak denetlemelerde,
+alınacak anlık numuneler kontrol amacıyla kullanılabilir. Bu durumda alınan anlık atıksu numune
+anali",12,0.8,1.0,n,y,wrong_category,Context is about wastewater inspection and sampling procedures; not a penalty provision
+19,7.5.23722_Planlı Alanlar İmar Yönetmeliği.pdf,unspecified_penalty,,TL,,yaptırım,"hçesinde korunaklı çocuk oyun bahçesi
+düzenlenmek şartıyla ortak alan vasfındaki müstakil 1bina bünyesinde zemin katta veya zemin katla
+ilişkili olacak şekilde 1üst katta tanzim edilecek gündüz bakıme",18,0.8,0.5,n,n,wrong_category,Context is about building requirements for daycare facilities; not a penalty provision

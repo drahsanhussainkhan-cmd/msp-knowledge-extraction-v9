@@ -1,0 +1,149 @@
+﻿id,source_file,stakeholder_name,stakeholder_type,role,exact_text,context,page_number,confidence,marine_relevance,is_correct,is_relevant,error_type,notes
+1,51.pdf,fishing communities,stakeholder,"and conditions of women in the marine sector is a recent trend, but
+women in the sector [53,54]",fishing communities,"63 citations, respectively. All these ten authors can be
+regarded as highly influential in the research area. S Harper has worked 5.5. Spatial distribution of scientific publications on MFW
+on the gen",6,0.9,1.0,y,y,,Fishing communities identified as stakeholder in marine fisheries women research context
+2,38.pdf,government agencies,stakeholder,,government agencies,"ing organisations has reinforced the community’s social capital.
+has resulted in community members’ involvement in decision-making This has facilitated resource access and negotiations with local in-
+",7,0.8,1.0,y,y,,Valid stakeholder in marine governance and decision-making context
+3,Exploring-integration-of-land-sea-interactions-in-maritime-spat_2025_Marine-.pdf,local communities,stakeholder,,local communities,"ies
+involvement is ensured throughout the MSP process since the early on LSI aspects. All these legislation instruments overlap but they do not
+phase, LSI can be a difficult topic for discussion parti",14,0.8,0.5,y,y,,Local communities identified as stakeholders in MSP process for land-sea interactions; valid marine stakeholder
+4,Enhancing-marine-biodiversity-conservation-through-maritime-_2025_Marine-Pol.pdf,tourism operators,stakeholder,,tourism operators,"ast- back actors. When they do not exert power over the systems (3rd or 4th
+guard service charged with regulatory missions over maritime and rank of power) they do not influence their evolution, such ",5,0.8,1.0,y,y,,Valid coastal/marine tourism stakeholder
+5,Effective-conservation-of-cultural-and-natural-heritage-of_2025_Ocean---Coas.pdf,Indigenous peoples,stakeholder,,Indigenous peoples,"al., 2020). OECMs extend beyond the
+and to evaluate the conservation approaches that integrate both natural
+protected-area estate and include diverse locations like government-run
+and cultural heritag",2,0.8,1.0,y,y,,Valid marine stakeholder with conservation and heritage interests
+6,A-two-way-process---Social-capacity-as-a-driver-and-outcome-of_2023_Marine-P.pdf,tourism industry,stakeholder,in the development of their activities,tourism industry,"need to “ensure that all
+stakeholders a leading role in the development of their activities. relevant stakeholders are adequately consulted”. However, the MSP process
+However, access to the benefits o",6,0.9,0.5,y,y,,Tourism industry identified as stakeholder in MSP development activities; valid marine/coastal stakeholder
+7,A-CNNGRU-MHA-method-for-ship-trajectory-prediction-based-o_2024_Ocean-Engine.pdf,shipping industry,stakeholder,,shipping industry,"d estimating its future position (Rong et al.,
+theshippingindustry,whichaccountsformorethan90%ofworldtrade, 2019).Withtheaccuratepredictionoftheship’smovementtrajectory,
+thedevelopmentofbigdataandInte",1,0.8,1.0,y,y,,Valid marine stakeholder in maritime transport context
+8,USV-path-planning-algorithm-based-on-20D-A--and-IDWA-algor_2025_Ocean-Engine.pdf,maritime industry,stakeholder,,maritime industry,"ntroduction USV encounter substantial challenges in path planning and collision
+avoidance with other vessels during autonomous navigation. Automatic
+The advent of artificial intelligence has precipita",1,0.8,1.0,y,y,,Maritime industry identified as stakeholder in USV path planning and autonomous navigation; valid marine stakeholder
+9,52.pdf,recreational fishers,stakeholder,,recreational fishers,"stribution
+effective management in data-scarce regions. Here, local ecological knowledge of fishers is applied to investigate
+North-eastern Atlantic
+temporal trends of key demersal and benthopelagic s",1,0.8,1.0,y,y,,Recreational fishers identified as marine stakeholder using local ecological knowledge for demersal species trends
+10,Overcoming-worldwide-Marine-Spatial-Planning--MSP--challe_2023_Ocean---Coast.pdf,Maritime Authorities,stakeholder,,Maritime Authorities,"he SSM helped elucidate the characteristics necessary of an effective MSP
+management authority. This information was then shared, via Google forms, with a panel of experts chosen to participate in our",1,0.8,1.0,y,y,,Maritime Authorities identified as effective MSP management authority through SSM methodology
+11,35.pdf,indigenous peoples,stakeholder,,indigenous peoples,"framework. Specifically, one of the five key areas of transformation solution may involve investors requiring more transparent environ-
+identified by the Panel is ocean equity, which aims to ensure ma",7,0.8,1.0,y,y,,Valid marine stakeholder in ocean equity context
+12,35.pdf,Government agencies,stakeholder,,Government agencies,"hrough,
+for example, integration of methods across conservation science and
+industrial ecology (i.e., life cycle assessments). Adapting these methods
+for the offshore wind sector would make offshore w",6,0.8,1.0,y,y,,Valid marine stakeholder in offshore wind governance context
+13,52.pdf,local fishers,stakeholder,,local fishers,"g against their negative impacts on the local fishing industry since they
+activities, spatial distribution, and the perceptions of the local fishing occupy areas and have a surrounding prohibited fish",2,0.8,1.0,y,y,,Local fishers identified as marine stakeholders concerned about spatial distribution impacts from offshore activities
+14,Coordination-of-planning-regulations-at-the-edge-of-water-and-land_2025_Mari.pdf,port authorities,stakeholder,,port authorities,"elopment
+port. In other case scenario the spatial plan for the port could be possibilities. Encompassing the internal port waters as well as land
+prepared as a joined-venture project in collaboration ",8,0.8,1.0,y,y,,Valid marine stakeholder in port spatial planning context
+15,Effective-conservation-of-cultural-and-natural-heritage-of_2025_Ocean---Coas.pdf,conservation organizations,stakeholder,,conservation organizations,"the sustainable use of could provide valuable strategies for overcoming such obstacles. Finally,
+these marine resources. For instance, the establishment of country- exploring cross-sectoral collaborat",11,0.8,1.0,y,y,,Valid marine stakeholder in marine resource conservation context
+16,The-Marine-Plan-Partnership--Indigenous-community-based-marin_2021_Marine-Po.pdf,indigenous peoples,stakeholder,,indigenous peoples,"g indigenous use, management and should be balanced and how the process of harmonization of goals and
+9
+
+S. Diggon et al. M a r i n e P o l ic y 132(2021)103510
+aspirations should unfold [33]. ‘Step z",10,0.8,1.0,y,y,,Indigenous peoples as key stakeholder in Marine Plan Partnership for community-based marine planning
+17,35.pdf,offshore wind industry,stakeholder,,offshore wind industry,"sses to guide fair and equitable devel-
+opment opportunities within and across sectors, and 5) transparent and reproducible assessments. We demon-
+strate opportunities and challenges of implementing o",1,0.8,1.0,y,y,,Valid marine stakeholder in offshore energy sector
+18,Towards-sustainable-marine-spatial-planning-of-aquac_2023_Ecological-Indicat.pdf,Prevention and Protection,government,,Prevention and Protection Agency,"Diana De Padovag, Loredana Papae, Elisa Goffredol, Maria Emanuela Mancinil, Michele Mossag
+aLab. of Landscape Ecology, Dept. of Biological and Environmental Sciences and Technologies, University of Sa",1,0.8,1.0,n,y,extraction_error,"Truncated name; 'Prevention and Protection' is incomplete institutional name from author affiliations, not a stakeholder role description"
+19,Advancing-multi-use-in-offshore-wind-energy-planning--Perceived-_2025_Marine.pdf,fishing industry,stakeholder,permitting offshore wind about their needs and assuage concerns where possible,fishing industry,"decision-making process does not currently restrict any with user groups in the region with varying degrees of success.
+sort of multi-use Several offshore wind developers have a fisheries liaison whos",7,0.9,0.75,y,y,,Fishing industry as stakeholder with permitting role in offshore wind energy planning - valid marine stakeholder
+20,Prioritising-multiple-objectives-in-marine-spatial-pla_2023_Ocean---Coastal-.pdf,local communities,stakeholder,,local communities,"t, MPI, 2023), but there have been concerns regarding quantify fishing catch by weight and economic value, and include these
+declining catch rates for some exploited species or stocks (Fisheries New d",2,0.8,1.0,y,y,,Valid marine stakeholder in fisheries and MSP context
+21,Effective-conservation-of-cultural-and-natural-heritage-of_2025_Ocean---Coas.pdf,government agencies,stakeholder,,government agencies,"scale, multiple-use marine areas
+Ierapetritis, 2019)
+Limited research Limited multidimensional approach and that are strategically and scientifically defined, enabling a comprehen-
+biological connecti",2,0.8,1.0,y,y,,Valid marine stakeholder in multiple-use marine areas context
+22,Quiet-power--How-security-interests-shape-offshore-wi_2025_Energy-Research--.pdf,offshore wind developers,stakeholder,"geological mapping, mineral 2 Tafon et al",offshore wind developers,"food production, and
+Agriculture rural development, including fisheries.
+Geological Survey of Sweden Responsible for geological mapping, mineral 2 Tafon et al. [67] provide a critical analysis of MSP ",8,0.9,1.0,y,y,,Offshore wind developers identified as stakeholder in Swedish geological survey and MSP context
+23,Exploring-integration-of-land-sea-interactions-in-maritime-spat_2025_Marine-.pdf,local community,stakeholder,"in obtaining information and would be sources, like Shabla Municipality",local community,"-
+study area may play a key role in obtaining information and would be sources, like Shabla Municipality.
+helpful to better deal with LSI and SLI. For example, in case of extreme The Shabla case study",14,0.9,1.0,y,y,,Local community identified as stakeholder in land-sea interaction case study (Shabla Municipality) for MSP
+24,38.pdf,Indigenous peoples,stakeholder,,Indigenous peoples,"overnance confront external development initiatives that threaten their livelihoods and the ecosystems that sustain them.
+Marine conservation
+This article examines the challenges and opportunities cre",1,0.8,1.0,y,y,,Valid marine stakeholder in marine conservation governance context
+25,An-enhanced-RRT--algorithm-with-biased-sampling-and-dynamic-st_2025_Ocean-En.pdf,shipping industry,stakeholder,,shipping industry,"emergencies, which lead to ship ac- cess of voyage. IMO identifies three forms of route planning, including
+cidents (Uflaz et al., 2024). Therefore, ensuring the transportation safety voyage planning ",1,0.8,1.0,y,y,,Shipping industry identified as stakeholder in maritime transportation safety and route planning
+26,Integrating-issue-oriented-solution-of-marine-spatial-pla_2024_Ocean---Coast.pdf,government agencies,stakeholder,,government agencies,"i x s i h m , i s t h y e t l o lfi p s o h r , t s s h a ri n m d p s ) h , i a p r p ti i fi ng ci a ro l u an te d s . submerged reef distribution,
+This data primarily came from official documents ",4,0.8,0.5,y,y,,Government agencies as stakeholder providing official documents on shipping routes and submerged reef data for MSP
+27,Adaptive-path-planning-for-dry-bulk-carriers-under-sudden-mar_2026_Ocean-Eng.pdf,shipping companies,stakeholder,,shipping companies,"hted (0.5/
+timeliness. 0.5), and the optimization was performed using real historical trajec-
+The time cost is calculated based on voyage length and speed, while tories that already reflect empiricall",12,0.8,1.0,y,y,,Shipping companies identified as stakeholder in adaptive path planning for bulk carriers in maritime operations
+28,Coordination-of-planning-regulations-at-the-edge-of-water-and-land_2025_Mari.pdf,maritime authorities,stakeholder,the plans a,maritime authorities,"nfluence deficiencies in the aspect of LSI. The reasons for
+6) It is advisable to increase the effectiveness of the procedure for lack of planning cohesion indicated by the specialists are: lack of
+ob",7,0.9,1.0,y,y,,Valid marine stakeholder in maritime planning and LSI context
+29,Intelligent-ship-route-planning-via-an-A--search-model-enha_2025_Ocean-Engin.pdf,shipping companies,stakeholder,,shipping companies,"et al., 2022; Raza, 2020; Lee et al., 2023; navigation costs and reducing carbon emissions has become increasingly
+Shang et al., 2024). The consistent rise in fuel prices has significantly prominent, ",1,0.8,1.0,y,y,,Shipping companies identified as stakeholder in route planning for carbon emission reduction and fuel cost optimization
+30,Humanizing-marine-spatial-planning--A-salutogenic-approach_2023_Marine-Polic.pdf,Indigenous community,stakeholder,,Indigenous community,"self-determination and self-governance, and to ensure that
+the priority SSAs for the marine spatial plan. These priority SSAs would
+other ways of knowing and traditional knowledge is utilized, as deem",11,0.8,1.0,y,y,,Indigenous community identified as stakeholder in salutogenic MSP approach for self-determination and governance
+31,52.pdf,Recreational fishers,stakeholder,,Recreational fishers,"(50 %), and Labrus bergylta (26 %) and they stated that regarding the
+To determine the spatial distribution of fishing areas, the main areas frequency of appearance of these species in their fisheries",3,0.8,1.0,y,y,,Recreational fishers identified as marine stakeholders with catch distribution data for species management
+32,Learning-across-borders--Establishing-transboundary-coordination-_2025_Marin.pdf,offshore wind industry,stakeholder,,offshore wind industry,", such as pre-
+throughout the project primarily through workshops and the Connecting sentations and analytical studies, to more innovative methods, including
+Seas conference.1These include stakeholder",4,0.8,1.0,y,y,,Valid marine stakeholder in transboundary offshore wind context
+33,Integrating-issue-oriented-solution-of-marine-spatial-pla_2024_Ocean---Coast.pdf,shipping industry,stakeholder,,shipping industry,"eefs and marine
+benthic habitats. At the same time, the expansion of MPAs around Koh
+7
+
+Ran Dok Mai and designating the anchorage area in the northwest as a
+marine reserve area preserves marine ecolog",8,0.8,1.0,y,y,,Shipping industry as stakeholder affecting marine benthic habitats around anchorage areas and reef distribution
+34,Ecologically-and-Biologically-Significant-Areas--EBSAs--as-an-en_2024_Marine.pdf,Analysis and Research,ngo,,Analysis and Research Association,"wan, D. Abdul
+Malak, Policy Paper for the Definition of a Governance Framework for the South
+[1] Ardron, J.A., Possingham, H.P., and Klein, C.J. (eds). 2010. Marxan Good Practices
+Adriatic Ionian Stra",8,0.8,1.0,n,y,extraction_error,Truncated name; 'Analysis and Research Association' is incomplete - likely cut from longer institutional name in bibliography reference section
+35,37.pdf,government agencies,stakeholder,,government agencies,"public will
+access infrastructure in other states, while noting that such facilities
+know where these events are, and what type of boats they are, and what
+largely do not exist in Rhode Island. They a",8,0.8,1.0,y,y,,Government agencies as stakeholders in Rhode Island marine access infrastructure and boat management
+36,Shouting-into-the-void--Democratising-ocean-literacy-through-i_2025_Marine-P.pdf,indigenous peoples,stakeholder,,indigenous peoples,"r Cham, 2023, pp. 485–521.
+virtual reality for marine education and ocean literacy: technological and [24] M. Parsons, L. Taylor, R. Crease, Indigenous environmental justice within marine
+psychologica",6,0.8,1.0,y,y,,Valid marine stakeholder in ocean literacy and environmental justice context
+37,Towards-a-collaborative-stakeholder-engagement-pathway-to-inc_2024_Environme.pdf,tourism operators,stakeholder,,tourism operators,"23). This resonates with the blue economy (BE)
+needed hinges on the scale of a needed intervention in a given ocean paradigm that includes or encourages sustainable engagements among
+zone (global, reg",3,0.8,1.0,y,y,,Tourism operators identified as stakeholders in blue economy and sustainable ocean zone engagement
+38,A-review-of-geospatial-technologies-for-improving-Marine_2023_Ocean---Coasta.pdf,indigenous people,stakeholder,,indigenous people,"lture that are less (Liu et al., 2020; Smith and Bernard, 2020) Monitoring
+analyzing current specific human use susceptible to risk and identifying aquaculture
+conditions: use areas
+Baseline data Ice ",7,0.8,1.0,y,y,,Indigenous people identified as stakeholder in geospatial technologies review for MSP including aquaculture monitoring
+39,Humanizing-marine-spatial-planning--A-salutogenic-approach_2023_Marine-Polic.pdf,local community,stakeholder,,local community,"logical (s) to do this and were deemed threatened, related to a. Race associated with an
+or oceanographic activity to contribute to the declining species underserved b. Ethnicity underserved
+features.",4,0.8,0.5,y,y,,Local community identified as stakeholder in salutogenic MSP approach - underserved community engagement
+40,48.pdf,recreational fisher,stakeholder,,recreational fisher,"C) Percentage of protected
+area in which each gear is allowed per each Spanish region within the Mediterranean Sea and each level of protection (%). “Incompatible” refers to the level of
+protection “i",6,0.8,1.0,y,y,,Recreational fisher identified as stakeholder in MPA gear restriction analysis across Spanish Mediterranean regions
+41,Using-GIS-fuzzy-set-modelling-to-integrate-social-ecological_2021_Ocean---Co.pdf,indigenous people,stakeholder,,indigenous people,"the sensitivity of these within this study that including such zones would help to support cul-
+threats to the habitats were ranked using published evidence. The tural practices and promote respect fo",9,0.8,0.5,y,y,,Indigenous people identified as stakeholder in cultural practices and social-ecological integration for marine planning
+42,GIS-based-analysis-on-the-spatial-patterns-of-global-mari_2022_Ocean-Enginee.pdf,maritime authorities,stakeholder,,maritime authorities,"omparison of the results of
+density analysis and clustering analysis indicate that the latter can provide more abundant spatial characteristic
+information, while the former is superior in terms of sim",1,0.8,1.0,y,y,,Maritime authorities as stakeholder in global maritime accident spatial pattern analysis for traffic safety
+43,Mainstreaming-coastally-just-and-equitable-marine-spatial-pl_2023_Ocean---Co.pdf,maritime industry,stakeholder,,maritime industry,"g processes and recognition of (O’Connor and Kenter 2019; Morrissey 2021; Louey 2022; Jentoft
+their interests in decision-making is therefore essential if MSP is to 2020). In other words, they are a p",2,0.8,1.0,y,y,,Valid marine stakeholder in coastal justice and equitable MSP context
+44,Using-systematic-conservation-planning-to-align-priority-areas-_2022_Biologi.pdf,recreational fishers,stakeholder,,recreational fishers,"ity features and areas that deliver key benefits, e.g., the (e.g. Brouwer et al., 2019). We note that this was our perception of the
+islands supporting threatened colonial seabirds, and Sundays Estuar",7,0.8,1.0,y,y,,Recreational fishers identified as stakeholder in Algoa Bay systematic conservation planning
+45,Advancing-multi-use-in-offshore-wind-energy-planning--Perceived-_2025_Marine.pdf,offshore wind industry,stakeholder,,offshore wind industry,"zed here.
+Additionally, two workshops were held with a focus on multi-use of
+offshore wind developments involving the commercial and recreational
+fishing industries, offshore wind developers, state an",3,0.8,0.727,y,y,,Offshore wind industry as stakeholder in multi-use planning workshops with fishing and state agencies
+46,42.pdf,fishing communities,stakeholder,,fishing communities,"ipwithotherkeyglobalagendassuchasthesustainable
+munities.Italsoexaminestheconceptofoceangrabbinginrelation developmentgoalsandmarineprotectedareas.Ithighlightsavenues
+to environmental degradation, the",11,0.8,1.0,y,y,,Fishing communities as stakeholder in ocean grabbing and sustainable development goals for marine protected areas
+47,40.pdf,Government agencies,stakeholder,of promoting such research to the DPNG,Government agencies,"reforms. A key barrier is the absence
+CGREG exclusive authority to approve fisheries-related research, Article
+of a shared strategic vision and clearly defined performance indicators to
+21 assigns the",4,0.9,0.5,y,y,,Government agencies as stakeholder promoting fisheries research with CGREG authority in Galapagos marine governance
+48,Effective-conservation-of-cultural-and-natural-heritage-of_2025_Ocean---Coas.pdf,local community,stakeholder,,local community,"esulted
+The rich ecological diversity on the island calls for intensive resto- in a significant reduction in live coral cover and an increase in dead coral
+ration and conservation efforts from the aut",6,0.8,1.0,y,y,,Valid marine stakeholder in coral reef conservation and restoration context
+49,Finding-harmony-in-the-sea--Resolving-conflicts-by-reg_2024_Ocean---Coastal-.pdf,Port authorities,stakeholder,,Port authorities,"g typhoon season, the national park will ities, such as the licensing of fishing rights zones overseen by the Fish-
+then amendment their management plan for the coexistence of original eries Agency. C",10,0.8,0.6,y,y,,Port authorities as stakeholder in typhoon season management and marine user conflict resolution in Taiwan
+50,52.pdf,recreational fisher,stakeholder,,recreational fisher,"ncerns about the potential for overfishing are crucial for effective fisheries management [28,49,50]. By examining
+of protected species in the region. Previous research already indicated the ecologica",6,0.8,1.0,y,y,,Recreational fisher identified as marine stakeholder with overfishing concerns and protected species impact

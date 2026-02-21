@@ -1,0 +1,206 @@
+﻿id,source_file,activity,value,unit,reference_point,exact_text,context,page_number,confidence,marine_relevance,is_correct,is_relevant,error_type,notes
+1,7.5.16726_Limanlar Yönetmeliği_Ulaştırma Mevzuatı.pdf,shipping_navigation,,metre,,126-200 metre,"yla römorköre
+tabi olan, ancak gros ton değeri itibarı ile kılavuz kaptan kullanma zorunluluğu bulunmayan gemilere
+römorkör alma zorunluluğu uygulanmaz.
+Gemi boyu Toplam çekme gücü (asgari) Açıklama
+5",9,0.9,1.0,n,n,false_positive,Ship length classification (126-200m) for tugboat requirements. Value field is empty - extraction did not capture a single numeric value from a range. Not a spatial buffer zone.
+2,21.5.1426_Deniz Trafik Düzeni Tüzüğü.pdf,shipping_navigation,150.0,metre,, 150 metre,"sı andlaşmalar, Türk Kanunları ve
+Yönetmelikleri,
+j) Toplam yedek boyu: Yedek çeken römorkörün başı ile yedeklenenin kıçı arasındaki,
+ya da iten römorkörün kıçı ile itilenin başı arasındaki tam yolla ",1,0.9,1.0,y,y,,Toplam yedek boyu (total tow length = 150m) defined in Deniz Trafik Duzeni Tuzugu. Defines spatial dimension of towing arrangement between vessels. Measurement from marine traffic law.
+3,1.5.3621_3621 Sayılı Kıyı Kanunu.pdf,shipping_navigation,50.0,metre,kıyı,en fazla 50 metre,"ulama yapılabilmesi için kıyı kenar
+çizgisinin tespiti zorunludur.
+Kıyı kenar çizgisinin tespit edilmediği bölgelerde talep vukuunda, talep tarihini takip
+eden 3ay içinde kıyı kenar çizgisinin tespiti",2,0.95,1.0,y,y,,Coastal setback distance (max 50m from coastline) under Kiyi Kanunu (Coastal Law). Correct and highly relevant to MSP coastal zone management.
+4,7.5.4897_Kıyı Kanununun Uygulanmasına Dair Yönetmelik.pdf,unspecified,100.0,metre,kıyı, 100 metrelik,"ini içeren yapı ve tesislerdir.
+(Değişik:RG-30/3/1994-21890) Kısmi Yapılaşma: a) Belediye ve mücavir alan sınırları içinde ve
+dışında; 11 Temmuz 1992 tarihinden önce belirli 1kullanım amacına dayalı o",2,0.95,1.0,y,y,,100m coastal setback zone applicable to Tourism Incentive Law areas under the Coastal Law Implementation Regulation. Correct and highly relevant to MSP coastal and tourism zone management.
+5,21.5.1426_Deniz Trafik Düzeni Tüzüğü.pdf,shipping_navigation,54.0,metre,, 54 metre,"çiş yapan gemiler,
+boğaz köprülerinin seyir emniyeti ile ilgili ikaz ışıklarına özen göstereceklerdir.
+(2) Hava çekimi 58 metre ve daha yüksek olan gemiler İstanbul Boğazı’ndan, hava
+çekimi 70 metre v",12,0.9,1.0,n,y,wrong_value,"Hava cekimi (air draft) for bridge clearance is MSP-relevant, but extracted value 54m does not match the 58m stated in context. Wrong value extraction."
+6,21.5.1426_Deniz Trafik Düzeni Tüzüğü.pdf,shipping_navigation,58.0,metre,, 58 metre,"lı hususları,
+derhal ilgili TBGTH Merkezine bildirecekler ve 24 saat içinde yazılı 1rapor vereceklerdir.
+Hava çekimi
+
+Madde 33- (1) Boğazlardan trafik ayırım düzenine uygun olarak geçiş yapan gemiler,",12,0.9,1.0,y,y,,Hava cekimi (air draft) 58m threshold restricting vessel passage through Istanbul Bosphorus bridges. Ship air draft under bridges defines spatial navigation restrictions. Correct per Deniz Trafik Duzeni Tuzugu.
+7,21.5.1426_Deniz Trafik Düzeni Tüzüğü.pdf,shipping_navigation,6.0,nautical_mile,deniz, 6 deniz mili,"ölgesini terk etmesine kadar aynı nitelikte başka 1gemi Çanakkale Boğazı’ndan içeri alınmaz. Ancak Çanakkale Boğazı geçişi için bekleyen
+gemi trafiğindeki yoğunluğu ve demir yerlerinde oluşabilecek ri",10,0.95,1.0,y,y,,6 nautical mile distance defining vessel separation in Canakkale Strait passage rules from Deniz Trafik Duzeni Tuzugu. Correct maritime navigation spatial rule.
+8,21.5.1426_Deniz Trafik Düzeni Tüzüğü.pdf,shipping_navigation,10.0,metre,, 10 metre,"eri,
+j) Toplam yedek boyu: Yedek çeken römorkörün başı ile yedeklenenin kıçı arasındaki,
+ya da iten römorkörün kıçı ile itilenin başı arasındaki tam yolla çalışma sırasındaki uzunluğu,
+k) Trafik ayırı",1,0.9,1.0,n,y,false_positive,10m extracted from definitions section of Deniz Trafik Duzeni Tuzugu near tow length and traffic separation definitions. Value context is ambiguous and does not clearly define a spatial planning distance.
+9,7.5.23722_Planlı Alanlar İmar Yönetmeliği.pdf,fishing,0.18,metre,ada, 0.18 metre,"nden kotlandırma ile kademelendirme işlemlerinde ada bazında değerlendirme
+yapılır.
+Yoldan kotlandırma
+MADDE 11 - (1) Binalara parselin kot aldığı yol cephesinin bina köşeleri hizasındaki en yüksek
+tr",14,0.85,0.5,n,n,false_positive,"Urban zoning regulation about road-level elevation adjustments for buildings (Yoldan kotlandirma). 0.18m is a building elevation measurement, not a marine distance. Activity label fishing is also incorrect."
+10,21.5.1426_Deniz Trafik Düzeni Tüzüğü.pdf,shipping_navigation,15.0,metre,Denizde, 15 metre,"a ve Altyapı Bakanlığını,
+b) Büyük gemi: Tam boyu 200 metre ve daha büyük olan gemiyi,
+c) Çanakkale Boğazı Güney Sınırı: Mehmetçik Burnu Fenerini Kumkale Fenerine
+birleştiren çizgiyi,
+ç) Çanakkale Boğ",1,0.95,1.0,y,y,,Ship draft threshold (15m) from Deniz Trafik Duzeni Tuzugu definitions section. Draft thresholds define navigation rules and spatial restrictions for vessel passage in Turkish Straits.
+11,7.5.4882_Plansız Alanlar İmar Yönetmeliği.pdf,unspecified,300.0,metre,,en fazla 300 metre,"köy konağı gibi köy ortak yapıları ile yapımı
+tarihinde yürürlükte bulunan mevzuat hükümlerine uygun olarak inşa edilmiş yapıların toplu olarak
+bulunduğu yerlerde mevcut binaların en dışta olanlarının",1,0.8,0.5,n,n,false_positive,"Rural settlement boundary distance (max 300m from outermost buildings) in Unplanned Areas Zoning Regulation. Terrestrial land-use planning, not a marine or coastal planning distance."
+12,7.5.5217_Su Ürünleri Yetiştiriciliği Yönetmeliği.pdf,aquaculture,40.0,metre,Deniz,asgari 40metre,"şlarından alınmış belgeler ile kurulacak işletmeye ait her türlü belge ve
+bilgilerin bütününü,
+Müteşebbis: Su ürünleri yetiştiricilik tesisi kurmak isteyen, kuran ve işleten gerçek ve tüzel
+kişiliği,
+",1,1.0,1.0,y,y,,Minimum 40m distance specification for aquaculture installations from Su Urunleri Yetistiriciligi Yonetmeligi. Correct marine aquaculture spatial planning distance.
+13,7.5.16726_Limanlar Yönetmeliği_Ulaştırma Mevzuatı.pdf,shipping_navigation,54.0,metre,deniz, 54metre,"K – 029º 05´ 53"" D
+5) 41º 14´ 45"" K – 029º 07´ 00"" D
+(4) (Mülga:RG-14/4/2023-32163 Mükerrer)
+(5) (Değişik:RG-20/10/2015-29508) İstanbul Boğazından, hava çekimi 58metre ve daha
+fazla olan gemi ve deniz",23,0.95,1.0,n,y,wrong_value,"Hava cekimi (air draft) for bridge clearance is MSP-relevant, but extracted value 54m does not match the 58m stated in context. Wrong value extraction."
+14,21.5.1426_Deniz Trafik Düzeni Tüzüğü.pdf,shipping_navigation,200.0,metre,, 200 metre,"Kanunun 6 ncı maddesi ile 1
+sayılı Cumhurbaşkanlığı Teşkilatı Hakkında Cumhurbaşkanlığı Kararnamesinin 474 üncü ve
+479 uncu maddelerine dayanılarak hazırlanmıştır.
+Tanımlar ve kısaltmalar
+Madde 3- (1)",1,0.9,1.0,y,y,,"Defines Buyuk gemi (large vessel) as total length 200m or more in Deniz Trafik Duzeni Tuzugu. Ship length threshold that defines navigation rules and spatial restrictions (pilotage, reporting). Correct."
+15,7.5.16726_Limanlar Yönetmeliği_Ulaştırma Mevzuatı.pdf,shipping_navigation,66.0,metre,deniz, 66metre,"man Başkanlığına özel hükümler (Değişik başlık:RG-14/4/2023-32163
+Mükerrer)
+MADDE 42/A – (Ek:RG-24/9/2019-30898)
+(1) 1915 Çanakkale Köprüsü altından hava çekimi 70metre ve daha fazla olan gemi ve
+deni",23,0.95,1.0,n,y,wrong_value,"Hava cekimi (air draft) for 1915 Canakkale Bridge is MSP-relevant, but extracted value 66m does not match the 70m stated in context. Wrong value extraction."
+16,7.5.16726_Limanlar Yönetmeliği_Ulaştırma Mevzuatı.pdf,shipping_navigation,125.0,metre,,125 metre,"ilen değerde
+çekme kuvvetine sahip römorkörler hizmet etmek üzere tahsis edilir. Gemi boyu itibarıyla römorköre
+tabi olan, ancak gros ton değeri itibarı ile kılavuz kaptan kullanma zorunluluğu bulunma",9,0.9,1.0,y,y,,Ship length classification boundary (55-125m range) for tugboat obligation in ports from Limanlar Yonetmeligi. Ship length thresholds define navigation rules and port spatial requirements. Correct.
+17,7.5.16806.pdf,shipping_navigation,1.0,nautical_mile,Kıyı, 1deniz mili,"e sınıfında olması
+halini,
+t) Karışım bölgesi: (Değişik ibare:RG-15/4/2015-29327) Yerüstü alıcı su ortamına yapılan
+deşarjlarda, deşarj noktasından başlayarak Ek-8’de tanımlanan bölgeyi,
+u) Kıyı sular",2,0.95,1.0,y,y,,Defines coastal waters boundary at 1 nautical mile from shore; also defines mixing zone for discharges. Correct spatial distance highly relevant to MSP maritime zone delineation.
+18,7.5.23722_Planlı Alanlar İmar Yönetmeliği.pdf,unspecified,30.0,metre,,30.00 metreden az,"k hükümleri uyarınca gerekli tedbirler
+alınır.
+(3) İkinci fıkra hükümlerine uyulmaması durumunda ruhsat düzenlenemez.
+Pasajlar ve alışveriş merkezleri
+MADDE 47- (1) Ticaret bölgelerinde yapılacak pasa",33,0.8,0.5,n,n,false_positive,"Urban zoning regulation specifying dimensions for commercial passages and shopping centres (Pasajlar ve alisveris merkezleri). Building dimension, not a marine or coastal planning distance."
+19,7.5.4897_Kıyı Kanununun Uygulanmasına Dair Yönetmelik.pdf,shipping_navigation,50.0,metre,kıyı,en az 50metre,"lerin yanaşmasına ve
+yolcuları indirmeye müsait deniz yapıları ve yan tesislerinin yer aldığı limandır.
+(Ek:RG- 27/7/1996-22709) (Değişik:RG-2/4/2013-28606) Tersane: Her cins ve boyutlarda gemi
+ve su ",3,0.95,1.0,y,y,,Coastal setback distance (min 50m from coastline) from the Coastal Law Implementation Regulation. Correct and relevant for MSP coastal zone management.
+20,21.5.1426_Deniz Trafik Düzeni Tüzüğü.pdf,shipping_navigation,300.0,metre,, 300 metre,"veya su çekimleri 10–15 metre arasında
+olan gemiler SP-1 Raporunu Türk Boğazlarına girmeden en az 24 saat önce, boyları 200–300
+metre ve/veya su çekimleri 15 metreden daha büyük olan gemiler SP–1 rapo",9,0.9,1.0,y,y,,Ship length threshold (200-300m) for SP-1 pre-entry reporting in Turkish Straits from Deniz Trafik Duzeni Tuzugu. Length thresholds define navigation rules and spatial restrictions. Correct.
+21,7.5.7221.pdf,fishing,250.0,metre,kıyı, 250 m,"ersant
+kullanılarak seyreltilmesi yasaktır.
+f) Hafriyat artıkları, moloz, arıtma ve proses artığı çamurlar ve benzeri atıkların bertaraf
+amacıyla deniz ve kıyı sularına boşaltımı yasaktır. (Ek cümle:R",9,0.95,1.0,y,y,,250m coastal buffer zone prohibiting dumping of excavation waste and sludge into coastal waters. Correct spatial setback distance highly relevant to MSP environmental protection.
+22,7.5.16726_Limanlar Yönetmeliği_Ulaştırma Mevzuatı.pdf,ports_harbors,0.5,metre,Kıyı,"en az 0,5 metre","ik yapabilir.
+ğ) (Değişik:RG-8/4/2017-30032) (Değişik cümle:RG-24/9/2019-30898) Kıyı tesisine
+yükleme/boşaltma amacıyla yanaşacak gemi ve deniz araçlarının yanaşacağı rıhtım veya iskele boyu;
+gemi boy",13,0.95,1.0,y,y,,Minimum 0.5m specification for wharf/pier at coastal facilities from Limanlar Yonetmeligi. Port infrastructure measurement from marine coastal law. Correct.
+23,7.5.16726_Limanlar Yönetmeliği_Ulaştırma Mevzuatı.pdf,ports_harbors,10.0,metre,kıyı,10metreden az,"etlerini liman başkanlığı
+düzenler.
+g) Yat limanları ve balıkçı barınakları hariç kıyı tesislerinde aynı rıhtım veya iskele üzerinde art
+arda yanaşmış olan 2gemi ya da deniz aracı arasında uygun emniy",13,1.0,1.0,y,y,,Minimum safety distance of less than 10m between consecutively berthed vessels at a port wharf. Correct spatial clearance distance relevant to port/harbour spatial planning.
+24,7.5.4897_Kıyı Kanununun Uygulanmasına Dair Yönetmelik.pdf,shipping_navigation,50.0,metre,kıyı,en az 50 metrelik,"aktarılarak bu Yönetmeliğin 9 uncu maddesi hükümlerine göre
+onaylanır.
+2) Onaylı kıyı kenar çizgisi bulunmayan, 1/1000 ölçekli halihazır haritası bulunan yerlerde kıyı
+kenar çizgisi, muhtemel kıyı ken",5,0.95,1.0,y,y,,Coastal boundary delineation distance (min 50m from coastline) under the Coastal Law Implementation Regulation. Correct and relevant to MSP coastal zone mapping.
+25,7.5.16726_Limanlar Yönetmeliği_Ulaştırma Mevzuatı.pdf,shipping_navigation,64.0,metre,deniz, 64metre,"başkanlığına bildirilir.
+Kocaeli Bölge Liman Başkanlığına özel hükümler (Değişik başlık:RG-14/4/2023-32163
+Mükerrer)
+MADDE 42 – (1) (Değişik:RG-30/8/2025-33002) Osmangazi Köprüsü altından hava çekimi
+",23,0.95,1.0,y,y,,Hava cekimi (air draft) threshold under Osmangazi Bridge for vessel passage from Limanlar Yonetmeligi. Ship air draft under bridges defines spatial navigation restrictions. Correct.
+26,21.5.1426_Deniz Trafik Düzeni Tüzüğü.pdf,shipping_navigation,15.0,metre,Limanı,15 metre,"e yer alan hükümler, İstanbul Limanı ve Çanakkale Limanı
+ile ilgili mevzuat hükümleri saklı kalmak üzere her 2Boğaz için de geçerlidir.
+DÖRDÜNCÜ BÖLÜM
+Türk Boğazları İçin Ortak Hükümler
+Trafik ayırım ",9,0.85,0.5,y,y,,15m ship draft threshold referenced for Istanbul and Canakkale harbour provisions. Correct navigation spatial dimension from Deniz Trafik Duzeni Tuzugu.
+27,7.5.4897_Kıyı Kanununun Uygulanmasına Dair Yönetmelik.pdf,tourism,100.0,metre,kıyı, 100 metrelik,"pılaşma olması durumudur. Aksi halde (a) bendi
+hükümleri geçerlidir.
+c) (Değişik:RG-24/10/2020-31284) 2634 sayılı Turizm Teşvik Kanununa tabi alanlarda; bu
+Kanun kapsamında 11 Temmuz 1992 tarihinden ö",2,0.95,1.0,y,y,,100m coastal setback zone applicable to Tourism Incentive Law areas under the Coastal Law Implementation Regulation. Correct and highly relevant to MSP coastal and tourism zone management.
+28,21.5.1426_Deniz Trafik Düzeni Tüzüğü.pdf,shipping_navigation,,metre,Limanı,10–15 metre,"ümde yer alan hükümler, İstanbul Limanı ve Çanakkale Limanı
+ile ilgili mevzuat hükümleri saklı kalmak üzere her 2Boğaz için de geçerlidir.
+DÖRDÜNCÜ BÖLÜM
+Türk Boğazları İçin Ortak Hükümler
+Trafik ayır",9,0.85,0.5,y,y,,10-15m vessel draft range for SP-1 reporting requirements in Turkish Straits. Correct navigation spatial dimension; range value correctly captures the threshold band.
+29,7.5.23722_Planlı Alanlar İmar Yönetmeliği.pdf,shipping_navigation,10.0,metre,,10 metreden az,"evzuatında belirlenen gerekli ve yeterli koruma mesafesinin bırakılması ile yer seçim belgesinin
+alınmış olması kaydıyla başkaca 1şart aranmaksızın ilgili idarelerce izin verilir.
+(10) (Ek:RG-11/7/202",48,0.8,0.5,n,n,false_positive,"Setback distance for telecommunications towers/masts in an urban zoning regulation (Planli Alanlar Imar Yonetmeligi). Terrestrial infrastructure setback, not a marine or coastal planning distance."
+30,7.5.16726_Limanlar Yönetmeliği_Ulaştırma Mevzuatı.pdf,shipping_navigation,200.0,metre,,200 metre,"römorköre
+tabi olan, ancak gros ton değeri itibarı ile kılavuz kaptan kullanma zorunluluğu bulunmayan gemilere
+römorkör alma zorunluluğu uygulanmaz.
+Gemi boyu Toplam çekme gücü (asgari) Açıklama
+55-12",9,0.9,1.0,y,y,,Ship length threshold (200m) for tugboat requirements in port from Limanlar Yonetmeligi. Length thresholds define navigation rules and port spatial requirements. Correct.
+31,21.5.1426_Deniz Trafik Düzeni Tüzüğü.pdf,shipping_navigation,66.0,metre,, 66 metre,"ışıklarına özen göstereceklerdir.
+(2) Hava çekimi 58 metre ve daha yüksek olan gemiler İstanbul Boğazı’ndan, hava
+çekimi 70 metre ve daha yüksek olan gemiler Çanakkale Boğazı’ndan geçmeyecektir.
+(3) İ",12,0.8,0.5,n,y,wrong_value,"Hava cekimi (air draft) is MSP-relevant per guidelines, but extracted value 66m does not appear in context (which states 58m and 70m). Wrong value extraction."
+32,1.5.3194_3194 Sayılı İmar Kanunu.pdf,shipping_navigation,15.0,metre,,15metreden fazla,"eya
+kullanıma ilişkin belge eklenir. Bu kule veya direkler ile kurulumu bunlarla birlikte yapılacak
+elektronik haberleşme cihazlarına ait bulunduğu konteyner, kabin, kabinet ve benzeri altyapı
+unsurla",40,0.8,0.5,n,n,false_positive,"Telecommunications mast height threshold (15m) from Imar Kanunu. Terrestrial infrastructure regulation, not a marine or coastal distance."
+33,21.5.1426_Deniz Trafik Düzeni Tüzüğü.pdf,shipping_navigation,0.5,nautical_mile,deniz, 0.5mil,"rhangi 1bölgesinde görüş uzaklığı 1 mil ve altına
+düştüğünde, deniz trafiği uygun görülen tek yöne açık tutulacak ve karşı yöne kapatılacaktır.
+Tehlikeli yük taşıyan gemiler, büyük gemiler ve derin su",13,0.95,1.0,y,y,,Visibility threshold distance (0.5 nautical mile) triggering one-way traffic management in the Bosphorus. Correct maritime navigation spatial rule relevant to MSP traffic management.
+34,7.5.4897_Kıyı Kanununun Uygulanmasına Dair Yönetmelik.pdf,tourism,100.0,metre,kıyı,en az 100 metre,"uğu plaj,
+hareketli ve sabit kumulları da içeren kıyı kordonu lagün gölü, lagün alanları, sazlık, bataklık ile
+kumluk, çakıllık, taşlık ve kayalık alanları içeren kıyılardır.
+(Değişik:RG-25/3/2011-278",1,0.95,0.778,y,y,,Coastal setback/buffer zone of minimum 100m from coastline under Coastal Law Implementation Regulation. Correct and highly relevant to MSP coastal zone management.
+35,1.5.3621_3621 Sayılı Kıyı Kanunu.pdf,tourism,100.0,metre,Kıyı,en az 100 metre,"in 7 nci maddesiyle, bu maddenin birinci fıkrasına “Türk
+Silahlı Kuvvetlerine” ibaresinden sonra gelmek üzere “veya Sahil Güvenlik Komutanlığına” ibaresi
+eklenmiş; daha sonra bu hüküm 1/2/2018 tarihli",2,0.95,1.0,y,y,,Coastal setback of minimum 100m from coastline under Kiyi Kanunu (Coastal Law). Correct and highly relevant to MSP coastal zone and tourism management.
+36,21.5.1426_Deniz Trafik Düzeni Tüzüğü.pdf,shipping_navigation,1.0,nautical_mile,deniz, 1 mil,"n herhangi 1bölgesinde görüş uzaklığı 2 mil ve altına
+düştüğünde, Boğazdan geçen gemiler, radarlarını sürekli ve iyi resim verecek biçimde açık
+tutacaklardır. İki radar bulunan gemilerde, 1radar kılav",13,0.95,1.0,y,y,,Visibility distance (1 nautical mile) triggering mandatory radar use for all vessels in the Bosphorus. Correct maritime navigation spatial rule relevant to MSP traffic management.
+37,7.5.16726_Limanlar Yönetmeliği_Ulaştırma Mevzuatı.pdf,tourism,200.0,metre,kıyı,kıyıdan itibaren 200 metre,"e ilgili
+düzenleme, Gemi Trafik Hizmetleri Merkezi bulunan yerlerde ilgili liman başkanlığınca yapılır.
+(13) Kıçtankara yanaşan gemi ve deniz araçlarının baş tarafına gemi ve deniz aracı yanaşamaz.
+(1",15,0.95,1.0,y,y,,200m zone from coastline specified in port regulation (kiyidan itibaren 200 metre). Correct spatial coastal buffer distance relevant to MSP port and coastal zone planning.
+38,21.5.1426_Deniz Trafik Düzeni Tüzüğü.pdf,shipping_navigation,6.0,nautical_mile,, 6 mil,"il/saat ve altına düşmesini veya orkoz akıntılarının ortadan kalkmasını
+bekleyeceklerdir. Ancak yukarıdaki gemilerin dışında kalan gemiler isterlerse geçişlerini
+TBGTH Merkezinin tonajlarına uygun ola",13,0.8,0.5,y,y,,6 nautical mile distance related to vessel speed/current restrictions at Bosphorus from Deniz Trafik Duzeni Tuzugu. Correct maritime spatial rule.
+39,7.5.16726_Limanlar Yönetmeliği_Ulaştırma Mevzuatı.pdf,shipping_navigation,,metre,,201-300 metre,"ayan gemilere
+römorkör alma zorunluluğu uygulanmaz.
+Gemi boyu Toplam çekme gücü (asgari) Açıklama
+55-125 metre arası En az 30 ton 1 adet 30 ton veya her biri 16 tondan
+az olmamak kaydıyla 2römorkör
+
+1",9,0.9,1.0,n,n,false_positive,Ship length classification range (201-300m) for tugboat requirements in port. Value field is empty because range was not captured as single numeric. Extraction error.
+40,21.5.1426_Deniz Trafik Düzeni Tüzüğü.pdf,shipping_navigation,20.0,metre,deniz, 20 metre,"SP-2 Raporunu vereceklerdir. Gemiler SP-2 Raporunu
+verdikten sonra, TBGTH Merkezi tarafından verilecek bilgiyi göz önünde tutarak hareket
+edecekler, SP-2 Raporu verdiklerini ve Boğaz trafiği ile ilgil",4,0.95,1.0,y,y,,Ship draft threshold (20m) for SP-2 reporting in Turkish Straits from Deniz Trafik Duzeni Tuzugu. Draft thresholds define navigation rules and spatial restrictions. Correct.
+41,7.5.16726_Limanlar Yönetmeliği_Ulaştırma Mevzuatı.pdf,shipping_navigation,300.0,metre,,300 metre,"gemilere
+römorkör alma zorunluluğu uygulanmaz.
+Gemi boyu Toplam çekme gücü (asgari) Açıklama
+55-125 metre arası En az 30 ton 1 adet 30 ton veya her biri 16 tondan
+az olmamak kaydıyla 2römorkör
+
+126-20",9,0.9,1.0,y,y,,Ship length threshold (300m) for tugboat requirements in port from Limanlar Yonetmeligi. Length thresholds define navigation rules and port spatial requirements. Correct.
+42,1.5.1380_Su Ürünleri Kanunu (No. 1380).pdf,aquaculture,20.0,metre,,20metreden fazla,"ulması, bent, çit ve
+benzeri engeller yapılması yasaktır.5
+(Değişik fıkra: 6/11/2019-7191/5 md.) Akarsular üzerinde kurulmuş veya kurulacak
+olan baraj ve regülatör gibi su yapılarında su ürünlerinin g",8,0.9,1.0,y,y,,Minimum 20m distance specification for fish passage infrastructure at river dams and weirs under the Fisheries Law. Correct spatial distance relevant to aquatic/fisheries spatial planning.
+43,7.5.4897_Kıyı Kanununun Uygulanmasına Dair Yönetmelik.pdf,unspecified,50.0,metre,kıyı,en az 50 metrelik,"üyük ölçekli halihazır, kadastral, topoğrafik veya şeritvari
+haritalar üzerine çizilerek onanmış kıyı kenar çizgileri, 1/1000 ölçekli halihazır harita üzerine
+aktarılması istenirse, muhtemel kıyı kena",5,0.95,1.0,y,y,,Coastal boundary delineation distance (min 50m from coastline) under the Coastal Law Implementation Regulation. Correct and relevant to MSP coastal zone mapping.
+44,21.5.1426_Deniz Trafik Düzeni Tüzüğü.pdf,shipping_navigation,10.0,nautical_mile,Denizde, 10 mil,"ak çatışma olasılığı varsa, gemiler
+Uluslararası Denizde Çatışmayı Önleme Sözleşmesinin ilgili hükümleri uyarınca gerekli
+önlemleri alacaklardır.
+Akıntı
+Madde 36- (1) İstanbul Boğazı'nda üst akıntı şi",12,0.85,0.5,y,y,,10 nautical mile visibility/operational distance threshold for collision avoidance measures in the Bosphorus under COLREGS-referenced provisions. Correct maritime navigation spatial rule relevant to MSP.
+45,7.5.16806.pdf,shipping_navigation,1852.0,metre,Kıyı,1852 m,"ması
+halini,
+t) Karışım bölgesi: (Değişik ibare:RG-15/4/2015-29327) Yerüstü alıcı su ortamına yapılan
+deşarjlarda, deşarj noktasından başlayarak Ek-8’de tanımlanan bölgeyi,
+u) Kıyı suları: Türkiye kıy",2,0.95,1.0,y,y,,"1852m (= 1 nautical mile) defining the coastal waters boundary from shoreline, also linked to discharge mixing zone definition. Correct spatial distance highly relevant to MSP maritime zone delineation."
+46,7.5.4882_Plansız Alanlar İmar Yönetmeliği.pdf,tourism,300.0,metre,,en fazla 300 metre,"t edilerek tutanak altına alınır ve kadastral paftaya veya hâlihazır haritalara
+aktarılır. Tutanakla belirlenen binaların en dışta olanlarının dış kenarlarından düz çizgi ile
+birleştirilerek 1alan olu",11,0.8,0.5,n,n,false_positive,"Rural settlement boundary distance (max 300m from outermost buildings) in Unplanned Areas Zoning Regulation. Terrestrial land-use planning, not a marine or coastal planning distance."
+47,7.5.16726_Limanlar Yönetmeliği_Ulaştırma Mevzuatı.pdf,shipping_navigation,2.0,nautical_mile,kıyı, 2 mil,"lma zorunluluğu uygulanmaz.
+(9) Kabotaj ve liman idari sahasında hat izinli olarak sefer yapan 2000 GT’den küçük yolcu, ro-ro
+yolcu ve ro-ro kargo gemilerine hat izni aldığı kıyı tesislerinde, kılavuz",10,0.95,1.0,y,y,,2 nautical mile pilotage exemption zone for licensed small coastal/ro-ro vessels at their designated coastal facilities. Correct maritime spatial zone distance relevant to MSP port planning.
+48,7.5.4897_Kıyı Kanununun Uygulanmasına Dair Yönetmelik.pdf,tourism,50.0,metre,kıyı,en fazla 50 metre,"sinden
+itibaren kara yönünde yatay olarak en az 100 metre genişliğindeki alandır.
+(Değişik paragraf:RG-2/4/2013-28606) İki bölümden oluşan sahil şeridi kullanım amacı,
+topoğrafya ve doğal eşiklere gör",1,0.85,0.571,y,y,,50m sub-zone within the coastal strip (sahil seridi) defined from the coastline under the Coastal Law Implementation Regulation. Correct and relevant to MSP coastal zone management.
+49,7.5.16726_Limanlar Yönetmeliği_Ulaştırma Mevzuatı.pdf,shipping_navigation,1.0,nautical_mile,kıyı, 1 deniz mili,"koordinatlar olup,
+gemiler bu koordinatları merkez kabul eden 5 gomina yarıçaplı daire dâhilinde kılavuz kaptan alabilir
+ya da bırakabilir. Ek-1’de kılavuz kaptan alma ve bırakma yeri belirlenmeyen kı",11,0.95,1.0,y,y,,1 nautical mile radius pilot boarding/disembarking zone at designated coordinates. Correct maritime spatial zone distance highly relevant to MSP port and navigation planning.
+50,7.5.16726_Limanlar Yönetmeliği_Ulaştırma Mevzuatı.pdf,shipping_navigation,70.0,metre,deniz, 70metre,"zi tarafından yerel deniz trafiği durdurulur. Talimatlara uymayanlar tespit edilerek
+bölge liman başkanlığına bildirilir.
+Çanakkale Bölge Liman Başkanlığına özel hükümler (Değişik başlık:RG-14/4/2023-",23,0.95,1.0,y,y,,Hava cekimi (air draft) 70m threshold for Canakkale Bridge passage from Limanlar Yonetmeligi. Ship air draft under bridges defines spatial navigation restrictions. Value matches context. Correct.

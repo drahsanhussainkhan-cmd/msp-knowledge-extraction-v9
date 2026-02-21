@@ -240,7 +240,7 @@ class StakeholderExtraction:
 @dataclass
 class ConflictExtraction:
     """Use conflict/compatibility extraction (for scientific papers)"""
-    conflict_type: str  # "spatial", "temporal", "resource", "incompatibility"
+    conflict_type: str  # "spatial", "temporal", "resource", "governance"
     activity_1: Optional[str] = None
     activity_2: Optional[str] = None
     severity: Optional[str] = None  # "high", "medium", "low"
@@ -250,6 +250,8 @@ class ConflictExtraction:
     page_number: Optional[int] = None
     confidence: float = 1.0
     marine_relevance: float = 0.5
+    related_stakeholders: List[str] = field(default_factory=list)
+    related_areas: List[str] = field(default_factory=list)
 
     @property
     def extraction_hash(self) -> str:

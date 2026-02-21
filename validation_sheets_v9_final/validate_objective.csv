@@ -1,0 +1,44 @@
+﻿id,source_file,objective_type,objective_text,exact_text,context,page_number,confidence,marine_relevance,is_correct,is_relevant,error_type,notes
+1,38.pdf,objective,"advance understanding of how Indigenous
+Chile peoples respond to the socio-ecological impacts of aquaculture in southern Chile under the new law","this study aims to advance understanding of how Indigenous
+Chile peoples respond to the socio-ecological impacts of aquaculture in southern Chile under the new law",", which allows Indigenous peoples to manage marine and coastal areas to protect their customary
+Blue justice
+uses. Integrating insights from critical geography and political ecology on commons governa",1,0.8,0,y,y,,Valid objective about marine aquaculture impacts on indigenous peoples
+2,Aligning-socio-economic-and-governance-criteria-to-support-be_2026_Ocean---C.pdf,objective,"develop and provide criteria to support managers/policy makers in
+integrating MSP and MPA processes within marine planning frameworks","this research aims to develop and provide criteria to support managers/policy makers in
+integrating MSP and MPA processes within marine planning frameworks","eco-
+Marine protected areas
+nomic and governance dimensions was analyzed. However, there is often a lack of comprehensive knowledge
+Socioeconomic criteria
+regarding these aspects, which could support ",1,0.8,0,y,y,,Clear MSP/MPA integration objective
+3,Coastal-and-marine-spatial-planning-in-Europe--Cas_2020_Regional-Studies-in-.pdf,hypothesis,"However, the intense and reckless exploitation of natural resources has led to a degradation of the
+Receivedinrevisedform5June2020 marineenvironment","h2020 However, the intense and reckless exploitation of natural resources has led to a degradation of the
+Receivedinrevisedform5June2020 marineenvironment","sityofAthens,Greece
+bProfessorFridtjOfNansenInstituteofOceanology,BulgarianAcademyofSciences,Bulgaria
+cUniversityofNicosia,Cyprus
+a r t i c l e i n f o a b s t r a c t
+Articlehistory: Coastal and mari",1,0.8,0,n,y,garbled_text,Garbled text with merged metadata; background statement not a hypothesis or objective
+4,Evolution-of-marine-spatial-planning-policies-for-maricul_2020_Ocean---Coast.pdf,objective,discuss the evolution of marine spatial planning policies for mariculture in China,This paper aims to discuss the evolution of marine spatial planning policies for mariculture in China,"page: http://www.elsevier.com/locate/ocecoaman
+Evolution of marine spatial planning policies for mariculture in China:
+Overview, experience and prospects
+Jin-Kai Yu*, Yu-Han Li
+College of Economics, O",1,0.8,0,y,y,,Clear MSP policy objective for marine mariculture
+5,Numerical-modelling-of-the-spatial-distribution-of-wave-overto_2024_Ocean-En.pdf,objective,"explore the capability of the
+gestedandslightlyrewrittenandmodifiedintheEurotopetal","objectives of this study are to explore the capability of the
+gestedandslightlyrewrittenandmodifiedintheEurotopetal","isanopenaccessarticleundertheCCBYlicense(http://creativecommons.org/licenses/by/4.0/).
+
+H.Zhaoetal. OceanEngineering309(2024)118551
+Andersen and Burcharth (2006) proposed an equation to predict the ov",2,0.8,0,n,y,garbled_text,Objective text merges with garbled metadata; incomplete extraction
+6,Operationalisation-of-ecosystem-services-in-support-of-ecosystem_2021_Marine.pdf,objective,"define a set of scientific and operational rec-
+contribute significantly to fulfilling human needs and well-being [1,2]","This research aims to define a set of scientific and operational rec-
+contribute significantly to fulfilling human needs and well-being [1,2]","d 24 May 2021
+Availableonline17June2021
+0308-597X/©2021ElsevierLtd.Allrightsreserved.
+
+I. Galparsoro et al. M a r i n e P o l i c y 131(2021)104609
+1. Introduction the critical knowledge needs to supp",2,0.8,0,n,y,garbled_text,Two sentence fragments merged; objective is truncated and incoherent
+7,Seascape-genomics--Assisting-marine-biodiversity-management-by-c_2025_Marine.pdf,objective,"support the understanding and access to
+information on seascape genetics and genomics for conservation and environmental management practitioners","we aim to support the understanding and access to
+information on seascape genetics and genomics for conservation and environmental management practitioners","Seascape genomics
+wide range of species and incorporated into marine spatial management. Despite the proven importance of
+genetic diversity for species resilience, the incorporation of genetic and gen",1,0.8,0,y,y,,Valid marine biodiversity conservation objective

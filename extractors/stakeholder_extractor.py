@@ -88,11 +88,8 @@ class StakeholderExtractor(BaseExtractor):
                 r'recreational\s+(?:users?|fishers?|boaters?))',
                 re.IGNORECASE
             ),
-            # Generic stakeholder mentions (count them but don't name them)
-            re.compile(
-                r'(?P<role>stakeholders?|interested\s+parties)',
-                re.IGNORECASE
-            ),
+            # REMOVED: Generic "stakeholders" pattern - too many false positives
+            # Only capture specific stakeholder groups, not the generic word
         ]
 
     def extract(self, text: str, page_texts: Dict[int, str],
@@ -116,6 +113,10 @@ class StakeholderExtractor(BaseExtractor):
                        doc_type: DocumentType) -> Optional[StakeholderExtraction]:
         """Process a stakeholder match"""
         try:
+
+            # Skip bibliography and garbled text
+            if self._should_skip_match(converted_text, match.start(), match.group(0), category="stakeholder"):
+                return None
             groups = match.groupdict()
             sentence, context = self._get_sentence_context(converted_text, match.start(), match.end())
 

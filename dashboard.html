@@ -1,0 +1,1584 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>MSP Knowledge Extraction System - Dashboard</title>
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Source+Serif+4:wght@400;600;700&display=swap" rel="stylesheet">
+<style>
+/* ===== CSS Reset & Variables ===== */
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+:root {
+  --navy-900: #051e2f;
+  --navy-800: #0a3148;
+  --navy-700: #0a4c6e;
+  --teal-600: #1a6b8a;
+  --teal-500: #2d9ab7;
+  --teal-400: #4fb8d4;
+  --teal-300: #7dd3e8;
+  --teal-200: #b3e7f5;
+  --teal-100: #e0f5fb;
+  --teal-50:  #f0fafe;
+  --sand-100: #f8f6f2;
+  --sand-200: #ede9e1;
+  --slate-700: #374151;
+  --slate-600: #4b5563;
+  --slate-500: #6b7280;
+  --slate-400: #9ca3af;
+  --slate-300: #d1d5db;
+  --slate-200: #e5e7eb;
+  --slate-100: #f3f4f6;
+  --white: #ffffff;
+  --green-500: #10b981;
+  --green-600: #059669;
+  --green-bg: #ecfdf5;
+  --blue-500: #3b82f6;
+  --blue-bg: #eff6ff;
+  --orange-500: #f59e0b;
+  --orange-bg: #fffbeb;
+  --red-500: #ef4444;
+  --red-bg: #fef2f2;
+  --shadow-sm: 0 1px 2px rgba(0,0,0,0.05);
+  --shadow-md: 0 4px 6px -1px rgba(0,0,0,0.07), 0 2px 4px -2px rgba(0,0,0,0.05);
+  --shadow-lg: 0 10px 15px -3px rgba(0,0,0,0.08), 0 4px 6px -4px rgba(0,0,0,0.04);
+  --shadow-xl: 0 20px 25px -5px rgba(0,0,0,0.08), 0 8px 10px -6px rgba(0,0,0,0.04);
+  --radius: 8px;
+  --radius-lg: 12px;
+  --radius-xl: 16px;
+  --transition: 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+html { scroll-behavior: smooth; font-size: 16px; }
+body {
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  color: var(--slate-700);
+  background: var(--slate-100);
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* ===== Navbar ===== */
+.navbar {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  background: rgba(5, 30, 47, 0.97);
+  backdrop-filter: blur(12px);
+  border-bottom: 1px solid rgba(77, 184, 212, 0.15);
+  padding: 0 2rem;
+  transition: box-shadow var(--transition);
+}
+.navbar.scrolled { box-shadow: 0 4px 20px rgba(0,0,0,0.3); }
+.nav-inner {
+  max-width: 1280px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 56px;
+}
+.nav-brand {
+  font-weight: 700;
+  font-size: 0.95rem;
+  color: var(--teal-300);
+  letter-spacing: 0.02em;
+  white-space: nowrap;
+}
+.nav-links {
+  display: flex;
+  gap: 0.25rem;
+  list-style: none;
+  overflow-x: auto;
+  scrollbar-width: none;
+}
+.nav-links::-webkit-scrollbar { display: none; }
+.nav-links a {
+  text-decoration: none;
+  color: var(--slate-400);
+  font-size: 0.8rem;
+  font-weight: 500;
+  padding: 0.4rem 0.7rem;
+  border-radius: 6px;
+  white-space: nowrap;
+  transition: all var(--transition);
+}
+.nav-links a:hover, .nav-links a.active {
+  color: var(--teal-300);
+  background: rgba(45, 154, 183, 0.1);
+}
+
+/* ===== Hero ===== */
+.hero {
+  background: linear-gradient(135deg, var(--navy-900) 0%, var(--navy-700) 40%, var(--teal-600) 100%);
+  color: var(--white);
+  padding: 5rem 2rem 4rem;
+  position: relative;
+  overflow: hidden;
+}
+.hero::before {
+  content: '';
+  position: absolute;
+  top: -50%;
+  right: -20%;
+  width: 600px;
+  height: 600px;
+  border-radius: 50%;
+  background: radial-gradient(circle, rgba(79,184,212,0.12) 0%, transparent 70%);
+  pointer-events: none;
+}
+.hero::after {
+  content: '';
+  position: absolute;
+  bottom: -30%;
+  left: -10%;
+  width: 400px;
+  height: 400px;
+  border-radius: 50%;
+  background: radial-gradient(circle, rgba(45,154,183,0.08) 0%, transparent 70%);
+  pointer-events: none;
+}
+.hero-inner {
+  max-width: 1080px;
+  margin: 0 auto;
+  position: relative;
+  z-index: 1;
+  text-align: center;
+}
+.hero-label {
+  display: inline-block;
+  font-size: 0.75rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.15em;
+  color: var(--teal-300);
+  border: 1px solid rgba(79,184,212,0.3);
+  padding: 0.3rem 1rem;
+  border-radius: 20px;
+  margin-bottom: 1.5rem;
+}
+.hero h1 {
+  font-family: 'Source Serif 4', Georgia, serif;
+  font-size: clamp(2rem, 4vw, 3.2rem);
+  font-weight: 700;
+  line-height: 1.15;
+  margin-bottom: 0.75rem;
+}
+.hero .subtitle {
+  font-size: clamp(1rem, 2vw, 1.25rem);
+  font-weight: 300;
+  color: var(--teal-200);
+  margin-bottom: 0.5rem;
+}
+.hero .author {
+  font-size: 1rem;
+  font-weight: 400;
+  color: var(--teal-300);
+  margin-bottom: 2.5rem;
+}
+.stats-bar {
+  display: flex;
+  justify-content: center;
+  gap: 1px;
+  background: rgba(255,255,255,0.08);
+  border-radius: var(--radius-lg);
+  overflow: hidden;
+  max-width: 700px;
+  margin: 0 auto;
+}
+.stat-item {
+  flex: 1;
+  padding: 1.2rem 1rem;
+  text-align: center;
+  background: rgba(255,255,255,0.03);
+  transition: background var(--transition);
+}
+.stat-item:hover { background: rgba(255,255,255,0.07); }
+.stat-value {
+  font-size: 1.6rem;
+  font-weight: 800;
+  color: var(--white);
+  line-height: 1;
+}
+.stat-label {
+  font-size: 0.7rem;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--teal-300);
+  margin-top: 0.4rem;
+  font-weight: 500;
+}
+
+/* ===== Layout ===== */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+section {
+  padding: 4rem 0;
+}
+.section-header {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+.section-number {
+  display: inline-block;
+  font-size: 0.7rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  color: var(--teal-500);
+  margin-bottom: 0.5rem;
+}
+.section-header h2 {
+  font-family: 'Source Serif 4', Georgia, serif;
+  font-size: 2rem;
+  font-weight: 700;
+  color: var(--navy-800);
+  margin-bottom: 0.5rem;
+}
+.section-header p {
+  color: var(--slate-500);
+  font-size: 1.05rem;
+  max-width: 650px;
+  margin: 0 auto;
+}
+
+/* ===== Cards ===== */
+.card {
+  background: var(--white);
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-md);
+  padding: 2rem;
+  transition: box-shadow var(--transition), transform var(--transition);
+}
+.card:hover {
+  box-shadow: var(--shadow-lg);
+}
+.card-grid {
+  display: grid;
+  gap: 1.5rem;
+}
+.card-grid-2 { grid-template-columns: repeat(auto-fit, minmax(340px, 1fr)); }
+.card-grid-3 { grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); }
+.card-grid-4 { grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); }
+
+/* Metric cards */
+.metric-card {
+  background: var(--white);
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-md);
+  padding: 1.5rem;
+  text-align: center;
+  border-top: 3px solid var(--teal-500);
+}
+.metric-card .metric-value {
+  font-size: 2.2rem;
+  font-weight: 800;
+  color: var(--navy-700);
+  line-height: 1;
+}
+.metric-card .metric-label {
+  font-size: 0.82rem;
+  color: var(--slate-500);
+  margin-top: 0.3rem;
+  font-weight: 500;
+}
+.metric-card.green { border-top-color: var(--green-500); }
+.metric-card.blue { border-top-color: var(--blue-500); }
+.metric-card.orange { border-top-color: var(--orange-500); }
+
+/* ===== Tables ===== */
+.table-wrap {
+  overflow-x: auto;
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-md);
+  background: var(--white);
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.88rem;
+}
+thead th {
+  background: var(--navy-800);
+  color: var(--white);
+  font-weight: 600;
+  text-align: left;
+  padding: 0.85rem 1rem;
+  cursor: pointer;
+  user-select: none;
+  white-space: nowrap;
+  position: relative;
+}
+thead th:hover { background: var(--navy-700); }
+thead th .sort-icon {
+  margin-left: 0.4rem;
+  font-size: 0.7rem;
+  opacity: 0.5;
+}
+thead th.sorted .sort-icon { opacity: 1; }
+tbody td {
+  padding: 0.7rem 1rem;
+  border-bottom: 1px solid var(--slate-200);
+}
+tbody tr:hover { background: var(--teal-50); }
+tbody tr:last-child td { border-bottom: none; }
+.mono { font-family: 'SF Mono', 'Fira Code', monospace; font-size: 0.83rem; }
+
+/* Precision badges */
+.precision-badge {
+  display: inline-block;
+  padding: 0.2rem 0.6rem;
+  border-radius: 12px;
+  font-size: 0.78rem;
+  font-weight: 600;
+}
+.prec-green { background: var(--green-bg); color: var(--green-600); }
+.prec-blue { background: var(--blue-bg); color: var(--blue-500); }
+.prec-orange { background: var(--orange-bg); color: var(--orange-500); }
+.prec-red { background: var(--red-bg); color: var(--red-500); }
+
+/* ===== Architecture Pipeline ===== */
+.pipeline {
+  display: flex;
+  align-items: flex-start;
+  gap: 0;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 2rem 0;
+}
+.pipeline-stage {
+  display: flex;
+  align-items: center;
+}
+.pipeline-box {
+  background: linear-gradient(135deg, var(--navy-700), var(--teal-600));
+  color: var(--white);
+  padding: 1.2rem 1.4rem;
+  border-radius: var(--radius-lg);
+  text-align: center;
+  min-width: 140px;
+  box-shadow: var(--shadow-md);
+  transition: transform var(--transition);
+}
+.pipeline-box:hover { transform: translateY(-3px); }
+.pipeline-box .pipe-title {
+  font-weight: 700;
+  font-size: 0.85rem;
+  margin-bottom: 0.3rem;
+}
+.pipeline-box .pipe-desc {
+  font-size: 0.7rem;
+  color: var(--teal-200);
+  line-height: 1.3;
+}
+.pipeline-arrow {
+  font-size: 1.6rem;
+  color: var(--teal-400);
+  padding: 0 0.5rem;
+  font-weight: 300;
+  flex-shrink: 0;
+}
+.filter-pipeline {
+  display: flex;
+  align-items: center;
+  gap: 0;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 1.5rem 0;
+}
+.filter-box {
+  background: var(--white);
+  border: 2px solid var(--teal-400);
+  color: var(--navy-800);
+  padding: 0.8rem 1rem;
+  border-radius: var(--radius);
+  text-align: center;
+  font-size: 0.78rem;
+  font-weight: 600;
+  box-shadow: var(--shadow-sm);
+  min-width: 110px;
+  transition: all var(--transition);
+}
+.filter-box:hover {
+  background: var(--teal-50);
+  border-color: var(--teal-500);
+  transform: translateY(-2px);
+}
+.filter-arrow {
+  font-size: 1.2rem;
+  color: var(--teal-400);
+  padding: 0 0.3rem;
+  flex-shrink: 0;
+}
+
+/* ===== Chart containers ===== */
+.chart-container {
+  position: relative;
+  width: 100%;
+  background: var(--white);
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-md);
+  padding: 1.5rem;
+}
+.chart-container canvas {
+  max-height: 500px;
+}
+.chart-container-sm canvas {
+  max-height: 350px;
+}
+
+/* ===== Collapsible sections ===== */
+.collapsible {
+  background: var(--white);
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-md);
+  margin-bottom: 0.75rem;
+  overflow: hidden;
+}
+.collapsible-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem 1.5rem;
+  cursor: pointer;
+  background: var(--white);
+  transition: background var(--transition);
+  user-select: none;
+}
+.collapsible-header:hover { background: var(--teal-50); }
+.collapsible-header h4 {
+  font-size: 0.95rem;
+  color: var(--navy-800);
+  font-weight: 600;
+}
+.collapsible-header .prec {
+  font-size: 0.85rem;
+  font-weight: 600;
+  margin-left: 0.5rem;
+}
+.collapsible-chevron {
+  transition: transform var(--transition);
+  color: var(--slate-400);
+  font-size: 1.2rem;
+}
+.collapsible.open .collapsible-chevron { transform: rotate(180deg); }
+.collapsible-body {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.4s ease, padding 0.3s ease;
+  padding: 0 1.5rem;
+}
+.collapsible.open .collapsible-body {
+  max-height: 600px;
+  padding: 0 1.5rem 1.5rem;
+}
+
+/* ===== Noise Reduction Visual ===== */
+.noise-comparison {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  margin: 2rem 0;
+  flex-wrap: wrap;
+}
+.noise-box {
+  text-align: center;
+  padding: 2rem;
+  border-radius: var(--radius-lg);
+  min-width: 200px;
+}
+.noise-box.before {
+  background: linear-gradient(135deg, #fef2f2, #fee2e2);
+  border: 2px solid #fca5a5;
+}
+.noise-box.after {
+  background: linear-gradient(135deg, #ecfdf5, #d1fae5);
+  border: 2px solid #6ee7b7;
+}
+.noise-box .noise-val {
+  font-size: 2.5rem;
+  font-weight: 800;
+  line-height: 1;
+}
+.noise-box.before .noise-val { color: var(--red-500); }
+.noise-box.after .noise-val { color: var(--green-600); }
+.noise-box .noise-label {
+  font-size: 0.85rem;
+  color: var(--slate-500);
+  margin-top: 0.3rem;
+  font-weight: 500;
+}
+.noise-arrow-big {
+  font-size: 2.5rem;
+  color: var(--teal-500);
+  font-weight: 300;
+}
+.noise-reduction-badge {
+  display: inline-block;
+  background: linear-gradient(135deg, var(--navy-700), var(--teal-600));
+  color: var(--white);
+  font-size: 1.8rem;
+  font-weight: 800;
+  padding: 1rem 2rem;
+  border-radius: var(--radius-xl);
+  margin-top: 1rem;
+}
+
+/* ===== Footer ===== */
+.footer {
+  background: var(--navy-900);
+  color: var(--slate-400);
+  padding: 3rem 2rem;
+  text-align: center;
+  font-size: 0.85rem;
+}
+.footer a {
+  color: var(--teal-400);
+  text-decoration: none;
+}
+.footer a:hover { text-decoration: underline; }
+.footer .footer-title {
+  color: var(--teal-300);
+  font-weight: 700;
+  font-size: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+/* ===== Animations ===== */
+.fade-in {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 0.6s ease, transform 0.6s ease;
+}
+.fade-in.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* ===== Bilingual tag ===== */
+.lang-tag {
+  display: inline-block;
+  padding: 0.15rem 0.5rem;
+  border-radius: 4px;
+  font-size: 0.7rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+.lang-en { background: #dbeafe; color: #1d4ed8; }
+.lang-tr { background: #fce7f3; color: #be185d; }
+
+/* ===== Version table highlights ===== */
+.version-current {
+  background: var(--teal-50) !important;
+  font-weight: 600;
+}
+
+/* ===== Print styles ===== */
+@media print {
+  .navbar { display: none; }
+  .hero { padding: 2rem; break-after: page; }
+  section { padding: 1.5rem 0; break-inside: avoid; }
+  .card, .chart-container, .table-wrap { box-shadow: none; border: 1px solid #ddd; break-inside: avoid; }
+  .pipeline-box { print-color-adjust: exact; -webkit-print-color-adjust: exact; }
+  .collapsible-body { max-height: none !important; padding: 0 1.5rem 1rem !important; }
+  .fade-in { opacity: 1 !important; transform: none !important; }
+  body { font-size: 11pt; }
+}
+
+/* ===== Responsive ===== */
+@media (max-width: 768px) {
+  .nav-links { display: none; }
+  .hero { padding: 3rem 1rem 2.5rem; }
+  .hero h1 { font-size: 1.8rem; }
+  .stats-bar { flex-direction: column; }
+  .pipeline { flex-direction: column; align-items: center; }
+  .pipeline-arrow, .filter-arrow { transform: rotate(90deg); }
+  .container { padding: 0 1rem; }
+  section { padding: 2.5rem 0; }
+  .noise-comparison { flex-direction: column; }
+  .noise-arrow-big { transform: rotate(90deg); }
+}
+</style>
+</head>
+<body>
+
+<!-- ===== NAVBAR ===== -->
+<nav class="navbar" id="navbar">
+  <div class="nav-inner">
+    <div class="nav-brand">MSP Extraction</div>
+    <ul class="nav-links">
+      <li><a href="#overview">Overview</a></li>
+      <li><a href="#architecture">Architecture</a></li>
+      <li><a href="#categories">Categories</a></li>
+      <li><a href="#validation">Validation</a></li>
+      <li><a href="#progression">Progression</a></li>
+      <li><a href="#errors">Errors</a></li>
+      <li><a href="#filtering">Filtering</a></li>
+      <li><a href="#deepdives">Deep Dives</a></li>
+      <li><a href="#bilingual">Bilingual</a></li>
+      <li><a href="#gaps">Gap Detection</a></li>
+    </ul>
+  </div>
+</nav>
+
+<!-- ===== HERO ===== -->
+<header class="hero" id="hero">
+  <div class="hero-inner">
+    <span class="hero-label">PhD Research Project</span>
+    <h1>MSP Knowledge Extraction System</h1>
+    <p class="subtitle">Automated Knowledge Extraction from Marine Spatial Planning Documents</p>
+    <p class="author">Ahsan Hussain Khan</p>
+    <div class="stats-bar">
+      <div class="stat-item">
+        <div class="stat-value">273</div>
+        <div class="stat-label">Documents</div>
+      </div>
+      <div class="stat-item">
+        <div class="stat-value">3,142</div>
+        <div class="stat-label">Extractions</div>
+      </div>
+      <div class="stat-item">
+        <div class="stat-value">17</div>
+        <div class="stat-label">Categories</div>
+      </div>
+      <div class="stat-item">
+        <div class="stat-value">0.826</div>
+        <div class="stat-label">Micro Precision</div>
+      </div>
+    </div>
+  </div>
+</header>
+
+<!-- ===== SECTION 2: PROJECT OVERVIEW ===== -->
+<section id="overview">
+  <div class="container">
+    <div class="section-header fade-in">
+      <span class="section-number">Section I</span>
+      <h2>Project Overview</h2>
+      <p>A comprehensive automated system for extracting structured knowledge from marine spatial planning literature and legislation.</p>
+    </div>
+    <div class="card-grid card-grid-2 fade-in">
+      <div class="card">
+        <h3 style="color:var(--navy-700);margin-bottom:1rem;font-size:1.1rem;">What It Does</h3>
+        <p style="color:var(--slate-600);font-size:0.92rem;line-height:1.7;">
+          The MSP Knowledge Extraction System automatically processes a bilingual corpus of marine spatial planning documents, identifying and extracting structured information across 17 thematic categories. Using 22 specialized regex-based extractors with multi-stage filtering, the system transforms unstructured PDF text into a validated knowledge base suitable for systematic review and policy analysis.
+        </p>
+      </div>
+      <div class="card">
+        <h3 style="color:var(--navy-700);margin-bottom:1rem;font-size:1.1rem;">Corpus Composition</h3>
+        <div style="display:flex;gap:1.5rem;margin-bottom:1rem;">
+          <div style="flex:1;padding:1rem;background:var(--teal-50);border-radius:var(--radius);border-left:3px solid var(--teal-500);">
+            <div style="font-size:1.4rem;font-weight:800;color:var(--navy-700);">248</div>
+            <div style="font-size:0.8rem;color:var(--slate-500);">Q1 English research papers</div>
+          </div>
+          <div style="flex:1;padding:1rem;background:#fce7f3;border-radius:var(--radius);border-left:3px solid #ec4899;">
+            <div style="font-size:1.4rem;font-weight:800;color:var(--navy-700);">25</div>
+            <div style="font-size:0.8rem;color:var(--slate-500);">Turkish legal documents</div>
+          </div>
+        </div>
+        <p style="color:var(--slate-600);font-size:0.88rem;">
+          <strong>87 Python source files</strong> comprising 22 specialized extractors with support for bilingual pattern matching (English and Turkish).
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== SECTION 3: ARCHITECTURE ===== -->
+<section id="architecture" style="background:var(--white);">
+  <div class="container">
+    <div class="section-header fade-in">
+      <span class="section-number">Section II</span>
+      <h2>System Architecture</h2>
+      <p>A five-phase pipeline with multi-stage filtering for high-precision knowledge extraction.</p>
+    </div>
+
+    <div class="fade-in">
+      <h3 style="text-align:center;color:var(--navy-700);font-size:1rem;margin-bottom:1.5rem;font-weight:600;">Extraction Pipeline</h3>
+      <div class="pipeline">
+        <div class="pipeline-stage">
+          <div class="pipeline-box">
+            <div class="pipe-title">Document Discovery</div>
+            <div class="pipe-desc">PDF ingestion,<br>text extraction</div>
+          </div>
+        </div>
+        <span class="pipeline-arrow">&#10132;</span>
+        <div class="pipeline-stage">
+          <div class="pipeline-box">
+            <div class="pipe-title">Extraction</div>
+            <div class="pipe-desc">22 regex-based<br>extractors</div>
+          </div>
+        </div>
+        <span class="pipeline-arrow">&#10132;</span>
+        <div class="pipeline-stage">
+          <div class="pipeline-box">
+            <div class="pipe-title">Knowledge Base</div>
+            <div class="pipe-desc">Structured JSON<br>output</div>
+          </div>
+        </div>
+        <span class="pipeline-arrow">&#10132;</span>
+        <div class="pipeline-stage">
+          <div class="pipeline-box">
+            <div class="pipe-title">Gap Detection</div>
+            <div class="pipe-desc">Cross-document<br>analysis</div>
+          </div>
+        </div>
+        <span class="pipeline-arrow">&#10132;</span>
+        <div class="pipeline-stage">
+          <div class="pipeline-box">
+            <div class="pipe-title">Reports</div>
+            <div class="pipe-desc">Validation sheets,<br>metrics, tables</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="fade-in" style="margin-top:3rem;">
+      <h3 style="text-align:center;color:var(--navy-700);font-size:1rem;margin-bottom:1.5rem;font-weight:600;">Multi-Stage Filtering</h3>
+      <div class="filter-pipeline">
+        <div class="filter-box">Bibliography<br>Detection</div>
+        <span class="filter-arrow">&#10132;</span>
+        <div class="filter-box">Garble<br>Rejection</div>
+        <span class="filter-arrow">&#10132;</span>
+        <div class="filter-box">Marine<br>Relevance</div>
+        <span class="filter-arrow">&#10132;</span>
+        <div class="filter-box">False Positive<br>Filter</div>
+        <span class="filter-arrow">&#10132;</span>
+        <div class="filter-box">Deduplication</div>
+      </div>
+      <p style="text-align:center;color:var(--slate-500);font-size:0.85rem;margin-top:1rem;">Each extraction candidate passes through five sequential filters before inclusion in the final knowledge base.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ===== SECTION 4: EXTRACTION CATEGORIES ===== -->
+<section id="categories">
+  <div class="container">
+    <div class="section-header fade-in">
+      <span class="section-number">Section III</span>
+      <h2>Extraction Categories</h2>
+      <p>3,142 validated extractions across 17 thematic categories.</p>
+    </div>
+
+    <div class="card-grid card-grid-2 fade-in">
+      <div class="chart-container">
+        <canvas id="categoryChart"></canvas>
+      </div>
+      <div class="table-wrap">
+        <table id="categoryTable">
+          <thead>
+            <tr>
+              <th onclick="sortTable('categoryTable',0)">Category <span class="sort-icon">&#9650;&#9660;</span></th>
+              <th onclick="sortTable('categoryTable',1)" style="text-align:right;">Count <span class="sort-icon">&#9650;&#9660;</span></th>
+              <th>Description</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr><td>legal_reference</td><td style="text-align:right;" class="mono">1,039</td><td>Law articles, EU directives, conventions</td></tr>
+            <tr><td>method</td><td style="text-align:right;" class="mono">408</td><td>Research and planning methodologies</td></tr>
+            <tr><td>stakeholder</td><td style="text-align:right;" class="mono">296</td><td>Organizations, agencies, communities</td></tr>
+            <tr><td>environmental</td><td style="text-align:right;" class="mono">245</td><td>Water quality, pollution, biodiversity</td></tr>
+            <tr><td>species</td><td style="text-align:right;" class="mono">244</td><td>Marine species (scientific/common)</td></tr>
+            <tr><td>data_source</td><td style="text-align:right;" class="mono">227</td><td>Datasets, databases, monitoring systems</td></tr>
+            <tr><td>policy</td><td style="text-align:right;" class="mono">185</td><td>Policy frameworks and instruments</td></tr>
+            <tr><td>gap</td><td style="text-align:right;" class="mono">165</td><td>Research, legal, and data gaps</td></tr>
+            <tr><td>institution</td><td style="text-align:right;" class="mono">153</td><td>Governmental and regulatory bodies</td></tr>
+            <tr><td>distance</td><td style="text-align:right;" class="mono">61</td><td>Spatial measurements and boundaries</td></tr>
+            <tr><td>protected_area</td><td style="text-align:right;" class="mono">37</td><td>MPAs, Natura 2000, reserves</td></tr>
+            <tr><td>temporal</td><td style="text-align:right;" class="mono">22</td><td>Time frames, deadlines, periods</td></tr>
+            <tr><td>penalty</td><td style="text-align:right;" class="mono">19</td><td>Fines, sanctions, enforcement</td></tr>
+            <tr><td>permit</td><td style="text-align:right;" class="mono">10</td><td>Licenses, authorizations, permits</td></tr>
+            <tr><td>conflict</td><td style="text-align:right;" class="mono">9</td><td>Use conflicts, spatial/temporal overlaps</td></tr>
+            <tr><td>objective</td><td style="text-align:right;" class="mono">7</td><td>Policy goals and planning objectives</td></tr>
+            <tr><td>prohibition</td><td style="text-align:right;" class="mono">6</td><td>Banned activities and restrictions</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== SECTION 5: VALIDATION RESULTS ===== -->
+<section id="validation" style="background:var(--white);">
+  <div class="container">
+    <div class="section-header fade-in">
+      <span class="section-number">Section IV</span>
+      <h2>Validation Results</h2>
+      <p>Manual validation with Wilson score confidence intervals (610 total samples).</p>
+    </div>
+
+    <!-- Summary metric cards -->
+    <div class="card-grid card-grid-4 fade-in" style="margin-bottom:2.5rem;">
+      <div class="metric-card">
+        <div class="metric-value">0.792</div>
+        <div class="metric-label">Macro Precision</div>
+      </div>
+      <div class="metric-card green">
+        <div class="metric-value">0.826</div>
+        <div class="metric-label">Micro Precision</div>
+      </div>
+      <div class="metric-card blue">
+        <div class="metric-value">12/17</div>
+        <div class="metric-label">Categories &ge; 0.70</div>
+      </div>
+      <div class="metric-card orange">
+        <div class="metric-value">8/17</div>
+        <div class="metric-label">Categories &ge; 0.90</div>
+      </div>
+    </div>
+
+    <div class="card-grid card-grid-2 fade-in">
+      <div class="chart-container">
+        <canvas id="precisionChart"></canvas>
+      </div>
+      <div class="table-wrap">
+        <table id="precisionTable">
+          <thead>
+            <tr>
+              <th onclick="sortTable('precisionTable',0)">Category <span class="sort-icon">&#9650;&#9660;</span></th>
+              <th onclick="sortTable('precisionTable',1)" style="text-align:center;">N <span class="sort-icon">&#9650;&#9660;</span></th>
+              <th onclick="sortTable('precisionTable',2)" style="text-align:center;">TP <span class="sort-icon">&#9650;&#9660;</span></th>
+              <th onclick="sortTable('precisionTable',3)" style="text-align:center;">Precision <span class="sort-icon">&#9650;&#9660;</span></th>
+              <th style="text-align:center;">95% CI</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr><td>conflict</td><td style="text-align:center;" class="mono">9</td><td style="text-align:center;" class="mono">9</td><td style="text-align:center;"><span class="precision-badge prec-green">1.000</span></td><td style="text-align:center;" class="mono">[0.701 - 1.000]</td></tr>
+            <tr><td>legal_reference</td><td style="text-align:center;" class="mono">50</td><td style="text-align:center;" class="mono">50</td><td style="text-align:center;"><span class="precision-badge prec-green">1.000</span></td><td style="text-align:center;" class="mono">[0.929 - 1.000]</td></tr>
+            <tr><td>prohibition</td><td style="text-align:center;" class="mono">6</td><td style="text-align:center;" class="mono">6</td><td style="text-align:center;"><span class="precision-badge prec-green">1.000</span></td><td style="text-align:center;" class="mono">[0.610 - 1.000]</td></tr>
+            <tr><td>environmental</td><td style="text-align:center;" class="mono">50</td><td style="text-align:center;" class="mono">49</td><td style="text-align:center;"><span class="precision-badge prec-green">0.980</span></td><td style="text-align:center;" class="mono">[0.895 - 0.996]</td></tr>
+            <tr><td>species</td><td style="text-align:center;" class="mono">50</td><td style="text-align:center;" class="mono">49</td><td style="text-align:center;"><span class="precision-badge prec-green">0.980</span></td><td style="text-align:center;" class="mono">[0.895 - 0.996]</td></tr>
+            <tr><td>stakeholder</td><td style="text-align:center;" class="mono">50</td><td style="text-align:center;" class="mono">48</td><td style="text-align:center;"><span class="precision-badge prec-green">0.960</span></td><td style="text-align:center;" class="mono">[0.865 - 0.989]</td></tr>
+            <tr><td>data_source</td><td style="text-align:center;" class="mono">50</td><td style="text-align:center;" class="mono">46</td><td style="text-align:center;"><span class="precision-badge prec-green">0.920</span></td><td style="text-align:center;" class="mono">[0.812 - 0.968]</td></tr>
+            <tr><td>method</td><td style="text-align:center;" class="mono">50</td><td style="text-align:center;" class="mono">45</td><td style="text-align:center;"><span class="precision-badge prec-green">0.900</span></td><td style="text-align:center;" class="mono">[0.786 - 0.957]</td></tr>
+            <tr><td>gap</td><td style="text-align:center;" class="mono">50</td><td style="text-align:center;" class="mono">42</td><td style="text-align:center;"><span class="precision-badge prec-blue">0.840</span></td><td style="text-align:center;" class="mono">[0.715 - 0.917]</td></tr>
+            <tr><td>protected_area</td><td style="text-align:center;" class="mono">37</td><td style="text-align:center;" class="mono">29</td><td style="text-align:center;"><span class="precision-badge prec-blue">0.784</span></td><td style="text-align:center;" class="mono">[0.628 - 0.886]</td></tr>
+            <tr><td>distance</td><td style="text-align:center;" class="mono">50</td><td style="text-align:center;" class="mono">37</td><td style="text-align:center;"><span class="precision-badge prec-blue">0.740</span></td><td style="text-align:center;" class="mono">[0.604 - 0.841]</td></tr>
+            <tr><td>institution</td><td style="text-align:center;" class="mono">50</td><td style="text-align:center;" class="mono">35</td><td style="text-align:center;"><span class="precision-badge prec-blue">0.700</span></td><td style="text-align:center;" class="mono">[0.562 - 0.809]</td></tr>
+            <tr><td>penalty</td><td style="text-align:center;" class="mono">19</td><td style="text-align:center;" class="mono">11</td><td style="text-align:center;"><span class="precision-badge prec-orange">0.579</span></td><td style="text-align:center;" class="mono">[0.363 - 0.769]</td></tr>
+            <tr><td>objective</td><td style="text-align:center;" class="mono">7</td><td style="text-align:center;" class="mono">4</td><td style="text-align:center;"><span class="precision-badge prec-orange">0.571</span></td><td style="text-align:center;" class="mono">[0.250 - 0.842]</td></tr>
+            <tr><td>policy</td><td style="text-align:center;" class="mono">50</td><td style="text-align:center;" class="mono">28</td><td style="text-align:center;"><span class="precision-badge prec-orange">0.560</span></td><td style="text-align:center;" class="mono">[0.423 - 0.688]</td></tr>
+            <tr><td>temporal</td><td style="text-align:center;" class="mono">22</td><td style="text-align:center;" class="mono">12</td><td style="text-align:center;"><span class="precision-badge prec-orange">0.545</span></td><td style="text-align:center;" class="mono">[0.347 - 0.731]</td></tr>
+            <tr><td>permit</td><td style="text-align:center;" class="mono">10</td><td style="text-align:center;" class="mono">4</td><td style="text-align:center;"><span class="precision-badge prec-red">0.400</span></td><td style="text-align:center;" class="mono">[0.168 - 0.687]</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== SECTION 6: VERSION PROGRESSION ===== -->
+<section id="progression">
+  <div class="container">
+    <div class="section-header fade-in">
+      <span class="section-number">Section V</span>
+      <h2>Version Progression</h2>
+      <p>Systematic precision improvement across six development iterations.</p>
+    </div>
+
+    <div class="chart-container fade-in" style="margin-bottom:2rem;">
+      <canvas id="progressionChart"></canvas>
+    </div>
+
+    <div class="table-wrap fade-in">
+      <table>
+        <thead>
+          <tr>
+            <th>Version</th>
+            <th style="text-align:center;">Macro P</th>
+            <th style="text-align:center;">Micro P</th>
+            <th style="text-align:center;">Extractions</th>
+            <th>Key Changes</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr><td class="mono">v3</td><td style="text-align:center;" class="mono">0.448</td><td style="text-align:center;" class="mono">--</td><td style="text-align:center;" class="mono">6,914</td><td>Initial regex extractors, baseline implementation</td></tr>
+          <tr><td class="mono">v4</td><td style="text-align:center;" class="mono">0.514</td><td style="text-align:center;" class="mono">--</td><td style="text-align:center;" class="mono">6,380</td><td>Added bibliography detection, basic FP filtering</td></tr>
+          <tr><td class="mono">v5</td><td style="text-align:center;" class="mono">0.567</td><td style="text-align:center;" class="mono">0.545</td><td style="text-align:center;" class="mono">4,178</td><td>Marine relevance scoring, garble rejection</td></tr>
+          <tr><td class="mono">v6</td><td style="text-align:center;" class="mono">0.711</td><td style="text-align:center;" class="mono">0.767</td><td style="text-align:center;" class="mono">3,248</td><td>NLP-enhanced filters, word boundary fixes</td></tr>
+          <tr><td class="mono">v7</td><td style="text-align:center;" class="mono">0.777</td><td style="text-align:center;" class="mono">0.809</td><td style="text-align:center;" class="mono">3,155</td><td>Quantitative evidence for findings, Turkish refinements</td></tr>
+          <tr class="version-current"><td class="mono">v9</td><td style="text-align:center;" class="mono">0.792</td><td style="text-align:center;" class="mono">0.826</td><td style="text-align:center;" class="mono">3,142</td><td>Conflict taxonomy overhaul, marine keyword whitelists</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</section>
+
+<!-- ===== SECTION 7: ERROR ANALYSIS ===== -->
+<section id="errors" style="background:var(--white);">
+  <div class="container">
+    <div class="section-header fade-in">
+      <span class="section-number">Section VI</span>
+      <h2>Error Analysis</h2>
+      <p>Distribution of 103 errors across the 610 validated samples.</p>
+    </div>
+
+    <div class="card-grid card-grid-2 fade-in">
+      <div class="chart-container chart-container-sm">
+        <canvas id="errorChart"></canvas>
+      </div>
+      <div class="card" style="display:flex;flex-direction:column;justify-content:center;">
+        <h3 style="color:var(--navy-700);margin-bottom:1.2rem;font-size:1rem;">Error Type Breakdown</h3>
+        <div style="display:grid;gap:0.6rem;">
+          <div style="display:flex;justify-content:space-between;align-items:center;padding:0.5rem 0;border-bottom:1px solid var(--slate-200);">
+            <span style="font-weight:500;">False Positive</span>
+            <span class="mono" style="color:var(--slate-500);">33 (31.1%)</span>
+          </div>
+          <div style="display:flex;justify-content:space-between;align-items:center;padding:0.5rem 0;border-bottom:1px solid var(--slate-200);">
+            <span style="font-weight:500;">Extraction Error</span>
+            <span class="mono" style="color:var(--slate-500);">26 (24.5%)</span>
+          </div>
+          <div style="display:flex;justify-content:space-between;align-items:center;padding:0.5rem 0;border-bottom:1px solid var(--slate-200);">
+            <span style="font-weight:500;">Wrong Category</span>
+            <span class="mono" style="color:var(--slate-500);">25 (23.6%)</span>
+          </div>
+          <div style="display:flex;justify-content:space-between;align-items:center;padding:0.5rem 0;border-bottom:1px solid var(--slate-200);">
+            <span style="font-weight:500;">Reference Only</span>
+            <span class="mono" style="color:var(--slate-500);">6 (5.7%)</span>
+          </div>
+          <div style="display:flex;justify-content:space-between;align-items:center;padding:0.5rem 0;border-bottom:1px solid var(--slate-200);">
+            <span style="font-weight:500;">Wrong Value</span>
+            <span class="mono" style="color:var(--slate-500);">4 (3.8%)</span>
+          </div>
+          <div style="display:flex;justify-content:space-between;align-items:center;padding:0.5rem 0;border-bottom:1px solid var(--slate-200);">
+            <span style="font-weight:500;">Garbled Text</span>
+            <span class="mono" style="color:var(--slate-500);">4 (3.8%)</span>
+          </div>
+          <div style="display:flex;justify-content:space-between;align-items:center;padding:0.5rem 0;border-bottom:1px solid var(--slate-200);">
+            <span style="font-weight:500;">Generic Term</span>
+            <span class="mono" style="color:var(--slate-500);">3 (2.8%)</span>
+          </div>
+          <div style="display:flex;justify-content:space-between;align-items:center;padding:0.5rem 0;">
+            <span style="font-weight:500;">Non-Marine</span>
+            <span class="mono" style="color:var(--slate-500);">2 (1.9%)</span>
+          </div>
+        </div>
+        <p style="margin-top:1.2rem;font-size:0.82rem;color:var(--slate-500);">
+          The three dominant error types (false positive, extraction error, wrong category) account for 79.2% of all errors. These inform priority areas for future refinement.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== SECTION 8: MULTI-STAGE FILTERING ===== -->
+<section id="filtering">
+  <div class="container">
+    <div class="section-header fade-in">
+      <span class="section-number">Section VII</span>
+      <h2>Multi-Stage Filtering Pipeline</h2>
+      <p>From 40,563 keyword matches to 3,142 validated extractions -- a 92.3% noise reduction.</p>
+    </div>
+
+    <div class="noise-comparison fade-in">
+      <div class="noise-box before">
+        <div class="noise-val">40,563</div>
+        <div class="noise-label">Keyword-only extractions</div>
+      </div>
+      <div class="noise-arrow-big">&#10132;</div>
+      <div class="noise-box after">
+        <div class="noise-val">3,142</div>
+        <div class="noise-label">After multi-stage filtering</div>
+      </div>
+    </div>
+    <div style="text-align:center;" class="fade-in">
+      <div class="noise-reduction-badge">92.3% Noise Reduction</div>
+    </div>
+
+    <div class="card-grid card-grid-3 fade-in" style="margin-top:3rem;">
+      <div class="card" style="border-top:3px solid var(--teal-500);">
+        <h4 style="color:var(--navy-700);margin-bottom:0.8rem;font-size:0.95rem;">Bibliography Detection</h4>
+        <p style="font-size:0.85rem;color:var(--slate-600);line-height:1.6;">Five complementary methods ensure reference sections are excluded: section header detection, CRediT author statement recognition, citation density analysis, DOI density scoring, and author-year pattern density thresholds.</p>
+      </div>
+      <div class="card" style="border-top:3px solid var(--teal-500);">
+        <h4 style="color:var(--navy-700);margin-bottom:0.8rem;font-size:0.95rem;">Garble Rejection</h4>
+        <p style="font-size:0.85rem;color:var(--slate-600);line-height:1.6;">PDF text extraction artefacts are detected and rejected: cross-line matches containing newlines, verb-fragment activities, sub-3-character fragments, and malformed Unicode sequences from OCR errors.</p>
+      </div>
+      <div class="card" style="border-top:3px solid var(--teal-500);">
+        <h4 style="color:var(--navy-700);margin-bottom:0.8rem;font-size:0.95rem;">Marine Relevance</h4>
+        <p style="font-size:0.85rem;color:var(--slate-600);line-height:1.6;">Context windows around each match are scored for marine domain relevance. Thresholds are calibrated per document type: 0.15+ for legal documents and 0.20+ for scientific papers, preventing non-marine content capture.</p>
+      </div>
+      <div class="card" style="border-top:3px solid var(--teal-500);">
+        <h4 style="color:var(--navy-700);margin-bottom:0.8rem;font-size:0.95rem;">False Positive Filter</h4>
+        <p style="font-size:0.85rem;color:var(--slate-600);line-height:1.6;">Category-specific validation rules: word boundary enforcement for acronyms (AIS, VMS, ICES), minimum word counts for policy names (2-8 words), marine keyword whitelists for conflict activities, and building dimension exclusions for Turkish law.</p>
+      </div>
+      <div class="card" style="border-top:3px solid var(--teal-500);">
+        <h4 style="color:var(--navy-700);margin-bottom:0.8rem;font-size:0.95rem;">Deduplication</h4>
+        <p style="font-size:0.85rem;color:var(--slate-600);line-height:1.6;">Fuzzy matching and normalization remove duplicate extractions within and across documents. Identical entities appearing in multiple sections of the same document are consolidated into a single canonical extraction.</p>
+      </div>
+      <div class="card" style="border-top:3px solid var(--teal-500);">
+        <h4 style="color:var(--navy-700);margin-bottom:0.8rem;font-size:0.95rem;">5-Method Bibliography</h4>
+        <p style="font-size:0.85rem;color:var(--slate-600);line-height:1.6;">
+          <strong>1.</strong> Section headers (References, Bibliography)<br>
+          <strong>2.</strong> CRediT author statements<br>
+          <strong>3.</strong> Citation density per page<br>
+          <strong>4.</strong> DOI density thresholds<br>
+          <strong>5.</strong> Author-year pattern density
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== SECTION 9: DEEP DIVES ===== -->
+<section id="deepdives" style="background:var(--white);">
+  <div class="container">
+    <div class="section-header fade-in">
+      <span class="section-number">Section VIII</span>
+      <h2>Category Deep Dives</h2>
+      <p>Detailed breakdowns of high-performing extraction categories.</p>
+    </div>
+
+    <div class="fade-in">
+      <div class="collapsible">
+        <div class="collapsible-header" onclick="toggleCollapsible(this)">
+          <div><h4>Legal Reference <span class="prec prec-green">1.000</span></h4></div>
+          <span class="collapsible-chevron">&#9660;</span>
+        </div>
+        <div class="collapsible-body">
+          <p style="font-size:0.9rem;color:var(--slate-600);line-height:1.7;">
+            The legal reference extractor identifies citations to Turkish law articles (e.g., "Madde 5/1"), EU directives (e.g., "Directive 2014/89/EU"), and international conventions (e.g., "UNCLOS Article 56"). With 1,039 extractions at perfect precision (N=50), this is the highest-volume and most reliable category. Patterns cover Turkish legal numbering formats, European legal reference styles, and international treaty citation conventions.
+          </p>
+        </div>
+      </div>
+
+      <div class="collapsible">
+        <div class="collapsible-header" onclick="toggleCollapsible(this)">
+          <div><h4>Species <span class="prec prec-green">0.980</span></h4></div>
+          <span class="collapsible-chevron">&#9660;</span>
+        </div>
+        <div class="collapsible-body">
+          <p style="font-size:0.9rem;color:var(--slate-600);line-height:1.7;">
+            Extracts 244 marine species with both scientific binomial names (e.g., <em>Posidonia oceanica</em>, <em>Caretta caretta</em>) and common names (e.g., bottlenose dolphin, Mediterranean monk seal). The extractor handles italicized Latin names, Turkish common names, and multi-word species descriptors. Marine relevance filtering excludes terrestrial species that may appear in peripheral document sections.
+          </p>
+        </div>
+      </div>
+
+      <div class="collapsible">
+        <div class="collapsible-header" onclick="toggleCollapsible(this)">
+          <div><h4>Environmental <span class="prec prec-green">0.980</span></h4></div>
+          <span class="collapsible-chevron">&#9660;</span>
+        </div>
+        <div class="collapsible-body">
+          <p style="font-size:0.9rem;color:var(--slate-600);line-height:1.7;">
+            Captures 245 environmental parameters and conditions: water quality indicators, pollution types (marine litter, microplastics, oil spills, eutrophication), underwater noise, biodiversity indices, and habitat conditions. Patterns distinguish between environmental measurements and generic mentions, requiring quantitative or descriptive context to qualify as valid extractions.
+          </p>
+        </div>
+      </div>
+
+      <div class="collapsible">
+        <div class="collapsible-header" onclick="toggleCollapsible(this)">
+          <div><h4>Stakeholder <span class="prec prec-green">0.960</span></h4></div>
+          <span class="collapsible-chevron">&#9660;</span>
+        </div>
+        <div class="collapsible-body">
+          <p style="font-size:0.9rem;color:var(--slate-600);line-height:1.7;">
+            Identifies 296 stakeholder entities: government ministries and agencies, non-governmental organizations (WWF, IUCN), industry actors (fisheries, aquaculture, shipping, energy), research institutions, and local communities (fishing cooperatives, coastal municipalities). The extractor handles both English organizational names and Turkish institutional titles.
+          </p>
+        </div>
+      </div>
+
+      <div class="collapsible">
+        <div class="collapsible-header" onclick="toggleCollapsible(this)">
+          <div><h4>Data Source <span class="prec prec-green">0.920</span></h4></div>
+          <span class="collapsible-chevron">&#9660;</span>
+        </div>
+        <div class="collapsible-body">
+          <p style="font-size:0.9rem;color:var(--slate-600);line-height:1.7;">
+            Extracts 227 references to datasets, databases, and monitoring systems used in MSP: vessel tracking systems (AIS, VMS), satellite data (Landsat, Sentinel), bathymetric data (GEBCO), marine data portals (EMODnet, Copernicus Marine), fisheries databases (ICES, FAO), and environmental monitoring networks. Word boundary enforcement prevents false positives from acronym substrings.
+          </p>
+        </div>
+      </div>
+
+      <div class="collapsible">
+        <div class="collapsible-header" onclick="toggleCollapsible(this)">
+          <div><h4>Method <span class="prec prec-green">0.900</span></h4></div>
+          <span class="collapsible-chevron">&#9660;</span>
+        </div>
+        <div class="collapsible-body">
+          <p style="font-size:0.9rem;color:var(--slate-600);line-height:1.7;">
+            Captures 408 methodological references across 13 types: ecosystem-based management (EBM), systematic conservation planning (Marxan, Zonation), geographic information systems (GIS, remote sensing), participatory methods (stakeholder workshops, Delphi surveys), cumulative impact assessment (CIA), cost-benefit analysis, scenario modeling, and statistical approaches. The method extractor requires minimum 2-word phrases to avoid single-word generic captures.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== SECTION 10: BILINGUAL SUPPORT ===== -->
+<section id="bilingual">
+  <div class="container">
+    <div class="section-header fade-in">
+      <span class="section-number">Section IX</span>
+      <h2>Bilingual Extraction Support</h2>
+      <p>Native pattern matching for both English and Turkish documents.</p>
+    </div>
+
+    <div class="card-grid card-grid-2 fade-in">
+      <div class="card">
+        <h3 style="color:var(--navy-700);margin-bottom:1rem;font-size:1rem;">
+          <span class="lang-tag lang-en">EN</span>
+          <span class="lang-tag lang-tr" style="margin-left:0.3rem;">TR</span>
+          &nbsp; Dual-Language Architecture
+        </h3>
+        <p style="font-size:0.88rem;color:var(--slate-600);line-height:1.7;">
+          All 22 extractors maintain parallel pattern sets for English and Turkish. Turkish patterns handle the full extended character set including dotted/dotless I distinction, cedilla characters, and Turkish-specific legal terminology.
+        </p>
+        <div style="margin-top:1.2rem;padding:1rem;background:var(--slate-100);border-radius:var(--radius);font-family:'SF Mono','Fira Code',monospace;font-size:0.8rem;">
+          <div style="color:var(--slate-500);margin-bottom:0.3rem;">Turkish extended characters:</div>
+          <div style="color:var(--navy-700);font-size:1.1rem;letter-spacing:0.1em;">
+            &Ccedil; &ccedil; &nbsp; G&#x306; g&#x306; &nbsp; I&#x307; &#x131; &nbsp; &Ouml; &ouml; &nbsp; S&#x327; s&#x327; &nbsp; &Uuml; &uuml;
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <h3 style="color:var(--navy-700);margin-bottom:1rem;font-size:1rem;">Bilingual Pattern Examples</h3>
+        <div style="display:grid;gap:0.8rem;">
+          <div style="padding:0.8rem;background:var(--teal-50);border-radius:var(--radius);">
+            <div style="font-size:0.75rem;color:var(--teal-600);font-weight:600;margin-bottom:0.3rem;">Legal Reference</div>
+            <div style="font-size:0.82rem;color:var(--slate-600);">
+              <span class="lang-tag lang-en">EN</span> "Article 5(2) of Directive 2014/89/EU"<br>
+              <span class="lang-tag lang-tr">TR</span> "5237 say&#x131;l&#x131; Kanun Madde 12/3"
+            </div>
+          </div>
+          <div style="padding:0.8rem;background:var(--teal-50);border-radius:var(--radius);">
+            <div style="font-size:0.75rem;color:var(--teal-600);font-weight:600;margin-bottom:0.3rem;">Stakeholder</div>
+            <div style="font-size:0.82rem;color:var(--slate-600);">
+              <span class="lang-tag lang-en">EN</span> "Ministry of Environment"<br>
+              <span class="lang-tag lang-tr">TR</span> "&Ccedil;evre ve S&#x327;ehircilik Bakanl&#x131;g&#x306;&#x131;"
+            </div>
+          </div>
+          <div style="padding:0.8rem;background:var(--teal-50);border-radius:var(--radius);">
+            <div style="font-size:0.75rem;color:var(--teal-600);font-weight:600;margin-bottom:0.3rem;">Prohibition</div>
+            <div style="font-size:0.82rem;color:var(--slate-600);">
+              <span class="lang-tag lang-en">EN</span> "fishing is prohibited within..."<br>
+              <span class="lang-tag lang-tr">TR</span> "avc&#x131;l&#x131;k yasakt&#x131;r"
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== SECTION 11: GAP DETECTION ===== -->
+<section id="gaps" style="background:var(--white);">
+  <div class="container">
+    <div class="section-header fade-in">
+      <span class="section-number">Section X</span>
+      <h2>Gap Detection</h2>
+      <p>A novel contribution: automated identification of knowledge and policy gaps across the corpus.</p>
+    </div>
+
+    <div class="card-grid card-grid-2 fade-in">
+      <div class="card" style="border-left:4px solid var(--teal-500);">
+        <h4 style="color:var(--navy-700);margin-bottom:0.8rem;">Research Gaps</h4>
+        <p style="font-size:0.88rem;color:var(--slate-600);line-height:1.7;">
+          Identifies explicit statements of missing knowledge, understudied topics, and calls for further investigation in the research literature. These inform priority areas for future MSP research.
+        </p>
+      </div>
+      <div class="card" style="border-left:4px solid var(--teal-500);">
+        <h4 style="color:var(--navy-700);margin-bottom:0.8rem;">Legal Gaps</h4>
+        <p style="font-size:0.88rem;color:var(--slate-600);line-height:1.7;">
+          Detects regulatory lacunae: missing legal frameworks, insufficient enforcement mechanisms, and jurisdictional ambiguities in marine governance. Particularly relevant for Turkish maritime law analysis.
+        </p>
+      </div>
+      <div class="card" style="border-left:4px solid var(--orange-500);">
+        <h4 style="color:var(--navy-700);margin-bottom:0.8rem;">Data Gaps</h4>
+        <p style="font-size:0.88rem;color:var(--slate-600);line-height:1.7;">
+          Captures mentions of missing datasets, insufficient monitoring coverage, and data quality limitations. These gaps directly impact the evidence base available for spatial planning decisions.
+        </p>
+      </div>
+      <div class="card" style="border-left:4px solid var(--orange-500);">
+        <h4 style="color:var(--navy-700);margin-bottom:0.8rem;">Integration Gaps</h4>
+        <p style="font-size:0.88rem;color:var(--slate-600);line-height:1.7;">
+          A novel cross-document analysis: identifies disconnects between research findings and legal frameworks. For example, species studied extensively in the literature but absent from protective legislation, or legally defined zones lacking scientific baseline data.
+        </p>
+      </div>
+    </div>
+
+    <div class="card fade-in" style="margin-top:1.5rem;text-align:center;background:var(--teal-50);border:1px solid var(--teal-200);">
+      <p style="font-size:0.95rem;color:var(--navy-700);font-weight:500;">
+        165 gaps identified across the corpus, enabling evidence-based prioritization of future MSP research and policy development.
+      </p>
+    </div>
+  </div>
+</section>
+
+<!-- ===== FOOTER ===== -->
+<footer class="footer" id="footer">
+  <div class="container">
+    <div class="footer-title">MSP Knowledge Extraction System</div>
+    <p style="margin-bottom:0.5rem;">Ahsan Hussain Khan &mdash; University of Vigo</p>
+    <p style="margin-bottom:1rem;">February 2026</p>
+    <p>
+      <a href="https://github.com/drahsanhussainkhan-cmd/msp-knowledge-extraction" target="_blank">github.com/drahsanhussainkhan-cmd/msp-knowledge-extraction</a>
+    </p>
+  </div>
+</footer>
+
+<!-- ===== JAVASCRIPT ===== -->
+<script>
+// ===== Navbar scroll effect =====
+window.addEventListener('scroll', () => {
+  document.getElementById('navbar').classList.toggle('scrolled', window.scrollY > 10);
+});
+
+// ===== Active nav link tracking =====
+const sections = document.querySelectorAll('section[id]');
+const navLinks = document.querySelectorAll('.nav-links a');
+window.addEventListener('scroll', () => {
+  let current = '';
+  sections.forEach(section => {
+    const top = section.offsetTop - 80;
+    if (window.scrollY >= top) current = section.getAttribute('id');
+  });
+  navLinks.forEach(link => {
+    link.classList.remove('active');
+    if (link.getAttribute('href') === '#' + current) link.classList.add('active');
+  });
+});
+
+// ===== Scroll fade-in animation =====
+const observer = new IntersectionObserver((entries) => {
+  entries.forEach(entry => {
+    if (entry.isIntersecting) {
+      entry.target.classList.add('visible');
+    }
+  });
+}, { threshold: 0.1, rootMargin: '0px 0px -40px 0px' });
+document.querySelectorAll('.fade-in').forEach(el => observer.observe(el));
+
+// ===== Collapsible sections =====
+function toggleCollapsible(header) {
+  header.parentElement.classList.toggle('open');
+}
+
+// ===== Sortable tables =====
+function sortTable(tableId, colIndex) {
+  const table = document.getElementById(tableId);
+  const tbody = table.querySelector('tbody');
+  const rows = Array.from(tbody.querySelectorAll('tr'));
+  const th = table.querySelectorAll('thead th')[colIndex];
+  const asc = !th.classList.contains('sorted-asc');
+
+  // Clear sorted state from all headers
+  table.querySelectorAll('thead th').forEach(h => {
+    h.classList.remove('sorted', 'sorted-asc', 'sorted-desc');
+  });
+  th.classList.add('sorted', asc ? 'sorted-asc' : 'sorted-desc');
+
+  rows.sort((a, b) => {
+    let aVal = a.cells[colIndex].textContent.trim().replace(/,/g, '');
+    let bVal = b.cells[colIndex].textContent.trim().replace(/,/g, '');
+    const aNum = parseFloat(aVal);
+    const bNum = parseFloat(bVal);
+    if (!isNaN(aNum) && !isNaN(bNum)) {
+      return asc ? aNum - bNum : bNum - aNum;
+    }
+    return asc ? aVal.localeCompare(bVal) : bVal.localeCompare(aVal);
+  });
+  rows.forEach(row => tbody.appendChild(row));
+}
+
+// ===== Chart.js Global Defaults =====
+Chart.defaults.font.family = "'Inter', -apple-system, sans-serif";
+Chart.defaults.font.size = 12;
+Chart.defaults.color = '#4b5563';
+
+// ===== Category Bar Chart =====
+const categoryCtx = document.getElementById('categoryChart').getContext('2d');
+const categoryLabels = ['legal_reference','method','stakeholder','environmental','species','data_source','policy','gap','institution','distance','protected_area','temporal','penalty','permit','conflict','objective','prohibition'];
+const categoryCounts = [1039,408,296,245,244,227,185,165,153,61,37,22,19,10,9,7,6];
+
+new Chart(categoryCtx, {
+  type: 'bar',
+  data: {
+    labels: categoryLabels,
+    datasets: [{
+      label: 'Extraction Count',
+      data: categoryCounts,
+      backgroundColor: categoryLabels.map((_, i) => {
+        const ratio = i / (categoryLabels.length - 1);
+        return `rgba(${Math.round(10 + ratio * 70)}, ${Math.round(76 + (1 - ratio) * 78)}, ${Math.round(110 + (1 - ratio) * 73)}, 0.85)`;
+      }),
+      borderColor: 'rgba(10, 76, 110, 0.3)',
+      borderWidth: 1,
+      borderRadius: 4
+    }]
+  },
+  options: {
+    indexAxis: 'y',
+    responsive: true,
+    maintainAspectRatio: false,
+    plugins: {
+      legend: { display: false },
+      title: {
+        display: true,
+        text: 'Extractions by Category',
+        font: { size: 14, weight: '600' },
+        color: '#0a3148',
+        padding: { bottom: 16 }
+      },
+      tooltip: {
+        backgroundColor: '#0a3148',
+        titleFont: { weight: '600' },
+        padding: 10,
+        cornerRadius: 6
+      }
+    },
+    scales: {
+      x: {
+        grid: { color: 'rgba(0,0,0,0.05)' },
+        title: { display: true, text: 'Count', font: { weight: '500' } }
+      },
+      y: {
+        grid: { display: false },
+        ticks: { font: { size: 11 } }
+      }
+    }
+  }
+});
+
+// ===== Precision Bar Chart =====
+const precCtx = document.getElementById('precisionChart').getContext('2d');
+const precCategories = ['conflict','legal_reference','prohibition','environmental','species','stakeholder','data_source','method','gap','protected_area','distance','institution','penalty','objective','policy','temporal','permit'];
+const precValues = [1.0,1.0,1.0,0.98,0.98,0.96,0.92,0.90,0.84,0.784,0.74,0.70,0.579,0.571,0.56,0.545,0.40];
+
+function precColor(v) {
+  if (v >= 0.90) return 'rgba(16, 185, 129, 0.8)';
+  if (v >= 0.70) return 'rgba(59, 130, 246, 0.8)';
+  if (v >= 0.50) return 'rgba(245, 158, 11, 0.8)';
+  return 'rgba(239, 68, 68, 0.8)';
+}
+
+new Chart(precCtx, {
+  type: 'bar',
+  data: {
+    labels: precCategories,
+    datasets: [{
+      label: 'Precision',
+      data: precValues,
+      backgroundColor: precValues.map(precColor),
+      borderColor: precValues.map(v => {
+        if (v >= 0.90) return 'rgba(5, 150, 105, 1)';
+        if (v >= 0.70) return 'rgba(37, 99, 235, 1)';
+        if (v >= 0.50) return 'rgba(217, 119, 6, 1)';
+        return 'rgba(220, 38, 38, 1)';
+      }),
+      borderWidth: 1,
+      borderRadius: 4
+    }]
+  },
+  options: {
+    indexAxis: 'y',
+    responsive: true,
+    maintainAspectRatio: false,
+    plugins: {
+      legend: { display: false },
+      title: {
+        display: true,
+        text: 'Precision by Category (sorted)',
+        font: { size: 14, weight: '600' },
+        color: '#0a3148',
+        padding: { bottom: 16 }
+      },
+      tooltip: {
+        backgroundColor: '#0a3148',
+        callbacks: {
+          label: ctx => 'Precision: ' + ctx.parsed.x.toFixed(3)
+        }
+      }
+    },
+    scales: {
+      x: {
+        min: 0, max: 1.05,
+        grid: { color: 'rgba(0,0,0,0.05)' },
+        ticks: { callback: v => v.toFixed(1) },
+        title: { display: true, text: 'Precision', font: { weight: '500' } }
+      },
+      y: {
+        grid: { display: false },
+        ticks: { font: { size: 11 } }
+      }
+    }
+  }
+});
+
+// ===== Version Progression Chart =====
+const progCtx = document.getElementById('progressionChart').getContext('2d');
+new Chart(progCtx, {
+  type: 'line',
+  data: {
+    labels: ['v3', 'v4', 'v5', 'v6', 'v7', 'v9'],
+    datasets: [
+      {
+        label: 'Macro Precision',
+        data: [0.448, 0.514, 0.567, 0.711, 0.777, 0.792],
+        borderColor: '#0a4c6e',
+        backgroundColor: 'rgba(10, 76, 110, 0.1)',
+        fill: true,
+        tension: 0.3,
+        pointBackgroundColor: '#0a4c6e',
+        pointBorderColor: '#fff',
+        pointBorderWidth: 2,
+        pointRadius: 6,
+        pointHoverRadius: 8,
+        borderWidth: 3
+      },
+      {
+        label: 'Micro Precision',
+        data: [null, null, 0.545, 0.767, 0.809, 0.826],
+        borderColor: '#2d9ab7',
+        backgroundColor: 'rgba(45, 154, 183, 0.08)',
+        fill: true,
+        tension: 0.3,
+        pointBackgroundColor: '#2d9ab7',
+        pointBorderColor: '#fff',
+        pointBorderWidth: 2,
+        pointRadius: 6,
+        pointHoverRadius: 8,
+        borderWidth: 3,
+        borderDash: [6, 3]
+      },
+      {
+        label: 'Extractions (scaled)',
+        data: [6914/10000, 6380/10000, 4178/10000, 3248/10000, 3155/10000, 3142/10000],
+        borderColor: '#9ca3af',
+        backgroundColor: 'transparent',
+        tension: 0.3,
+        pointBackgroundColor: '#9ca3af',
+        pointBorderColor: '#fff',
+        pointBorderWidth: 2,
+        pointRadius: 4,
+        pointHoverRadius: 6,
+        borderWidth: 2,
+        borderDash: [3, 3]
+      }
+    ]
+  },
+  options: {
+    responsive: true,
+    maintainAspectRatio: false,
+    interaction: {
+      mode: 'index',
+      intersect: false
+    },
+    plugins: {
+      title: {
+        display: true,
+        text: 'Precision Improvement Across Versions',
+        font: { size: 15, weight: '600' },
+        color: '#0a3148',
+        padding: { bottom: 20 }
+      },
+      tooltip: {
+        backgroundColor: '#0a3148',
+        padding: 12,
+        cornerRadius: 8,
+        callbacks: {
+          label: function(ctx) {
+            if (ctx.dataset.label === 'Extractions (scaled)') {
+              const actual = [6914, 6380, 4178, 3248, 3155, 3142];
+              return 'Extractions: ' + actual[ctx.dataIndex].toLocaleString();
+            }
+            if (ctx.parsed.y !== null) return ctx.dataset.label + ': ' + ctx.parsed.y.toFixed(3);
+            return '';
+          }
+        }
+      },
+      legend: {
+        position: 'bottom',
+        labels: {
+          usePointStyle: true,
+          padding: 20,
+          font: { size: 12 }
+        }
+      },
+      annotation: undefined
+    },
+    scales: {
+      y: {
+        min: 0.3,
+        max: 1.0,
+        grid: { color: 'rgba(0,0,0,0.05)' },
+        title: { display: true, text: 'Precision / Scaled Count', font: { weight: '500' } },
+        ticks: { callback: v => v.toFixed(1) }
+      },
+      x: {
+        grid: { display: false },
+        title: { display: true, text: 'Version', font: { weight: '500' } }
+      }
+    }
+  }
+});
+
+// ===== Error Analysis Doughnut =====
+const errorCtx = document.getElementById('errorChart').getContext('2d');
+new Chart(errorCtx, {
+  type: 'doughnut',
+  data: {
+    labels: ['False Positive (31.1%)', 'Extraction Error (24.5%)', 'Wrong Category (23.6%)', 'Reference Only (5.7%)', 'Wrong Value (3.8%)', 'Garbled Text (3.8%)', 'Generic Term (2.8%)', 'Non-Marine (1.9%)'],
+    datasets: [{
+      data: [33, 26, 25, 6, 4, 4, 3, 2],
+      backgroundColor: [
+        '#ef4444',
+        '#f97316',
+        '#eab308',
+        '#2d9ab7',
+        '#8b5cf6',
+        '#6b7280',
+        '#14b8a6',
+        '#ec4899'
+      ],
+      borderColor: '#ffffff',
+      borderWidth: 3,
+      hoverOffset: 8
+    }]
+  },
+  options: {
+    responsive: true,
+    maintainAspectRatio: false,
+    cutout: '55%',
+    plugins: {
+      title: {
+        display: true,
+        text: 'Error Type Distribution (N=103)',
+        font: { size: 14, weight: '600' },
+        color: '#0a3148',
+        padding: { bottom: 12 }
+      },
+      legend: {
+        position: 'bottom',
+        labels: {
+          usePointStyle: true,
+          pointStyle: 'circle',
+          padding: 12,
+          font: { size: 10.5 }
+        }
+      },
+      tooltip: {
+        backgroundColor: '#0a3148',
+        padding: 10,
+        cornerRadius: 6,
+        callbacks: {
+          label: ctx => {
+            const total = ctx.dataset.data.reduce((a, b) => a + b, 0);
+            const pct = ((ctx.parsed / total) * 100).toFixed(1);
+            return ctx.label.split('(')[0].trim() + ': ' + ctx.parsed + ' (' + pct + '%)';
+          }
+        }
+      }
+    }
+  }
+});
+</script>
+
+</body>
+</html>

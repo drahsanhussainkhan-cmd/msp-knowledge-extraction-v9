@@ -1,0 +1,175 @@
+﻿id,source_file,condition_type,description,value,unit,exact_text,context,page_number,confidence,marine_relevance,is_correct,is_relevant,error_type,notes
+1,Risk-based-path-planning-for-autonomous-underwater-vehicles_2022_Ocean-Engin.pdf,pollution_petroleum,oil spill environment was proposed,,,oil spill environment was proposed,"sion
+tions and real experimental validation. For potential experimental
+simulations, other key parameters besides the path length could be In this study, a systematic risk-based path planning approach",10,0.8,0.5,y,y,,Oil spill environment referenced as a scenario for autonomous underwater vehicle path planning
+2,A-risk-based-approach-to-cumulative-effects-assessment-for_2023_Journal-of-E.pdf,environmental_condition,"to achieve a robust and standardized outcome to atic literature review, to ident",,,"cumulative effects to achieve a robust and standardized outcome to atic literature review, to ident","g pressures, and
+with regional governance settings. This further guides the data and in- the effects on the respective ecosystem components, processes, and
+formation gathering and gap-filling process ",2,0.8,1.0,y,y,,Valid environmental condition; cumulative effects assessment on ecosystem components
+3,35.pdf,environmental_condition,"is heightened, but sub- development projects that are still in early stages of a",,,"cumulative impacts is heightened, but sub- development projects that are still in early stages of a","ralia, and other countries where offshore wind is still in the information on the species assessed across key industries in the Bass
+development and planning stages (e.g., Brazil, Pakistan, Malaysia),",2,0.8,1.0,y,y,,Valid environmental condition; cumulative impacts from offshore wind development
+4,Scenario-based-cumulative-impacts-assessment-on-iconic-s_2026_Environmental-.pdf,environmental_condition,scores,,,cumulative impact scores,"ative impacts on focal species' habitats under different scenarios in the YRE. CM: Chongming Island; CX: Changxing Island; DT:
+Chongming Dongtan; HS: Hengsha Island; JDS: Jiuduansha Island; QD: Qidong",9,0.8,1.0,y,y,,Cumulative impact scores as environmental metric for focal species habitats in Yangtze River Estuary scenarios
+5,Cumulative-impact-assessment-for-ecosystem-based-_2020_Science-of-The-Total-.pdf,water_quality_ph,Eutrophication Phosphorousbackground 1,,,Eutrophication Phosphorousbackground 1,"tocumulativeenvironmentalimpactundercurrentconditions(baseline),givenforallwatersandthepartscoveredbytheMSP,in
+SwedishNorthSea(NS)andBalticSea(BS).
+Baselineresults Pressure Contributiontocumulativeimp",4,0.8,0.5,y,y,,Valid eutrophication condition with phosphorus as pressure in Swedish North Sea and Baltic Sea
+6,Combining-the-cumulative-impact-and-marine-use-conflict-syner_2026_Marine-Po.pdf,environmental_condition,are substantial but 3,,,cumulative impacts are substantial but 3,"cological protection and habitat restoration for compatibility but imposed significant ecological stress on keystone
+key species, with restrictions on most extractive uses. The Ecological species.
+Con",6,0.8,0.5,y,y,,Valid environmental condition; cumulative impacts causing ecological stress on keystone species
+7,Combining-the-cumulative-impact-and-marine-use-conflict-syner_2026_Marine-Po.pdf,water_quality,water quality deterioration and infrastructure (e,,,water quality deterioration and infrastructure (e,"alth continues to decline, necessitating urgent con- human use and a primary source of cumulative impacts on habitats
+servation measures (Xu et al., 2023). Land-based discharges, rather than critical ",9,0.8,1.0,y,y,,Valid marine water quality deterioration from land-based discharges
+8,A-risk-based-approach-to-cumulative-effects-assessment-for_2023_Journal-of-E.pdf,environmental_impact,to highlight more impacted areas,,,cumulative effects to highlight more impacted areas,"ion of marine protected areas network under
+gramme/Global Environment Facility, 2020). discussion in the YSLME now, which could serve as a starting point for
+Our study took a step further and offered ",10,0.8,1.0,y,y,,Valid environmental impact; cumulative effects used to identify impacted marine areas
+9,Scenario-based-cumulative-impacts-assessment-on-iconic-s_2026_Environmental-.pdf,environmental_condition,on focal species' habitats under different scenarios in the YRE,,,cumulative impacts on focal species' habitats under different scenarios in the YRE,"isons suggest that, within the
+wider array of key pressures. In our scenario comparison, adding an
+confines of this modeling framework and for the selected iconic species,
+8
+
+Z. Zhu et al. E n v i r o",8,0.8,1.0,y,y,,Valid environmental condition; cumulative impacts on focal species habitats under different scenarios in Yangtze River Estuary
+10,A-risk-based-approach-to-cumulative-effects-assessment-for_2023_Journal-of-E.pdf,habitat_condition,biodiversity loss (Jaureguiberry et al,,,biodiversity loss (Jaureguiberry et al,"the
+coastal wetlands converted to agricultural land) and pollution knowledge base for identifying the most concerning activities and their
+(including contaminations and nutrients) are the dominant pre",8,0.8,1.0,y,y,,Valid habitat condition; biodiversity loss from wetland conversion and pollution
+11,Scenario-based-cumulative-impacts-assessment-on-iconic-s_2026_Environmental-.pdf,environmental_condition,"on global marine ecosystems Delta, this region is also 1of the river estuaries w",,,"cumulative impacts on global marine ecosystems Delta, this region is also 1of the river estuaries w","or
+2013), and informing regional conservation strategies by HELCOM the survival and reproduction of aquatic and endangered species (Zhai
+(Korpinen et al., 2017). Furthermore, the CIA framework has bee",2,0.8,1.0,y,y,,Valid environmental condition; cumulative impacts on global marine ecosystems including river estuary impacts on aquatic species
+12,7.5.7221.pdf,environmental_condition,atıksu altyapı tesislerine verilmesi yasaktır,,,atıksu altyapı tesislerine verilmesi yasaktır,"inin arıtma verimini, çamur tesislerinin işletilmesini, çamur bertarafını
+veya çamur değerlendirilmesini olumsuz yönde etkileyen maddeler; atıksu tesislerini tahrip eden,
+fonkisyonlarını ve bakımların",19,0.8,1.0,y,y,,Valid environmental regulation; prohibition on discharging harmful substances to wastewater infrastructure
+13,1.5.2872_2872 Sayılı Çevre Kanunu.pdf,environmental_condition,"atıksu toplama, arıtma ve bertaraf ücreti alınır",,,"atıksu toplama, arıtma ve bertaraf ücreti alınır","timlerin yapacağı her türlü
+yatırım, işletme, bakım, onarım, ıslah ve temizleme harcamalarının tamamına kirlilik yükü ve
+atıksu miktarı oranında katılmak zorundadırlar. Bu hizmetlerden yararlananlarda",9,0.8,1.0,y,y,,"Valid environmental regulation; wastewater collection, treatment, and disposal fee requirements for polluters"
+14,Marine-Spatial-Planning-Scheme-evaluation-based-on-the-co_2022_Ocean---Coast.pdf,water_quality,"water quality was poor, especially in the sea area with dense highest density of functional zo",,,"water quality was poor, especially in the sea area with dense highest density of functional zo","ith a high density, leading to potential conflicts in the interfaces be- standard values, such as IUZ, PZ, CAZ, or areas with the worst biodi-
+tween different functional zones. Regarding the environme",9,0.8,1.0,y,y,,Valid marine water quality condition; poor water quality in dense functional zones of sea area with environmental assessment
+15,49.pdf,water_quality_ph,eutrophication models exist (e,,,eutrophication models exist (e,"t of nutrients (nitrogen; phosphorus) and
+used instead of individual national measures. This had the added benefit water quality states (e.g., chlorophyll a; oxygen debt; total nitrogen;
+of creating a",8,0.8,1.0,y,y,,"Valid eutrophication model reference with nitrogen, phosphorus, chlorophyll a, and oxygen debt as water quality parameters"
+16,Integrating-marine-spatial-planning-into-blue-economy-policie_2025_Marine-Po.pdf,environmental_condition,Ocean Acidification Network (includes Mexico) include the (PROCARIBE+Project),,,Ocean Acidification Network (includes Mexico) include the (PROCARIBE+Project),"not yet been imple-
+but also promotes regional hubs address ocean acidification – joined the mented. In terms of funding, they all rely exclusively on government
+Latin American Ocean Acidification Net",5,0.8,1.0,y,y,,Valid environmental condition; Ocean Acidification Network including Mexico in Latin American regional marine context
+17,Human-reliability-analysis-of-the-shipboard-oil-pollution-eme_2025_Ocean-Eng.pdf,pollution,marine pollution and elucidates the objective and extent time,,,marine pollution and elucidates the objective and extent time,"ctive responses to oil spills in the Irish Sea. The
+scope of SOPEP. model’s primary function is to identify potential risks by simulating the
+The structure of the study is outlined as follows: The ini",2,0.8,1.0,y,y,,Valid marine pollution; discharge definition from ITOPF with oil spill response in Irish Sea context
+18,35.pdf,environmental_condition,was implied,,,cumulative impacts was implied,"mental monitoring programmes to assess cumulative impacts at a
+applying the DAPSIR framework already existing (e.g., in the scientific regional scale rather than a project basis. Prior to this amendme",5,0.8,0.5,y,y,,Valid environmental condition; cumulative impacts implied in DAPSIR monitoring framework
+19,35.pdf,environmental_condition,on species assessed,,,cumulative effects on species assessed,"nked to social assets, and 1to use, oil leases, and conserved areas (MPAs and IPAs). MPAs had high
+cultural heritage (habitat disturbance). overlap with oil leases, recreational boat use, and shipping",4,0.8,0.5,y,y,,Valid environmental condition; cumulative effects on assessed species from oil and shipping
+20,A-multi-task-deep-learning-framework-for-classification--dete_2025_Ocean-Eng.pdf,environmental_condition,temperature,27.4,,temperature of 27.4 ,"least 1year to capture multiple fouling development
+datasets. As a result, most existing studies have focused only on classi- stages and ensure robust temporal representation. The Sanya coastal
+fying ",2,0.9,1.0,y,y,,Valid environmental measurement; sea temperature of 27.4 in coastal fouling study
+21,Combining-the-cumulative-impact-and-marine-use-conflict-syner_2026_Marine-Po.pdf,water_quality,water quality deterioration (e,,,water quality deterioration (e,"ive human activities (e.g., coastal reclama-
+conflicting relationships between marine multi-use activities and tion, shipping, fishing, and pollution) have degraded critical habitats,
+biodiversity pro",2,0.8,0.833,y,y,,Valid marine water quality deterioration from coastal reclamation and multiple human activities
+22,Combining-the-cumulative-impact-and-marine-use-conflict-syner_2026_Marine-Po.pdf,environmental_condition,"of selected spe- conservation urgency, while higher MCSA scores denoted higher c",,,"cumulative impact of selected spe- conservation urgency, while higher MCSA scores denoted higher c","ere delineated using Cumulative
+∑n ∑n
+Impact Assessment (CIA) and MCSA, reflecting species habitat conser-
+I= Pi ×μ i,j ×wj (1) vation needs under cumulative human pressures and protection oppor-
+i=1 ",5,0.8,1.0,y,y,,Valid environmental condition; cumulative impact assessment of species conservation urgency
+23,Integrating-cultural-and-natural-assets-in-marine-spatial_2024_Journal-for-N.pdf,water_quality_salinity,salinity,4000.0,,salinity 4000 ,"ata,sf(Pebesma,2018)for
+3
+
+Table1
+Environmentalandhumanpressurevariables.
+Variable Abbreviation Spatialresolutionoftheoriginallayer(m) Source
+Waterdepth(m) depth 5 EstonianMaritimeAdministration,2023
+",4,0.9,1.0,y,y,,Valid environmental measurement; salinity 4000 (likely mg/L or PSU units) from Estonian Maritime Administration spatial data for marine planning
+24,Operationalisation-of-ecosystem-services-in-support-of-ecosystem_2021_Marine.pdf,environmental_condition,Assessment tool,,,Cumulative Effect Assessment tool,"credits; contingent valuation; Bayesian Belief-Networks;
+in magroves regulating post-normal science.
+Cultural (I) Monetary and non-monetary values.
+(T/S) Trade-offs between aquaculture and environment",7,0.8,1.0,n,n,wrong_entity_type,"Extracted the name of an assessment methodology/tool rather than an actual environmental condition, impact, or pollution mention"
+25,7.5.7221.pdf,environmental_impact,atıksu altyapı tesisi yönetimleri yetkilidir,,,atıksu altyapı tesisi yönetimleri yetkilidir,"sisi yönetimleri
+mevzuatlarında belirlenen usul ve esaslar çerçevesinde yetkilidir.
+Kanalizasyon sistemi arıtma tesisi ile sonuçlanmayan, İş Termin Planı uygun olan ve
+taahhütlerine uyan atıksu altyap",20,0.8,1.0,y,y,,Valid environmental regulation; wastewater infrastructure authority in Turkish environmental law context
+26,MUTE-DSS--A-digital-twin-based-decision-support-system-for-min_2026_Ocean-En.pdf,noise,noise pollution in dynamically evolving marine ecosystems,,,noise pollution in dynamically evolving marine ecosystems,"n By operationalizing DT principles through ROS2, MUTE-DSS transforms
+et al., 2022). The choice of energy cost models (empirical, data-driven, voyage planning into a predictive, self-optimizing proces",2,0.8,1.0,y,y,,Valid environmental condition; noise pollution in dynamically evolving marine ecosystems from digital twin decision support system
+27,Aquaculture-and-offshore-wind--A-review-of-co-location-de_2025_Ocean-Enginee.pdf,water_quality,"water quality control and protection from dropperlinesorsuspendedcages(Paulson,2022)",,,"water quality control and protection from dropperlinesorsuspendedcages(Paulson,2022)","ixedtothe
+treated. This system allows for a much more controlled environment, seafloorbyamooringsystemandsuspendedbysupportbuoys(Stevens
+similar that of an in-land aquaculture system (Chu et al., 2020",6,0.8,0.5,y,y,,Valid water quality condition in aquaculture and offshore wind co-location context
+28,Scenario-based-cumulative-impacts-assessment-on-iconic-s_2026_Environmental-.pdf,environmental_impact,"areas for each species habitats Under Scenario S1, the impact of commercial fish",,,"cumulative impact areas for each species habitats Under Scenario S1, the impact of commercial fish","primary influencing factors of the cu-
+mulative impact under all scenarios in the YRE (Fig. 5b). This was fol-
+3.2. Cumulative impacts on focal species habitat lowed by offshore infrastructure constru",7,0.8,0.6,y,y,,Valid environmental impact; cumulative impact areas for species habitats under fishing and infrastructure scenarios in YRE
+29,Robotic-sampling-of-marine-microplastics--a-comprehensiv_2025_Ocean-Engineer.pdf,water_quality,water quality monitoring,,,water quality monitoring,"s. These platforms have proven effective in monitoring marine envi-
+𝑔 combination of gravity and ronments. For instance, Mullen et al. (2020) developed a low-cost AUV
+buoyancy
+water sampling device, w",2,0.8,1.0,y,y,,Valid water quality monitoring; referenced in robotic sampling of marine microplastics with AUV platforms
+30,Scenario-based-cumulative-impacts-assessment-on-iconic-s_2026_Environmental-.pdf,environmental_condition,was calculated based on the following for- measures (Table 1,,,cumulative impact was calculated based on the following for- measures (Table 1,"ame simple Monte Carlo simulation as in method (1). Post-2030 Scenario (Fishing Ban Expired, CMSP Implemented). This
+scenario projects a post-2030 state where the fishing ban has expired but
+2.5.3. Cu",6,0.8,0.667,y,y,,Cumulative impact calculation methodology with Monte Carlo simulation for post-2030 CMSP scenario
+31,7.5.7221.pdf,environmental_condition,atıksu bilgi sistemine girmekle yükümlüdür,,,atıksu bilgi sistemine girmekle yükümlüdür,"luşabilecek konsantre
+suların alıcı ortama deşarjında, alıcı ortamın ve konsantre suyun özellikleri dikkate alınarak Bakanlıkça
+belirlenecek alıcı ortam deşarj kriterlerinin sağlanması zorunludur.
+Arı",12,0.8,1.0,y,y,,Valid environmental regulation; obligation to report to wastewater information system for discharge monitoring
+32,Human-reliability-analysis-of-the-shipboard-oil-pollution-eme_2025_Ocean-Eng.pdf,pollution,"Marine pollution is the discharge of Owners Pollution Federation (ITOPF) data, approximately 164,",,,"Marine pollution is the discharge of Owners Pollution Federation (ITOPF) data, approximately 164,","to its diverse and critical functions. These threats disadvantages and negatively impact the marine environment and at-
+are most evident in increasing pollution, primarily anthropogenic ac- mosphere (",1,0.8,1.0,y,y,,Valid marine pollution definition; discharge of pollutants with ITOPF data quantifying approximately 164 incidents
+33,Combining-the-cumulative-impact-and-marine-use-conflict-syner_2026_Marine-Po.pdf,water_quality,water quality via pollutants (e,,,water quality via pollutants (e,"implementing an of the world's busiest shipping lanes, faces significant pressure from
+optimized MSP framework in the YRE (Fig. 6c, Table S8). This frame- frequent large container vessel transit and i",7,0.8,1.0,y,y,,Valid water quality impact from pollutants in busy shipping lane context
+34,How-effective-is-marine-spatial-planning-in-managing-transb_2025_Ocean---Coa.pdf,water_quality,water quality in the provincial boundary seawaters,,,water quality in the provincial boundary seawaters,"on can be found in
+Table A1in the Supplements.
+3.2.3. Moderating effect
+In this section, we attempt to answer from the perspective of gov- 3.3.2. Explanatory variable
+ernment behavior why the third ro",5,0.8,0.5,y,y,,Water quality in provincial boundary seawaters discussed in transboundary MSP effectiveness context
+35,Integrating-marine-spatial-planning-into-blue-economy-policie_2025_Marine-Po.pdf,environmental_condition,"Ocean Acidification Network (LAOCA) and the North funding, except in Venezuela, which relies on exte",,,"Ocean Acidification Network (LAOCA) and the North funding, except in Venezuela, which relies on exte","bia);
+the Global Ocean Acidification Observing Network (GOA-ON) is global in Uruguay, however, Marine Spatial Planning has not yet been imple-
+but also promotes regional hubs address ocean acidificati",5,0.8,1.0,y,y,,Valid environmental condition; Ocean Acidification Network (LAOCA) and North American network with regional funding context
+36,Can-Marine-Economic-Development-Demonstration-Zones--MEDDZs--achie_2025_Mari.pdf,pollution,"marine pollution due to economic growth, but foundations, advantages in industrial clustering, an",,,"marine pollution due to economic growth, but foundations, advantages in industrial clustering, an","and nearshore marine areas. For instance, Wang et al. [12]found that in period, priority should be given to establishing 10–20 MEDZZs in stra-
+the early stages of economic development, China’s coastal",2,0.8,1.0,y,y,,Valid marine pollution mention linked to coastal economic growth
+37,Spatial-planning-for-dugong-conservation--Assessing-habitat-suit_2025_Marine.pdf,habitat_condition,biodiversity loss and habitat degradation driven by anthropogenic dis- 2,,,biodiversity loss and habitat degradation driven by anthropogenic dis- 2,"November 2024; Received in revised form 25 April 2025; Accepted 22 May 2025
+Available online 24 May 2025
+0308-597X/© 2025 Elsevier Ltd. All rights are reserved, including those for text and data minin",2,0.8,0.5,y,y,,Valid habitat condition; biodiversity loss and habitat degradation driven by anthropogenic disturbance in dugong conservation
+38,28.pdf,water_quality_ph,"eutrophication good ecological status in the Bay of Biscay, Celtic Seas, and Greater North Sea",,,"eutrophication good ecological status in the Bay of Biscay, Celtic Seas, and Greater North Sea","ecosystems in the European task force on ecosystem accounts
+7
+
+A. Comte et al. M a r i n e P o l i c y 172 (2025) 106532
+Fig. 6. Top. Aggregated assessment of the good ecological status of coastal wat",8,0.8,1.0,y,y,,Valid eutrophication assessment of ecological status across European marine regions
+39,Ship-path-planning-methods--A-state-of-the-art-survey_2025_Ocean-Engineering.pdf,water_quality,water quality monitoring and algorithm,,,water quality monitoring and algorithm,"rth Pacific current route. Zhong et al. (2021b)developed a PSO
+planning method for collision avoidance by combining a modified APF based method to generate feasible navigation paths for the seawolf
+7
+",8,0.8,1.0,y,y,,Valid water quality monitoring; referenced in ship path planning method for seawolf navigation and marine quality assessment
+40,A-system-dynamics-model-to-support-marine-spatial-_2023_Environmental-Modell.pdf,environmental_condition,"on marine water calculation and under baseline model values, marine health, from",,,"cumulative impacts on marine water calculation and under baseline model values, marine health, from","the assimilation capacity of the receiving marine envi- normalised against the sustainable biomass, formulated as 0.5of the
+ronment, the continuous and increasing discharge of excess wastewater, carry",8,0.8,1.0,y,y,,Valid environmental condition; cumulative impacts on marine water quality and health from wastewater discharge
+41,Scenario-based-cumulative-impacts-assessment-on-iconic-s_2026_Environmental-.pdf,environmental_condition,"scores (Stock and Micheli, 2016)",,,"cumulative impact scores (Stock and Micheli, 2016)",",
+randomly assigned vulnerability weight scores and the pressure layer 4policy scenarios were formulated (Table S6): (1) Scenario I (S1):
+data of scenario II, and then mapped the average values and co",6,0.8,1.0,y,y,,Valid environmental condition; cumulative impact scores with vulnerability weight randomization for scenario policy assessment
+42,7.5.7221.pdf,environmental_condition,Atıksu arıtma tesislerinin tasarımında BOİ5 parametresi dikkate alınır,,,Atıksu arıtma tesislerinin tasarımında BOİ5 parametresi dikkate alınır,"mak üzere değerlendirme yapılır. pH ve sıcaklık parametreleri için bu
+Yönetmeliğin ekinde yer alan sınır değerler aynen uygulanır.
+Denetlemelerde (Ek ibare:RG-17/12/2022-32046) ve Çevre İzni aşamasınd",12,0.8,1.0,y,y,,Valid environmental condition; BOD5 parameter in wastewater treatment design with pH and temperature limits
+43,Exploring-resource-and-environmental-carrying-capacity-and-_2022_Ocean---Coa.pdf,water_quality,water quality and overall environmental conditions are good,,,water quality and overall environmental conditions are good,"late the comprehensive
+Ruian, Pingyang County and Cangnan County was in a critical state.
+MRECC and MUS. Quantifying the relative importance of indicators,
+Dongtou County is located on Wenzhou Island,",6,0.8,1.0,y,y,,Valid water quality assessment in marine resource and environmental carrying capacity context
+44,Thresholds-of-seascape-fauna-composition-along-gradients-_2024_Science-of-Th.pdf,environmental_condition,temperature,5.0,,temperature 5,"whereas current MSFD indicators
+and ultimately stratification (Emeis et al., 2015). Whereas coastal hab- are used to track single flagship species within these communities.
+itats have a mixed water co",7,0.9,1.0,y,y,,Valid environmental measurement; water temperature 5.0 in stratification and coastal habitat context for MSFD indicators
+45,A-system-dynamics-model-to-support-marine-spatial-_2023_Environmental-Modell.pdf,environmental_condition,rine use (Fig,,,cumulative impacts rine use (Fig,"important to note that indirect links between growth in select marine activities, with varying rates of change, in
+marine uses may still be captured through changes in the marine health response to va",6,0.8,1.0,y,y,,Valid environmental condition; cumulative impacts from marine use activities on marine health
+46,Transboundary-marine-spatial-planning-across-Europe--Trends-and_2020_Marine-.pdf,pollution,marine pollution have gained relatively little attention,,,marine pollution have gained relatively little attention,"The early start of the shipping; MPAs and offshore renewable energy have also received
+Baltic Sea region is perhaps because of its stronger policy framework; the considerable attention, but culture, h",8,0.8,1.0,y,y,,Valid marine pollution; marine pollution receiving relatively little attention in transboundary MSP
+47,So-far-and-so-close--Opportunities-for-marine-spatial-p_2021_Ocean---Coastal.pdf,noise,noise pollution (Wright et al,,,noise pollution (Wright et al,"e policies. A more comprehensive picture could be
+conflicts and conservation targets. In the remaining zones, activities obtained by incorporating the effects of seismic explorations (de Mello
+interfe",7,0.8,1.0,y,y,,Valid marine noise pollution mention in context of seismic explorations and conservation
+48,Exploring-resource-and-environmental-carrying-capacity-and-_2022_Ocean---Coa.pdf,water_quality,"water quality in Wenzhou city in May, August, Fish Density",,,"water quality in Wenzhou city in May, August, Fish Density","i
+s
+o n
+an
+o
+d
+f
+D
+fi s
+i
+h
+s
+ery
+5categories in accordance with the various utilisation functions and capacity
+0.2+FL ×0.8)×0.4(4)
+Marine Fishery Resource
+protection objectives of the sea (Table 2).T",5,0.8,1.0,y,y,,Valid water quality monitoring data for Wenzhou coastal area linked to fishery resources
+49,7.5.7221.pdf,environmental_condition,Atıksu Arıtımı Yönetmeliğinde verilmiştir,,,Atıksu Arıtımı Yönetmeliğinde verilmiştir,"tları
+Madde 32 - (Değişik:RG-17/12/2022-32046)
+Evsel nitelikli atıksu kaynaklarından doğrudan ve/veya kentsel arıtma tesislerinden arıtılmış
+olarak çıkan suların alıcı ortama deşarjında istenen standa",14,0.8,1.0,y,y,,Valid environmental regulation reference; wastewater treatment standards for discharge to receiving environment
+50,7.5.19788_Mekânsal Planlar Yapım Yönetmeliği.pdf,environmental_condition,atık su arıtma tesisleri,,,atık su arıtma tesisleri,"Ana ulaşım sistemi (Karayolu, demiryolu, denizyolu, havayolu, terminal, gar, liman ve
+havalimanı).
+o) Çevre sorunları.
+ö) Lojistik merkez alanları.
+p) Sektörel yapı (tarım, sanayi, hizmet, ulaşım, ene",13,0.8,1.0,y,y,,Valid environmental condition; wastewater treatment facilities in spatial planning regulation

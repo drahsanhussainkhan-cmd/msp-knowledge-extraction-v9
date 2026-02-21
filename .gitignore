@@ -8,16 +8,38 @@ dist/
 build/
 *.egg
 
-# Outputs (large files, regeneratable)
+# Outputs - intermediate versions (regeneratable)
 output/
 output_v*/
 output_final/
 output_final2/
+output_final3/
+output_final4/
+output_final5/
+output_final6/
+output_final7/
+output_final8/
 results_legal/
 results_q1/
 
-# Database
+# Keep output_final9/ (latest results) - NOT excluded
+
+# Database files
 *.db
+
+# Old validation sheets (intermediate versions)
+validation_sheets/
+validation_sheets_v2/
+validation_sheets_v3/
+validation_sheets_v4/
+validation_sheets_v5/
+validation_sheets_v6/
+validation_sheets_v7/
+validation_sheets_v8/
+validation_sheets_v9/
+validation_results/
+validation_results_v*/
+# Keep validation_sheets_v9_final/ - NOT excluded
 
 # Logs
 *.log
@@ -36,5 +58,13 @@ Thumbs.db
 test_*.json
 all_categories_test.json
 
-# Old monolithic script (if copied in)
+# Old monolithic script
 msp_extractor_v8*.py
+
+# PDF files (copyrighted, too large)
+*.pdf
+
+# Old annotation scripts (intermediate)
+annotate_v8.py
+annotate_v8_batch2.py
+annotate_conflict_v8.py

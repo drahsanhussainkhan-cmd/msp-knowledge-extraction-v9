@@ -62,6 +62,10 @@ class InstitutionExtractor(BaseExtractor):
                        doc_type: DocumentType) -> Optional[InstitutionExtraction]:
         """Process an institution match"""
         try:
+
+            # Skip bibliography and garbled text
+            if self._should_skip_match(converted_text, match.start(), match.group(0), category="institution"):
+                return None
             groups = match.groupdict()
             sentence, context = self._get_sentence_context(converted_text, match.start(), match.end())
 
@@ -70,6 +74,44 @@ class InstitutionExtractor(BaseExtractor):
                 return None
 
             institution_name = f"{groups['name']} {groups['type']}".strip()
+
+            # Reject names with newlines (cross-line garble)
+            if '\n' in institution_name or '\r' in institution_name:
+                return None
+
+            # Reject too-generic names (just "The Commission", "Research Institute")
+            name_part = groups['name'].strip()
+            GENERIC_NAMES = {
+                'the', 'a', 'an', 'this', 'that', 'once a', 'research',
+                'communication from the', 'proposal for', 'regulatory',
+                'interministerial', 'proposal for marine national',
+                'research universitary',
+            }
+            if name_part.lower().strip() in GENERIC_NAMES:
+                return None
+
+            # Reject names starting with common sentence starters
+            if re.match(r'^(?:The|A|An|Once|This|That|In|On|By|For|With|MEL|IOC)\s', name_part):
+                # Only allow if the rest looks like a proper institution name (>= 2 capitalized words)
+                remaining = name_part.split(None, 1)
+                if len(remaining) < 2 or not remaining[1][0].isupper():
+                    return None
+
+            # Reject names that are too short (< 5 chars for the name part)
+            if len(name_part.strip()) < 5:
+                return None
+
+            # Reject garbled text in name (sentence fragments, mixed content)
+            if any(frag in name_part for frag in [' The ', ' the ', ' data ', ' concerning ',
+                                                   ' related to ', ' effort ', ' approach ']):
+                return None
+
+            # Reject single-word names that are too generic
+            # (e.g., "National Institute", "Federal Ministry" - too vague)
+            name_words = [w for w in name_part.split() if len(w) >= 2 and w[0].isupper()]
+            if len(name_words) < 2:
+                return None
+
             institution_type = self._parse_institution_type(groups, language)
             role = self._extract_role(context, language)
             jurisdiction = self._extract_jurisdiction(context, language)

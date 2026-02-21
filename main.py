@@ -70,6 +70,8 @@ def parse_args():
                         help="Export results to Excel (requires openpyxl)")
     parser.add_argument("--validate", action="store_true",
                         help="Run validation after extraction")
+    parser.add_argument("--ground-truth-dir", type=str, default=None,
+                        help="Directory with annotated validation CSVs (for metrics calculation)")
     return parser.parse_args()
 
 
@@ -84,29 +86,73 @@ def discover_pdfs(directory):
     return pdfs
 
 
+def _process_single_pdf(args):
+    """Process a single PDF file (worker function for multiprocessing)."""
+    pdf_path, processor_class = args
+    fname = os.path.basename(pdf_path)
+
+    try:
+        full_text, page_texts = extract_text_from_pdf(pdf_path)
+        if not full_text or len(full_text.strip()) < 50:
+            return fname, None, "insufficient_text"
+
+        doc_type = LanguageDetector.detect(full_text)
+        processor = processor_class()
+        results = processor.process(full_text, page_texts, doc_type, source_file=fname)
+        total = sum(len(v) for v in results.values() if isinstance(v, list))
+        return fname, results, total
+
+    except Exception as e:
+        return fname, {"error": str(e)}, f"ERROR: {e}"
+
+
 def process_documents(pdf_paths, processor, label):
-    """Process a list of PDFs with a given processor."""
+    """Process a list of PDFs with a given processor, using thread-based parallelism."""
+    from concurrent.futures import ThreadPoolExecutor, as_completed
+
+    processor_class = type(processor)
+    num_workers = min(os.cpu_count() or 4, len(pdf_paths), 8)
+
     all_results = {}
-    for i, pdf_path in enumerate(pdf_paths, 1):
-        fname = os.path.basename(pdf_path)
-        print(f"  [{i}/{len(pdf_paths)}] Processing {fname}...")
 
-        try:
-            full_text, page_texts = extract_text_from_pdf(pdf_path)
-            if not full_text or len(full_text.strip()) < 50:
-                print(f"    WARNING: Insufficient text extracted from {fname}, skipping.")
-                continue
+    if num_workers > 1 and len(pdf_paths) > 2:
+        print(f"  Using {num_workers} parallel workers...")
+        work_items = [(pdf_path, processor_class) for pdf_path in pdf_paths]
 
-            doc_type = LanguageDetector.detect(full_text)
-            results = processor.process(full_text, page_texts, doc_type, source_file=fname)
-            all_results[fname] = results
+        with ThreadPoolExecutor(max_workers=num_workers) as executor:
+            futures = {executor.submit(_process_single_pdf, item): item for item in work_items}
+            for i, future in enumerate(as_completed(futures), 1):
+                fname, results, info = future.result()
+                if results is None:
+                    print(f"  [{i}/{len(pdf_paths)}] {fname}: WARNING - {info}, skipping.")
+                elif isinstance(results, dict) and "error" in results:
+                    print(f"  [{i}/{len(pdf_paths)}] {fname}: {info}")
+                    all_results[fname] = results
+                else:
+                    print(f"  [{i}/{len(pdf_paths)}] {fname}: {info} items extracted")
+                    all_results[fname] = results
+    else:
+        # Fallback to sequential for small batches
+        for i, pdf_path in enumerate(pdf_paths, 1):
+            fname = os.path.basename(pdf_path)
+            print(f"  [{i}/{len(pdf_paths)}] Processing {fname}...")
 
-            total = sum(len(v) for v in results.values() if isinstance(v, list))
-            print(f"    Extracted {total} items across {len(results)} categories")
+            try:
+                full_text, page_texts = extract_text_from_pdf(pdf_path)
+                if not full_text or len(full_text.strip()) < 50:
+                    print(f"    WARNING: Insufficient text extracted from {fname}, skipping.")
+                    continue
 
-        except Exception as e:
-            print(f"    ERROR processing {fname}: {e}")
-            all_results[fname] = {"error": str(e)}
+                doc_type = LanguageDetector.detect(full_text)
+                results = processor.process(full_text, page_texts, doc_type, source_file=fname)
+                all_results[fname] = results
+
+                total = sum(len(v) for v in results.values() if isinstance(v, list))
+                print(f"    Extracted {total} items across {len(results)} categories")
+
+            except Exception as e:
+                print(f"    ERROR processing {fname}: {e}")
+                all_results[fname] = {"error": str(e)}
 
     return all_results
 
@@ -292,13 +338,39 @@ def run_pipeline(args):
         try:
             from validation.accuracy_checker import AccuracyChecker
             checker = AccuracyChecker()
-            meets_target = checker.check_target_f1(all_results, target=0.80)
-            if meets_target:
-                print("  Target F1 >= 0.80 MET")
+
+            # Save raw results JSON for validation sheet generation
+            raw_results_path = os.path.join(output_dir, f"raw_results_{timestamp}.json")
+
+            if args.ground_truth_dir and os.path.isdir(args.ground_truth_dir):
+                # Ground truth exists - compute metrics
+                print(f"  Computing metrics against: {args.ground_truth_dir}")
+                validation_output = os.path.join(output_dir, "validation_results")
+                result = checker.run_validation(
+                    results_dir=output_dir,
+                    ground_truth_dir=args.ground_truth_dir,
+                    output_dir=validation_output,
+                )
+                if 'overall' in result:
+                    overall = result['overall']
+                    print(f"  Macro F1: {overall.get('macro_f1', 0):.4f}")
+                    print(f"  Micro F1: {overall.get('micro_f1', 0):.4f}")
             else:
-                print("  Target F1 >= 0.80 NOT MET (see validation report for details)")
+                # No ground truth - generate validation sheets
+                print("  No ground truth directory provided.")
+                print("  Generating validation sheets for manual annotation...")
+                val_sheets_dir = os.path.join(output_dir, "validation_sheets")
+                result = checker.run_validation(
+                    results_dir=output_dir,
+                    ground_truth_dir=None,
+                    output_dir=val_sheets_dir,
+                )
+                print(f"  Sheets saved to: {val_sheets_dir}")
+                print(f"  Annotate them, then re-run with --ground-truth-dir {val_sheets_dir}")
         except Exception as e:
             print(f"  Validation error: {e}")
+            import traceback
+            traceback.print_exc()
 
     # ── Summary ──
     elapsed = time.time() - start_time

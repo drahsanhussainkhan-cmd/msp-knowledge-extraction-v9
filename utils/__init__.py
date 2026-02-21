@@ -16,7 +16,9 @@ from .filters import (
     LegalReferenceFilter,
     OCRNormalizer,
     CrossPageHandler,
+    GarbleDetector,
 )
+from .bibliography_detector import BibliographyDetector
 from .language_detection import LanguageDetector
 from .pdf_parser import extract_text_from_pdf, get_pdf_metadata
 
@@ -30,6 +32,8 @@ __all__ = [
     'LegalReferenceFilter',
     'OCRNormalizer',
     'CrossPageHandler',
+    'GarbleDetector',
+    'BibliographyDetector',
     'LanguageDetector',
     'extract_text_from_pdf',
     'get_pdf_metadata',

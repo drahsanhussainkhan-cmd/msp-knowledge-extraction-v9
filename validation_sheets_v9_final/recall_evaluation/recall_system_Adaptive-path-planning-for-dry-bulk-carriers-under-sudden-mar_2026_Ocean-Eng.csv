@@ -1,0 +1,7 @@
+﻿category,exact_text,page_number,confidence,system_found,annotator_agrees
+stakeholder,shipping companies,12,0.8,yes,
+institution,European Maritime Safety Agency,1,0.85,yes,
+policy,Revised GHG Strategy,2,0.8,yes,
+data_source,AIS,1,0.9,yes,
+data_source,AIS,6,0.9,yes,
+gap,limited emission improvements,12,0.8,yes,

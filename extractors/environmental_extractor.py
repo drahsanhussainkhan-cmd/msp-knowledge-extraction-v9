@@ -21,6 +21,15 @@ logger = logging.getLogger(__name__)
 class EnvironmentalExtractor(BaseExtractor):
     """Extract environmental conditions and requirements from MSP documents"""
 
+    # These are METHODS, not environmental variables
+    METHOD_BLACKLIST = {
+        'cumulative impact assessment', 'cumulative impact assessments',
+        'cumulative impact analysis', 'cumulative effects assessment',
+        'environmental impact assessment', 'environmental impact assessments',
+        'strategic environmental assessment', 'eia', 'ced raporu',
+        'ced', 'çed', 'cumulative effects assessment',
+    }
+
     def _compile_patterns(self):
         """Compile environmental patterns for both languages"""
         # Turkish patterns
@@ -136,7 +145,25 @@ class EnvironmentalExtractor(BaseExtractor):
                        doc_type: DocumentType) -> Optional[EnvironmentalExtraction]:
         """Process an environmental match"""
         try:
+
+            # Skip bibliography and garbled text
+            if self._should_skip_match(converted_text, match.start(), match.group(0), category="environmental"):
+                return None
             groups = match.groupdict()
+
+            # Reject methodology terms misclassified as environmental variables
+            match_lower = match.group(0).lower().strip()
+            if any(bl in match_lower for bl in self.METHOD_BLACKLIST):
+                return None
+
+            # Reject cross-line garbled text
+            if '\n' in match.group(0) or '\r' in match.group(0):
+                return None
+
+            # Reject text that looks like a DOI or reference ID
+            if re.search(r'ph\d{5,}|doi:|10\.\d{4}', match.group(0), re.IGNORECASE):
+                return None
+
             sentence, context = self._get_sentence_context(converted_text, match.start(), match.end())
 
             cleaned_sentence = sentence

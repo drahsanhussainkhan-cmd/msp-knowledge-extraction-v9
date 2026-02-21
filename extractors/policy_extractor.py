@@ -29,6 +29,17 @@ class PolicyExtractor(BaseExtractor):
         'twin delayed deep deterministic', 'deep deterministic',
         'reinforcement learning', 'neural network', 'path planning',
         'deep q', 'reward', 'actor critic', 'available at',
+        'proximal', 'disturbance zone', 'belgian science',
+        'information and', 'term planning', 'analytical',
+        'amending delegated', 'amending',
+        'bonus_baltspace', 'seventh', 'connecting the',
+        'map consists', 'national sea systems', 'into the eia',
+        'msfd into', 'eu of the european', 'establishing a f',
+        # v7: RL policy networks, ministry fragments, generic terms
+        'affairs and climate', 'energy and mining',
+        'model parameter', 'suggested ', 'variables ',
+        'nbs ', 'proposal for a',
+        'bozhesku', 'ec eu',
     }
 
     def _compile_patterns(self):
@@ -72,6 +83,10 @@ class PolicyExtractor(BaseExtractor):
                        doc_type: DocumentType) -> Optional[PolicyExtraction]:
         """Process a policy match"""
         try:
+
+            # Skip bibliography and garbled text
+            if self._should_skip_match(converted_text, match.start(), match.group(0), category="policy"):
+                return None
             groups = match.groupdict()
             sentence, context = self._get_sentence_context(converted_text, match.start(), match.end())
 
@@ -88,6 +103,46 @@ class PolicyExtractor(BaseExtractor):
                 return None
             if len(title) < 3 or len(title) > 150:
                 return None
+
+            # Reject cross-line garbled titles
+            if '\n' in title or '\r' in title:
+                return None
+
+            # Reject single-word titles (e.g., "International", "Framework", "Energy")
+            # Real policy titles have 2+ meaningful words
+            title_words = [w for w in title.split() if len(w) >= 2]
+            if len(title_words) < 2:
+                return None
+
+            # Reject overly long titles (> 8 words = sentence fragment, not a policy name)
+            if len(title_words) > 8:
+                return None
+
+            # Reject titles containing common verbs (sentence fragments, not policy names)
+            sentence_verbs = {
+                'are', 'is', 'was', 'were', 'have', 'has', 'had', 'been',
+                'established', 'organised', 'organized', 'connected', 'linked',
+                'appeared', 'committed', 'applied', 'implemented',
+                'provisions', 'references', 'elements', 'variables',
+                'because', 'although', 'however', 'during', 'between',
+            }
+            if any(w.lower() in sentence_verbs for w in title.split()):
+                return None
+
+            # Reject titles that are just articles/prepositions + type word
+            reject_starts = {'the ', 'a ', 'an ', 'this ', 'that ', 'based on ',
+                            'ensuring ', 'into ', 'with ', 'from ', 'thus ',
+                            'model ', 'key ', 'input '}
+            if any(title_lower.startswith(r) for r in reject_starts):
+                # Allow if rest is substantive (e.g., "The SEA Directive" is ok)
+                rest = title_lower
+                for r in reject_starts:
+                    if rest.startswith(r):
+                        rest = rest[len(r):]
+                        break
+                rest_words = [w for w in rest.split() if len(w) >= 2]
+                if len(rest_words) < 1:
+                    return None
 
             scope = self._extract_scope(context, language)
             objectives = self._extract_objectives(context, language)

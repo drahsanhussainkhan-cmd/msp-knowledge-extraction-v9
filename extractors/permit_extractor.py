@@ -120,6 +120,10 @@ class PermitExtractor(BaseExtractor):
                        doc_type: DocumentType) -> Optional[PermitExtraction]:
         """Process a permit match"""
         try:
+
+            # Skip bibliography and garbled text
+            if self._should_skip_match(converted_text, match.start(), match.group(0), category="permit"):
+                return None
             groups = match.groupdict()
             sentence, context = self._get_sentence_context(converted_text, match.start(), match.end())
 

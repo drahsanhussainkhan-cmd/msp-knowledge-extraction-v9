@@ -108,10 +108,22 @@ class ConclusionExtractor(BaseExtractor):
                        offset: int, pattern: re.Pattern) -> Optional[ConclusionExtraction]:
         """Process a conclusion match"""
         try:
+
+            # Skip bibliography and garbled text (use offset for correct position in full text)
+            if self._should_skip_match(original_text, offset + match.start(), match.group(0), category="conclusion"):
+                return None
             groups = match.groupdict()
             conclusion_text = (groups.get('conc') or '').strip()
 
             if not conclusion_text or len(conclusion_text) < 10:
+                return None
+
+            # Reject cross-column garbled text (hyphenated line breaks merged with adjacent column)
+            if re.search(r'[a-z]-\s*\n', conclusion_text) or re.search(r'[a-z]-\s+[A-Z][a-z]', conclusion_text):
+                return None
+
+            # Reject if conclusion text contains newlines (cross-line merge artifact)
+            if '\n' in conclusion_text or '\r' in conclusion_text:
                 return None
 
             sentence, context = self._get_sentence_context(search_text, match.start(), match.end())

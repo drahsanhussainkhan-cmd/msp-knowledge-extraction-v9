@@ -1,0 +1,210 @@
+﻿id,source_file,reference_type,law_number,article_number,title,exact_text,context,page_number,confidence,marine_relevance,is_correct,is_relevant,error_type,notes
+1,7.5.16806.pdf,legal_reference,,11,,MADDE 11,"noktada çevresel kalite standardının aşılmaması kaydıyla,
+özellikleri Ek-7’de tanımlanan karışım bölgesinde çevresel kalite standardı aşılabilir.
+(5) Su ürünleri istihsal alanları ile ilgili alıcı ort",5,0.85,0.5,y,y,,Article 11 of water quality regulation; environmental quality standards and mixing zones relevant to fishery areas - marine water quality governance
+2,1.3.4373.pdf,legal_reference,,18,"SAYILI KANUNA EK VE DEĞİŞİKLİK GETİREN MEVZUATIN
+GİRİŞ TARİHLERİNİ GÖSTERİR TABLO
+Değiştiren 4373 Sayılı Kanunu",Madde 18,"belirlenen hak sahipleri, satış işlemlerinin yapılması için
+ilgili valilikçe arazi maliki idareye bildirilir.
+Bu maddenin uygulanmasına ilişkin usul ve esaslar Tarım ve Orman Bakanlığı ile
+Çevre ve Şe",5,0.85,0.5,y,n,,Article 18 of Law 4373; about land ownership rights transfer and valuation procedures with Agriculture/Forestry and Environment ministries - general land law not marine
+3,1.5.2872_2872 Sayılı Çevre Kanunu.pdf,law,3416,,,3416 sayılı Kanun,"i kazanım katılım payları 30/4/2019 tarihi mesai saati
+bitimine kadar ödenir.
+Yürürlük:
+Madde 33 – Bu Kanun yayımı tarihinde yürürlüğe girer.
+Yürütme:
+Madde 34 – Bu Kanun hükümlerini Bakanlar Kurulu y",33,0.9,0.5,y,n,,Law 3416 referenced in Cevre Kanunu context; about entry into force and enforcement provisions - general administrative law not marine
+4,7.5.18340_Özel Çevre Koruma Bölgeleri Mevzuatı.pdf,legal_reference,,75,Borçlar Kanunu,MADDE 75,"e göre ceza kovuşturması da yapılır. Ayrıca, tarafların bu yüzden uğradıkları
+zarar ve ziyan da kendilerine ödettirilir.
+Sürelerin hesabı
+MADDE 74 – (1) Sürelerin hesaplanmasında, bu Yönetmelikte hükü",14,0.85,0.5,y,n,,Article 75 of Borclar Kanunu (Code of Obligations) referenced in Ozel Cevre Koruma Bolgeleri Mevzuati; about time limitation calculations - general civil law not marine
+5,7.5.18340_Özel Çevre Koruma Bölgeleri Mevzuatı.pdf,legal_reference,,31,,MADDE 31,"n yapıldığı, ancak idarenin onayına bağlı kaldığı,
+b) İhalenin yapılmadığı,
+hususlarından birine karar verilir ve bu husus gerekçeli bir karar özeti hâlinde yazılarak,
+komisyon başkan ve üyeleri taraf",7,0.85,0.5,y,n,,Article 31 of Ozel Cevre Koruma Bolgeleri procurement regulation; about tender committee decisions - administrative procurement not marine
+6,1.5.1380_Su Ürünleri Kanunu (No. 1380).pdf,legal_reference,,33,,Madde 33,"e istihsal vasıtalarını Bakanlık Teftiş Kurulu vasıtasıyla teftiş ve kontrol ettirerek
+mevzuata göre gerekli muameleyi yapmaya yetkilidir,
+Bu bakanlıklar diğer memurlarına da bu görevi verebilir.
+BÖLÜ",10,0.85,1.0,y,y,,Article 33 of Su Urunleri Kanunu (Fisheries Law 1380); about ministry inspection authority over fishery equipment and enforcement - directly marine
+7,29 Temmuz 2022 CUMA.pdf,legal_reference,,23,,MADDE 23,"- (1) Bakanlık, ÇED uygulamalarına ilişkin olarak, gerektiğinde yerli ve yabancı kurum/kuruluşlar
+ile işbirliği halinde her türlü eğitim, plan, program ve proje çalışmaları yapabilir; kitap, kitapçık,",8,0.85,0.5,y,y,,Article 23 of CED (EIA) Regulation 2022; about cooperation in environmental impact assessment education and programs - relevant to marine environmental governance
+8,1.5.3621_3621 Sayılı Kıyı Kanunu.pdf,legal_reference,,16,Türk Ceza Kanunu,Madde 16,"t ve eklerine aykırı olarak yapı
+yapan kişilere Türk Ceza Kanunu veya İmar Kanunu hükümlerine göre verilecek ceza bir kat
+artırılır.
+İlgili kanunlarda belirtilen makamların yetkileri saklı kalmak üzer",7,0.85,0.5,y,y,,Article 16 of Kiyi Kanunu referencing Turk Ceza Kanunu; penalties for illegal construction on coastal zone - marine coastal governance
+9,1.5.3194_3194 Sayılı İmar Kanunu.pdf,legal_reference,,10,… imar mevzuatındaki kısıtlamalara tâbi olmaksızın…,Madde 10,"üncü maddesi ile metne işlendiği
+şekilde değiştirilmiştir.
+12 Bu fıkrada yer alan ""… imar mevzuatındaki kısıtlamalara tâbi olmaksızın…"" ibaresi, Anayasa
+Mahkemesi’nin 5/1/2006 tarihli ve E. :2005/98, ",10,0.85,0.5,y,n,,Article 10 of Imar Kanunu 3194; about zoning restrictions and constitutional court rulings - general urban planning not marine
+10,1.4.167.pdf,legal_reference,,6,"Devletin hüküm ve tasarrufu altında bulunan yerlerdeki
+kaynak suları (mazbut vakıflara ait sular hariç),",Madde 6,"tarihli ve 5335 sayılı Kanunun 28 inci maddesiyle bu fıkrada yer alan “Devletin hüküm ve tasarrufu
+altında bulunan yerlerdeki kaynak suları,” ibaresi, ""Devletin hüküm ve tasarrufu altında bulunan yerl",3,0.85,0.5,y,n,,Article 6 of Yeraltı Suları Kanunu (Law 167); about state sovereignty over spring waters — inland water not marine
+11,1.4.167.pdf,legal_reference,,2,,Madde 2,"/1960 Sayı: 10688
+Yayımlandığı Düstur : Tertip: 4 Cilt: 1 Sayfa: 814
+Yeraltı sularının mülkiyeti:
+Madde 1 – Yeraltı suları umumi sular meyanında olup Devletin hüküm ve tasarrufu
+altındadır.Bu suların ",1,0.85,0.5,y,n,,Article 2 of Yeraltı Suları Kanunu (Law 167); about groundwater ownership — inland water not marine
+12,29 Temmuz 2022 CUMA.pdf,legal_reference,,5,Çevresel Etki Değerlendirmesi Olumlu,MADDE 5,"nra inşa faaliyetlerine başlanılmasını veya üretime geçilmesini,
+ıı) Yatırım süreci izleme: Gerçekleştirilmesi planlanan projeye dair ""Çevresel Etki Değerlendirmesi Olumlu""
+kararı alındıktan sonra, pr",3,0.85,0.5,y,y,,Article 5 of CED (EIA) Regulation 2022; definitions including Cevresel Etki Degerlendirmesi Olumlu (positive EIA decision) for projects - environmental governance relevant to marine
+13,7.5.18340_Özel Çevre Koruma Bölgeleri Mevzuatı.pdf,legal_reference,,21,,MADDE 21,"ihale veya sözleşme feshedilir. Ancak,
+işte ivedilik ve ihalede Devletin yararı varsa, ihale ve sözleşme idarenin onayıyla geçerli sayılabilir.
+(3) İhalenin veya sözleşmenin bozulması hâlinde, müşteri",5,0.85,0.5,y,n,,Article 21 of Ozel Cevre Koruma Bolgeleri procurement regulation; about tender annulment and contract termination - administrative procurement not marine
+14,7.5.18340_Özel Çevre Koruma Bölgeleri Mevzuatı.pdf,legal_reference,,50,,MADDE 50,"aynı durumu devam ettirmesi,
+hâllerinde, ayrıca protesto çekmeye ve hüküm almaya gerek kalmaksızın kesin teminatı
+Hazineye gelir kaydedilir ve sözleşme feshedilerek hesabı genel hükümlere göre tasfiye",10,0.85,0.5,y,n,,Article 50 of Ozel Cevre Koruma Bolgeleri procurement regulation; about performance bond forfeiture - administrative procurement not marine
+15,7.5.23722_Planlı Alanlar İmar Yönetmeliği.pdf,legal_reference,,70,"Planlı
+Alanlar Tip İmar Yönetmeliği",MADDE 70,"akanlık
+görüşüne başvurulur.
+(7) Proje hazırlanması, yapı ruhsatı ve arazi düzenlemesine ilişkin uygulamalar bu Yönetmelik
+ile Bakanlıkça çıkarılan diğer imara ilişkin yönetmeliklerde yer alan tanımla",54,0.85,0.5,y,n,,Article 70 of Planlı Alanlar İmar Yönetmeliği; about building permits and land use — general zoning not specifically marine
+16,1.4.167.pdf,law,5335,,"Devletin hüküm ve tasarrufu altında bulunan yerlerdeki
+kaynak suları (mazbut vakıflara ait sular hariç),",5335 sayılı Kanun,"yeraltı suyu aramak, suyu bulduktan sonra, bunun kendi faydalı ihtiyaçlarına
+yetecek miktarını kullanmak hakkına maliktir.
+Ancak bu işler 8 inci maddenin şümülüne girdiği takdirde belge alınması mecbu",2,0.9,0.5,y,n,,Law 5335 referenced in groundwater law context; about spring water state sovereignty — inland water not marine
+17,7.5.16726_Limanlar Yönetmeliği_Ulaştırma Mevzuatı.pdf,legal_reference,,33,Gemi ve Su Araçlarında Gazdan Arındırma Yönetmeliği,MADDE 33,"ıkabilecek yangınları söndürme faaliyetleri, ilgili mevzuat gereği
+oluşturulan gerekli araç ve gereçlerle donatılmış yangın söndürme ekipleri ile yapılır. Römorkörcülük
+faaliyetlerinde bulunan kuruluş",19,0.85,1.0,y,y,,Article 33 of Limanlar Yonetmeligi referencing Gemi ve Su Araclarinda Gazdan Arindirma Yonetmeligi; about fire safety and tugboat services at ports - directly marine
+18,1.5.3194_3194 Sayılı İmar Kanunu.pdf,legal_reference,,3,Turizmi Teşvik Kanunu,Madde 3,"i yapılaşmaların; plan, fen,
+sağlık ve çevre şartlarına uygun teşekkülünü sağlamak amacıyla düzenlenmiştir.
+Kapsam:
+Madde 2 – Belediye ve mücavir alan sınırları içinde ve dışında kalan yerlerde
+yapıla",1,0.85,0.5,y,n,,Article 3 of Imar Kanunu referencing Turizmi Tesvik Kanunu; about scope of zoning law and tourism areas - general planning law not marine
+19,7.5.18340_Özel Çevre Koruma Bölgeleri Mevzuatı.pdf,legal_reference,,25,,MADDE 25,"tupları, ihaleden sonra ilgili muhasebe
+birimine teslim edilir ve üzerlerine ihale yapılmayan isteklilerin geçici teminatları hemen geri verilir.
+(4) Her ne suretle olursa olsun İdarece alınan teminat",6,0.85,0.5,y,n,,Article 25 of Ozel Cevre Koruma Bolgeleri procurement regulation; about tender guarantee submission - administrative procurement not marine
+20,1.5.3194_3194 Sayılı İmar Kanunu.pdf,law,7221,11,,7221 sayılı Kanunun 11 inci maddesi,"ahkûm
+olanlara faizsiz olarak iade edilir.
+39 10/6/2022 tarihli ve 7410 sayılı Kanunun 11 inci maddesiyle bu bendin birinci cümlesine
+“yukarıdaki bentlere göre” ibaresinden sonra gelmek üzere “aykırıl",32,0.95,0.5,y,n,,Law 7221 Article 11 amending Imar Kanunu; about penalty refund provisions - general urban planning law not marine
+21,1.5.2872_2872 Sayılı Çevre Kanunu.pdf,legal_reference,,4,Türkiye Atom Enerjisi Kurumu Kanunu,Madde 4,"rının çözümüne
+yönelik gerekli teknik, idarî, malî ve hukukî düzenlemeler Bakanlığın koordinasyonunda
+yapılır. 2690 sayılı Türkiye Atom Enerjisi Kurumu Kanunu kapsamındaki konular Türkiye
+Atom Enerjis",5,0.85,0.5,y,n,,Article 4 of Cevre Kanunu referencing Atom Enerjisi Kurumu Kanunu; about coordination for environmental problems including nuclear - not specifically marine
+22,1.5.1053.pdf,law,5625,,Kanunun 4 üncü maddesiyle bu Kanunu,5625 sayılı Kanun,"ler
+Devlet Su İşleri Genel Müdürlüğüne borçlanırlar. Ancak çok maksatlı barajlar için Devlet Su
+İşleri Genel Müdürlüğünün yapacağı ödemelerde ilgili belediyelerin borçlanacakları miktar
+baraj maliyetl",1,0.9,0.5,y,n,,Law 5625 referenced in water supply law context; about DSI water infrastructure financing and municipal debt - inland water infrastructure not marine
+23,21.5.1426_Deniz Trafik Düzeni Tüzüğü.pdf,legal_reference,,25,,Madde 25,"rleri için tahsisli demirleme mevkileri tesis edebilir.
+(4) Gemiler, belirtilen demirleme yerlerinde saldıkları zaman demirleme yeri alanının
+sınırları dışına taşmayacak şekilde demirleyeceklerdir.
+(5",9,0.85,0.5,y,y,,Article 25 of Deniz Trafik Duzeni Tuzugu; about anchorage regulations for vessels - directly marine traffic governance
+24,1.5.3194_3194 Sayılı İmar Kanunu.pdf,legal_reference,,12,,Madde 12,"çlandırılmak üzere izin verilen taşınmazlardan
+projesine uygun olarak ağaçlandırılanlar, imar planı kararıyla başka amaca ayrılamaz.
+13 14/4/2016 tarihli ve 6704 sayılı Kanunun 8 inci maddesiyle, bu f",11,0.85,0.5,y,n,,Article 12 of Imar Kanunu 3194; about afforestation and zoning plan restrictions - general urban planning not marine
+25,GeneratePdf_3194 Sayılı İmar Kanunu.pdf,legal_reference,,8,Elektrik Tesisatçıları Hakkında Yönetmelik,Madde 8,"'ü geçmeyenlerin kalorifer ve merkezi bir tesisata bağlı olmayan münferit, banyo, hela, mutfak
+tesisat tatbikatına, yetkilidirler.
+IV. Grup:
+Her türlü yapıların sıhhi tesisat ve ısıtma tesislerinin sü",3,0.85,0.5,y,n,,Article 8 of Imar Kanunu referencing Elektrik Tesisatcilari Yonetmeligi; about electrical and sanitary installation competencies - building regulations not marine
+26,21.5.1426_Deniz Trafik Düzeni Tüzüğü.pdf,legal_reference,,17,kumanda altında bulunmayan tekne,Madde 17,"gili TBGTH Merkezine hemen
+bilgi vererek tavsiye ve talimat isteyeceklerdir. İlgili TBGTH Merkezince kendilerinin ve
+çevrenin güvenliğini sağlayacak önlemler tamamlandıktan sonra kılavuz kaptan alacak",7,0.85,1.0,y,y,,Article 17 of Deniz Trafik Duzeni Tuzugu; about pilot vessel navigation and TBGTH reporting for vessels not under command - directly marine traffic governance
+27,7.5.18340_Özel Çevre Koruma Bölgeleri Mevzuatı.pdf,legal_reference,,14,Amme Alacaklarının Tahsil Usulü Hakkında Kanunu,MADDE 14,"rılır.
+Vadesinde ödenmeyen bedeller ve hasılat payları
+MADDE 13 – (1) Vadesinde ödenmeyen bedeller ile hasılat payları ve diğer alacaklara
+21/7/1953 tarihli ve 6183 sayılı Amme Alacaklarının Tahsil Us",4,0.85,0.5,y,n,,Article 14 of Ozel Cevre Koruma regulation referencing Law 6183 Amme Alacaklarinin Tahsil Usulu; about overdue payments collection - general administrative law not marine
+28,7.5.4897_Kıyı Kanununun Uygulanmasına Dair Yönetmelik.pdf,legal_reference,,23,Bu Yönetmeliği,Madde 23,"an alanlarda ise Kıyı Kenar Çizgisi Tespit Komisyonunca
+yapılan inceleme sonucunda uygun görülen ve Bakanlıkça onanan kıyı kenar çizgisi geçerlidir.
+GEÇİCİ MADDE 1 – (Ek:RG-25/3/2011-27885)
+Bu Yönetme",11,0.85,0.5,y,y,,Article 23 of Kiyi Kanunu Implementation Regulation; about coastal boundary line determination and approval by Ministry - directly marine coastal governance
+29,29 Temmuz 2022 CUMA.pdf,legal_reference,,3,Çevre Kanunu,MADDE 3,"rojelerin başvuru, inşaat öncesi, inşaat, işletme ve işletme
+sonrası izlenmesi, kontrolü ve denetlenmesini,
+ç) Çevresel Etki Değerlendirmesi sisteminin, çevre yönetiminde etkin ve yaygın biçimde uygul",1,0.85,0.5,y,y,,Article 3 of CED (EIA) Regulation 2022 referencing Cevre Kanunu; about EIA system definitions and environmental management - includes marine project assessments
+30,1.5.2863_2863 Sayılı Kültür ve Tabiat Varlıklarını Koruma Kanunu.pdf,legal_reference,,67,,Madde 67,"a kadar hapis ve adlî para
+cezası ile; bu Kanunun 7 nci maddesinde yer alan ilan veya tebligatı bilerek, süresinde usulüne
+uygun yapmayanlar ise, üç aydan bir yıla kadar hapis ve adlî para cezası ile ",30,0.85,0.5,y,n,,Article 67 of Cultural and Natural Heritage Protection Law 2863; about criminal penalties for heritage violations - general heritage law not marine
+31,29 Temmuz 2022 CUMA.pdf,legal_reference,,12,,MADDE 12,"ldirebilirler. İl müdürlüğüne bildirilen görüşler Bakanlığa iletilir. Bu görüşler komisyon tarafından
+dikkate alınır ve Bakanlıkça yeterlik verilmiş kurum/kuruluşlar tarafından son şekli verilen ÇED r",5,0.85,0.5,y,y,,Article 12 of CED Regulation 2022; about EIA report review and public participation procedures - includes marine project assessments
+32,1.5.2863_2863 Sayılı Kültür ve Tabiat Varlıklarını Koruma Kanunu.pdf,legal_reference,,23,,Madde 23,"nda tescil edilen taşınmaz
+kültür varlıkları için 29/6/2001 tarihli ve 4708 sayılı Yapı Denetimi Hakkında Kanun hükümleri
+uygulanmaz.
+Madde 22 – (Mülga: 17/6/1987 - 3386/18 md.)
+ÜÇÜNCÜ BÖLÜM
+Korunması",15,0.85,0.5,y,n,,Article 23 of Cultural and Natural Heritage Protection Law 2863; about building inspection exemption for registered cultural properties - general heritage law not marine
+33,GeneratePdf_3194 Sayılı İmar Kanunu.pdf,law,6785,14,"6785 sayılı Kanunun 14 üncü maddesine göre Fen Adamlarının Selahiyetleri ve Belediyelere Karşı Deruhte
+Edebilecekleri Fenni Mesuliyet Hudutları Hakkında Talimatname",6785 sayılı Kanunun 14 üncü maddesi,"ek ve üst
+düzeydeki teknik sorumlulara iletmek zorundadırlar. Kötü sicil alan sürveyanlar 1 yıl süreyle sürveyanlık görevi
+yapmakta idaresince men edilebilirler.
+Yürürlükten Kaldırılan Hükümler
+Madde ",3,0.95,0.5,y,n,,Law 6785 Article 14 about surveyor competencies and technical responsibilities - old zoning law not marine
+34,7.5.19788_Mekânsal Planlar Yapım Yönetmeliği.pdf,legal_reference,,29,,MADDE 29,"saslar
+Planlama alanı
+MADDE 28 – (1) Planlama alanı sınırı; kıyı ve coğrafi, ekonomik, sosyal, tarihsel ve ulaşım
+bakımından etkileşimde olduğu doğal çevre, kullanım ve faaliyetler esas alınarak ve ge",17,0.85,1.0,y,y,,Article 29 of Mekansal Planlar Yapim Yonetmeligi; about planning area boundaries considering coastal geography and natural environment - spatial planning relevant to marine
+35,1.3.6200.pdf,law,3127,,,3127 sayılı kanun,"o tarihteki
+kıymetleri üzerinden hesaplanır. Tesislerin kıymeti, Maliye, Bayındırlık ve İşletmeler
+Vekaletlerinden ve ilgili hususi idare ve belediye veya köy ihtiyar heyetinden seçilmiş birer
+azadan ",9,0.9,0.5,y,n,,Law 3127 referenced in DSI law context; about asset valuation for transferred facilities - inland water infrastructure not marine
+36,7.5.7221.pdf,legal_reference,,12,,Madde 12,"11/2012-28483)
+Göl Sularının Kalite Sınıflandırılması
+Madde 9 - (Mülga:RG-30/11/2012-28483)
+Göllerde Ötrofikasyon Kontrolü
+Madde 10 - (Mülga:RG-30/11/2012-28483)
+Kıta içi yüzeysel Suların Kalitesine İ",7,0.85,0.5,y,y,,Article 12 of water quality regulation (7221); about inland surface water quality classification and lake eutrophication control - water quality governance relevant to marine
+37,1.5.1380_Su Ürünleri Kanunu (No. 1380).pdf,legal_reference,,2,Kara Avcılığı Kanunu,Madde 2,"arihi : 22/3/1971
+Yayımlandığı Resmî Gazete : Tarih: 4/4/1971 Sayı: 13799
+Yayımlandığı Düstur : Tertip: 5 Cilt: 10 Sayfa: 2056
+BÖLÜM - I
+Genel Hükümler
+Şümul:
+Madde 1 – (Değişik: 15/5/1986 - 3288/1 md",1,0.85,0.5,y,y,,Article 2 of Su Urunleri Kanunu (Fisheries Law 1380); scope and definitions of the fisheries law - directly marine
+38,1.5.2863_2863 Sayılı Kültür ve Tabiat Varlıklarını Koruma Kanunu.pdf,legal_reference,,64,,Madde 64,"rla ilgili yönetmelik:
+Madde 63 – Yüksek Kurul ile Bölge Kurullarının görev, yetki ve sorumlulukları ile bu
+Kurulların kendi aralarındaki ve Kültür ve Turizm Bakanlığıyla olan ilişkileri bir yönetmeli",28,0.85,0.5,y,n,,Article 64 of Cultural and Natural Heritage Protection Law 2863; about heritage board regulations and responsibilities - general heritage law not marine
+39,1.5.3621_3621 Sayılı Kıyı Kanunu.pdf,law,4737,,Turizmi Teşvik Kanunu,4737 sayılı Kanun,". Bu yerler için yapılacak planlar hakkında 3/5/1985 tarihli ve 3194 sayılı İmar
+Kanunu hükümleri uygulanır. Ancak bu planlar Çevre ve Şehircilik Bakanlığı tarafından;
+12/3/1982 tarihli ve 2634 sayılı",5,0.9,0.5,y,y,,Law 4737 referenced in Kiyi Kanunu; about coastal zone planning under Imar Kanunu and Turizmi Tesvik Kanunu - coastal governance relevant to marine
+40,1.5.2872_2872 Sayılı Çevre Kanunu.pdf,law,7261,12,,7261 sayılı Kanunun 12 nci maddesi,"revleri5
+Yüksek Çevre Kurulu:5
+Madde 4 – (Mülga: 9/8/1991 - KHK-443/43 md.; Yeniden düzenleme: 26/4/2006-
+5491/4 md.; Mülga: 2/7/2018-KHK-703/187 md.)
+Yüksek Çevre Kurulunun görevleri:6
+Madde 5 – (Mül",5,0.95,0.5,y,n,,Law 7261 Article 12 amending Cevre Kanunu; about Yuksek Cevre Kurulu establishment and duties - general environmental governance
+41,1.5.2863_2863 Sayılı Kültür ve Tabiat Varlıklarını Koruma Kanunu.pdf,legal_reference,,28,,Madde 28,"rizm Bakanlığından ruhsatname almak
+zorundadırlar. Bu ruhsatnameler üç yıl için geçerlidir. Bu sürenin bitiminden bir ay önce
+ruhsatname yenilenebilir. Bu Kanun hükümlerine aykırı hareket edenlerin ru",18,0.85,0.5,y,n,,Article 28 of Cultural and Natural Heritage Protection Law 2863; about cultural property dealer licensing - general heritage law not marine
+42,7.5.16726_Limanlar Yönetmeliği_Ulaştırma Mevzuatı.pdf,legal_reference,,19,"Tehlikeli Yüklerin Denizyoluyla
+
+Taşınması ve Yükleme Emniyeti Hakkında Yönetmeliği",MADDE 19,"e 31659 sayılı Resmî Gazete’de yayımlanan Tehlikeli Yüklerin Denizyoluyla
+
+Taşınması ve Yükleme Emniyeti Hakkında Yönetmeliğin 23 üncü maddesinin ikinci fıkrası kapsamında
+değerlendirilerek bu tehlike",13,0.85,0.5,y,y,,Article 19 of Limanlar Yonetmeligi referencing Tehlikeli Yuklerin Denizyoluyla Tasinmasi Yonetmeligi; about dangerous cargo maritime transport regulations - directly marine
+43,1.3.6200.pdf,legal_reference,,47,,Madde 47,"Madde 41 – (Mülga: 11/10/2011 - KHK - 662/57 md.)
+Madde 42 – (Mülga: 11/10/2011 - KHK - 662/57 md.)
+Madde 43 – (Mülga: 11/10/2011 - KHK - 662/57 md.)
+Madde 44 – (Mülga: 11/10/2011 - KHK - 662/57 md.)
+",8,0.85,0.5,y,n,,Article 47 of DSI law (6200); series of repealed articles by KHK 662 - general administrative law not marine
+44,1.3.6200.pdf,law,4857,,,4857 sayılı Kanun,"Hayvancılık Bakanlığı merkez ve taşra teşkilatında arazi toplulaştırma
+ve tarla içi geliştirme hizmetlerinde çalışan, 36 ncı maddesinin “Ortak Hükümler” başlıklı
+bölümünün (A) fıkrasının (11) numaralı",19,0.9,0.5,y,n,,Law 4857 (Labour Law) referenced in DSI context; about land consolidation staff provisions - general labour law not marine
+45,7.5.18340_Özel Çevre Koruma Bölgeleri Mevzuatı.pdf,legal_reference,,40,,MADDE 40,"ngi gerekçelerle yapıldığı, ihale yapılmamış ise nedenleri belirtilir.
+İhale kararlarının kesinleşmesi
+MADDE 39 – (1) Komisyonlarca karara bağlanan ihaleler karar tarihinden itibaren en geç onbeş
+iş g",8,0.85,0.5,y,n,,Article 40 of Ozel Cevre Koruma procurement regulation; about tender decision records and rationale - administrative procurement not marine
+46,1.5.2872_2872 Sayılı Çevre Kanunu.pdf,legal_reference,,28,,Madde 28,"eğerlendirmesi süreci yargılama sonuna kadar durur.
+Diğer kanunlarda yazılı cezalar:
+Madde 27 – Bu Kanunda yazılı fiiller hakkında verilecek idari nitelikteki cezalar, bu
+fiiller için diğer kanunlarda",25,0.85,0.5,y,y,,Article 28 of Cevre Kanunu; about administrative penalties for environmental violations and other law provisions - environmental governance relevant to marine
+47,1.5.3621_3621 Sayılı Kıyı Kanunu.pdf,legal_reference,,1,,Madde 1,"KIYI KANUNU
+Kanun Numarası : 3621
+Kabul Tarihi : 4/4/1990
+Yayımlandığı Resmî Gazete : Tarih: 17/4/1990 Sayı: 20495
+Yayımlandığı Düstur : Tertip: 5 Cilt: 29 Sayfa: 76
+BİRİNCİ BÖLÜM
+Genel Hükümler
+Amaç
+",1,0.85,1.0,y,y,,Article 1 of Kiyi Kanunu (Coastal Law 3621); purpose and scope article of the coastal zone law - directly marine coastal governance
+48,29 Temmuz 2022 CUMA.pdf,legal_reference,,20,Bu konuda 2872 sayılı Kanunu,MADDE 20,"ükümlülükler yerine getirilmedikçe durdurma kararı kaldırılmaz. Bu konuda 2872 sayılı Kanunun ilgili hükümlerine
+göre işlem tesis edilir.
+ALTINCI BÖLÜM
+Çeşitli ve Son Hükümler
+Kapasite artışları
+https",8,0.85,0.5,y,y,,Article 20 of CED Regulation 2022 referencing Cevre Kanunu 2872; about EIA enforcement and suspension obligations - environmental governance relevant to marine
+49,7.5.7221.pdf,law,2560,,Çevre Kanunu,2560 sayılı Kanun,"kısmının dördüncü bölümü
+uyarınca Bakanlık yetkilidir. Bu yetki taşrada (Değişik ibare:RG-17/12/2022-32046) Çevre, Şehircilik
+ve İklim Değişikliği İl Müdürlüklerince kullanılır.
+Büyükşehirlere içme ve",20,0.9,0.5,y,n,,Law 2560 referenced in water quality regulation; about metropolitan water and sewage authority jurisdiction - inland water management not specifically marine
+50,1.5.2863_2863 Sayılı Kültür ve Tabiat Varlıklarını Koruma Kanunu.pdf,legal_reference,,35,,Madde 35,"araştırma ve tanıtma amacı ile
+fotoğraflarının ve filmlerinin çekilmesi, mulaj ve kopyalarının çıkartılması Kültür ve Turizm
+Bakanlığının iznine bağlıdır.
+Bu hususlarla ilgili esaslar, yönetmelikte te",19,0.85,0.5,y,n,,Article 35 of Cultural and Natural Heritage Protection Law 2863; about photography and reproduction permits for cultural properties - general heritage law not marine

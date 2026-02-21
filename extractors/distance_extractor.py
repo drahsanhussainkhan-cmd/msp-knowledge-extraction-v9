@@ -140,6 +140,10 @@ class DistanceExtractor(BaseExtractor):
                        doc_type: DocumentType) -> Optional[DistanceExtraction]:
         """Process a distance match"""
         try:
+
+            # Skip bibliography and garbled text
+            if self._should_skip_match(converted_text, match.start(), match.group(0), category="distance"):
+                return None
             groups = match.groupdict()
             sentence, context = self._get_sentence_context(converted_text, match.start(), match.end())
 
@@ -159,12 +163,34 @@ class DistanceExtractor(BaseExtractor):
                 logger.debug(f"FP rejected ({fp_reason}): {match.group(0)[:50]}...")
                 return None
 
-            # Check marine relevance (lowered threshold for legal documents)
+            # Check marine relevance
             marine_score = self.fp_filter.get_marine_relevance_score(cleaned_sentence, language)
-            min_marine_score = 0.05 if doc_type in [DocumentType.LEGAL_TURKISH, DocumentType.LEGAL_ENGLISH] else 0.15
+            min_marine_score = 0.15 if doc_type in [DocumentType.LEGAL_TURKISH, DocumentType.LEGAL_ENGLISH] else 0.15
 
             if marine_score < min_marine_score:
                 logger.debug(f"Low marine relevance ({marine_score:.2f}): {sentence[:50]}...")
+                return None
+
+            # Reject building/construction/urban planning context (non-marine measurements)
+            context_lower = context.lower() if context else ''
+            building_terms_tr = [
+                'kat yüksekli', 'bina yüksekli', 'iç yükseklik', 'tavan yüksekli',
+                'bodrum kat', 'zemin kat', 'asma kat', 'merdiven', 'rampa ',
+                'konut ', 'oturma odası', 'yatak odası', 'mutfak', 'banyo', 'tuvalet',
+                'pencere', 'parmaklık', 'duvar kalınlı', 'piyes',
+                'yapı ruhsat', 'fenni mesul', 'müstakil konut',
+                'mescit', 'spor salon', 'çocuk bahçe',
+                'nüfus', 'yapı yoğunluğu', 'kat adedi',
+                'erişilebilirlik', 'engelli tuvalet', 'yaya kaldırım',
+                'ticaret yapıl', 'karma kullanım',
+            ]
+            building_terms_en = [
+                'floor height', 'ceiling height', 'building height',
+                'room dimension', 'stairwell', 'basement',
+                'residential', 'bedroom', 'kitchen', 'bathroom',
+            ]
+            building_terms = building_terms_tr if language == 'turkish' else building_terms_en
+            if any(term in context_lower for term in building_terms):
                 return None
 
             # Parse value/range

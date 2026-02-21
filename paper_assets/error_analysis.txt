@@ -1,0 +1,499 @@
+================================================================================
+ERROR ANALYSIS REPORT
+Generated: 2026-02-17T14:53:00.985029
+================================================================================
+
+OVERALL: 354/795 correct (44.5% precision)
+Total false positives: 441
+
+
+1. ERROR TYPE DISTRIBUTION (ALL CATEGORIES)
+------------------------------------------------------------
+Error Type                      Count       % Description
+------------------------------------------------------------
+cross_line                        121   27.4% Garbage text from regex spanning multiple lines
+false_positive                    109   24.7% 
+bibliography                       78   17.7% Match in reference/bibliography section
+wrong_category                     58   13.2% Valid extraction but wrong category assigned
+wrong_value                        53   12.0% Correct entity but wrong value/attribute extracted
+non_marine                         20    4.5% Correct extraction type but not marine/MSP related
+author_credit                       2    0.5% CRediT author contributions or author names
+
+
+2. PER-CATEGORY ERROR BREAKDOWN
+------------------------------------------------------------
+
+  CONCLUSION (precision: 0.167)
+  Correct: 2, Incorrect: 10
+  Avg confidence (correct): 0.850
+  Avg confidence (incorrect): 0.880
+  Error types:
+    - cross_line: 7
+    - bibliography: 2
+    - false_positive: 1
+  Error examples:
+    [cross_line] "we recommend that pilot studies should be set up (FKZ 03F0913E)"
+           Notes: Recommendation text is merged with funding/acknowledgment codes; conclusion truncated and garbled with grant identifiers
+    [cross_line] "policy makers in the conservation, protection and restoration of marine pp"
+           Notes: Text truncated with stray 'pp' (page numbers); context contains bibliography references mixed into extraction
+    [bibliography] "policy makers for uptake [13] E"
+           Notes: Fragment mixed with reference number [13]; context is clearly from the bibliography section
+    [bibliography] "We conclude that acknowledging the key role of [15] R"
+           Notes: Conclusion text truncated and merged with reference citation [15] R; context is bibliography entries
+    [false_positive] "policymakers and investors"
+           Notes: Only a two-word fragment extracted; not a meaningful conclusion or policy implication
+
+  CONFLICT (precision: 0.180)
+  Correct: 9, Incorrect: 41
+  Avg confidence (correct): 0.900
+  Avg confidence (incorrect): 0.866
+  Error types:
+    - wrong_value: 28
+    - cross_line: 5
+    - non_marine: 4
+    - wrong_category: 3
+    - false_positive: 1
+  Error examples:
+    [cross_line] " Legislation from local government conflicts with central level
+avoidance systems of vessels with e"
+           Notes: activity_2 is garbled cross-line text; activity_1 is governance not a marine activity
+    [cross_line] " triggers inevitable potential conflicts with the natural characteristics
+Among the different human "
+           Notes: activity_1 is a verb phrase; activity_2 spans across lines; likely aquaculture vs environment but poorly extracted
+    [wrong_value] " Zones classified as incompatible with the result in socio"
+           Notes: activity_1 and activity_2 are truncated fragments not identifying real activities
+    [wrong_value] "comes into conflict with all our other uses"
+           Notes: activity_1 is a verb fragment not an activity; generic mention of use conflicts without specific activities
+    [non_marine] "conflict between participation and a continuous change of leaders"
+           Notes: Conflict is about governance/social process not marine use conflict
+    [non_marine] " which conflicts with the dynamic"
+           Notes: About USV path planning algorithm not marine use conflict
+    [wrong_category] " Detecting megafauna conflict with vessels "
+           Notes: This describes megafauna-vessel collision detection technology not a use-use conflict
+    [wrong_category] "
+recording anthropogenic origin sounds
+Telemetry Detecting megafauna conflict with vessels "
+           Notes: Duplicate of row 7; describes megafauna-vessel collision detection, not a use-use spatial conflict
+    [false_positive] "incompatibility between datasets and fragmentation of knowledge
+products and services that contribut"
+           Notes: This describes data/knowledge fragmentation not a marine use conflict
+
+  DATA_SOURCE (precision: 0.340)
+  Correct: 17, Incorrect: 33
+  Avg confidence (correct): 0.876
+  Avg confidence (incorrect): 0.882
+  Error types:
+    - false_positive: 13
+    - cross_line: 12
+    - bibliography: 6
+    - wrong_category: 2
+  Error examples:
+    [false_positive] "satellite"
+           Notes: Generic mention of satellite in search methodology context not a specific data source
+    [false_positive] "dataset"
+           Notes: Generic word dataset in ML model architecture description not a data source
+    [cross_line] "surveys"
+           Notes: Garbled extraction; source_name is just s and context is generic
+    [cross_line] "dataset approach in Mackay et al"
+           Notes: Garbled cross-column text not a specific data source name
+    [bibliography] "databases"
+           Notes: Extracted from reference/bibliography section
+    [bibliography] "survey using an autonomous underwater vehicle"
+           Notes: Extracted from reference/bibliography section
+    [wrong_category] "Survey on the developments of unmanned marine vehicles"
+           Notes: Literature review survey not a data collection survey or dataset
+    [wrong_category] "database was carefully scrutinised to eliminate
+based on an extensive and systematic bibliometric su"
+           Notes: Bibliometric database/survey methodology not a marine data source
+
+  DISTANCE (precision: 0.531)
+  Correct: 26, Incorrect: 23
+  Avg confidence (correct): 0.927
+  Avg confidence (incorrect): 0.817
+  Error types:
+    - wrong_category: 19
+    - non_marine: 4
+  Error examples:
+    [wrong_category] " 3.60 metre"
+           Notes: Building floor height (3.60m) - not a spatial distance measurement; interior building specification
+    [wrong_category] "en fazla 200 km"
+           Notes: Maximum distance for technical supervisor residence (200km) - not a marine spatial distance; building regulation
+    [non_marine] " 500 metre"
+           Notes: Walking distance to urban facilities (500m) - urban planning distance not marine
+    [non_marine] " 250 metre"
+           Notes: Walking distance to mosque/prayer room (250m) - urban planning distance not marine
+
+  ENVIRONMENTAL (precision: 0.080)
+  Correct: 4, Incorrect: 46
+  Avg confidence (correct): 0.800
+  Avg confidence (incorrect): 0.804
+  Error types:
+    - false_positive: 23
+    - bibliography: 11
+    - cross_line: 10
+    - wrong_value: 2
+  Error examples:
+    [false_positive] "cumulative impact scores (Stock and Micheli, 2016)"
+           Notes: Methodology reference (cumulative impact scores) with citation, not an actual environmental condition
+    [false_positive] "cumulative effects assessment (Andersen et al"
+           Notes: Methodology name with citation, not an environmental condition measurement
+    [bibliography] "cumulative impacts in the marine environment, Front"
+           Notes: Text from reference section; Front is start of journal name Frontiers
+    [bibliography] "Cumulative impacts to global marine ecosystems projected to more than double by Phillips, S"
+           Notes: Text from reference/bibliography section with author names and DOIs
+    [cross_line] "Cumulative impacts iables representing human pressures and environmental conditions"
+           Notes: Garbled cross-column text; iables is broken from variables
+    [cross_line] "cumulative impact assessments (despite ambitions to do so, and some Fishery, Southern Squid jig Su"
+           Notes: Garbled cross-column text mixing assessment discussion with fishery names
+    [wrong_value] "PH2"
+           Notes: PH2 is stakeholder ID (participant handler 2), not a pH measurement of 2.0
+    [wrong_value] "PH4 "
+           Notes: PH4 is stakeholder ID (participant handler 4), not a pH measurement of 4.0
+
+  FINDING (precision: 0.380)
+  Correct: 19, Incorrect: 31
+  Avg confidence (correct): 0.800
+  Avg confidence (incorrect): 0.803
+  Error types:
+    - cross_line: 24
+    - false_positive: 4
+    - bibliography: 3
+  Error examples:
+    [cross_line] "results show that the GBSC-based network achieved an average gation, adaptive disturbance perception"
+           Notes: Garbled cross-column text mixing trajectory accuracy with unrelated text about disturbance perception
+    [cross_line] "Results indicate that coexistence
+and a protocol for what you do"
+           Notes: Garbled text - coexistence and a protocol for what you do is not a coherent finding
+    [bibliography] "results demonstrate that the proposed conditional collision 5762–5776"
+           Notes: Text merges finding fragment with page numbers from a reference citation (5762-5776)
+    [bibliography] "we identified through this research to [12] Ehler, C"
+           Notes: Text merges finding fragment with reference citation [12] Ehler C
+    [false_positive] "results indicate that the IV is valid"
+           Notes: Stating IV is valid is a statistical test remark not a substantive research finding
+    [false_positive] "results show they are inefficiently placed"
+           Notes: Too vague - they are inefficiently placed lacks context to be a standalone finding
+
+  GAP (precision: 0.400)
+  Correct: 20, Incorrect: 30
+  Avg confidence (correct): 0.825
+  Avg confidence (incorrect): 0.800
+  Error types:
+    - cross_line: 16
+    - bibliography: 6
+    - false_positive: 5
+    - non_marine: 3
+  Error examples:
+    [cross_line] "Limited conservation org〉"
+           Notes: Garbled text with HTML-like fragment; no coherent gap described
+    [cross_line] "missing information on species status, de- continuity
+mographics, and habitats, but also on how meas"
+           Notes: Cross-line extraction garbled species status text with unrelated continuity fragment
+    [false_positive] "absent in external regions except near berthing zones"
+           Notes: Describes route planning finding about berthing zones not a research gap
+    [false_positive] "lack of remaining time in the project"
+           Notes: Project time constraint not a research or knowledge gap
+    [bibliography] "limited [26] Comolet-Tirman, J"
+           Notes: Extracted bibliography reference instead of gap description
+    [bibliography] "lack of trust in the MSP process led [14] C"
+           Notes: Gap about trust in MSP contaminated with bibliography reference
+    [non_marine] "limited X-ray image dataset"
+           Notes: X-ray image dataset limitation not related to marine or MSP research
+    [non_marine] "limited due to physical conditions of the pool"
+           Notes: Experimental pool conditions limitation not a marine research gap
+
+  INSTITUTION (precision: 0.480)
+  Correct: 24, Incorrect: 26
+  Avg confidence (correct): 0.858
+  Avg confidence (incorrect): 0.858
+  Error types:
+    - wrong_value: 13
+    - cross_line: 6
+    - wrong_category: 3
+    - author_credit: 2
+    - bibliography: 1
+    - false_positive: 1
+  Error examples:
+    [cross_line] "Natural England within the 12nm The procedure of MPA designation in England is therefore divorced
+li"
+           Notes: Garbled cross-line text mixing Natural England and JNCC with surrounding sentence
+    [cross_line] "Assessment Tool orative effort of the Swedish Agency"
+           Notes: Garbled cross-line text; not a valid institution name
+    [bibliography] "Aquaculture Department"
+           Notes: Generic department name extracted from FAO bibliography reference
+    [wrong_value] "The Commission"
+           Notes: Too vague - "The Commission" is not a properly identified institution name
+    [wrong_value] "Greek Ministry"
+           Notes: Incomplete institution name - missing full ministry name
+    [wrong_category] "Communication from the Commission"
+           Notes: "Communication from the Commission" is a document type not an institution
+    [wrong_category] "Hollandse kust Noord Department"
+           Notes: Hollandse kust Noord is an offshore wind zone name not an institution department
+    [author_credit] "Liisa Saikkonenc
+aBaltic Marine Environment Protection Commission"
+           Notes: Includes author name "Liisa Saikkonenc" mixed with HELCOM institution name
+    [author_credit] "Markku Viitasaloa
+aFinnish Environment Institute"
+           Notes: Includes author name "Markku Viitasaloa" mixed with Finnish Environment Institute
+    [false_positive] "Fishing is one of the key activities to
+submit joint recommendations to the Commission"
+           Notes: Sentence fragment about fishing activities not an institution name
+
+  LEGAL_REFERENCE (precision: 0.957)
+  Correct: 44, Incorrect: 2
+  Avg confidence (correct): 0.856
+  Avg confidence (incorrect): 0.900
+  Error types:
+    - wrong_value: 2
+  Error examples:
+    [wrong_value] "5639 sayılı Kanun"
+           Notes: Title refers to anti-smuggling law 1918 but law_number is 5639; mismatch between title and extracted law number
+    [wrong_value] "4737 sayılı Kanun"
+           Notes: Title says Turizmi Tesvik Kanunu but that is Law 2634 not 4737; law number likely misidentified
+
+  METHOD (precision: 0.660)
+  Correct: 33, Incorrect: 17
+  Avg confidence (correct): 0.900
+  Avg confidence (incorrect): 0.900
+  Error types:
+    - bibliography: 11
+    - cross_line: 5
+    - false_positive: 1
+  Error examples:
+    [cross_line] "MaxEnt"
+           Notes: Description mixes conservation planning with Litsea cubeba bibliography text from adjacent columns
+    [cross_line] "ecosystem-based management"
+           Notes: Description is garbled cross-column text merging ecosystem restoration with EU policy text
+    [bibliography] "ecosystem-based management"
+           Notes: Context is bibliography entries with DOIs and author citations
+    [bibliography] "Marxan"
+           Notes: Description and context are bibliography entries about Marxan software
+    [false_positive] "Invest"
+           Notes: Invest is not clearly a method; context is garbled compressed bibliography text
+
+  OBJECTIVE (precision: 0.571)
+  Correct: 4, Incorrect: 3
+  Avg confidence (correct): 0.800
+  Avg confidence (incorrect): 0.800
+  Error types:
+    - cross_line: 3
+  Error examples:
+    [cross_line] "h2020 However, the intense and reckless exploitation of natural resources has led to a degradation o"
+           Notes: Not an objective or hypothesis - this is a background statement about resource exploitation; text extracted across PDF formatting lines with metadata mixed in
+    [cross_line] "objectives of this study are to explore the capability of the
+gestedandslightlyrewrittenandmodifiedi"
+           Notes: Objective text is corrupted by cross-line PDF extraction - garbled text from Eurotop manual reference mixed with actual objective
+
+  PENALTY (precision: 0.588)
+  Correct: 10, Incorrect: 7
+  Avg confidence (correct): 0.810
+  Avg confidence (incorrect): 0.800
+  Error types:
+    - false_positive: 5
+    - non_marine: 2
+  Error examples:
+    [false_positive] "cezalandırılır"
+           Notes: Penalty for not responding to flood duty summons - not marine/coastal law; vague extraction
+    [false_positive] "ızın iptal"
+           Notes: Position cancellation in administrative reform - not a penalty for violation; not marine
+    [non_marine] "cezalandırılır"
+           Notes: Penalties under groundwater law - not marine/coastal; no specific fine amount extracted
+    [non_marine] "ızın iptal"
+           Notes: License renewal for antiquities trade - not a penalty for violation; not marine context
+
+  PERMIT (precision: 0.600)
+  Correct: 6, Incorrect: 4
+  Avg confidence (correct): 0.900
+  Avg confidence (incorrect): 0.900
+  Error types:
+    - wrong_category: 4
+  Error examples:
+    [wrong_category] "izin verilir"
+           Notes: Land swap provision for non-permanent structures - not a construction permit; not marine; wrongly tagged as shipping
+    [wrong_category] "izin verilir"
+           Notes: Telecommunications tower installation permit - not marine; wrongly tagged as conservation activity
+
+  POLICY (precision: 0.420)
+  Correct: 21, Incorrect: 29
+  Avg confidence (correct): 0.819
+  Avg confidence (incorrect): 0.803
+  Error types:
+    - bibliography: 15
+    - wrong_value: 5
+    - false_positive: 5
+    - cross_line: 3
+    - non_marine: 1
+  Error examples:
+    [bibliography] "Directive and the Maritime Spatial Planning Directive"
+           Notes: Title extracted from reference section with garbled name
+    [bibliography] "Social Policy"
+           Notes: Generic policy term extracted from reference section
+    [cross_line] "European level via amendments to the of EU Directive"
+           Notes: Title is garbled sentence fragment not a real directive name
+    [cross_line] "The National National Maritime blue economy The observed disparities in MSP implementation and blue "
+           Notes: Garbled multi-column table text with duplicated and mixed content
+    [non_marine] "Disability Strategy"
+           Notes: Disability strategy is not related to marine or coastal governance
+    [wrong_value] "Key elements SEA Directive"
+           Notes: Title includes non-policy text 'Key elements' before SEA Directive
+    [wrong_value] "Strategic Environmental EU Directive"
+           Notes: Garbled title for Strategic Environmental Assessment Directive
+    [false_positive] "Use Assessment Framework"
+           Notes: Not a real framework name; garbled extraction
+    [false_positive] "Algorithm 2 Framework"
+           Notes: Algorithm framework from AUV optimization paper not a policy
+
+  PROHIBITION (precision: 0.189)
+  Correct: 7, Incorrect: 30
+  Avg confidence (correct): 0.907
+  Avg confidence (incorrect): 0.823
+  Error types:
+    - false_positive: 23
+    - cross_line: 3
+    - non_marine: 2
+    - wrong_value: 2
+  Error examples:
+    [non_marine] " fidan veya ağaç dikmek yasaktır"
+           Notes: Land expropriation law - tree planting ban near infrastructure, not marine
+    [non_marine] " Mevzuata aykırı olarak düzenlenmiş teminat mektupları kabul edilmez"
+           Notes: Administrative procurement rule about guarantee letters, not marine prohibition
+    [false_positive] " bu sınır dışında"
+           Notes: Fragment "outside this boundary" is not a prohibition statement
+    [false_positive] "mazbut vakıflara ait sular hariç"
+           Notes: Exclusion clause about foundation waters, not a prohibition
+    [wrong_value] " imalatla kullanılması yasaktır"
+           Notes: Incomplete extraction - refers to banned fish products use in manufacturing but text is truncated
+    [wrong_value] " kuruluş ve işletmelere bu faaliyetler için izin verilmez"
+           Notes: Incomplete extraction - lacks context of what activities are not permitted
+    [cross_line] " dışında"
+           Notes: Bare fragment "outside" - garbled/incomplete extraction
+    [cross_line] " dışında"
+           Notes: Bare fragment "outside" - garbled/incomplete extraction
+
+  PROTECTED_AREA (precision: 0.905)
+  Correct: 38, Incorrect: 4
+  Avg confidence (correct): 0.872
+  Avg confidence (incorrect): 0.900
+  Error types:
+    - wrong_category: 4
+  Error examples:
+    [wrong_category] " Tarım ve Orman Bakanlığı merkez teşkilatında Doğa Koruma ve Milli Park"
+           Notes: This is an organizational unit name (Directorate of Nature Conservation and National Parks) not a protected area designation
+    [wrong_category] "
+Kısa Mesafeli Koruma Alanı"
+           Notes: Short-distance protection zone for inland drinking water sources - not a nature/biodiversity protected area but a water source buffer zone
+
+  RESULT (precision: 0.240)
+  Correct: 12, Incorrect: 38
+  Avg confidence (correct): 0.725
+  Avg confidence (incorrect): 0.713
+  Error types:
+    - cross_line: 26
+    - false_positive: 8
+    - non_marine: 4
+  Error examples:
+    [non_marine] "results show that the IDP model
+Simulations under marine conditions featuring exclusively ocean curr"
+           Notes: Wave glider obstacle avoidance algorithm; cross-line garbled text
+    [non_marine] "results demonstrate faster convergence
+and higher asymptotic returns compared to standard TD3 and DD"
+           Notes: AUV RL algorithm performance (TD3/DDPG); not marine result
+    [cross_line] "results indicate that the third round of MFZ
+The numbers in parentheses are standard errors"
+           Notes: MFZ result merged with table notation about standard errors
+    [cross_line] "results demonstrate that the proposed conditional collision 5762–5776"
+           Notes: Result fragment merged with bibliography page numbers
+    [false_positive] "results show that a cell size of 0"
+           Notes: Truncated fragment about cell size; not a complete result
+    [false_positive] "results reveal both the criterion-wise distributions
+offshore wind farm site selection framework"
+           Notes: Incomplete; describes framework intro not a specific result
+
+  SPECIES (precision: 0.220)
+  Correct: 11, Incorrect: 39
+  Avg confidence (correct): 0.845
+  Avg confidence (incorrect): 0.700
+  Error types:
+    - false_positive: 19
+    - bibliography: 15
+    - wrong_category: 3
+    - wrong_value: 1
+    - cross_line: 1
+  Error examples:
+    [bibliography] "Salmon"
+           Notes: Extracted from bibliography/URL references not species discussion
+    [bibliography] "COD"
+           Notes: COD extracted from bibliography context; not a species mention
+    [false_positive] "cetacean"
+           Notes: Generic taxonomic group not a specific species; context is bibliography
+    [false_positive] "salmon"
+           Notes: Generic common name; context discusses fishery management not specific species
+    [wrong_category] "mangrove"
+           Notes: Mangrove is a habitat/ecosystem type not a species; context is bibliography
+    [wrong_category] "Benthic community"
+           Notes: Benthic community is an ecological community not a species
+    [wrong_value] "Mullet"
+           Notes: Context mentions Mussel not Mullet; likely misextraction from table
+    [cross_line] "oyster"
+           Notes: Generic common name; context is garbled cross-line text extraction
+
+  STAKEHOLDER (precision: 0.820)
+  Correct: 41, Incorrect: 9
+  Avg confidence (correct): 0.820
+  Avg confidence (incorrect): 0.800
+  Error types:
+    - bibliography: 8
+    - wrong_category: 1
+  Error examples:
+    [bibliography] "Analysis and Research Association"
+           Notes: Association name extracted from reference list section
+    [bibliography] "maritime industry"
+           Notes: Stakeholder term found in reference/bibliography context
+    [wrong_category] "stakeholder"
+           Notes: Generic term in evaluation framework table header not a specific stakeholder
+
+  TEMPORAL (precision: 0.240)
+  Correct: 6, Incorrect: 19
+  Avg confidence (correct): 0.900
+  Avg confidence (incorrect): 0.900
+  Error types:
+    - wrong_category: 19
+  Error examples:
+    [wrong_category] "1yıl süreyle"
+           Notes: Duration of penalty enforcement not a temporal restriction; DSI water structures context is not marine; activity wrongly tagged as tourism
+    [wrong_category] "30gün süre"
+           Notes: Administrative notification period for land consolidation - not a temporal restriction on marine activity
+
+
+3. CONFIDENCE SCORE ANALYSIS
+------------------------------------------------------------
+Can confidence scores distinguish correct from incorrect extractions?
+Category               Avg Conf (TP)   Avg Conf (FP)    Delta
+------------------------------------------------------------
+conclusion                     0.850           0.880   -0.030
+conflict                       0.900           0.866   +0.034
+data_source                    0.876           0.882   -0.006
+distance                       0.927           0.817   +0.110
+environmental                  0.800           0.804   -0.004
+finding                        0.800           0.803   -0.003
+gap                            0.825           0.800   +0.025
+institution                    0.858           0.858   +0.000
+legal_reference                0.856           0.900   -0.044
+method                         0.900           0.900   +0.000
+objective                      0.800           0.800   +0.000
+penalty                        0.810           0.800   +0.010
+permit                         0.900           0.900   +0.000
+policy                         0.819           0.803   +0.016
+prohibition                    0.907           0.823   +0.084
+protected_area                 0.872           0.900   -0.028
+result                         0.725           0.713   +0.012
+species                        0.845           0.700   +0.145
+stakeholder                    0.820           0.800   +0.020
+temporal                       0.900           0.900   +0.000
+
+
+4. IMPROVEMENT RECOMMENDATIONS
+------------------------------------------------------------
+  - Most common error: 'cross_line' (121 occurrences)
+    Recommendation: Focus filtering improvements on this error type
+  - Lowest precision: 'environmental' (0.080)
+    Recommendation: Review and tighten patterns for this category

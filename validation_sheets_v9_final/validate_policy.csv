@@ -1,0 +1,161 @@
+﻿id,source_file,policy_type,title,scope,exact_text,context,page_number,confidence,marine_relevance,is_correct,is_relevant,error_type,notes
+1,Towards-sustainable-marine-spatial-planning-of-aquac_2023_Ecological-Indicat.pdf,directive,EU Habitat,,EU Habitat Directive,"nd their exposure to human impact alteration. tivities have to be installed along the coast, since they can as sink of
+The coralligenous bed are Mediterranean marine bioconstructions sediments and org",8,0.8,1.0,y,y,,EU Habitats Directive (92/43/EEC); real named EU directive for habitat and species conservation including marine habitats
+2,53.pdf,policy,CFP expanded,,CFP expanded Policy,"heries.ec. Regulation (EU) No 1380/2013 of the
+approach to fisheries regulation, intending to europa.eu/policy/common-fishe European Parliament and of the Council of
+govern EU fisheries through common",5,0.8,1.0,n,y,false_positive,Garbled title; 'CFP expanded Policy' is not a real policy name; the actual policy is the Common Fisheries Policy (CFP) and 'expanded' is body text describing its scope
+3,37.pdf,strategy,Blue Growth,,Blue Growth Strategy,"co-location of aquaculture and offshore wind farms (e.g. [11]), which because all four dimensions are shared and functions connected. This is
+are viewed as drivers of multi-use. Subsequent E.U. policy",2,0.8,1.0,y,y,,Blue Growth Strategy is a genuine named EU strategy (COM/2012/0494) for sustainable growth in the marine and maritime sectors.
+4,Cumulative-effects-of-offshore-renewables--From-prag_2023_Environmental-Impa.pdf,directive,Maritime Spatial Planning,,Maritime Spatial Planning Directive,", and member states need to develop The UK-MPS defines cumulative impacts of activities as:
+their own programs of measures to reach those targets (Altvater et al.,
+2019). Based on the MSFD measures an",4,0.8,1.0,y,y,,Maritime Spatial Planning Directive (2014/89/EU) is a real named EU directive establishing a framework for MSP.
+5,Effective-conservation-of-cultural-and-natural-heritage-of_2025_Ocean---Coas.pdf,framework,Global Biodiversity,"legitimacy (Haapasaari and van Tatenhove, 2022) ""30 ×30″ target of 30% of the earth’s surface as a g",Global Biodiversity Framework,"systems are
+work at the COP-15 in December 2022 held in Montreal, Canada (CBD,
+human systems interconnected and challenging to integrate (Kidd
+et al., 2020) 2022; Stephens, 2023). Playing a crucial ro",2,0.8,0.5,y,y,,Kunming-Montreal Global Biodiversity Framework (GBF) is a real named international framework adopted at CBD COP-15 in 2022.
+6,Coordination-of-planning-regulations-at-the-edge-of-water-and-land_2025_Mari.pdf,directive,European level via amendments to the of EU,,European level via amendments to the of EU Directive,"n level. The mentioned above refer to the national level of integrated coastal zone
+legal framework varies significantly among EU countries when it comes management, however, some of the actions might",11,0.8,1.0,n,y,extraction_error,"Sentence fragment; 'European level via amendments to the of EU Directive' is garbled body text about EU-level coastal zone management, not a policy title"
+7,Adaptive-path-planning-for-dry-bulk-carriers-under-sudden-mar_2026_Ocean-Eng.pdf,strategy,Revised GHG,,Revised GHG Strategy,"0), international shipping accounts for approximately 2.89 % tory data and reconstructs realistic maritime corridors through a
+of global anthropogenic CO2 emissions, with bulk carriers among the seque",2,0.8,1.0,y,y,,IMO Revised GHG Strategy (2023); real named international maritime strategy for greenhouse gas emission reduction from shipping
+8,53.pdf,directive,The objective of the,,The objective of the Directive,"s Appendix III of
+protected species it includes for the
+Mediterranean Isurus oxyrinchus, Prionace
+glauca, Squatina squatina, Raja alba (Any
+exploitation of wild fauna specified in Appendix
+III shall b",5,0.9,1.0,n,y,false_positive,"Sentence fragment; 'The objective of the Directive' is body text describing a directive's objective, not a policy title"
+9,Strategic-Environmental-Assessment-in-marine-spatial-planning-of-_2021_Marin.pdf,directive,The compilation of requirements from the SEA,,The compilation of requirements from the SEA Directive,"ork for the assessment of planned […] policies” [77] 7 http://www.panbalticscope.eu/
+2
+
+A. Pinkau and K.S. Schiele M a r i n e P o l i c y 130(2021)104547
+Fig. 1. Methodological framework of the study",3,0.8,1.0,n,y,false_positive,"Sentence fragment >8 words; 'The compilation of requirements from the SEA Directive' is body text about the SEA Directive, not a policy title"
+10,SEAs-for-seas--Strategic-environmental-assessment-for-mor_2024_Environmental.pdf,policy,Environmental Science and,,Environmental Science and Policy,"Environmental Science and Policy 162 (2024) 103920
+Contents lists available at ScienceDirect
+Environmental Science and Policy
+journal homepage: www.elsevier.com/locate/envsci
+SEAs for seas: Strategic ",1,0.8,1.0,n,n,false_positive,"Journal name, not a policy; 'Environmental Science and Policy' is the name of the Elsevier journal in which the paper is published"
+11,46.pdf,strategy,The EU Biodiversity,,The EU Biodiversity Strategy,"pact of nature-based solutions: A 1248–1250.
+handbook for practitioners, European Commission, 2021. https://op.europa.eu [46] V. Hermoso, S.B. Carvalho, S. Giakoumi, D. Goldsborough, S. Katsanevakis,
+",8,0.8,0.5,y,y,,"EU Biodiversity Strategy is a real named EU strategy (2030 Biodiversity Strategy, COM/2020/380); the truncated title still identifies the correct document."
+12,The-complex-relationships-between-marine-protected-areas-and-mar_2021_Marine.pdf,directive,European Union,,European Union Directive,"s designated or regulated and managed to achieve specific
+conservation objectives”.2 This understanding was complemented by
+1 Characteristics of effective marine spatial planning include: ecosystem-
+b",2,0.8,1.0,n,y,extraction_error,Too generic; 'European Union Directive' does not identify which specific EU directive is referenced - context mentions MPAs and conservation objectives
+13,Integrating-marine-spatial-planning-into-blue-economy-policie_2025_Marine-Po.pdf,policy,Development Economy,,Development Economy Policy,"ional factors. Together, these dis-
+cussions pave the way for the article’s final considerations and policy
+Table 3
+insights.
+Reference to BE in national strategic documents.
+Country In Long-Term Dedi",7,0.8,1.0,n,n,false_positive,Not a real policy name; 'Development Economy Policy' is a generic phrase not matching any specific named policy instrument
+14,36.pdf,policy,EU Water,,EU Water Policy,"ts is
+good environmental status (GES) in territorial waters. This Directive, needed (EU, 2008). The socio-economic assessment is a crucial element
+which covers all European waters, was designed as a f",1,0.8,1.0,y,y,,EU Water Policy referencing Water Framework Directive and MSFD; legitimate named EU policy framework for water quality in marine territorial waters
+15,45.pdf,guideline,FAO Technical,,FAO Technical Guideline,"d: Writing – review & editing, Investigation, Australian Commonwealth fisheries, Mar. Policy 104 (2019) 135–145.
+Formal analysis. Ridoux Vincent: Writing – review & editing, Investi- [19] FAO. 2021. F",11,0.8,1.0,n,y,extraction_error,"Too truncated to identify a specific FAO Technical Guideline; 'FAO Technical Guideline' is a series title, not a specific named document. The reference is cut off mid-citation."
+16,A-bibliometric-assessment-of-progress-in-marine-spatial-pla_2021_Marine-Poli.pdf,directive,EU MSP,,EU MSP Directive,"ience and engineering publication (3.9% per year) [38]
+revealing that MSP is a recent topic in scientific literature. MSP
+commenced through management initiatives for the GBR [14] and
+3.5. Study sites",11,0.8,1.0,y,y,,EU MSP Directive (2014/89/EU) correctly identified by standard abbreviated form.
+17,Coordination-of-planning-regulations-at-the-edge-of-water-and-land_2025_Mari.pdf,directive,Based on the EU MSP,,Based on the EU MSP Directive,"g individual case studies in the aspect of spatial planning
+maritime areas Bay, MSP for the in economic, administrative and environmental terms [9,40–47]. This
+Central Bank, MSP for topic, although re",3,0.8,1.0,n,y,extraction_error,"Sentence fragment; 'Based on the EU MSP Directive' is a clause from body text, not a policy title. The actual directive is the EU MSP Directive (2014/89/EU)."
+18,Current-status--advancements-and-development-needs-of-geosp_2021_Ocean---Coa.pdf,directive,The MSP,,The MSP Directive,"es novel demands for the development of decision support tools (DST). One
+Geospatial tools fundamental aspect is the need for tools to guide decisions about the allocation of human activities at sea i",1,0.8,1.0,y,y,,The MSP Directive (2014/89/EU) correctly identified; real named EU directive for maritime spatial planning
+19,Progress-in-the-modelling-and-management-of-offshore-wind-f_2026_Ocean-Engin.pdf,directive,The EU,,The EU Directive,"ined two distinct wake events impacting the 400 MW Global Tech I
+(GT I) wind farm in the German North Sea—one from the BorWin cluster 4.1. Maritime spatial planning
+(24 km upstream) and another from D",9,0.8,0.5,n,y,extraction_error,Overly truncated title; 'The EU Directive' is not a specific named directive. Context mentions maritime spatial planning but the extracted text does not identify which EU directive is referenced.
+20,The-human-dimension-dilemma-in-marine-spatial-planning_2022_Marine-Policy.pdf,regulation,Forestry Ministerial,,Forestry Ministerial Regulation,"ecosystem restoration
+and wildlife reintroduction. administrative framework obligates planners to conduct public consul-
+9 Traditional fisheries 102,899.2 This zone is for natural resource tations and",5,0.8,0.5,n,n,non_marine,A national forestry ministerial regulation; not a marine or environmental policy instrument relevant to MSP.
+21,Transboundary-marine-spatial-planning-across-Europe--Trends-and_2020_Marine-.pdf,strategy,Report on the Blue Growth,,Report on the Blue Growth Strategy,". (Brussels, Belgium).
+[34] EC, Blue Growth: Opportunities for Marine and Maritime Sustainable Growth,
+F. Bruno, K.S. Casey, C. Ebert, H.E. Fox, R. Fujita, D. Heinemann, H.S. Lenihan, E.
+2012, p. 12. ",9,0.8,1.0,y,y,,Report on the Blue Growth Strategy is a real named EU document (COM/2012/0494); correctly identified in bibliography
+22,SEAs-for-seas--Strategic-environmental-assessment-for-mor_2024_Environmental.pdf,directive,EU SEA,,EU SEA Directive,"risdictional boundaries, MSP-SEAs should
+ately manage risks and uncertainties. Monitoring and evaluation may be
+consider transboundary environmental effects.2 Since SEA processes
+executed on various l",3,0.8,1.0,y,y,,EU SEA Directive (2001/42/EC) is a real named EU directive for Strategic Environmental Assessment; correctly identified
+23,Achieving-coherence-between-the-Marine-Strategy-Framework-Direc_2023_Marine-.pdf,strategy,The EU,,The EU Strategy,"s;
+boundary issues related to the Adriatic Sea, whereas the Coastal Area the Water Framework Directive (WFD), the MSFD, the Habitats and
+Management Programs (CAMPs) of UNEP/MAP enhance cooperation Bir",4,0.8,1.0,n,y,extraction_error,Too generic; 'The EU Strategy' does not identify which specific EU strategy - context discusses Adriatic Sea boundary issues and MSFD/WFD
+24,Strategic-Environmental-Assessment-in-marine-spatial-planning-of-_2021_Marin.pdf,directive,Through the implementation of the SEA,,Through the implementation of the SEA Directive,"defined for sectoral
+approach to ecosystem management is important [64] where eval- planning (e.g. offshore wind energy). MSP practitioners emphasise the
+uation from monitoring helps to improve planni",8,0.8,1.0,n,y,false_positive,"Sentence fragment; 'Through the implementation of the SEA Directive' is body text clause, not a policy title"
+25,Integrating-marine-spatial-planning-into-blue-economy-policie_2025_Marine-Po.pdf,policy,National Maritime,,National Maritime Policy,"h the Ministry of Environment
+Policy 2019–2030 [8], which is multisectoral and is conducted by the
+6
+
+T. Santos M a r i n e P o l i c y 181 (2025) 106856
+Ministry of Defense. The preparation of the Mu",7,0.8,1.0,y,y,,Portugal's National Maritime Policy (2019-2030) is a real named national policy; context confirms this is a specific identifiable instrument. Slightly truncated but the underlying policy is real and identifiable.
+26,Coordination-of-planning-regulations-at-the-edge-of-water-and-land_2025_Mari.pdf,directive,The Article 7 of the EU,,The Article 7 of the EU Directive,"the EU directive directive. Thus the provisions of EU Directive on the framework for MSP
+states that member countries while elaborating MSP document must published in 2014 suppressed the previous EU R",4,0.8,1.0,n,y,extraction_error,"Sentence fragment capturing a legal citation rather than a directive name; the actual document is the EU MSP Directive (2014/89/EU), not 'The Article 7 of the EU Directive'."
+27,Marine-spatial-planning-initiatives-off-the-coast-of-large_2025_Ocean---Coas.pdf,directive,EU MSP,,EU MSP Directive,"be
+marineecosystems(seeAppendix1forfurtherdetailsonhowthearea establishedinthesevencitiesstudied,whichdependsontheprevailing
+underMPAregimeoffthecoastofeachcitywasassessed).Farahead, legalframework.
+M",4,0.8,0.5,y,y,,EU MSP Directive (2014/89/EU) correctly identified for large coastal cities in Northwestern Mediterranean
+28,The-Marine-Plan-Partnership--Indigenous-community-based-marin_2021_Marine-Po.pdf,framework,Regional Action,,Regional Action Framework,"imary Columbia, allowed for the First Nations plans to shape the sub-regional
+marine use plans; and, the collaborative plans took an ecosystem based MaPP plans and for First Nations values and priorit",9,0.8,1.0,y,y,,Regional Action Framework in the context of the Marine Plan Partnership (MaPP) in British Columbia refers to a specific document guiding sub-regional marine planning; borderline case leaning correct per guidelines.
+29,Cumulative-effects-of-offshore-renewables--From-prag_2023_Environmental-Impa.pdf,regulation,Under the Environmental Information,,Under the Environmental Information Regulation,"s the national authority on their supply chain plan to the Department for Business, Energy and In-
+MRED appraisals. The UK-NPS recommends close cooperation between dustrial Strategy (BEIS) for assessm",6,0.8,0.5,n,y,extraction_error,"Sentence fragment; 'Under the Environmental Information Regulation' is a clause from body text. The actual document is the UK Environmental Information Regulations 2004 (EIR), but the extracted title is malformed."
+30,32.pdf,strategy,EU Biodiversity,,EU Biodiversity Strategy,"makingattheEuropeanscale.Furthermore,thisapproachprovides
+partoftheessentialinfrastructurerequiredtomaximisethefinancialbenefitsofFAIRdata,anddataproducts
+playakeyroleinempoweringuserstomakemaximumuse",1,0.8,0.5,y,y,,EU Biodiversity Strategy is a real named EU strategy; correctly identifies the EU 2030 Biodiversity Strategy (COM/2020/380).
+31,Conservation-ready-marine-spatial-planning_2023_Marine-Policy.pdf,framework,Montreal Global Biodiversity,,Montreal Global Biodiversity Framework,"esigned to advance only conservation goals [14], it is clearly being
+stifled in its implementation by a persistent fragmentation of manage- leveraged for reducing threats to biodiversity, as evidenced",1,0.8,1.0,y,y,,Kunming-Montreal Global Biodiversity Framework; real named international framework for biodiversity conservation including marine targets
+32,Strategic-Environmental-Assessment-in-marine-spatial-planning-of-_2021_Marin.pdf,guideline,The EBA,,The EBA Guideline,"deline, [10]).
+assessment framework is based on the EBA key elements that HELCOM-
+VASAB agreed upon [10]. The SEA Directive is the reference document of SEA by law in
+Europe. The HELCOM-VASAB EBA Guid",2,0.8,1.0,y,y,,The EBA Guideline (HELCOM-VASAB Ecosystem-Based Approach Guideline); real named MSP guidance document
+33,Fine-scale-mapping-of-ocean-user-groups-to-support-species-and_2025_Marine-P.pdf,directive,European Habitats,,European Habitats Directive,"174(2025)106588
+Fig. 3. Pressure score contribution by vessel class within marine protected area boundaries. (A) The mean pressure score value for all cells falling within each MPA
+boundary by vessel ",7,0.8,1.0,y,y,,European Habitats Directive (92/43/EEC) is a real named EU directive; correctly identified with standard name variant
+34,The-development-of-a-spatial-data-infrastructure-to-sup_2022_Ocean---Coastal.pdf,strategy,National Maritime Spatial,,National Maritime Spatial Strategy,"the system was effectuated through Law 4546/2018 (as updated by Law
+environment through early identification of impact and opportunities 4759/2020), which sets the national legal framework for MSP, de",1,0.8,1.0,y,y,,Greece's National Maritime Spatial Strategy is a real named national MSP policy document established under Law 4546/2018; correctly identified from context.
+35,Conservation-ready-marine-spatial-planning_2023_Marine-Policy.pdf,framework,Maritime Strategic,,Maritime Strategic Framework,"ative is needed to recognize that humans, the and academics [1,13,18]. For example, the EU’s Integrated Maritime
+ocean, biodiversity, and climate are inextricably linked, and that by Policy identifies",1,0.8,1.0,n,y,wrong_type,'Maritime Strategic Framework' is a generic paraphrase; context references the EU Integrated Maritime Policy (IMP) rather than a document titled 'Maritime Strategic Framework'. The extracted title does not match any specific named instrument.
+36,Strategic-Environmental-Assessment-in-marine-spatial-planning-of-_2021_Marin.pdf,directive,European SEA,,European SEA Directive,"and weaknesses of SEA practice in different na- EBA Guideline) requirements regarding EBA key elements are drawn
+tional MSP settings from an EBA perspective in order to derive recom- from the three re",2,0.8,1.0,y,y,,SEA Directive (2001/42/EC) correctly identified; 'European SEA Directive' is a standard reference to the EU Strategic Environmental Assessment Directive.
+37,Exploring-integration-of-land-sea-interactions-in-maritime-spat_2025_Marine-.pdf,strategy,The updated National,,The updated National Strategy,"ourism the specific focus should be on improving the opera-
+several economic opportunities (e.g. increased income for the local tional integration between the MSP, WFD and the MSFD processes and
+popul",12,0.8,0.5,n,y,extraction_error,Too truncated and generic to identify a specific named strategy; 'The updated National Strategy' does not name the country or strategy title. Cannot be verified as a real named document.
+38,Transboundary-marine-spatial-planning-across-Europe--Trends-and_2020_Marine-.pdf,strategy,Blue Growth,,Blue Growth Strategy,"nd to examine pursue good environmental status. MSP has also developed as a policy
+the priorities underlying TMSP projects in Europe. It presents the find- tool to advance blue growth [32]. For exampl",2,0.9,0.5,y,y,,Blue Growth Strategy is a real named EU strategy (COM/2012/0494); correctly identified.
+39,Strategic-Environmental-Assessment-in-marine-spatial-planning-of-_2021_Marin.pdf,directive,Implementation guideline for the European SEA,,Implementation guideline for the European SEA Directive,"e) requirements regarding EBA key elements are drawn
+tional MSP settings from an EBA perspective in order to derive recom- from the three reference documents applicable to the study region:
+mendations",2,0.8,1.0,y,y,,Implementation guideline for the European SEA Directive; real named reference document for EBA key elements in MSP
+40,Integrating-issue-oriented-solution-of-marine-spatial-pla_2024_Ocean---Coast.pdf,strategy,The National,,The National Strategy,"ng activities affecting the marine
+clarifying the responsibilities of national and provincial marine and environment
+coastal resource management committees. Thailand has also formulated Frequent trans",2,0.8,1.0,n,y,extraction_error,Too generic; 'The National Strategy' does not identify which country or strategy - context discusses Thailand marine environment management
+41,A-critique-of-the-use-of-domain-analysis-for-spatial-colli_2021_Ocean-Engine.pdf,regulation,These Under the Code of Federal,,These Under the Code of Federal Regulation,"2019). One assessment density plot of the collected data is shown in Fig. 1.
+presented an increase in collision risk of 50% from approximately once
+in six to approximately once in four years whilst th",3,0.8,0.5,n,n,extraction_error,"Sentence fragment; 'These Under the Code of Federal Regulation' is garbled text starting with 'These', not a proper regulation title. The real document would be the US Code of Federal Regulations but the extraction is malformed."
+42,Grey-wolf-optimization-enhanced-collaborative-path-planni_2025_Ocean-Enginee.pdf,strategy,Nonlinear Convergence,,Nonlinear Convergence Strategy,"g a dynamic balance
+stream approach in this field (Li et al., 2018). between exploration and exploitation, thereby providing optimal so-
+Swarm intelligence algorithms are based on collective behavior ",2,0.8,0.5,n,n,false_positive,"Algorithm design technique from a grey wolf optimization path-planning paper; 'Nonlinear Convergence Strategy' refers to a mathematical convergence method in swarm intelligence, not a marine or environmental policy."
+43,Framing-future-trajectories-of-human-activities-in-the-Ge_2024_Journal-of-En.pdf,strategy,European Biodiversity,,European Biodiversity Strategy,"50 (COM, 2018). This vision dictates the German
+a European Green Deal (European Commission, 2019). Renewable Energies Act (Act, 2014), which encompasses the Offshore
+b Marine Strategy Framework Direct",3,0.8,1.0,y,y,,EU Biodiversity Strategy (2030) is a real named EU strategy; correctly identified. 'European Biodiversity Strategy' is a standard reference form.
+44,Cumulative-effects-of-offshore-renewables--From-prag_2023_Environmental-Impa.pdf,directive,Strategic Environmental EU,,Strategic Environmental EU Directive,"ective (MSPD) planning development and growth in
+Papers, the EIR defines CfDs the maritime sectors,
+applying an ecosystem-based
+supply chain requirements
+approach and promoting the
+regarding EIA data ",3,0.8,1.0,n,y,garbled_text,Garbled cross-column PDF extraction; 'Strategic Environmental EU Directive' is a malformed title produced by merging text from adjacent columns. The actual directive is the SEA Directive (2001/42/EC).
+45,33.pdf,policy,The Common Agricultural,,The Common Agricultural Policy,"oted through project activities, which play a signif-
+icant role to improve water quality [64]. For example, the Ministry of
+4.2. Agricultural policies for water protection the Environment, Finland, f",5,0.9,1.0,y,n,,"EU Common Agricultural Policy (CAP); real named EU policy but primarily agricultural, not marine; context discusses water quality improvement"
+46,Marine-spatial-planning-initiatives-off-the-coast-of-large_2025_Ocean---Coas.pdf,directive,European MSP,,European MSP Directive,"ustainablemanagingmarine
+4.4. Thestakeholders’engagementprocessinquestion spaces and ecosystems. This work provides an overview of how it is
+beingaddressedbylargecoastalcitiesintheNorthwesternMediterr",14,0.8,0.5,y,y,,European MSP Directive (2014/89/EU) correctly identified for sustainable marine management
+47,Ship-path-planning-methods--A-state-of-the-art-survey_2025_Ocean-Engineering.pdf,regulation,Ensuring compliance with the International,,Ensuring compliance with the International Regulation,"nd voyage time, which supports the goals of low-carbon
+shipping and environmental sustainability (Shu et al., 2024b). More-
+4. COLREGs compliance analysis over, it plays a vital role in enabling multi",15,0.8,1.0,n,y,extraction_error,"Sentence fragment captured as regulation title; 'Ensuring compliance with the International Regulation' is body text describing COLREGs compliance analysis, not a regulation name. The actual regulation is COLREGs (Convention on the International Regulations for Preventing Collisions at Sea)."
+48,53.pdf,regulation,Technical Measures,,Technical Measures Regulation,"plans in
+tions to the Commission. Countries should have submitted their
+meeting the GES indicators; and second, solving the perennial EU
+roadmap by the end of March 2024. The roadmaps will, inter alia",21,0.8,0.5,y,y,,EU Technical Measures Regulation (2019/1241) is a real named EU fisheries regulation; correctly identified
+49,Institutional-barriers-to-integrated-marine-spatial-planning-_2022_Marine-Po.pdf,directive,EU MSP,,EU MSP Directive,"[70]. However, there is no reference about how these
+below and highlight how institutional barriers have impeded integrated plans will link with the dMPNI.
+MSP on the IOI (see Supplementary Material f",4,0.8,0.5,y,y,,EU MSP Directive (2014/89/EU); real named EU directive for maritime spatial planning; correctly identified
+50,46.pdf,strategy,EU Biodiversity,,EU Biodiversity Strategy,"works. Biodiversity conservation is mainly approached through
+The adoption of (blue) NBS faces many obstacles in different steps of the EU-wide strategic document that was adopted in 1998 and updated
+",3,0.8,1.0,y,y,,EU Biodiversity Strategy (2030); real named EU strategy for nature-based solutions and marine biodiversity conservation

@@ -1,0 +1,173 @@
+﻿id,source_file,species_name,scientific_name,common_name,protection_status,exact_text,context,page_number,confidence,marine_relevance,is_correct,is_relevant,error_type,notes
+1,Prospects-of-marine-spatial-planning-in-T_2025_Regional-Studies-in-Marine-Sc.pdf,seagrass,,,,seagrass,"ssure on the habitats of vulnerable species such
+the Sea of Marmara not only creates pollution pressure but also poses as the loggerhead sea turtle (Caretta caretta), the Mediterranean monk
+major envi",5,0.7,1.0,y,y,,Valid marine organism; seagrass habitats referenced alongside sea turtle in marine context
+2,45.pdf,yellowfin tuna,,,,yellowfin tuna,"ed their gear voluntarily before it became mandatory 3.2.5. Case study 5: the dolphin-set tuna purse seine fishery
+throughout the region when DAMs were phased out in 2009. Bycatch mortality of cetacea",5,0.7,1.0,y,y,,Valid marine fish species in tuna fishery bycatch context
+3,39.pdf,minke whale,,,,minke whale,"CCBY-NC-NDlicense(http://creativecommons.org/licenses/by-
+nc-nd/4.0/).
+
+L.Nunnyetal. MarinePolicy177(2025)106652
+1. Introduction 2. Definitions
+“Beluga charms British with impromptu visit”; “Marine ma",2,0.7,1.0,y,y,,Valid marine mammal species; minke whale in marine mammal policy and conservation context
+4,Spatial-coupling-and-decoupling-between-ecosystem-services-_2021_Ocean---Coa.pdf,Humpback Whale,,,,Humpback Whale,"ysis to assess the distribution of CONADI (1995); Rozzi et al.
+melanophrys,) iconic species. (2006); Aguilera and Tonko
+- Southern righ whale (Eubalaena 4. Spatial analysis to determine the maximum (2",12,0.7,0.5,y,y,,Valid marine mammal species; Humpback Whale in Chilean Patagonia ecosystem services and species distribution analysis
+5,Analysis-of-uses-and-activities-in-the-Argentine-Sea--Bases-for-_2022_Marine.pdf,hake,,,,hake,"the waters that are on the platform less than 200m deep. The [7] (Table 1) was adapted to the NAB. Once identified, they were
+characteristics of the Slope Front allow the main fishing grounds of mappe",3,0.7,1.0,y,y,,Valid marine fish species (Merluccius); hake as key fishing species in Argentine Sea platform waters
+6,53.pdf,Cetorhinus maximus,Cetorhinus maximus,,,Cetorhinus maximus,"ch
+considered several elasmobranchs:
+• Dipturus batis: Regionally Extinct
+• Squalus acanthias Lamna nasus: Critically
+Endangered
+• Raja clavate and Galeorhinus galeus:
+Vulnerable
+• Amblyraja radiata, ",4,0.9,1.0,y,y,,Valid marine species (basking shark); Cetorhinus maximus listed among Mediterranean elasmobranchs for conservation assessment
+7,A-robust--systematic-approach-for-developing-the-biodivers_2022_Ocean---Coas.pdf,Leatherback turtle,,,,Leatherback turtle,"and (4) the
+area of the planning units.
+1 http://cmr.mandela.ac.za/NCMSBP.
+3
+
+L.R. Harris et al. O c e a n a n d C o a s t a l M a n a g e m e n t 230(2022)106368
+Fig. 2. Examples of biodiversity feat",4,0.7,1.0,y,y,,Valid marine reptile species; Leatherback turtle as biodiversity feature in Marxan conservation planning analysis
+8,52.pdf,Dicentrarchus labrax,Dicentrarchus labrax,,,Dicentrarchus labrax,"rences between the 2groups. The most frequent species caught by
+parametric tests. An alpha less than 0.05 was considered statistically professionals are Trisopterus luscus (84 %), Octopus vulgaris (80",3,0.9,0.5,y,y,,Valid marine fish species; Dicentrarchus labrax (European sea bass) with scientific name in catch frequency data
+9,Spatial-coupling-and-decoupling-between-ecosystem-services-_2021_Ocean---Coa.pdf,sea urchin,,,,sea urchin,"n each municipality).
+tance, which together accounted for 67% of the landings in 2018
+(SERNAPESCA 2019): southern king crab (Lithodes santolla), sea aspar-
+agus (Ensis macha), southern scallop (Austro",4,0.7,1.0,y,y,,Valid marine invertebrate species; sea urchin alongside southern king crab and scallop in Chilean fishery landings
+10,45.pdf,Common dolphin,,,,Common dolphin,"tern Bering Chinook and chum salmon Pollock midwater Reduce bycatch of chinook and chum Tax/levies, rewards, insurance,
+Salmon savings Sea, Alaska (Oncorhynchus tshawytscha trawl fishery salmon bycatc",4,0.7,1.0,y,y,,Valid marine mammal species in bycatch reduction context
+11,Seascape-genomics--Assisting-marine-biodiversity-management-by-c_2025_Marine.pdf,Mullet,,,,Mullet,"treatment plant Mussel [Mollusca] [82]
+management diversity, genetic differentiation, and Coastal
+effluents on wild populations
+adaptation differently
+Living resource Investigation of the influence of",6,0.7,1.0,y,y,,Valid marine fish species listed alongside mussel in marine biodiversity management context
+12,21.5.1426_Deniz Trafik Düzeni Tüzüğü.pdf,Hamsi,,,,Hamsi,"1bölgede trafik ayırım düzeni içinde seyretme kuralını askıya alabilir.
+(4) Konteyner ve Ro Ro gemileri hariç olmak üzere tehlikeli yük taşıyan, birinci ve
+ikinci fıkralarda belirtilen niteliklere hai",10,0.7,1.0,n,n,false_positive,Not a species extraction; 'Hamsi' (anchovy) appears as a substring match in Turkish maritime traffic regulation text about container and ro-ro vessels - not describing a species in context
+13,Unveiling-the-mesophotic-South-Atlantic-reef-system--SARS---M_2025_Journal-o.pdf,benthic fauna,,,,benthic fauna,"2018). On the outer shelf of the southern Eastern
+Vale et al. (2022b) along the Sa˜o Francisco River and by Holz et al. Sector, rhodoliths that are approximately 4734 cal yr BP have been
+(2020)and Vie",11,0.7,0.5,y,y,,Valid marine organism group in mesophotic reef system and rhodolith habitat context
+14,Marine-spatial-planning-to-solve-increasing-conflicts-at_2023_Journal-of-Env.pdf,Solea solea,Solea solea,,,Solea solea,"age of maintained
+individuals, we used only the abundance of individuals smaller than yearly landings value. The 82 GPFs fall into 2categories with different
+42.85 cm (L50 in ICES, 2016). For the seco",5,0.9,0.5,y,y,,Valid marine fish species (common sole); Solea solea with scientific name confirmed in ICES fisheries context
+15,45.pdf,whiting,,,,whiting,"et al. M a r i n e P o l i c y 177 (2025) 106661
+Table 2
+General characteristics of the 7case studies.
+Case study Region Bycatch species of concern Fisheries involved, Management goals and targets Typ",4,0.7,1.0,y,y,,Valid marine fish species listed as bycatch species of concern in fisheries case studies
+16,Mismatches-between-the-current-marine-Natura-2000-network-and-sea_2025_Marin.pdf,Kittiwake,,,,Kittiwake,"proved the manuscript.
+Appendices
+Table A.1
+Seabird taxa by biogeographical region (ATL=Atlantic Ocean, MED=Mediterranean Sea)
+(continued on next page)
+10
+
+T. Poupart et al. M a r i n e P o l i c y 18",11,0.7,1.0,y,y,,Valid marine seabird species in Natura 2000 seabird taxa appendix
+17,From-plate-to-plug--The-impact-of-offshore-renewable_2022_Renewable-and-Sust.pdf,Nephrops norvegicus,Nephrops norvegicus,,,Nephrops norvegicus,"ll pelagic fish OTM_SPF currently exists in Italy, several more OWF are planned in Italy and
+otter trawl Greece (Fig. 2). The existing OR in the Baltic Sea are exclusively OWF
+Otter trawl Crustaceans,",4,0.9,1.0,y,y,,Valid marine crustacean species (Norway lobster); Nephrops norvegicus in otter trawl fisheries and offshore wind impact context
+18,37.pdf,bluefish,,,,bluefish,"draw tourists, such as a fisheries co-op:
+future multi-use. Current and potential future tourism-related multi-
+“I think it’s like the best thing since sliced bread…. It brings the public to
+use was m",4,0.7,0.5,y,y,,Valid marine fish species; bluefish referenced in recreational fisheries and tourism multi-use context
+19,34.pdf,snapper,,,,snapper,"or values may remain unaffected by certain species. For example, the
+information that exists would be updated in the context dependence of northern Pacific seastar, Asterias amurensis, being a general",4,0.7,1.0,y,y,,Valid marine fish species; snapper referenced alongside Pacific seastar in marine ecosystem context
+20,45.pdf,Yellowfin tuna,,,,Yellowfin tuna,"S comparable in effectiveness to US
+market standards
+(4) Marine Stewardship Global Endangered and Threatened Case-specific Reduce impacts of fisheries on Labeling
+Council Eco-Label – new Species Endan",4,0.7,1.0,y,y,,Valid marine fish species in Marine Stewardship Council eco-label and endangered species context
+21,A-two-way-process---Social-capacity-as-a-driver-and-outcome-of_2023_Marine-P.pdf,mangrove,,,,mangrove,"dbanks and adjacent marine areas
+Further, a £9.5m award from the National Lottery Fund Horizons covering a total area of 1721 hectares (ha). The boundary of PMER was
+Award to support the development o",5,0.7,1.0,y,y,,Valid marine/coastal organism; mangroves referenced in marine area boundary context
+22,A-robust--systematic-approach-for-developing-the-biodivers_2022_Ocean---Coas.pdf,Petrel,,,,Petrel,"a l M a n a g e m e n t 230(2022)106368
+Fig. 2. Examples of biodiversity features included in the Marxan analysis: (a) ecosystem types; species, such as (b) Biscuit Skate, (c) Leatherback turtle, (d) ",4,0.7,1.0,y,y,,Valid marine seabird species; Petrel among biodiversity features in Marxan conservation planning alongside Biscuit Skate and Leatherback turtle
+23,Marine-Spatial-Planning-Scheme-evaluation-based-on-the-co_2022_Ocean---Coast.pdf,benthic fauna,,,,benthic fauna,"ndard, 1 Sector, and 0, respectively. then the results were classified as Class 1–5 on average by the
+Reclassify tool and transformed to raster at last. The higher the class,
+b) The data about the num",5,0.7,0.5,y,y,,Valid marine organism group; benthic fauna in MSP scheme evaluation with raster analysis classification
+24,Prioritising-multiple-objectives-in-marine-spatial-pla_2023_Ocean---Coastal-.pdf,bluefin tuna,,,,bluefin tuna,"g a
+(Diomedea antipodensis, antipodean albatross; Thalassarche impavida, precautionary approach to biodiversity conservation is necessary to
+Campbell albatross) and 2species of tuna (Thunnus obesus, b",7,0.7,1.0,y,y,,Valid marine fish species referenced alongside albatross in MSP biodiversity conservation context
+25,7.5.5217_Su Ürünleri Yetiştiriciliği Yönetmeliği.pdf,orkinos,,,,orkinos,"ağlantılı sularda yapılacak su
+ürünleri yetiştiriciliğine ilişkin tesislerin kurulma yerleri, müracaat şekli ve talebin değerlendirilmesi,
+ön izin, proje onayı (kesin izin), projenin iptal edilmesi, p",1,0.7,1.0,y,y,,Valid marine species; orkinos is Turkish for bluefin tuna; referenced in Turkish aquaculture regulation
+26,Novel-computer-vision-tools-applied-to-marine-recreational_2024_Fisheries-Re.pdf,Posidonia oceanica,Posidonia oceanica,,,Posidonia oceanica,"recreational fisherman volunteer provided by a GPS and estimated by the
+monitoring system. D: Positioning Error Density Histogram. The red “X” on the maps indicates the location from which the photos ",6,0.9,0.75,y,y,,Valid marine species (Mediterranean seagrass) in marine recreational fisheries monitoring context
+27,46.pdf,seagrass,,,,seagrass,"sup- terventions for recovering ecosystem attributes that have been lost or
+porting tool [74,85]. Impact assessments are gathering the informa- degraded ([39]in [73], p.7). For example, coastal ecosys",2,0.7,1.0,y,y,,Valid marine organism; seagrass in coastal ecosystem recovery and impact assessment context
+28,Seascape-genomics--Assisting-marine-biodiversity-management-by-c_2025_Marine.pdf,seagrass,,,,seagrass,"and and other regions, along with the Swedish Agency of Marine
+tory [15,111]. Examples span diverse habitats, ranging from the inshore and Water Management (SwAM). These entities converge with the
+dis",7,0.7,1.0,y,y,,Valid marine organism; seagrass in marine biodiversity management and habitat context
+29,Scenario-based-cumulative-impacts-assessment-on-iconic-s_2026_Environmental-.pdf,sturgeon,,,,sturgeon,"framework by integrating species distribution models (SDMs) to evaluate
+Habitat pressure assessment
+the changes in cumulative anthropogenic pressure on the habitats of iconic species under different p",1,0.7,1.0,y,y,,Valid marine/anadromous fish species; sturgeon as iconic species in cumulative impact assessment
+30,Seascape-genomics--Assisting-marine-biodiversity-management-by-c_2025_Marine.pdf,Zostera marina,Zostera marina,,,Zostera marina,"rying selection [Echinodermata]
+genetic variation
+monitoring genetic diversity over time in aquatic species, including information in management is currently explored in
+several marine ones (currently",6,0.9,1.0,y,y,,Valid marine species (eelgrass) in seascape genomics and genetic diversity monitoring context
+31,Towards-sustainable-marine-spatial-planning-of-aquac_2023_Ecological-Indicat.pdf,Mytilus galloprovincialis,Mytilus galloprovincialis,,,Mytilus galloprovincialis,"hown in Fig. 4b. The
+For what regards the shellfish activities some differences are needed. average value of TRIX for m-SWBs has been 3.3, ranging from a mini-
+In the Gargano area the activities are m",6,0.9,0.5,y,y,,Valid marine bivalve species (Mediterranean mussel); Mytilus galloprovincialis in shellfish aquaculture and TRIX water quality assessment
+32,From-plate-to-plug--The-impact-of-offshore-renewable_2022_Renewable-and-Sust.pdf,Gadus morhua,Gadus morhua,,,Gadus morhua,"OR installations show the greatest spatial expansion in the
+Danish seine Demersal fish, mainly European plaice SDN_DEF North Sea and Baltic Sea, with the UK having allocated the largest sur-
+(Pleurone",4,0.9,1.0,y,y,,Valid marine species (Atlantic cod) in offshore renewable energy and fisheries impact context
+33,A-robust--systematic-approach-for-developing-the-biodivers_2022_Ocean---Coas.pdf,hake,,,,hake,"rent activities shown); (c) kelp harvesting (symbology exaggerated to be visible); (d) gillnetting; (e) beach seining; (f) west coast rock lobster
+harvesting; (g) south coast rock lobster harvesting; ",4,0.7,1.0,y,y,,"Valid marine fish species; hake alongside kelp harvesting, gillnetting, and rock lobster in South African marine biodiversity analysis"
+34,High-resolution-seascape-visibility-tool-for-aquacult_2025_Ocean---Coastal-M.pdf,Mediterranean mussel,,,,Mediterranean mussel,"Region, accounting for approximately 15 % of
+2010). However, these approaches do not quantify the intensity or national production of European seabass (Dicentrarchus labrax) and
+quality of visual impa",2,0.7,0.5,y,y,,Valid marine species; Mediterranean mussel alongside European seabass in aquaculture production context
+35,Mismatches-between-the-current-marine-Natura-2000-network-and-sea_2025_Marin.pdf,Fulmar,,,,Fulmar,"led the need for complementary at-
+sea data for several species of high conservation value: Storm petrel, 4.2.2. Arbitrary quantitative criteria and qualitative criteria requiring
+Balearic and Manx sh",8,0.7,1.0,y,y,,Valid marine seabird species in Natura 2000 seabird conservation context
+36,Analysis-of-uses-and-activities-in-the-Argentine-Sea--Bases-for-_2022_Marine.pdf,Hake,,,,Hake,"nd activities; 4 sectors had 5 uses and activities; and 5 with 4 uses and
+Corridor would be created, with an approximate extension of activities in the same place. All were located in the area above t",5,0.7,0.5,y,y,,Valid marine fish species; hake (Merluccius) in Argentine Sea fisheries context
+37,The-Marine-Plan-Partnership--Indigenous-community-based-marin_2021_Marine-Po.pdf,Sea cucumber,,,,Sea cucumber,"Areas
+Marine Sanctuary Marine Habitat Aquaculture Alternative Transportation Integrated
+(No Take Areas) Conservancy Management Management Zone Energy Zone Corridors Management Zone
+Zone
+King crab – Tr",11,0.7,0.857,y,y,,Valid marine species; sea cucumber in Indigenous marine plan with habitat management zones
+38,27.pdf,seabream,,,,seabream,"et al. M a r i n e P o l i c y 180 (2025) 106786
+Table 2
+Species requirements, thresholds and source of information for fish and seaweed farming.
+Species requirements Temperature (sst, Salinity (sal, ",5,0.7,0.5,y,y,,Valid marine fish species in aquaculture farming species requirements table
+39,Spatial-footprint-of-maritime-vessels-in-the-waters-of-a-fast-_2025_Marine-P.pdf,mangrove,,,,mangrove,"d the finless porpoise (Neophocaena
+competition over access to space for energy, conservation and fisheries phocaenoides), as well as populations of green turtles (Chelonia mydas),
+[30]. In this conte",2,0.7,1.0,y,y,,Valid marine/coastal organism; mangrove referenced alongside finless porpoise and green turtle in vessel footprint marine habitat context
+40,52.pdf,Diplodus sargus,Diplodus sargus,,,Diplodus sargus,"he most frequent species caught by
+parametric tests. An alpha less than 0.05 was considered statistically professionals are Trisopterus luscus (84 %), Octopus vulgaris (80 %),
+significant, and we perf",3,0.9,0.5,y,y,,Valid marine fish species; Diplodus sargus (white seabream) with scientific name in catch frequency professional fisheries data
+41,Seascape-genomics--Assisting-marine-biodiversity-management-by-c_2025_Marine.pdf,Thunnus thynnus,Thunnus thynnus,,,Thunnus thynnus,"high risk of regional species. Spatially resolved seascape and/or population genomics data is
+ecosystem imbalances. These imbalances could potentially impact starting to become available, for instance",4,0.9,0.5,y,y,,Valid marine species (Atlantic bluefin tuna) in seascape genomics and ecosystem context
+42,Using-ecosystem-service-assessments-to-support-partici_2020_Ocean---Coastal-.pdf,seagrass,,,,seagrass,"on of Ecosystem situations, anthropogenic pressures
+Services and Trade-offs) and natural processes to identify
+how these would affect the
+provision of ecosystem services
+Golfe du Various services prov",4,0.7,0.5,y,y,,Valid marine organism; seagrass in ecosystem service assessment and participatory marine management context
+43,Effective-conservation-of-cultural-and-natural-heritage-of_2025_Ocean---Coas.pdf,grouper,,,,grouper,"ss different areas of PB despite the anthropo- economic structure of islands, often present conflicts concerning
+genic activities conducted on and near the island. The study found that ecological cons",7,0.7,1.0,y,y,,Valid marine fish species in island marine conservation and ecological context
+44,Thresholds-of-seascape-fauna-composition-along-gradients-_2024_Science-of-Th.pdf,plaice,,,,plaice,"l fish com-
+bution of the grey gurnard Eutrigla gurnardus was strongly associated munities was not captured at the appropriate spatial scale in our
+with light penetration into the water (Supplementary",7,0.7,0.5,y,y,,Valid marine fish species; plaice (European flatfish) alongside grey gurnard in MSFD seascape fauna composition analysis
+45,52.pdf,Merluccius merluccius,Merluccius merluccius,,,Merluccius merluccius,"Maja squinado 5% Pagellus bogaraveo 6%
+Petromyzon marinus 5% Solea solea 6%
+Spondyliosoma cantharus 5% Spondyliosoma cantharus 6%
+Beryx decadactylus 4% Cancer pagurus 3%
+Coris julis 4% Sardina pilchar",9,0.9,1.0,y,y,,Valid marine fish species; Merluccius merluccius (European hake) with scientific name in catch species list
+46,Using-GIS-fuzzy-set-modelling-to-integrate-social-ecological_2021_Ocean---Co.pdf,seahorse,,,,seahorse,"seagrass, soft coral, mangroves,
+sponges, kelp, saltmarshes) and marine species both extractive (i.e., blue
+swimmer crab, bream, flathead, luderick, marlin, mulloway, mullet,
+oysters, snapper, tailor,",5,0.7,1.0,y,y,,"Valid marine species; seahorse in marine biodiversity context alongside seagrass, coral, and extractive species"
+47,Spatial-planning-for-dugong-conservation--Assessing-habitat-suit_2025_Marine.pdf,dugong,,,,dugong,"Marine Policy 180 (2025) 106777
+Contents lists available at ScienceDirect
+Marine Policy
+journal homepage: www.elsevier.com/locate/marpol
+Spatial planning for dugong conservation: Assessing habitat sui",1,0.7,1.0,y,y,,Valid marine mammal species; dugong as focal species for conservation spatial planning and habitat suitability assessment
+48,Disturbance-impacts-of-planned-offshore-wind-expansion-on-UK-_2025_Marine-Po.pdf,seagrass,,,,seagrass,"urbance,
+centennial to millennial timescales [45]. The most well-known and primarily from bottom-towed fishing gear, poses to the ability of seabed
+studied blue carbon stores are coastal habitats such",1,0.7,1.0,y,y,,Valid marine organism; seagrass as blue carbon store in offshore wind disturbance context
+49,Towards-sustainable-marine-spatial-planning-of-aquac_2023_Ecological-Indicat.pdf,Posidonia,,,,Posidonia,"rformed.
+summer temperature in the superficial layer is plotted, as an example.
+The global analysis has highlighted that the Gulf of Manfredonia is the 3.2.3. Natural characterization of the study are",7,0.7,1.0,y,y,,Valid marine seagrass genus; Posidonia referenced in Gulf of Manfredonia aquaculture MSP natural characterization
+50,Using-GIS-fuzzy-set-modelling-to-integrate-social-ecological_2021_Ocean---Co.pdf,grouper,,,,grouper,"es, kelp, saltmarshes) and marine species both extractive (i.e., blue
+swimmer crab, bream, flathead, luderick, marlin, mulloway, mullet,
+oysters, snapper, tailor, and whiting) and non-extractive (i.e.",5,0.7,1.0,y,y,,Valid marine fish species listed among extractive marine species in GIS modelling context

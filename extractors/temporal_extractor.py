@@ -146,6 +146,10 @@ class TemporalExtractor(BaseExtractor):
                        doc_type: DocumentType) -> Optional[TemporalExtraction]:
         """Process a temporal match"""
         try:
+
+            # Skip bibliography and garbled text
+            if self._should_skip_match(converted_text, match.start(), match.group(0), category="temporal"):
+                return None
             groups = match.groupdict()
             sentence, context = self._get_sentence_context(converted_text, match.start(), match.end())
 
@@ -161,11 +165,24 @@ class TemporalExtractor(BaseExtractor):
             if is_fp:
                 return None
 
-            # Check marine relevance
+            # Check marine relevance - require stronger marine signal for temporal
             marine_score = self.fp_filter.get_marine_relevance_score(cleaned_sentence, language)
-            min_marine_score = 0.05 if doc_type in [DocumentType.LEGAL_TURKISH, DocumentType.LEGAL_ENGLISH] else 0.15
+            min_marine_score = 0.15 if doc_type in [DocumentType.LEGAL_TURKISH, DocumentType.LEGAL_ENGLISH] else 0.20
 
             if marine_score < min_marine_score:
+                return None
+
+            # Reject non-marine legal context (DSI, zoning, heritage, construction laws)
+            context_lower = context.lower() if context else ''
+            non_marine_legal = [
+                'arazi toplulaştırma', 'imar planı', 'imar kanun', 'yapı ruhsat',
+                'kültür varlık', 'tabiat varlık', 'sit alanı koruma',
+                'mesleki sorumluluk', 'inşaat ruhsat', 'yapı kullanma',
+                'hazine arazisi', 'devlet orman', 'mera kanun',
+                'zoning', 'building permit', 'construction permit',
+                'heritage', 'cultural property', 'land consolidation'
+            ]
+            if any(term in context_lower for term in non_marine_legal):
                 return None
 
             # Parse temporal details

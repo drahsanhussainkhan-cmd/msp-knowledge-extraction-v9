@@ -33,9 +33,9 @@ class ProhibitionExtractor(BaseExtractor):
                 r'men\s+olunmu[şs]|izin\s+verilmez)',
                 re.IGNORECASE | re.UNICODE
             ),
-            # Generic prohibition: yasaktır/yasaklanmıştır
+            # Generic prohibition: yasaktır/yasaklanmıştır - require activity to be 3-80 chars
             re.compile(
-                r'(?P<activity>[\w\s]+?)\s*'
+                r'(?P<activity>[\w\s]{3,80}?)\s*'
                 r'(?P<prohibition>yasak(?:t[ıi]r|lanm[ıi][şs]t[ıi]r)|men\s+edilmi[şs]tir|'
                 r'izin\s+verilmez|kabul\s+edilmez)',
                 re.IGNORECASE | re.UNICODE
@@ -56,11 +56,8 @@ class ProhibitionExtractor(BaseExtractor):
                 r'(?P<prohibition>yasakt[ıi]r|men\s+edilmi[şs]tir)',
                 re.IGNORECASE | re.UNICODE
             ),
-            # Exceptions: hariç/müstesna
-            re.compile(
-                r'(?P<exception>[\w\s]+?)\s*(?:hariç|müstesna|dışında|istisna)',
-                re.IGNORECASE | re.UNICODE
-            ),
+            # REMOVED: Exception patterns (hariç/müstesna/dışında/istisna)
+            # These are scope qualifiers, NOT prohibitions - they caused 70%+ of false positives
         ]
 
         # English patterns
@@ -99,11 +96,7 @@ class ProhibitionExtractor(BaseExtractor):
                 r'(?:is\s+)?(?P<prohibition>prohibited|banned|illegal)',
                 re.IGNORECASE
             ),
-            # Except/excluding patterns
-            re.compile(
-                r'(?:except|excluding|with\s+the\s+exception\s+of)\s+(?P<exception>[\w\s]+)',
-                re.IGNORECASE
-            ),
+            # REMOVED: Except/excluding patterns - these are scope qualifiers, not prohibitions
         ]
 
     def extract(self, text: str, page_texts: Dict[int, str],
@@ -134,6 +127,10 @@ class ProhibitionExtractor(BaseExtractor):
                        doc_type: DocumentType) -> Optional[ProhibitionExtraction]:
         """Process a prohibition match"""
         try:
+
+            # Skip bibliography and garbled text
+            if self._should_skip_match(converted_text, match.start(), match.group(0), category="prohibition"):
+                return None
             groups = match.groupdict()
             sentence, context = self._get_sentence_context(converted_text, match.start(), match.end())
 
@@ -156,9 +153,29 @@ class ProhibitionExtractor(BaseExtractor):
             if marine_score < min_marine_score:
                 return None
 
+            # Reject cross-line garbled text
+            match_text = match.group(0)
+            if '\n' in match_text or '\r' in match_text:
+                return None
+
+            # Reject if match is just an exception/scope qualifier (dışında, hariç, etc.)
+            match_lower = match_text.lower().strip()
+            exception_words = {'dışında', 'hariç', 'müstesna', 'istisna', 'haricinde'}
+            if any(match_lower.endswith(w) for w in exception_words):
+                return None
+
             # Parse prohibition details
             prohibition_type = self._parse_prohibition_type(groups, language)
             activity = groups.get('activity', '').strip() if groups.get('activity') else None
+
+            # Reject activities with garbled text
+            if activity:
+                if '\n' in activity or '\r' in activity:
+                    return None
+                if len(activity) > 80:
+                    return None
+                if len(activity) < 3:
+                    return None
             scope = self._parse_scope(groups, context, language)
             exceptions = self._extract_exceptions(context, language)
 

@@ -1,0 +1,75 @@
+﻿id,source_file,restriction_type,start_date,end_date,activity,exact_text,context,page_number,confidence,marine_relevance,is_correct,is_relevant,error_type,notes
+1,1.3.6200.pdf,duration,,,tourism,1yıl süreyle,"eza 2katı olarak uygulanır ve eksikliklerini düzeltmek üzere 15gün müddet verilir.
+Fiilin üçüncü tekrarında ise ceza 3katı olarak uygulanır ve su yapıları yetkili denetim
+
+şirketinin izin belgesi DSİ ",12,0.9,0.5,n,y,wrong_category,Duration relates to water infrastructure inspection penalties; activity is not tourism
+2,1.5.1380_Su Ürünleri Kanunu (No. 1380).pdf,duration,,,unspecified,90gün süre,"a kadar idarî para cezası verilir.
+e) 13 üncü maddenin birinci fıkrasına aykırı olarak kurulduğu Tarım ve Orman
+Bakanlığınca tespit edilen tesis sahiplerine 10000Türk lirasından 100000Türk lirasına ka",13,0.9,0.5,y,y,,Valid 90-day compliance period for aquaculture facility violations; Fisheries Law
+3,1.5.1380_Su Ürünleri Kanunu (No. 1380).pdf,duration,,,fishing,3ay süre,"rı ile avlanan balıkçı gemileri
+kullanılarak yapılması halinde, bu gemiler için sahip veya donatanlarına ceza 3katı olarak
+uygulanır. Kabahatin işlenmesinde kullanılan gemiler ile gerçek veya tüzel ki",14,0.9,1.0,y,y,,Valid 3-month duration related to aquaculture product confiscation; Fisheries Law
+4,1.5.1380_Su Ürünleri Kanunu (No. 1380).pdf,duration,,,aquaculture,3ay süre,"7000Türk lirası idarî para cezası verilir, istihsal olunan su ürünlerine el konularak
+mülkiyetin kamuya geçirilmesine karar verilir. Kabahatin işlenmesinde kullanılan gemiler ile
+gerçek veya tüzel kiş",15,0.9,1.0,y,y,,Valid 3-month duration related to aquaculture product confiscation; Fisheries Law
+5,7.5.18679_Özel Çevre Koruma Bölgeleri Mevzuatı.pdf,duration,,,shipping_navigation,30gün süre,"uyurularak, ayrıca Valilik, Kaymakamlık ve Belediyelerin İnternet sitelerinde duyurularak ilan edilir.
+(3) Programa alınan alanlar; köy sınırları içerisinde ise yukarıdaki ilanlardan ayrı olarak, duru",2,0.9,0.5,n,y,wrong_category,30-day public notification period for land programs; not shipping navigation
+6,7.5.18679_Özel Çevre Koruma Bölgeleri Mevzuatı.pdf,duration,,,unspecified,6ay süreyle,"trampa talebi olan ancak ifrazı Hazine lehine olmayan,
+taşınmazlar trampaya konu edilemez.
+İlan ve başvuru
+MADDE 9 – (1) (Değişik:RG-29/4/2022-31824) Milli Emlak Genel Müdürlüğünce trampa
+kapsamında ö",4,0.9,0.5,y,y,,Valid 6-month duration for land swap application process in environmental protection zones
+7,7.5.16726_Limanlar Yönetmeliği_Ulaştırma Mevzuatı.pdf,date_range,nisan 1,kasım 15,tourism,1 nisan-15 kasım,"niz aracı yanaşamaz.
+(14) Liman sınırları içerisinde plaj bölgelerinde ve kıyı otel, motel, tatil köyleri, site önlerinde,
+kıyıdan itibaren 200 metreye kadar olan deniz alanlarında, yüzme alanı sınırl",15,0.9,1.0,y,y,,Valid seasonal date range April 1-Nov 15 for coastal swimming/tourism zones; Ports Regulation
+8,7.5.16726_Limanlar Yönetmeliği_Ulaştırma Mevzuatı.pdf,duration,,,shipping_navigation,60 gün süreli,"ürk Boğazları dahil olmak üzere Marmara denizinde; hat izni ile sefer yapan gemiler, tarama
+yetki belgesine sahip dökü ve tarama gemileri ile yağ, yakıt ve su tankerleri ile kumanya taşıyan ikmal
+gemi",7,0.9,1.0,y,y,,Valid 60-day duration for maritime route permits in Turkish Straits and Marmara Sea
+9,7.5.18340_Özel Çevre Koruma Bölgeleri Mevzuatı.pdf,duration,,,shipping_navigation,10gün süreli,"zleşme yapıldıktan sonra müşterinin,
+a) Taahhüdünden vazgeçmesi,
+b) Taahhüdünü şartname ve sözleşme hükümlerine uygun olarak yerine getirmemesi,
+
+c) Kiraya verilen veya kulanma izni verilen devletin h",10,0.9,0.5,n,y,wrong_category,10-day period relates to lease/contract breach notification; not shipping navigation
+10,7.5.18340_Özel Çevre Koruma Bölgeleri Mevzuatı.pdf,duration,,,fishing,10yıl süreli,"idarelerine kiraya verme,
+b) Balıkçı barınaklarının o yörede en az 12aydan beri faaliyette bulunan su ürünü
+kooperatiflerine veya su ürünü kooperatif birliklerine kiraya verilmesi,
+c) (Danıştay Onüçün",11,0.9,1.0,y,y,,Valid 10-year lease duration for fishing shelters to fishery cooperatives; marine relevant
+11,7.5.18340_Özel Çevre Koruma Bölgeleri Mevzuatı.pdf,duration,,,unspecified,30gün süreyle,"ilgili mevzuatı uyarınca
+yapılması mümkün olan yapı ve tesislerin yapılması amacıyla, en fazla 30yıla kadar Ek-4 ve Ek-5’te
+verilen forma uygun olarak kullanma izni verilebilir.
+(2) Kullanma izni sahi",12,0.9,0.5,n,y,false_positive,"Extracted ""30gün süreyle"" not supported by context which discusses 30-year usage permits"
+12,7.5.4897_Kıyı Kanununun Uygulanmasına Dair Yönetmelik.pdf,duration,,,unspecified,1ay süreyle,"ülmeyen kıyı kenar çizgisi paftaları, gerekli düzeltmeler veya
+yeniden tespit yapılmak üzere valiliğe iade edilir.
+(Ek fıkra:RG-2/4/2013-28606) Yürürlüğe giren kıyı kenar çizgisi, belediye ve mücavir ",6,0.9,1.0,y,y,,Valid 1-month period for coastal boundary line corrections; Coastal Law Implementation
+13,GeneratePdf_3194 Sayılı İmar Kanunu.pdf,duration,,,unspecified,1yıl süre,"maddede hükme
+bağlanan sorumlulukları yerine getirmemeleri veya hatalı ve ihmalkar davranışları tesbit edildiğinde: a Birinci tesbitte
+kendisine yazılı ihtarda bulunulur. b İkinci tesbitte yazılı tevb",3,0.9,0.5,n,y,wrong_category,1-year professional construction license suspension; activity is not fishing
+14,GeneratePdf_3194 Sayılı İmar Kanunu.pdf,duration,,,fishing,1yıl süre,"unulur. b İkinci tesbitte yazılı tevbih verilir c Başka başka işlerin sorumluluğunu deruhte
+ettiği sırada da ola üçüncü tesbitte belgesi 1yıl süre ile askıya alınır. d Sorumlu olduğu işde kendi kusuru",3,0.9,0.5,n,y,wrong_category,1-year professional construction license suspension; activity is not fishing
+15,7.5.5217_Su Ürünleri Yetiştiriciliği Yönetmeliği.pdf,duration,,,aquaculture,8ay süre,"gereken diğer
+belgelerle birlikte (Ek-4), uygun görüşünü de belirterek Bakanlık Merkez Teşkilatından ön izin
+talebinde bulunur. Ön izin talebi ile ilgili işlemler 90gün içinde sonuçlandırılır.
+f) İl m",5,0.9,1.0,y,y,,Valid 8-month period for aquaculture permit processing; Aquaculture Farming Regulation
+16,1.5.3194_3194 Sayılı İmar Kanunu.pdf,duration,,,unspecified,1ay süreyle,"em üzerinden Plan İşlem Numarası almak zorundadır. Planlar, belediye
+meclisince onaylanarak yürürlüğe girer. (Yeniden düzenleme dördüncü cümle: 12/7/2013-
+6495/73 md.) Bu planlar onay tarihinden itiba",4,0.9,0.5,y,y,,Valid 1-month public display period for approved zoning plans; Zoning Law
+17,1.5.3194_3194 Sayılı İmar Kanunu.pdf,duration,,,shipping_navigation,30 gün süreyle,"an “Belediye” ibaresi
+“Planlar, belediye” şeklinde değiştirilmiştir.
+
+nerede askıya çıktığına dair bilgilendirme ilanı, askı süresi ile eş zamanlı olarak ilgili
+muhtarlıkların panosunda duyurulur. Ayr",5,0.9,0.5,n,y,wrong_category,30-day public posting period for zoning plans; not shipping navigation
+18,7.5.7221.pdf,seasonal,Yaz,,unspecified,Yaz aylarında,"blo 3’te
+gösterilenden az olmamalıdır. Tablodaki nüfus değerlerinden daha büyük yerleşim yerleri, ""önemli
+kirletici kaynak"" sınıfına giren faaliyetler ve sanayi kuruluşları için deşarj boru boyu, ön v",15,0.9,1.0,y,y,,Valid seasonal restriction for summer wastewater discharge standards; marine outfall relevant
+19,7.5.7221.pdf,seasonal,Kış,,unspecified,Kış aylarında,"k"" sınıfına giren faaliyetler ve sanayi kuruluşları için deşarj boru boyu, ön veya tam
+arıtma alternatifleri ile birlikte ele alınarak belirlenir.
+c) (Değişik:RG-13/2/2008-26786) Yaz aylarında T90 değ",15,0.9,1.0,y,y,,Valid seasonal restriction for winter wastewater discharge standards; marine outfall relevant
+20,7.5.7221.pdf,duration,,,fishing,5yıl süreyle,"larına neden olmaması,
+6) (Ek:RG-13/2/2008-26786) Endüstriyel Atık sularını sızdırmaz nitelikteki fosseptikte toplayan
+ve vidanjör vasıtası ile atıksu altyapı tesislerine veren atıksu kaynakları, atık",10,0.9,0.5,n,y,wrong_category,5-year duration for domestic wastewater infrastructure compliance; not shipping navigation
+21,7.5.7221.pdf,duration,,,shipping_navigation,5yıl süreyle,"ksu altyapı tesisleri yönetiminin izni ile verilebilir.
+Evsel atık sularını sızdırmaz nitelikteki fosseptikte toplayan ve vidanjör vasıtası ile atıksu altyapı
+tesislerine veren atıksu kaynakları, atık",14,0.9,0.5,n,y,wrong_category,5-year duration for domestic wastewater infrastructure compliance; not shipping navigation
+22,7.5.7221.pdf,duration,,,tourism,2 yıl süre,"llanım potansiyelini ve gerekli yatırım ihtiyacını
+belirlemek amacıyla hazırlayacakları fizibilite raporlarını bu maddenin yayımı tarihinden itibaren 1 yıl
+içerisinde Bakanlığa sunar. Bakanlık uygun g",23,0.9,0.5,n,y,wrong_category,2-year duration for municipal wastewater infrastructure feasibility; not tourism specifically

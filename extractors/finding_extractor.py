@@ -67,24 +67,56 @@ class FindingExtractor(BaseExtractor):
                        doc_type: DocumentType) -> Optional[FindingExtraction]:
         """Process a finding match"""
         try:
+
+            # Skip bibliography and garbled text
+            if self._should_skip_match(converted_text, match.start(), match.group(0), category="finding"):
+                return None
             groups = match.groupdict()
             sentence, context = self._get_sentence_context(converted_text, match.start(), match.end())
 
             marine_score = self.fp_filter.get_marine_relevance_score(sentence, language)
-            if marine_score < 0.1:
+            if marine_score < 0.15:
                 return None
 
             description = (groups.get('description') or '').strip()
             if not description or len(description) < 20:
                 return None
 
+            # Reject cross-line garbled text
+            if '\n' in description or '\r' in description:
+                return None
+
+            # Reject garbled two-column PDF text (hyphenated line break merged with adjacent column)
+            if re.search(r'[a-z]-\s+[a-z]', description):
+                return None
+
+            # Reject non-MSP algorithm/robotics papers
+            desc_lower = description.lower()
+            non_msp_terms = [
+                'algorithm', 'path planning', 'neural network', 'reinforcement learning',
+                'deep learning', 'td3', 'ddpg', 'ddqn',
+                'auv ', 'usv ', 'uav ', 'robot', 'autonomous vehicle',
+                'reward', 'convergence', 'obstacle avoidance',
+                'hyperparameter', 'calibrat', 'wake model',
+            ]
+            if any(term in desc_lower for term in non_msp_terms):
+                return None
+
             finding_type = self._parse_finding_type(description, language)
             quantitative_result = self._extract_quantitative_result(description)
             significance = self._extract_significance(context, language)
 
+            # REQUIRE real quantitative evidence (percentages, p-values, areas)
+            # A bare digit (like a citation year or footnote) is not sufficient
+            has_percentage = bool(re.search(r'\d+(?:[.,]\d+)?%', description))
+            has_pvalue = bool(re.search(r'p\s*[<>=]', description, re.IGNORECASE))
+            has_area = bool(re.search(r'\d+\s*(?:km|ha|hectare|m2|km2)', description, re.IGNORECASE))
+            if not quantitative_result and not has_percentage and not has_pvalue and not has_area:
+                return None
+
             page_num = self._find_page_number(match.start(), page_texts)
 
-            confidence = 0.7 + (0.1 if marine_score > 0.3 else 0) + (0.1 if quantitative_result else 0)
+            confidence = 0.5 + (0.15 if marine_score > 0.3 else 0) + (0.2 if quantitative_result else 0) + (0.1 if has_percentage else 0)
 
             return FindingExtraction(
                 finding_type=finding_type,

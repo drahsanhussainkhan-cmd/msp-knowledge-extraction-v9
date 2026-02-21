@@ -11,7 +11,42 @@ try:
 except ImportError:
     from core.enums import DocumentType
 
+try:
+    from ..utils.bibliography_detector import BibliographyDetector
+    from ..utils.filters import GarbleDetector
+    from ..utils.nlp_filters import NLPFilter
+except ImportError:
+    from utils.bibliography_detector import BibliographyDetector
+    from utils.filters import GarbleDetector
+    from utils.nlp_filters import NLPFilter
+
 logger = logging.getLogger(__name__)
+
+# Shared singleton instances to avoid re-instantiation per extractor
+_shared_bib_detector = None
+_shared_garble_detector = None
+_shared_nlp_filter = None
+
+
+def _get_bib_detector():
+    global _shared_bib_detector
+    if _shared_bib_detector is None:
+        _shared_bib_detector = BibliographyDetector()
+    return _shared_bib_detector
+
+
+def _get_garble_detector():
+    global _shared_garble_detector
+    if _shared_garble_detector is None:
+        _shared_garble_detector = GarbleDetector()
+    return _shared_garble_detector
+
+
+def _get_nlp_filter():
+    global _shared_nlp_filter
+    if _shared_nlp_filter is None:
+        _shared_nlp_filter = NLPFilter()
+    return _shared_nlp_filter
 
 
 class BaseExtractor(ABC):
@@ -34,6 +69,12 @@ class BaseExtractor(ABC):
         self.fp_filter = fp_filter
         self.legal_ref_filter = legal_ref_filter
         self.number_converter = number_converter
+        self.bib_detector = _get_bib_detector()
+        self.garble_detector = _get_garble_detector()
+        self.nlp_filter = _get_nlp_filter()
+
+        # Cache for bibliography ranges per document (keyed by id(text))
+        self._bib_cache = {}
 
         # Compile patterns
         self._compile_patterns()
@@ -107,6 +148,67 @@ class BaseExtractor(ABC):
                 return page_num
             current = page_end
         return None
+
+    def _get_bibliography_ranges(self, text: str) -> List[Tuple[int, int]]:
+        """
+        Get bibliography ranges for a document, with caching.
+
+        Args:
+            text: Full document text
+
+        Returns:
+            List of (start, end) tuples marking bibliography sections
+        """
+        text_id = id(text)
+        if text_id not in self._bib_cache:
+            self._bib_cache[text_id] = self.bib_detector.detect_bibliography_ranges(text)
+        return self._bib_cache[text_id]
+
+    def _is_in_bibliography(self, text: str, position: int) -> bool:
+        """Check if a match position falls within a bibliography section."""
+        ranges = self._get_bibliography_ranges(text)
+        return self.bib_detector.is_in_bibliography(position, ranges)
+
+    def _is_garbled(self, text: str) -> bool:
+        """Check if extracted text appears to be garbled from PDF column merging."""
+        return self.garble_detector.is_garbled(text)
+
+    def _should_skip_match(self, text: str, match_start: int, match_text: str,
+                           category: str = "", context: str = "") -> bool:
+        """
+        Quick pre-filter check before processing a match.
+        Returns True if the match should be skipped.
+
+        Applies: bibliography detection, garble detection, NLP validation.
+        Call this at the start of _process_match() in each extractor.
+        """
+        # Skip matches in bibliography/references sections
+        if self._is_in_bibliography(text, match_start):
+            return True
+
+        # Skip garbled text (regex-based)
+        if self._is_garbled(match_text):
+            return True
+
+        # NLP validation (NER, POS, coherence, citation, species)
+        if category and match_text:
+            nlp_result = self.nlp_filter.validate_extraction(
+                match_text, category, context=context
+            )
+            if not nlp_result['is_valid']:
+                return True
+
+        return False
+
+    def _get_nlp_confidence(self, text: str, category: str,
+                            context: str = "") -> float:
+        """
+        Get NLP-adjusted confidence multiplier for an extraction.
+
+        Returns a multiplier (0.1-1.5) to adjust the extraction confidence.
+        """
+        result = self.nlp_filter.validate_extraction(text, category, context=context)
+        return result['confidence_multiplier']
 
     def _is_false_positive(self, sentence: str, match_text: str,
                            language: str = "auto") -> Tuple[bool, str]:

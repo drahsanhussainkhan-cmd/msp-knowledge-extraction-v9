@@ -1,0 +1,32 @@
+﻿id,source_file,conflict_type,activity_1,activity_2,severity,exact_text,context,page_number,confidence,marine_relevance,is_correct,is_relevant,error_type,notes
+1,29.pdf,spatial,mpas,isras,high,overlap between MPAs and ISRAs,"al shark habitats in the region. Of 182 MPAs identified, 41.8 % do not have a
+management plan, comprising 39.8 % of the total MPA surface area. Mexico, Costa Rica, and Colombia have
+relatively strong ",2,0.9,1.0,y,y,,
+2,29.pdf,governance,isras,no-take mpas,high,Overlap between ISRAs and no-take MPAs ,"rey lines). Three-letter codes inside the EEZs represent the corresponding jurisdictions. CHL, Chile; COL, Colombia;
+CRI, Costa Rica; ECU, Ecuador; FRA, France; GTM, Guatemala; HND, Honduras; MEX, Mex",7,0.9,1.0,y,y,,
+3,40.pdf,governance,conservation,fisheries,high,conflicts between conservation and fisheries management,"od, and fisher participation in conservation and research programs. Sustainable
+financing mechanisms are critical for implementation. By adopting this EAF-based strategy, the GMR can alle-
+viate fishi",1,0.95,1.0,y,y,,
+4,33.pdf,spatial,offshore wind,trawling,,Conflicts between locating offshore wind farms and trawling areas,"made available to aquaculture facilities.
+5
+
+E. Albrecht et al. M a r i n e P o l i c y 171 (2025) 106427
+One of the measures identified in the RBPM, the MMP and the Sea, Quark and Bothnian Bay and tw",6,0.85,1.0,y,y,,
+5,Finding-harmony-in-the-sea--Resolving-conflicts-by-reg_2024_Ocean---Coastal-.pdf,spatial,oyster,vessel,,conflicts between oyster farming and vessels,"Agency regulations outlined in the National Park
+Law for future applications related to the
+utilization of fishing rights areas.
+4
+
+J.-H. Yang et al. O c e a n a n d C o a s t a l M a n a g e m e n t2",5,0.85,1.0,y,y,,
+6,Finding-harmony-in-the-sea--Resolving-conflicts-by-reg_2024_Ocean---Coastal-.pdf,temporal,fisheries,maritime traffic,high,conflicts between trap fisheries and maritime traffic ,"more
+the coast where including waters inside the Taijiang National Park and sustainable and locally adaptable solutions to marine conflicts (Sievanen
+Anping Port areas. The major goal of this local re",10,0.95,1.0,y,y,,
+7,High-resolution-seascape-visibility-tool-for-aquacult_2025_Ocean---Coastal-M.pdf,spatial,aquaculture,tourism,, thereby mitigating potential conflicts with tourism,"laraki, conservation objectives. The r.wind.sun_aqua tool provides a practical
+2004). Recent efforts have incorporated viewer perception of visual approach to spatial planning by identifying visually ",8,0.85,1.0,y,y,,
+8,Marine-Spatial-Planning--Assessment-of-the-intensity-of-co_2022_Ocean---Coas.pdf,spatial,fisheries,navigation,,conflicts between fisheries and navigation ,"support decision-makers to plan within mul-
+areas covered by Posidonia oceanica and underwater archaeological tiple sectors and develop effective future scenarios are requested (White
+sites) – C35, C3",9,0.85,1.0,y,y,,
+9,Operationalisation-of-ecosystem-services-in-support-of-ecosystem_2021_Marine.pdf,spatial,fishery,conservation,,Trade-offs between fishery and nature conservation,"ltural (SB) Multi-use scenario applied to oil and gas infrastructure
+Cultural heritage decommissioning.
+(CE) Stakeholder engagement on multi-use concept and benefits.
+7 Food from fish Provisioning (AM",7,0.85,1.0,y,y,,

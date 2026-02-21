@@ -1,0 +1,3493 @@
+================================================================================
+MSP KNOWLEDGE EXTRACTION REPORT
+Generated: 2026-02-19 16:25:38
+================================================================================
+
+SUMMARY
+----------------------------------------
+Total documents processed: 273
+Total extractions: 3142
+
+EXTRACTIONS BY CATEGORY
+----------------------------------------
+  legal_reference: 1039
+  method: 408
+  stakeholder: 296
+  environmental: 245
+  species: 244
+  data_source: 227
+  policy: 185
+  gap: 165
+  institution: 153
+  distance: 61
+  protected_area: 37
+  temporal: 22
+  penalty: 19
+  permit: 10
+  conflict: 9
+  objective: 7
+  prohibition: 6
+  coordinate: 3
+  finding: 2
+  result: 2
+  conclusion: 2
+
+DOCUMENT DETAILS
+----------------------------------------
+
+  Document: 28.pdf
+    data_source (1 items):
+      - ICES
+
+    species (1 items):
+      - seagrass
+    environmental (4 items):
+      - eutrophication for the period 2010 – 2016 for each marine sub-region
+      - eutrophication good ecological status in the Bay of Biscay, Celtic Seas, and Greater North Sea
+      - cumulative effects on the integrity of benthic habitats in the French European EEZ
+      - cumulative effects on benthic habitats
+
+  Document: 30.pdf
+    policy (1 items):
+      - Use Assessment Framework
+    gap (1 items):
+      - limited due to a lack of publicly available economic data with the addition of tourism
+
+  Document: 27.pdf
+    method (1 items):
+      - suitability analysis
+    species (1 items):
+      - seabream
+    gap (1 items):
+      - Future studies should integrate spatial [8] M
+
+  Document: 32.pdf
+    policy (2 items):
+      - EU Biodiversity Strategy
+      - European Biodiversity Strategy
+    data_source (5 items):
+      - EMODnet
+      - emodnet
+      - EMODnet 
+      - OBIS 
+      - dataset of EMODnet Biology 
+    species (2 items):
+      - Caulerpa taxifolia
+      - Caulerpa
+
+  Document: 29.pdf
+    stakeholder (3 items):
+      - local communities
+      - fishing communities
+      - government agencies
+    conflict (2 items):
+      - overlap between MPAs and ISRAs
+      - Overlap between ISRAs and no-take MPAs 
+    method (1 items):
+      - overlap analysis
+    policy (1 items):
+      - Montreal Global Biodiversity Framework
+    gap (4 items):
+      - lack of political will and 84]
+      - limited capacity to monitor and enforce fisheries identification of reproductive areas (Puerto Cabuy
+      - limited public participation obs
+      - lack of habitat protection, Glob
+
+  Document: 26.pdf
+    institution (1 items):
+      - OWF turbines are obliged to be built as Federal Ministry
+    policy (1 items):
+      - EU Biodiversity Strategy
+    data_source (1 items):
+      - ICES 
+    environmental (1 items):
+      - biodiversity loss and aquatic pollution repre- pogenic pressure calls for more active counter-meas
+    conclusion (1 items):
+      - we recommend that pilot studies should be set up (FKZ 03F0913E)
+
+  Document: 38.pdf
+    stakeholder (10 items):
+      - Indigenous peoples
+      - Indigenous communities
+      - Indigenous peoples
+      - local communities
+      - Indigenous Community
+      ... and 5 more
+    species (2 items):
+      - salmon
+      - sea urchin
+    objective (1 items):
+      - this study aims to advance understanding of how Indigenous
+Chile peoples respond to the socio-ecolog
+
+  Document: 35.pdf
+    stakeholder (5 items):
+      - offshore wind industry
+      - government bodies
+      - Government agencies
+      - indigenous peoples
+      - government agencies
+    institution (1 items):
+      - Environmental Protection Agency
+    method (1 items):
+      - employed cumulative impact assessment
+    policy (1 items):
+      - Consideration of the full suite of cumulative impacts Regulation
+    environmental (5 items):
+      - noise pollution (5), and hydrodynamic disturbance (5)
+      - cumulative impacts is heightened, but sub- development projects that are still in early stages of a
+      - cumulative effects on species assessed
+      - cumulative impacts was implied
+      - cumulative impacts to be incorporated these processes, indicating a lack of ability to use informat
+    gap (1 items):
+      - lack of ability to use information for
+into planning and decision making [59]
+
+  Document: 39.pdf
+    species (1 items):
+      - minke whale
+
+  Document: 34.pdf
+    institution (1 items):
+      - Human Research Ethics Committee
+    species (1 items):
+      - snapper
+
+  Document: 37.pdf
+    stakeholder (5 items):
+      - local community
+      - offshore wind industry
+      - fishing industry
+      - recreational boaters
+      - government agencies
+    policy (1 items):
+      - Blue Growth Strategy
+    species (1 items):
+      - bluefish
+    gap (5 items):
+      - lack of government sup- culture, or history
+      - limited by crowding from other
+examples of real or potential conflicts among users, as an increase i
+      - limited resource affects that of another
+      - limited in analyses do not recognize the interrelationship between marine activ-
+their use of marine
+      - limited by the scope of participation
+
+  Document: 40.pdf
+    stakeholder (2 items):
+      - Government agencies
+      - fishing communities
+    conflict (1 items):
+      - conflicts between conservation and fisheries management
+    data_source (2 items):
+      - VMS
+      - AIS
+    species (7 items):
+      - yellowfin tuna
+      - swordfish
+      - grouper
+      - sea cucumber
+      - Yellowfin tuna
+      ... and 2 more
+    environmental (1 items):
+      - marine pollution while creating additional in- Ecuador’s 2022 debt-for-nature swap—the largest of
+
+  Document: 41.pdf
+    stakeholder (9 items):
+      - indigenous peoples
+      - local communities
+      - local community
+      - indigenous peoples
+      - local communities
+      ... and 4 more
+    method (1 items):
+      - through interviews
+    species (6 items):
+      - Caretta caretta
+      - sea turtle
+      - Caretta caretta
+      - Posidonia
+      - mangrove
+      ... and 1 more
+    environmental (2 items):
+      - water quality on environmental issues references is expressed
+      - water quality following an oil spill
+
+  Document: 43.pdf
+
+  Document: 44.pdf
+    stakeholder (1 items):
+      - local communities
+    institution (1 items):
+      - United States Agency
+    environmental (2 items):
+      - water quality to improve managementplansandassessments
+      - noise pollution concerns (ME, PE2)
+    gap (1 items):
+      - lack of clear and legally binding
+vincialgovernmentstodeclareandadministerMPAs;however,thisact regul
+
+  Document: 42.pdf
+    stakeholder (1 items):
+      - fishing communities
+    institution (1 items):
+      - Ocean and Marine Institute
+
+  Document: 45.pdf
+    stakeholder (2 items):
+      - fishing industry
+      - conservation organizations
+    institution (1 items):
+      - The European Commission
+    method (2 items):
+      - through a survey
+      - ecosystem-based management
+    policy (1 items):
+      - FAO Technical Guideline
+    data_source (2 items):
+      - VMS 
+      - ICES 
+    species (8 items):
+      - whiting
+      - Yellowfin tuna
+      - salmon
+      - Salmon
+      - Common dolphin
+      ... and 3 more
+    gap (1 items):
+      - limited arrangements
+
+  Document: 36.pdf
+    stakeholder (1 items):
+      - Port Authorities
+    institution (3 items):
+      - The Italian National Institute
+      - The Port Authority
+      - These results will help policy Italian Ministry
+    method (2 items):
+      - ecosystem-based management
+      - invest
+    policy (1 items):
+      - EU Water Policy
+    species (3 items):
+      - grouper
+      - Balaenoptera physalus
+      - Epinephelus marginatus
+
+  Document: 33.pdf
+    conflict (1 items):
+      - Conflicts between locating offshore wind farms and trawling areas
+    method (9 items):
+      - conducted a case study
+      - ecosystem-based management
+      - Ecosystem-based management
+      - ecosystem-based management
+      - ecosystem-based management
+      ... and 4 more
+    policy (5 items):
+      - The EU Water Framework
+      - Spatial Planning Directive
+      - The Common Agricultural Policy
+      - As identified in the Offshore Renewable Energy Strategy
+      - Climate and Energy Strategy
+    environmental (4 items):
+      - Eutrophication is the greatest environmental challenge in the Baltic goals, building, or streng
+      - eutrophication in the Archipelago Sea and posing planning process with water management plans u
+      - noise pollution in the Baltic Sea
+      - underwater noise from offshore wind Second, the management of nutrient loading and the sharing of
+
+  Document: 31.pdf
+    stakeholder (1 items):
+      - Maritime and Hydrographic Agency
+    institution (2 items):
+      - Shipping Deputy Ministry
+      - Federal Maritime and Hydrographic Agency
+    method (3 items):
+      - Ecosystem-based Management
+      - ecosystem-based management
+      - EBM
+    policy (5 items):
+      - Integrated Maritime Policy
+      - The EU MSP Directive
+      - Cyprus adopted its Policy
+      - Poland and Sweden jointly decided to develop trates Directive
+      - Designing a Refined Legal Framework
+    data_source (1 items):
+      - emodnet
+
+  Document: 48.pdf
+    stakeholder (1 items):
+      - recreational fisher
+    institution (1 items):
+      - The European Commission
+    finding (1 items):
+      - we found that 63% of the participatory processes and, in turn, improve MPA compliance
+    result (1 items):
+      - we found that 63% of the participatory processes and, in turn, improve MPA compliance
+
+  Document: 47.pdf
+    stakeholder (2 items):
+      - maritime industry
+      - oil and gas companies
+    institution (1 items):
+      - Technology Research Institute
+    method (1 items):
+      - ecosystem-based management
+
+  Document: 52.pdf
+    stakeholder (9 items):
+      - local fisher
+      - recreational fishers
+      - fishing communities
+      - fishing industry
+      - local fishers
+      ... and 4 more
+    species (12 items):
+      - bluefin tuna
+      - Octopus vulgaris
+      - Dicentrarchus labrax
+      - Thunnus thynnus
+      - Sardina pilchardus
+      ... and 7 more
+    environmental (1 items):
+      - habitat degradation in these fishing areas
+
+  Document: A-CNNGRU-MHA-method-for-ship-trajectory-prediction-based-o_2024_Ocean-Engine.pdf
+    stakeholder (1 items):
+      - shipping industry
+    data_source (2 items):
+      - AIS
+      - Marinetraffic
+
+  Document: 49.pdf
+    species (5 items):
+      - plaice
+      - salmon
+      - grey seal
+      - cormorant
+      - tern
+    environmental (3 items):
+      - eutrophication and marine mammals
+      - water quality states (e
+      - eutrophication models exist (e
+    gap (2 items):
+      - lack of remaining time in the project
+      - lack of some quantified pressure-state relationships
+Parties with negotiations and regional coordina
+
+  Document: A-Bayesian-Network-model-to-identify-suitable-areas-for-of_2022_Science-of-T.pdf
+    policy (1 items):
+      - This European Directive
+    data_source (2 items):
+      - copernicus
+      - EMODnet
+
+  Document: 50.pdf
+    institution (2 items):
+      - Hellenic Statistical Authority
+      - National Statistical Authority
+    method (2 items):
+      - Participatory mapping
+      - SeaSketch
+    data_source (1 items):
+      - Copernicus 
+    gap (3 items):
+      - lack of supportive infrastructure for this group
+      - limited accessibility along Greece’s coasts
+      - future research should include the WTP of international
+nomic behavior of individuals with disabilit
+
+  Document: A-constrained-A--approach-towards-optimal-path-planning-for-an-u_2018_Ocean-.pdf
+
+  Document: 46.pdf
+    institution (1 items):
+      - European Environmental Agency
+    method (2 items):
+      - ecosystem-based management
+      - invest
+    policy (3 items):
+      - EU Biodiversity Strategy
+      - Strategy for 2030 and the next EU Biodiversity Strategy
+      - The EU Biodiversity Strategy
+    species (1 items):
+      - seagrass
+    gap (2 items):
+      - lack of financial support for NBS could take EU taxonomy for sustainable activities; and the proposa
+      - Lack of stakeholder awareness and Lack of political awareness and Increase political commitment (Sec
+
+  Document: A-multi-task-deep-learning-framework-for-classification--dete_2025_Ocean-Eng.pdf
+    environmental (2 items):
+      - temperature of 27.4 
+      - dissolved oxygen of 6.57 mg/L
+
+  Document: A-bibliometric-assessment-of-progress-in-marine-spatial-pla_2021_Marine-Poli.pdf
+    institution (1 items):
+      - European Environment Agency
+    method (10 items):
+      - Ecosystem-based management
+      - EBM
+      - Marxan
+      - Ecosystem-based management
+      - ecosystem-based management
+      ... and 5 more
+    policy (1 items):
+      - EU MSP Directive
+    data_source (1 items):
+      - ICES 
+    gap (1 items):
+      - gap in MSP research
+
+  Document: A-critique-of-the-use-of-domain-analysis-for-spatial-colli_2021_Ocean-Engine.pdf
+    policy (1 items):
+      - These Under the Code of Federal Regulation
+    data_source (5 items):
+      - AIS
+      - AIS data
+      - AIS 
+      - AIS 
+      - database of these incidents from 2002 to
+One method to validate the resul
+
+  Document: 51.pdf
+    stakeholder (6 items):
+      - Department of Fisheries Ministry
+      - fishing communities
+      - fishing community
+      - fishing communities
+      - fishing communities
+      ... and 1 more
+    institution (1 items):
+      - Department of Fisheries Ministry
+    method (1 items):
+      - invest
+    gap (2 items):
+      - lack of data on women’s role in the sector is a fundamental experimental research requiring interven
+      - lack of information has profound implications for fishery management
+
+  Document: A-fusion-framework-with-spatial-perception-and-energy-aware-st_2025_Ocean-En.pdf
+    gap (1 items):
+      - limited by the operational range of sonar systems, leading to a path of 2024 length, but the task wa
+
+  Document: A-distributed-motion-planning-approach-to-cooperative-under_2026_Ocean-Engin.pdf
+
+  Document: A-novel-robust-algorithm-for-path-planning-of-multiple-autonom_2024_Ocean-En.pdf
+
+  Document: A-new-hybrid-path-planning-method-for-the-sailboat-architectu_2023_Ocean-Eng.pdf
+
+  Document: A-novel-path-planning-algorithm-for-ships-in-dynamic-curr_2023_Ocean-Enginee.pdf
+    data_source (2 items):
+      - AIS data
+      - Copernicus 
+    gap (1 items):
+      - limited training three paths with B-spline to reduce the yaw costs
+
+  Document: A-novel-anytime-repairing-A--path-planning-methodology-in-dyna_2025_Ocean-En.pdf
+    stakeholder (2 items):
+      - shipping industry
+      - shipping companies
+    data_source (2 items):
+      - ERA5 data
+      - ECMWF
+
+  Document: A-path-planning-method-based-on-deep-reinforcement-learning-_2024_Ocean-Engi.pdf
+
+  Document: A-risk-based-approach-to-cumulative-effects-assessment-for_2023_Journal-of-E.pdf
+    stakeholder (1 items):
+      - Law and Policy Institute
+    method (2 items):
+      - ecosystem-based management
+      - ecosystem-based management
+    policy (1 items):
+      - Spatial Planning Directive
+    species (1 items):
+      - benthic organisms
+    environmental (12 items):
+      - biodiversity loss worldwide (United Nations, 2021
+      - biodiversity loss (Jaureguiberry et al
+      - cumulative effects acted
+      - cumulative effects to achieve a robust and standardized outcome to atic literature review, to ident
+      - cumulative effects from a multitude of anthropogenic activities (Zhang and key ecosystem components
+      ... and 7 more
+
+  Document: A-review-of-geospatial-technologies-for-improving-Marine_2023_Ocean---Coasta.pdf
+    stakeholder (3 items):
+      - fishing industry
+      - indigenous people
+      - shipping industry
+    institution (1 items):
+      - The European Commission
+    method (5 items):
+      - using remote sensing
+      - ecosystem-based management
+      - EBM
+      - EBM
+      - EBM
+    data_source (3 items):
+      - AIS
+      - VMS
+      - GEBCO 
+    species (1 items):
+      - seagrass
+
+  Document: A-route-planning-method-for-small-ships-based-on-historic_2026_Ocean-Enginee.pdf
+    data_source (2 items):
+      - AIS data
+      - AIS data
+    gap (1 items):
+      - absent in external regions except near berthing zones
+
+  Document: A-simulator-of-underwater-glider-missions-for-path-plan_2023_Ocean-Engineeri.pdf
+    data_source (2 items):
+      - OpenStreetMap
+      - Copernicusdata
+
+  Document: A-spatial-temporal-data-mining-method-for-the-extraction-of-_2024_Ocean-Engi.pdf
+    stakeholder (1 items):
+      - maritime authorities
+    data_source (3 items):
+      - AIS data
+      - AIS data
+      - AIS data
+    gap (2 items):
+      - limited to cargo ships and situations
+      - limited to cargo ships
+
+  Document: A-spatial-temporal-attention-method-for-the-prediction-of-mu_2024_Ocean-Engi.pdf
+    data_source (1 items):
+      - AIS data
+
+  Document: A-system-dynamics-model-to-support-marine-spatial-_2023_Environmental-Modell.pdf
+    method (3 items):
+      - ecosystem-based management
+      - MARXAN
+      - InVEST
+    species (2 items):
+      - Mytilus galloprovincialis
+      - Carcharodon carcharias
+    environmental (4 items):
+      - biodiversity loss (dmnl/hectare) 0
+      - cumulative impacts is likely to negatively influence the abun- 5
+      - cumulative impacts rine use (Fig
+      - cumulative impacts on marine water calculation and under baseline model values, marine health, from
+
+  Document: A-two-way-process---Social-capacity-as-a-driver-and-outcome-of_2023_Marine-P.pdf
+    stakeholder (7 items):
+      - fishing communities
+      - local communities
+      - fishing community
+      - local community
+      - fishing community
+      ... and 2 more
+    institution (2 items):
+      - Chico Mendes Institute
+      - Heritage Resource Agency
+    method (2 items):
+      - through stakeholder engagement
+      - Participatory mapping
+    species (1 items):
+      - mangrove
+    gap (1 items):
+      - limited relationship building between community members [102]
+
+  Document: A-robust--systematic-approach-for-developing-the-biodivers_2022_Ocean---Coas.pdf
+    stakeholder (1 items):
+      - local communities
+    method (8 items):
+      - Marxan
+      - Marxan
+      - Marxan
+      - Marxan
+      - Marxan
+      ... and 3 more
+    species (4 items):
+      - hake
+      - Leatherback turtle
+      - Gannet
+      - Petrel
+    environmental (4 items):
+      - biodiversity loss (von Staden et al
+      - cumulative impact of 31 pressures on marine 2
+      - cumulative impact on marine recognised protected areas
+      - cumulative impact (Ic) assessment was a 2types because different management objectives were requir
+
+  Document: 53.pdf
+    institution (1 items):
+      - General Fisheries Commission
+    policy (7 items):
+      - The objective of the Directive
+      - Common Fisheries Policy
+      - CFP expanded Policy
+      - One such Regulation
+      - Data Collection Framework
+      ... and 2 more
+    data_source (1 items):
+      - ICES
+    species (7 items):
+      - Raja clavata
+      - Squalus acanthias
+      - Cetorhinus maximus
+      - Carcharodon carcharias
+      - Prionace glauca
+      ... and 2 more
+    gap (4 items):
+      - limited effort to fill them
+      - lack of political will for an integrated, cross-sectoral approach, as well as
+limited development at
+      - gap in the implementation could also support a wider and more indicators [72]
+      - missing information on species status, de- continuity
+mographics, and habitats, but also on how meas
+
+  Document: A-temporal-and-spatial-resolution-wind-and-wave-power-resou_2022_Ocean-Engin.pdf
+    institution (1 items):
+      - The International Electrotechnical Commission
+    data_source (3 items):
+      - ERA5 
+      - ECMWF
+      - Copernicus 
+
+  Document: Adaptive-obstacle-avoidance-algorithm-for-wave-gliders-in-dynam_2025_Ocean-E.pdf
+    gap (1 items):
+      - limited reach, ocean current forces dominate
+must overcome the opposing current forces during obstac
+
+  Document: AUV-path-planning-method-for-data-collection-in-underwater_2026_Ocean-Engine.pdf
+
+  Document: AUV-path-planning-in-complex-3D-underwater-environments-bas_2026_Ocean-Engin.pdf
+
+  Document: A-stochastic-numerical-model-for-wave-induced-dynamic-response_2023_Ocean-En.pdf
+    institution (1 items):
+      - Coastal Development Institute
+
+  Document: Adaptive-fusion-of-multi-source-information-for-USV-trajector_2026_Ocean-Eng.pdf
+    method (1 items):
+      - conducted a statistical analysis
+    policy (1 items):
+      - The input of the Policy
+    data_source (1 items):
+      - Copernicus 
+
+  Document: Accelerating-marine-spatial-planning-in-the-Western-Pacif_2025_Ocean---Coast.pdf
+    stakeholder (2 items):
+      - Authority and Maritime and Port Authority
+      - Research and Innovation Agency
+    institution (4 items):
+      - Intergovernmental Oceanographic Commission
+      - Singapore Land Authority
+      - Maritime and Port Authority
+      - United States Agency
+    method (2 items):
+      - ecosystem-based management
+      - ecosystem-based management
+    environmental (1 items):
+      - marine pollution and disaster convened to update international experiences on the approach of MSP
+
+  Document: Adopting-Marine-Spatial-Planning--MSP--using-coral-health-a_2024_Ocean---Coa.pdf
+    stakeholder (2 items):
+      - local community
+      - local communities
+    method (5 items):
+      - zonation
+      - Zonation
+      - ecosystem-based management
+      - zonation
+      - zonation
+
+  Document: Addressing-the-pollution-control-potential-of-marine-spatial-p_2021_Marine-P.pdf
+    stakeholder (1 items):
+      - Scientific and Cultural Organization
+    method (2 items):
+      - Ecosystem Based Management
+      - EBM
+    policy (1 items):
+      - Convention on the International Regulation
+    environmental (1 items):
+      - underwater noise [7], contamination from toxic anti-fouling hull paints tional Convention for the
+
+  Document: Adaptive-path-planning-for-dry-bulk-carriers-under-sudden-mar_2026_Ocean-Eng.pdf
+    stakeholder (1 items):
+      - shipping companies
+    institution (1 items):
+      - European Maritime Safety Agency
+    policy (1 items):
+      - Revised GHG Strategy
+    data_source (2 items):
+      - AIS
+      - AIS
+    gap (1 items):
+      - limited emission improvements
+
+  Document: Air-quality-forecasting-of-along-route-ship-emissions-in-re_2024_Ocean-Engin.pdf
+    stakeholder (1 items):
+      - shipping industry
+    institution (1 items):
+      - Environment Protection Committee
+    data_source (1 items):
+      - copernicus
+    environmental (1 items):
+      - air quality modeling stages atmospheric vertical tudesofseakeepingmotions,maincomponentsofsh
+
+  Document: An-enhanced-RRT--algorithm-with-biased-sampling-and-dynamic-st_2025_Ocean-En.pdf
+    stakeholder (1 items):
+      - shipping industry
+    institution (1 items):
+      - Joint Fund of the Ministry
+
+  Document: Aligning-socio-economic-and-governance-criteria-to-support-be_2026_Ocean---C.pdf
+    stakeholder (3 items):
+      - local community
+      - local communities
+      - local communities
+    institution (1 items):
+      - Ministry of Climate and the Ministry
+    method (1 items):
+      - Ecosystem based management
+    objective (1 items):
+      - this research aims to develop and provide criteria to support managers/policy makers in
+integrating 
+
+  Document: An-assessment-for-marine-economic-resilience-and-exploration-of_2025_Marine-.pdf
+    stakeholder (1 items):
+      - offshore wind industry
+    gap (1 items):
+      - lack of coordination can affect the
+spatial structure should further deepen their collaborative effo
+
+  Document: An-issue-oriented-framework-for-Marine-Spatial-Plan_2022_Regional-Studies-in.pdf
+    stakeholder (2 items):
+      - tourism industry
+      - local communities
+    method (3 items):
+      - InVEST
+      - InVEST
+      - overlap analysis
+    environmental (2 items):
+      - habitat degradation of landscape patches
+      - cumulative impacts on marine environment
+
+  Document: An-improved-A-star-algorithm-coupled-with-graph-division-and_2025_Ocean-Engi.pdf
+    institution (1 items):
+      - Danish Maritime Authority
+    data_source (2 items):
+      - AIS data
+      - AIS data
+
+  Document: Addressing-transboundary-challenges--Exploring-the-interactive-re_2023_Marin.pdf
+    stakeholder (4 items):
+      - Maritime and Hydrographic Agency
+      - government bodies
+      - Indigenous Peoples
+      - local communities
+    institution (4 items):
+      - Sweden Swedish Agency
+      - Finnish Environment Institute
+      - Norwegian Environment Agency
+      - The Black Sea Commission
+    method (2 items):
+      - ecosystem-based management
+      - ecosystem-based management
+    data_source (1 items):
+      - AIS
+    gap (1 items):
+      - limited joint actions by of governance systems for each jurisdiction should be pre-analysed [1]
+
+  Document: An-ensemble-unsupervised-machine-learning-GIS-framework-for-t_2026_Ocean-Eng.pdf
+    institution (3 items):
+      - Shipping Raster 2025 Commission
+      - Bathymetry Raster 2025 Commission
+      - Marine Raster 2025 Commission
+    data_source (2 items):
+      - OpenStreetMap 
+      - EMODnet
+
+    conclusion (1 items):
+      - policymakers and investors
+
+  Document: An-optimized-deep-learning-framework-for-detecting-and-locali_2026_Ocean-Eng.pdf
+    stakeholder (1 items):
+      - oil and gas industry
+    data_source (1 items):
+      - Sentinel
+    gap (2 items):
+      - limited occlusions
+      - absent detections
+
+  Document: Advancing-multi-use-in-offshore-wind-energy-planning--Perceived-_2025_Marine.pdf
+    stakeholder (9 items):
+      - fishing industry
+      - fishing communities
+      - Recreational fishers
+      - offshore wind developers
+      - recreational fisher
+      ... and 4 more
+    method (2 items):
+      - participatory approach
+      - invest
+    species (2 items):
+      - sea bass
+      - haddock
+    gap (1 items):
+      - lack of emphasis in the interviews
+
+  Document: Assessing-and-mapping-maritime-transportation-risk-based-on-spa_2020_Ocean-E.pdf
+    stakeholder (1 items):
+      - maritime authorities
+    data_source (2 items):
+      - gebco
+      - ecmwf
+    gap (1 items):
+      - Future work should focus on overcoming these limitations
+
+  Document: Aquaculture-and-offshore-wind--A-review-of-co-location-de_2025_Ocean-Enginee.pdf
+    species (1 items):
+      - salmon
+    environmental (2 items):
+      - water quality control and protection from dropperlinesorsuspendedcages(Paulson,2022)
+      - underwater noise from moving parts, and particle motion etal
+
+  Document: An-ocean-of-ambiguity-in-Northern-European-marine-spatial-pla_2020_Marine-Po.pdf
+    institution (1 items):
+      - Danish Maritime Agency
+    gap (3 items):
+      - lack of a very good answer of what is for SEAs
+      - lack of definition, SEA, whereas the German team conducts the assessment themselves
+      - lack of defini- mentation of a marine spatial plan could therefore be a pertinent topic
+tions and gu
+
+  Document: Application-of-Marine-Spatial-Planning-tools-for-tida_2022_Ocean---Coastal-M.pdf
+    policy (2 items):
+      - Spatial Planning Directive
+      - EU 2030 Framework
+
+  Document: Analysis-of-uses-and-activities-in-the-Argentine-Sea--Bases-for-_2022_Marine.pdf
+    stakeholder (2 items):
+      - Scientific and Cultural Organization
+      - environmental organizations
+    institution (1 items):
+      - Buenos Aires and the Ministry
+    method (1 items):
+      - overlap analysis
+    policy (1 items):
+      - An Essay on Population Regulation
+    data_source (4 items):
+      - Global Fishing Watch
+      - marinetraffic
+      - MarineTraffic
+      - ais
+    species (3 items):
+      - hake
+      - Hake
+      - benthic organisms
+
+  Document: Assessing-marine-traffic-and-related-pressures-and-threats-to-cet_2025_Marin.pdf
+    institution (1 items):
+      - International Whaling Commission
+    data_source (3 items):
+      - AIS data
+      - GEBCO 
+      - marinetraffic
+    species (3 items):
+      - bottlenose dolphin
+      - humpback whale
+      - Tursiops truncatus
+    environmental (2 items):
+      - underwater noise depends on vessel characteristics, with noise levels Strait, the Lombok Strait (
+      - habitat degradation and disturbances Furthermore, the coastal waters of R´eunion host an artisanal f
+
+  Document: Assessment-of-offshore-wind-solar-energy-potentials-and-spat_2023_Ocean-Engi.pdf
+    institution (2 items):
+      - International Energy Agency
+      - International Renewable Energy Agency
+    data_source (1 items):
+      - ERA5 
+
+  Document: Avoiding-sudden-maritime-risk--A-new-variable-speed-route-pla_2023_Ocean-Eng.pdf
+    data_source (3 items):
+      - Copernicus 
+      - dataset of the South China Sea with a sudden risk scenario and for the t
+      - dataset of Indonesia with a continuous risk scenario
+
+  Document: Combining-the-cumulative-impact-and-marine-use-conflict-syner_2026_Marine-Po.pdf
+    method (3 items):
+      - Maxent
+      - Overlap analysis
+      - overlap analysis
+    data_source (2 items):
+      - Global Fishing Watch
+      - Sentinel 
+    species (2 items):
+      - sturgeon
+      - seagrass
+    environmental (15 items):
+      - marine pollution science and evidence-based coastal management practice
+      - water quality deterioration (e
+      - water quality via pollutants (e
+      - water quality deterioration and infrastructure (e
+      - Cumulative impact was calculated based on the following formula multiplying (1) the raster cell va
+      ... and 10 more
+
+  Document: Assessment-of-long-term-wave-conditions-and-the-spatial-var_2025_Ocean-Engin.pdf
+    species (1 items):
+      - salmon
+
+  Document: Constrained-trajectory-planning-for-automatic-berthing-of-mariti_2025_Ocean-.pdf
+
+  Document: Cetacean-habitat-modelling-to-inform-conservation-management_2021_Ocean---Co.pdf
+    institution (2 items):
+      - Indonesian Geospatial Information Agency
+      - Yuwono and Geospatial Information Agency
+    method (27 items):
+      - Maxent
+      - Maxent
+      - Maxent
+      - Maxent
+      - Maxent
+      ... and 22 more
+    data_source (6 items):
+      - MODIS 
+      - GEBCO 
+      - gebco
+      - AIS
+      - VMS
+      ... and 1 more
+    species (3 items):
+      - Blue whale
+      - blue whale
+      - sperm whale
+    environmental (1 items):
+      - habitat degradation and increased activities in the marine (CTI-CFF, 2009) as well as national legis
+    gap (1 items):
+      - lack of sighting data
+
+  Document: Context-aware-vessel-trajectory-prediction-using-FlashAttent_2026_Ocean-Engi.pdf
+    stakeholder (1 items):
+      - maritime authorities
+    data_source (4 items):
+      - AIS data
+      - ECMWF 
+      - ERA5 
+      - Copernicus 
+
+  Document: Contrasting-performance-of-marine-spatial-planning-for-ach_2024_Ocean---Coas.pdf
+    institution (2 items):
+      - Department of Conservation and Ministry
+      - Ministry of Fisheries and Department
+    method (8 items):
+      - Zonation
+      - Zonation
+      - Zonation
+      - Zonation
+      - Zonation
+      ... and 3 more
+    data_source (1 items):
+      - dataset of approximately 15
+
+  Document: Conservation-ready-marine-spatial-planning_2023_Marine-Policy.pdf
+    method (3 items):
+      - EBM
+      - Ecosystem-based management
+      - EBM
+    policy (2 items):
+      - Maritime Strategic Framework
+      - Montreal Global Biodiversity Framework
+
+  Document: Cumulative-impact-assessment-for-ecosystem-based-_2020_Science-of-The-Total-.pdf
+    species (1 items):
+      - seagrass
+    environmental (1 items):
+      - Eutrophication Phosphorousbackground 1
+
+  Document: Can-Marine-Economic-Development-Demonstration-Zones--MEDDZs--achie_2025_Mari.pdf
+    policy (1 items):
+      - Maritime Power Strategy
+    environmental (1 items):
+      - marine pollution due to economic growth, but foundations, advantages in industrial clustering, an
+
+  Document: Coastal-and-marine-spatial-planning-in-Europe--Cas_2020_Regional-Studies-in-.pdf
+    stakeholder (1 items):
+      - Cartography and Cadastre Agency
+    institution (3 items):
+      - Cartography and Cadastre Agency
+      - Helenic Statistical Authority
+      - Professor Fridtjof Nansen Institute
+    policy (1 items):
+      - According to the report of the European Union Directive
+    objective (1 items):
+      - h2020 However, the intense and reckless exploitation of natural resources has led to a degradation o
+    gap (1 items):
+      - Lack of a common database on activities and land uses in
+goodenvironmentalstatusofthemarinewaters
+
+  Document: Achieving-coherence-between-the-Marine-Strategy-Framework-Direc_2023_Marine-.pdf
+    stakeholder (1 items):
+      - Environment and Resources Ministry
+    institution (6 items):
+      - European and International Affairs Department
+      - European Environmental Agency
+      - River Basin Commission
+      - National Expert Committee
+      - MSP Technical Committee
+      ... and 1 more
+    method (3 items):
+      - through a questionnaire
+      - EBM
+      - EBM
+    policy (11 items):
+      - Maritime Spatial Planning Directive
+      - MSFD with the Maritime Spatial Planning Directive
+      - Common Fisheries Policy
+      - Integrated Maritime Policy
+      - Habitat and Birds Directive
+      ... and 6 more
+    data_source (1 items):
+      - Copernicus 
+    species (3 items):
+      - Atlantic Tuna
+      - Posidonia oceanica
+      - Posidonia
+
+  Document: Design-of-an-integrated-guidance--amp--navigation-planner--i-GN_2026_Ocean-E.pdf
+
+  Document: Development-of-an-intelligent-CNN-LSTM-attention-model-for-acous_2025_Ocean-.pdf
+    gap (1 items):
+      - limited information
+
+  Document: Coordination-of-planning-regulations-at-the-edge-of-water-and-land_2025_Mari.pdf
+    stakeholder (4 items):
+      - maritime industry
+      - maritime authorities
+      - maritime authorities
+      - port authorities
+    method (2 items):
+      - conducted interviews
+      - conducted interviews
+    policy (4 items):
+      - EU MSP Directive
+      - Based on the EU MSP Directive
+      - The Article 7 of the EU Directive
+      - European level via amendments to the of EU Directive
+    gap (1 items):
+      - lack of holistic directions for spatial development of UBS
+cooperation between planning authorities,
+
+  Document: Developing-Transboundary-Marine-Spatial-Planning--Opportunities-_2026_Marine.pdf
+    policy (1 items):
+      - EU MSP Directive
+    data_source (2 items):
+      - ICES
+      - EMODnet
+
+  Document: Disturbance-impacts-of-planned-offshore-wind-expansion-on-UK-_2025_Marine-Po.pdf
+    data_source (1 items):
+      - VMS
+    species (1 items):
+      - seagrass
+    gap (2 items):
+      - limited survey evidence for the enrichment
+ondary effects of OWF expansion resulting in increased se
+      - gap in both grey and primary literature [59]
+
+  Document: Current-status--advancements-and-development-needs-of-geosp_2021_Ocean---Coa.pdf
+    method (11 items):
+      - Ecosystem-based management
+      - ecosystem-based management
+      - ecosystem-based management
+      - InVEST
+      - InVEST
+      ... and 6 more
+    policy (3 items):
+      - The MSP Directive
+      - Maritime Spatial Planning Directive
+      - EU MSP Directive
+    data_source (2 items):
+      - EMODnet
+      - ICES
+    environmental (6 items):
+      - eutrophication effects from terrestrial N information generated from projects (e
+      - cumulative impacts on these definition of evaluation criteria through the direct participation of t
+      - cumulative impact assess- 1
+      - cumulative impact model is to identify 3
+      - cumulative effects that are defined as in- interaction modes, with exception of MSP Challenge, whic
+      ... and 1 more
+    gap (1 items):
+      - limited to a simplified and support comparative analyses
+
+  Document: Efficient-path-planning-for-AUVs-in-unmapped-marine-environm_2023_Ocean-Engi.pdf
+
+  Document: Efficient-time-optimal-path-planning-of-AUV-under-the-ocean-c_2022_Ocean-Eng.pdf
+
+  Document: Effective-conservation-of-cultural-and-natural-heritage-of_2025_Ocean---Coas.pdf
+    stakeholder (8 items):
+      - government agencies
+      - local communities
+      - Indigenous peoples
+      - local fishers
+      - local community
+      ... and 3 more
+    method (1 items):
+      - ecosystem-based management
+    policy (2 items):
+      - Global Biodiversity Framework
+      - Montreal Global Biodiversity Framework
+    species (1 items):
+      - grouper
+    environmental (1 items):
+      - water quality and marine 5
+
+  Document: Effectively-managing-area-based-management-tools--A-new-toolkit_2025_Marine-.pdf
+    institution (1 items):
+      - International Whaling Commission
+    policy (2 items):
+      - Montreal Global Biodiversity Framework
+      - MPA Management Framework
+
+  Document: Enabling-conditions-for-effective-marine-spatial-planning_2022_Marine-Policy.pdf
+    stakeholder (2 items):
+      - Indigenous peoples
+      - Indigenous communities
+    institution (2 items):
+      - The Aspen Institute
+      - World Resources Institute
+    method (8 items):
+      - Ecosystem-based management
+      - EBM
+      - EBM
+      - EBM
+      - ecosystem-based management
+      ... and 3 more
+    data_source (1 items):
+      - ICES 
+    environmental (4 items):
+      - Cumulative impacts If and how the planning process incorporated information on the cumulative effec
+      - cumulative impacts in marine spatial planning, Ocean Coast
+      - cumulative impacts assessment for marine spatial planning, Environ
+      - cumulative impacts within maritime spatial planning in the Adriatic and Ionian [83] S
+
+  Document: Energy-optimal-path-planning-of-ocean-energy-driven-unmann_2025_Ocean-Engine.pdf
+    data_source (2 items):
+      - ECMWF
+      - dataset of sea wind
+
+  Document: Cumulative-effects-of-offshore-renewables--From-prag_2023_Environmental-Impa.pdf
+    method (2 items):
+      - through cumulative impact assessment
+      - InVEST
+    policy (10 items):
+      - Integrated Maritime Policy
+      - Strategic Environmental EU Directive
+      - The Habitats Directive
+      - The thorities or Member States following SEA Directive
+      - Maritime Spatial Planning Directive
+      ... and 5 more
+    data_source (2 items):
+      - EMODnet
+      - emodnet
+    species (1 items):
+      - Gadus morhua
+    environmental (2 items):
+      - cumulative effects emerging from plans or et al
+      - cumulative effects by setting targets or limiting developments
+
+  Document: Energy-efficient-path-planning-for-a-marine-surface-vehicle_2015_Ocean-Engin.pdf
+    gap (1 items):
+      - limited water rc depth
+
+  Document: Enhancing-marine-biodiversity-conservation-through-maritime-_2025_Marine-Pol.pdf
+    stakeholder (5 items):
+      - Tourism operators
+      - Recreational fisher
+      - local fisher
+      - tourism operators
+      - recreational fisher
+    method (2 items):
+      - participatory approach
+      - participatory approach
+    data_source (1 items):
+      - OpenStreetMap
+
+
+  Document: Evolution-of-marine-spatial-planning-policies-for-maricul_2020_Ocean---Coast.pdf
+    stakeholder (1 items):
+      - government agencies
+    objective (1 items):
+      - This paper aims to discuss the evolution of marine spatial planning policies for mariculture in Chin
+
+  Document: Experimental-and-numerical-study-on-the-temporal-and-spatial_2024_Ocean-Engi.pdf
+
+  Document: Enhancing-marine-shaft-generator-reliability-through-intelligen_2025_Ocean-E.pdf
+
+  Document: Engaging-stakeholders-in-marine-spatial-planning-for-collab_2023_Ocean---Coa.pdf
+    stakeholder (1 items):
+      - environmental NGOs
+    institution (3 items):
+      - Finnish Geospatial Research Institute
+      - Finnish Geodetic Institute
+      - Danish Maritime Authority
+    method (2 items):
+      - ecosystem-based management
+      - participatory GIS
+    data_source (1 items):
+      - AIS
+    gap (1 items):
+      - limited re-
+vant stakeholders for whom conflict-synergy maps and graphs could be sources for applyin
+
+  Document: Exploring-barriers-to-the-implementation-of-geospatial-technolog_2024_Marine.pdf
+    stakeholder (1 items):
+      - environmental organization
+    method (1 items):
+      - using remote sensing
+    data_source (4 items):
+      - VMS
+      - AIS 
+      - ICES
+      - EMODnet
+    species (1 items):
+      - seagrass
+    gap (5 items):
+      - lack of capacity to manage marine
+for collaboration across borders
+      - Lack of investment in recruiting a skilled planning team also led to
+development stages of marine pl
+      - limited to what they could handle
+      - missing to for research by taxing the oil companies exploring the nearby areas
+      - missing cause by corrupted governments
+
+  Document: Evaluation-of-offshore-wind-energy-zones-within-marine-spatial-_2024_Energy-.pdf
+    institution (1 items):
+      - Environmental Research Institute
+    method (1 items):
+      - through a case study
+    data_source (2 items):
+      - ECMWF 
+      - Copernicus 
+    environmental (1 items):
+      - noise pollution and visual impacts ventura (Veigas and Iglesias, 2014), Naxos (Fyrippis et al
+    gap (1 items):
+      - limited to these areas
+
+  Document: Exploring-resource-and-environmental-carrying-capacity-and-_2022_Ocean---Coa.pdf
+    method (3 items):
+      - suitability analysis
+      - suitability analysis
+      - ecosystem-based management
+    environmental (4 items):
+      - water quality in Wenzhou city in May, August, Fish Density
+      - water quality and overall environmental conditions are good
+      - water quality was poor
+      - Water quality limited the devel- farming methods had to be gradually banned
+    gap (2 items):
+      - limited the devel- farming methods had to be gradually banned
+      - lack of data related to the influence of
+gradually build a five- and three-tier spatial planning sys
+
+  Document: Exploring-spatial-patterns-and-environmental-risk-factors-for_2023_Ocean-Eng.pdf
+    stakeholder (3 items):
+      - shipping industry
+      - maritime authorities
+      - maritime industry
+    institution (1 items):
+      - European Maritime Safety Agency
+    data_source (3 items):
+      - AIS data
+      - gebco
+      - ecmwf
+
+  Document: Explicit-risk-Aware-belief-space-planning-for-underwater-ac_2026_Ocean-Engin.pdf
+    gap (1 items):
+      - limited ers localization and risk during interaction and performs a reasonable
+by a small region of 
+
+  Document: Exploring-spatial-similarity-and-performance-among-marine_2022_Global-Ecolog.pdf
+    method (26 items):
+      - Marxan
+      - Marxan
+      - Marxan
+      - Marxan
+      - Marxan
+      ... and 21 more
+
+  Document: Exploring-agenda-setting-of-offshore-energy-innovat_2023_Environmental-Innov.pdf
+    institution (1 items):
+      - International Energy Agency
+    gap (1 items):
+      - Lack of knowledge on ecological impacts, strict ecological boundaries stipulated in (EU) law
+
+  Document: Exploring-the-potential-of-theory-based-evaluation-to-st_2023_Ocean---Coasta.pdf
+    stakeholder (2 items):
+      - government agencies
+      - Indigenous peoples
+    policy (1 items):
+      - Union MSP Directive
+    species (1 items):
+      - mangrove
+    gap (1 items):
+      - limited information, our outputs still proved useful
+
+  Document: Ecologically-and-Biologically-Significant-Areas--EBSAs--as-an-en_2024_Marine.pdf
+    stakeholder (1 items):
+      - Analysis and Research Association
+    institution (1 items):
+      - General Fisheries Commission
+    method (9 items):
+      - Marxan
+      - ecosystem-based management
+      - ecosystem-based management
+      - Marxan
+      - Marxan
+      ... and 4 more
+    policy (6 items):
+      - Global Biodiversity Framework
+      - EU Biodiversity Strategy
+      - The Biodiversity Strategy
+      - Threats from all ment the EU Biodiversity Strategy
+      - The European Union Strategy
+      ... and 1 more
+    environmental (1 items):
+      - cumulative effects score as cost proxy [32]
+
+  Document: Forging-ahead--Climate-smart-maritime-spatial-planning-for-_2025_Marine-Poli.pdf
+    stakeholder (1 items):
+      - Scientific and Cultural Organization
+    institution (1 items):
+      - CSIC Spanish Institute
+
+  Document: Exploring-integration-of-land-sea-interactions-in-maritime-spat_2025_Marine-.pdf
+    stakeholder (6 items):
+      - local community
+      - tourism industry
+      - Local community
+      - local communities
+      - Local communities
+      ... and 1 more
+    method (1 items):
+      - through case study
+    policy (4 items):
+      - European MSP Directive
+      - Territorial Structure and Regional Policy
+      - Bulgaria and Romania under the framework of Directive
+      - The updated National Strategy
+    environmental (1 items):
+      - oil spill accidents
+    gap (3 items):
+      - Lack of a commonly • Testing of LSI analysis
+seen as the ultimate strategic reserve
+      - Limited availability and fragmentation of high-resolution data still perspective in the present stag
+      - limited human and financial re-
+study area may play a key role in obtaining information and would be
+
+  Document: Fine-scale-mapping-of-ocean-user-groups-to-support-species-and_2025_Marine-P.pdf
+    stakeholder (1 items):
+      - Fisheries and Conservation Authority
+    institution (1 items):
+      - Exeter Ethics Committee
+    policy (1 items):
+      - European Habitats Directive
+    data_source (2 items):
+      - AIS 
+      - VMS 
+    species (12 items):
+      - goby
+      - Spiny lobster
+      - jellyfish
+      - petrel
+      - shearwater
+      ... and 7 more
+    environmental (6 items):
+      - habitat degradation [13,16,17,41, the 300 islands and rocky outcrops are positioned on the shallow E
+      - noise pollution levels [62]
+      - noise pollution levels (i
+      - cumulative impacts within an MPA network per annum [67]
+      - cumulative impacts at the whole-site level [30]
+      ... and 1 more
+    gap (1 items):
+      - missing from the analysis [40,81]
+
+  Document: From-plate-to-plug--The-impact-of-offshore-renewable_2022_Renewable-and-Sust.pdf
+    stakeholder (2 items):
+      - local fishers
+      - fishing communities
+    institution (1 items):
+      - HELCOM Helsinki Commission
+    method (5 items):
+      - overlap analysis
+      - overlap analysis
+      - overlap analysis
+      - overlap analysis
+      - overlap analysis
+    finding (1 items):
+      - we found the relative highest overlap the most (>80%
+    data_source (5 items):
+      - AIS 
+      - Global Fishing Watch
+
+      - ICES 
+      - VMS 
+      - EMODnet 
+    species (6 items):
+      - plaice
+      - Atlantic cod
+      - Haddock
+      - Pleuronectes platessa
+      - Gadus morhua
+      ... and 1 more
+    environmental (3 items):
+      - biodiversity loss [17,19]
+      - cumulative effects and cover the entire study area (accessed May 26, 2020)
+      - cumulative effects of effort displacement could complexity of fisheries, hence fisheries are socio-
+    result (1 items):
+      - we found the relative highest overlap the most (>80%; HELCOM data)
+    gap (1 items):
+      - lack of participatory planning approaches or
+political preferences of single sectors during the plan
+
+  Document: Finding-harmony-in-the-sea--Resolving-conflicts-by-reg_2024_Ocean---Coastal-.pdf
+    stakeholder (4 items):
+      - local communities
+      - maritime industry
+      - Port authorities
+      - local fisher
+    institution (3 items):
+      - Taiwan Fishery Agency
+      - Water Resources Agency
+      - Construction and Planning Agency
+    conflict (2 items):
+      - conflicts between oyster farming and vessels
+      - conflicts between trap fisheries and maritime traffic 
+    method (2 items):
+      - based on a case study
+      - overlap analysis
+    data_source (5 items):
+      - AIS
+      - AIS data
+      - AIS 
+      - AIS 
+      - dataset of oyster farming areas and
+map was created using GIS to display
+    species (1 items):
+      - mullet
+    gap (2 items):
+      - lack of communication and stakeholder participation (Jones et al
+      - lack of a legal framework for communicating regularly with stakeholders as well as management
+MSP ha
+
+  Document: Feasibility-study-of-the-integration-of-buoyancy-energy-storag_2025_Ocean-En.pdf
+    institution (1 items):
+      - IEA International Energy Agency
+
+  Document: From-two-dimensional-to-three-dimensional-marine-spatial_2024_Ocean---Coasta.pdf
+    institution (2 items):
+      - Aschenbrenner Natural Resources Department
+      - Marine Fisheries Research Institute
+    method (13 items):
+      - Marxan
+      - Marxan
+      - Marxan
+      - Marxan
+      - Marxan
+      ... and 8 more
+    species (1 items):
+      - benthic organisms
+
+  Document: Deriving-spatial-wave-data-from-a-network-of-buoys-and-_2023_Ocean-Engineeri.pdf
+    data_source (3 items):
+      - Copernicus 
+      - ECMWF 
+      - copernicus
+
+  Document: GIS-based-analysis-on-the-spatial-patterns-of-global-mari_2022_Ocean-Enginee.pdf
+    stakeholder (2 items):
+      - maritime authorities
+      - shipping industry
+    institution (1 items):
+      - Incidents published by European Maritime Safety Agency
+    method (1 items):
+      - through spatial analysis
+    data_source (1 items):
+      - AIS data
+    environmental (1 items):
+      - oil spill monitoring and accident data, there are still research gaps to be filled
+
+  Document: Gender-based-ocean-uses-and-values--Implications-for-marine-_2025_Marine-Pol.pdf
+    stakeholder (3 items):
+      - fishing industry
+      - local communities
+      - recreational fishers
+    method (9 items):
+      - Participatory mapping
+      - participatory mapping
+      - participatory mapping
+      - SeaSketch
+      - SeaSketch
+      ... and 4 more
+    species (1 items):
+      - seagrass
+    gap (1 items):
+      - gap in official statistics about
+the gender breakdown of ocean use across sectors, with women often
+
+
+  Document: Geographical-spatial-analysis-and-risk-prediction-based-on-mach_2022_Ocean-E.pdf
+    stakeholder (1 items):
+      - maritime authorities
+    data_source (3 items):
+      - AIS
+      - AIS data
+      - AIS data
+
+  Document: Hierarchical-dynamic-trajectory-planning-for-autonomous-under_2024_Ocean-Eng.pdf
+    species (1 items):
+      - Stingray
+
+  Document: High-resolution-seascape-visibility-tool-for-aquacult_2025_Ocean---Coastal-M.pdf
+    conflict (1 items):
+      -  thereby mitigating potential conflicts with tourism
+    method (1 items):
+      - suitability analysis
+    data_source (1 items):
+      - OpenStreetMap 
+    species (5 items):
+      - seabream
+      - Mediterranean mussel
+      - Dicentrarchus labrax
+      - Sparus aurata
+      - Mytilus galloprovincialis
+
+  Document: Geoportals-in-marine-spatial-planning--state-of-the-a_2025_Ocean---Coastal-M.pdf
+    stakeholder (3 items):
+      - oil and gas industry
+      - recreational fisher
+      - port authorities
+    method (3 items):
+      - ecosystem-based management
+      - ecosystem-based management
+      - Invest
+    data_source (1 items):
+      - gbif
+    environmental (2 items):
+      - water quality moni- opment of geoportals substantially (Mayer et al
+      - water quality in different geographic regions (Capolupo et al
+
+  Document: Framing-future-trajectories-of-human-activities-in-the-Ge_2024_Journal-of-En.pdf
+    stakeholder (1 items):
+      - Maritime and Hydrographic Agency
+    institution (1 items):
+      - European Environmental Agency
+    policy (3 items):
+      - European Biodiversity Strategy
+      - The target set by the European Water Framework
+      - German Sustainable Development Strategy
+    data_source (2 items):
+      - ICES
+      - ICES
+    species (2 items):
+      - jellyfish
+      - seagrass
+    environmental (2 items):
+      - cumulative effects of pressures on ecosystem states (Bates et al
+      - Cumulative effect assessments (CEAs) are inherently complex and explorative, or normative
+    gap (1 items):
+      - lack of standardization and quantitative metrics
+
+  Document: HA-RRT--A-heuristic-and-adaptive-RRT-algorithm-for-ship-p_2025_Ocean-Enginee.pdf
+    stakeholder (1 items):
+      - shipping companies
+    data_source (1 items):
+      - AIS 
+
+  Document: Human-reliability-analysis-of-the-shipboard-oil-pollution-eme_2025_Ocean-Eng.pdf
+    stakeholder (1 items):
+      - shipping companies
+    data_source (1 items):
+      - AIS 
+    environmental (6 items):
+      - marine pollution in the context of life below water
+      - Marine pollution is the discharge of Owners Pollution Federation (ITOPF) data, approximately 164,
+      - marine pollution and elucidates the objective and extent time
+      - marine pollution and protecting ecological balance
+      - oil spill during the process
+      ... and 1 more
+    gap (5 items):
+      - lack of professional is the presence of vaporised fuel in the ship’s tank
+      - limited to, false alarm interpretations novel approach in this study
+      - lack of coordination, inaccessibility and inoper- indicate that the most critical steps are as follo
+      - lack of experience or impaired with an elevated risk of human error
+      - lack of experience
+
+  Document: How-effective-is-marine-spatial-planning-in-managing-transb_2025_Ocean---Coa.pdf
+    method (1 items):
+      - ecosystem-based management
+    environmental (13 items):
+      - water quality using the various administrative levels
+      - water quality are weakened or circum- data
+      - water quality in the provincial boundary seawaters
+      - water Quality Detection Information nearshore seawater quality to cross-jurisdictional governa
+      - water Quality Detection Infor- sity, proportion of tertiary industry, and urbanization were so
+      ... and 8 more
+
+  Document: IS-STGCNN--An-Improved-Social-spatial-temporal-graph-convolut_2022_Ocean-Eng.pdf
+    data_source (2 items):
+      - AIS 
+      - AIS 
+
+  Document: Facilitating-Multi-UAVs-application-for-rescue-in-complex-3D-sea-_2025_Ocean.pdf
+
+  Document: Hydroacoustic-investigations-of-a-marine-propeller-based-_2026_Ocean-Enginee.pdf
+    species (1 items):
+      - harbor seal
+    environmental (1 items):
+      - underwater noise has been identified as a persistent source, a deeper understanding of the underl
+    gap (1 items):
+      - limited to the range between 0
+
+  Document: Impacts-of-a-community-based-TURF-Reserve-policy-on-CPUE-and-fish_2025_Marin.pdf
+    stakeholder (3 items):
+      - local communities
+      - local fishers
+      - conservation NGO
+    species (1 items):
+      - grouper
+    gap (3 items):
+      - limited in- [20] found that institutionalizing co-management through laws and
+come impact may be due
+      - limited direct economic effects
+      - limited external val-
+subgroup analysis had insufficient data to detect reliable treatment ef- idity
+
+  Document: Identifying-conflicts-and-sectoral-dynamics-prior-to-marine-spati_2026_Marin.pdf
+    stakeholder (4 items):
+      - fishing communities
+      - fishing industry
+      - local communities
+      - local fisher
+    species (1 items):
+      - mangrove
+    environmental (2 items):
+      - water quality and fish health
+      - water quality in aquaculture
+
+  Document: Hydrodynamics-knowledge-driven-path-planning-for-safety-constr_2025_Ocean-En.pdf
+    institution (1 items):
+      - Municipal Education Commission
+    gap (1 items):
+      - limited impact on path selection
+
+  Document: Improved-A--D-Lite-hierarchical-framework-path-planning-algo_2026_Ocean-Engi.pdf
+    stakeholder (1 items):
+      - shipping industry
+    gap (1 items):
+      - lack of global prediction in the DWA algorithm, and demonstrating
+The experimental results show that
+
+  Document: Grey-wolf-optimization-enhanced-collaborative-path-planni_2025_Ocean-Enginee.pdf
+    policy (1 items):
+      - Nonlinear Convergence Strategy
+
+  Document: Incentive-policies-for-transboundary-marine-spatial-p_2022_Journal-of-Enviro.pdf
+    institution (1 items):
+      - Xinhua News Agency
+    method (3 items):
+      - ecosystem-based management
+      - EBM
+      - EBM
+    data_source (1 items):
+      - ICES
+
+  Document: Identifying-ecologically-valuable-marine-areas-to-support-conser_2023_Marine.pdf
+    method (11 items):
+      - participatory mapping
+      - Zonation
+      - Zonation
+      - Zonation
+      - Zonation
+      ... and 6 more
+    policy (3 items):
+      - Global Biodiversity Framework
+      - EU Biodiversity Strategy
+      - Montreal Global Biodiversity Framework
+    species (4 items):
+      - Atlantic salmon
+      - blue mussel
+      - Zostera marina
+      - Zostera
+    environmental (1 items):
+      - eutrophication due to limited workshops that consider both qualitative and quantitative criteri
+
+  Document: Integrating-cultural-and-natural-assets-in-marine-spatial_2024_Journal-for-N.pdf
+    data_source (2 items):
+      - Copernicus
+      - COPERNICUS 
+    environmental (1 items):
+      - salinity 4000 
+
+  Document: Integrating-deep-Q-networks--convolutional-neural-networks--and-_2025_Ocean-.pdf
+    stakeholder (1 items):
+      - Design and Research Institute
+    data_source (1 items):
+      - GEBCO 
+    gap (1 items):
+      - limited by the marine environment, but the previous two cases, the target distribution is more discr
+
+  Document: Integrating-multiple-perspectives-in-marine-spatial-planni_2023_Ocean---Coas.pdf
+    method (15 items):
+      - Suitability analysis
+      - suitability analysis
+      - suitability analysis
+      - suitability analysis
+      - suitability analysis
+      ... and 10 more
+    data_source (3 items):
+      - AIS
+      - AIS data
+      - AIS data
+    species (2 items):
+      - salmon
+      - Salmon
+    environmental (2 items):
+      - noise pollution (Bubac et al
+      - noise pollution from vessel traffic (FN tigation
+
+  Document: Institutional-barriers-to-integrated-marine-spatial-planning-_2022_Marine-Po.pdf
+    stakeholder (1 items):
+      - Group and Inter Department
+    institution (3 items):
+      - The MLG is useful for research questions about Group were led by the Department
+      - The Loughs Agency
+      - Ethics Filter Committee
+    policy (2 items):
+      - Common Agricultural Policy
+      - EU MSP Directive
+    environmental (1 items):
+      - marine pollution without effective marine governance interventions [2, the cross-border consultat
+    gap (9 items):
+      - lack of understanding and appreciation of
+‘So, you must look at the people in charge
+      - limited social and economic evidence specific to the marine area
+      - lack of centralised collection and analysis
+      - limited time to develop marine spatial plans to address these barriers implementation of MSP on the 
+      - lack of education and people put a wall up
+      ... and 4 more
+
+  Document: Intelligent-ship-route-planning-via-an-A--search-model-enha_2025_Ocean-Engin.pdf
+    stakeholder (2 items):
+      - shipping companies
+      - shipping industry
+    data_source (2 items):
+      - Copernicus 
+      - AIS
+
+  Document: Integrating-issue-oriented-solution-of-marine-spatial-pla_2024_Ocean---Coast.pdf
+    stakeholder (6 items):
+      - government agencies
+      - Local fisher
+      - shipping industry
+      - local community
+      - tourism industry
+      ... and 1 more
+    institution (2 items):
+      - Intergovernmental Oceanographic Commission
+      - Experts are Development Department
+    method (12 items):
+      - through questionnaires
+      - ecosystem-based management
+      - Ecosystem-based Management
+      - InVEST
+      - InVEST
+      ... and 7 more
+    policy (2 items):
+      - The National Strategy
+      - Overall Maritime Strategy
+    data_source (1 items):
+      - Landsat 
+    environmental (1 items):
+      - habitat degradation and coastal vulnerability in the Sichang sea function overlay map is generated, 
+    gap (2 items):
+      - limited research data and funding
+      - lack of quantitative analysis and an imperfect not only be considered from the perspective of planne
+
+  Document: Locating--trajectory-planning-and-control-of-an-underwater-_2022_Ocean-Engin.pdf
+
+  Document: Linking-the-social-to-the-ecological-using-GIS-methods-in-marine_2019_Marine.pdf
+    stakeholder (3 items):
+      - fishing community
+      - Indigenous Peoples
+      - local communities
+    method (10 items):
+      - applied spatial modelling
+      - MARXAN
+      - Marxan
+      - Zonation
+      - Marxan
+      ... and 5 more
+    data_source (1 items):
+      - VMS
+
+  Document: Implementation-of-the-Marine-Strategy-Framework-Directive-in-Mac_2020_Marine.pdf
+    institution (2 items):
+      - European Environment Agency
+      - European Economic and Social Committee
+    method (2 items):
+      - ecosystem-based management
+      - Ecosystem Based Management
+    policy (3 items):
+      - EEC and Birds Directive
+      - Common Fisheries Policy
+      - Summary for Policy
+    environmental (1 items):
+      - ph 11
+
+  Document: Learning-across-borders--Establishing-transboundary-coordination-_2025_Marin.pdf
+    stakeholder (2 items):
+      - offshore wind industry
+      - government agencies
+    institution (1 items):
+      - North Sea Commission
+    method (1 items):
+      - invest
+    policy (1 items):
+      - EU MSP Directive
+    data_source (1 items):
+      - AIS data
+
+  Document: Mainstreaming-coastally-just-and-equitable-marine-spatial-pl_2023_Ocean---Co.pdf
+    stakeholder (5 items):
+      - maritime industry
+      - Indigenous Peoples
+      - environmental NGOs
+      - local communities
+      - local communities
+    institution (1 items):
+      - Nature Conservation Agency
+    method (1 items):
+      - participatory GIS
+    policy (1 items):
+      - Sustainable Development Strategy
+    gap (1 items):
+      - lack of knowledge and interest in marine issues:
+Given the diverging capacities of coastal communiti
+
+  Document: Intelligent-decision-and-planning-for-unmanned-surface-vehicl_2025_Ocean-Eng.pdf
+    data_source (1 items):
+      - AIS
+    environmental (1 items):
+      - oil spill risk Liu et al
+    gap (2 items):
+      - limited data sharing
+      - limited prior information, enhancing the robust-
+Group collaboration will become an important develo
+
+  Document: Marine-Spatial-Planning-Scheme-evaluation-based-on-the-co_2022_Ocean---Coast.pdf
+    institution (2 items):
+      - Marine Park Authority
+      - The European Commission
+    method (2 items):
+      - Ecosystem-based Management
+      - EBM
+    species (1 items):
+      - benthic fauna
+    environmental (6 items):
+      - water quality presented a trend of gradually improving from the inshore biodiversity, the situ
+      - water quality was the highest, accounting for 35
+      - water quality 214180
+      - water quality was poor, especially in the sea area with dense highest density of functional zo
+      - water quality and biological quality and adjusted to restoration zones due to the poor water q
+      ... and 1 more
+
+  Document: Making-knowledge-matter--Understanding-and-improving-know_2024_Ocean---Coast.pdf
+    institution (1 items):
+      - Hollandse kust Noord Department
+    method (1 items):
+      - through interviews
+    environmental (1 items):
+      - cumulative impact et al
+    gap (2 items):
+      - limited attention to such knowledge in the case
+The science-policy interface and related conditions 
+      - limited consideration of local knowledge
+
+  Document: Marine-Spatial-Planning--Assessment-of-the-intensity-of-co_2022_Ocean---Coas.pdf
+    institution (1 items):
+      - The Competent Authority
+    conflict (1 items):
+      - conflicts between fisheries and navigation 
+    policy (3 items):
+      - National Maritime Policy
+      - National Spatial Planning Strategy
+      - The EU MSP Directive
+    data_source (1 items):
+      - EMODnet
+    species (2 items):
+      - Posidonia oceanica
+      - Posidonia
+
+  Document: MUTE-DSS--A-digital-twin-based-decision-support-system-for-min_2026_Ocean-En.pdf
+    data_source (4 items):
+      - AIS
+      - GEBCO data
+      - dataset of vary- kernel
+      - database of the study area
+    environmental (3 items):
+      - noise pollution in dynamically evolving marine ecosystems
+      - Underwater Noise Transmission MUTE-DSS to mitigate the impact of the URN, demonstrating its abili
+      - underwater noise from ships
+
+  Document: Marine-Spatial-Planning-cross-border-cooperation-in-the--Europe_2021_Marine-.pdf
+    institution (1 items):
+      - United Nations Economic Commission
+    method (3 items):
+      - participatory approach
+      - Ecosystem-Based Management
+      - EBM
+    environmental (2 items):
+      - marine pollution security, surveillance, and marine pollution was too far from their interests
+      - marine pollution (III)
+
+  Document: Marine-spatial-planning-for-transboundary-issues-in-bays-o_2022_Ecological-I.pdf
+    gap (2 items):
+      - lack of spatial distribution coordination
+      - lack of spatial distribution at the hierarchical MSP
+
+  Document: Integrating-marine-spatial-planning-into-blue-economy-policie_2025_Marine-Po.pdf
+    stakeholder (2 items):
+      - indigenous peoples
+      - local communities
+    institution (3 items):
+      - Interinstitutional Sea Committee
+      - Pilot project under Pilot National Ministry
+      - Burdwood Hoc Committee
+    method (1 items):
+      - Seasketch
+    policy (3 items):
+      - National Maritime Policy
+      - Development Economy Policy
+      - GDP Sectoral Policy
+    data_source (1 items):
+      - Database of Brazil heritage 
+    environmental (4 items):
+      - Ocean Acidification Observing Network (GOA-ON) is global in Uruguay, however, Marine Spatial Plannin
+      - ocean acidification – joined the mented
+      - Ocean Acidification Network (LAOCA) and the North funding, except in Venezuela, which relies on exte
+      - Ocean Acidification Network (includes Mexico) include the (PROCARIBE+Project)
+    gap (5 items):
+      - lack of clear policies to promote the blue economy seems like a missed
+environmental comprehensive e
+      - Lack of direct Explicitly promotion
+      - Limited scope of Broaden the scope of
+(POEMC) aims to economy in POEMC; economy renewable O&G and bl
+      - limited to land spaces and relevant sectors of the
+Mexico MSP and blue Lack of legal Legally articul
+      - absent from MSP documents or is only implicitly considered
+itself does not implementation;
+within br
+
+  Document: Marine-aquaculture-spatial-planning-on-market-orientation-for-P_2024_Aquacul.pdf
+    institution (1 items):
+      - Environmental Systems Research Institute
+    method (3 items):
+      - using remote sensing
+      - suitability analysis
+      - suitability analysis
+    data_source (3 items):
+      - Landsat 
+      - Sentinel 
+      - MODIS 
+    species (1 items):
+      - Crassostrea gigas
+
+  Document: Humanizing-marine-spatial-planning--A-salutogenic-approach_2023_Marine-Polic.pdf
+    stakeholder (4 items):
+      - Indigenous Peoples
+      - local community
+      - Indigenous community
+      - indigenous community
+    method (8 items):
+      - using a case study
+      - participatory mapping
+      - participatory mapping
+      - participatory mapping
+      - Participatory mapping
+      ... and 3 more
+    policy (1 items):
+      - Blue Economy Strategy
+    species (2 items):
+      - jellyfish
+      - salmon
+
+  Document: Marine-robotics-research-for-ocean-observation-in-extreme-d_2025_Ocean-Engin.pdf
+    institution (2 items):
+      - Japan Meteorological Agency
+      - Intergovernmental Oceanographic Commission
+    species (2 items):
+      - Barracuda
+      - Petrel
+    gap (3 items):
+      - lack of synchronized measurements, weak adaptability to severe sea
+(UUVs) and autonomous underwater 
+      - lack of synchronized measurements
+      - lack of synchronized measurements and scarcity of observational data
+are significant impediments to 
+
+  Document: Marine-spatial-planning-and-ocean-accounting--Synergistic-tools_2022_Marine-.pdf
+    stakeholder (1 items):
+      - indigenous peoples
+    institution (3 items):
+      - United National Statistical Commission
+      - World Resources Institute
+      - Intergovernmental Oceanographic Commission
+    method (7 items):
+      - Ecosystem-based management
+      - zonation
+      - Ecosystem-based management
+      - ecosystem-based management
+      - ecosystem-based management
+      ... and 2 more
+    policy (1 items):
+      - Maritime Spatial Planning Directive
+    species (1 items):
+      - seagrass
+    gap (1 items):
+      - lack of formal or by MSP
+
+  Document: Mechanical-behavior-of-marine-coral-sand---coral-clay-mixtures-r_2026_Ocean-.pdf
+
+  Document: Marine-spatial-planning-initiatives-off-the-coast-of-large_2025_Ocean---Coas.pdf
+    stakeholder (1 items):
+      - local communities
+    institution (1 items):
+      - New York State Department
+    policy (6 items):
+      - Article 7 of the MSP Directive
+      - Union and thus subject to the MSP Directive
+      - EU MSP Directive
+      - Regional Strategiaregionalediadattamento 2015 Strategy
+      - Results per the MSP Directive
+      ... and 1 more
+    data_source (2 items):
+      - marinetraffic
+      - marinetraffic
+    gap (3 items):
+      - lack of transparency in the stake- nean, a region covered by the European MSP Directive and where
+ho
+      - Lack of transparency in the stakeholder engagement process may whenthreekeypreconditionsaremet:1)ana
+      - limited capacity to address sea-based
+the stakeholder engagement process makes it impossible to prop
+
+  Document: Marine-spatial-planning-to-solve-increasing-conflicts-at_2023_Journal-of-Env.pdf
+    method (6 items):
+      - Marxan
+      - Marxan
+      - Marxan
+      - Marxan
+      - zonation
+      ... and 1 more
+    policy (2 items):
+      - Global Biodiversity Framework
+      - EU Biodiversity Strategy
+    data_source (2 items):
+      - ICES
+      - VMS data
+    species (3 items):
+      - hake
+      - Solea solea
+      - Nephrops norvegicus
+
+  Document: Marine-renewable-energy-and-maritime-spatial-planning-in-Spain_2021_Marine-P.pdf
+    stakeholder (2 items):
+      - MITECO Ministry
+      - local communities
+    institution (4 items):
+      - Forum for Offshore Wind Energy and Sustainable European Commission
+      - Wind Atlas Institute
+      - Diversification and Carried out by the Institute
+      - Environmental Hydraulics Institute
+    policy (2 items):
+      - France Sea Basin Strategy
+      - Integrated Maritime Policy
+    data_source (1 items):
+      - EMODnet
+
+  Document: Marine-spatial-planning-in-the-Eastern-Caribbean--Trends-an_2022_Marine-Poli.pdf
+    stakeholder (1 items):
+      - government agencies
+    institution (4 items):
+      - Sasakawa Global Ocean Institute
+      - Ocean Governance Committee
+      - Ensure a minimum reserve diameter Environmental Law Institute
+      - The OECS Commission
+    method (11 items):
+      - through survey
+      - participatory mapping
+      - participatory mapping
+      - SeaSketch
+      - ecosystem-based management
+      ... and 6 more
+    policy (2 items):
+      - CFZ developed a Maritime Policy
+      - OECS Blue Economy Strategy
+    species (2 items):
+      - mangrove
+      - seagrass
+    gap (3 items):
+      - Limited funding options OECS will have a major role to play in any successful transboundary
+Financin
+      - lack of legislative grounding of MSP means that there is by The Nippon Foundation is acknowledged
+      - limited small islands, Conserv
+
+  Document: Numerical-modelling-of-the-spatial-distribution-of-wave-overto_2024_Ocean-En.pdf
+    objective (1 items):
+      - objectives of this study are to explore the capability of the
+gestedandslightlyrewrittenandmodifiedi
+
+  Document: Novel-computer-vision-tools-applied-to-marine-recreational_2024_Fisheries-Re.pdf
+    stakeholder (4 items):
+      - recreational fisher
+      - recreational fisher
+      - recreational fishers
+      - local fisher
+    policy (1 items):
+      - Common Fisheries Policy
+    data_source (6 items):
+      - VMS
+      - AIS
+      - VMS
+      - AIS
+      - Global Fishing Watch
+
+      ... and 1 more
+    species (3 items):
+      - Posidonia oceanica
+      - seagrass
+      - Posidonia
+
+  Document: Mismatches-between-the-current-marine-Natura-2000-network-and-sea_2025_Marin.pdf
+    stakeholder (1 items):
+      - FitzPatrick Institute
+    policy (2 items):
+      - EU Biodiversity Strategy
+      - The Birds Directive
+    species (6 items):
+      - shearwater
+      - petrel
+      - Razorbill
+      - Puffin
+      - Fulmar
+      ... and 1 more
+
+  Document: Numerical-study-on-the-temporal-and-spatial-distribution-law-of_2022_Ocean-E.pdf
+
+  Document: Navigating-the-dual-currents--Advanced-insights-into-carbon-emis_2025_Marine.pdf
+    stakeholder (1 items):
+      - fishing industry
+    method (1 items):
+      - Invest
+    policy (1 items):
+      - These include the United Nations Framework
+    environmental (2 items):
+      - cumulative effect of employment scale has shifted from positive marine fishery industry
+      - cumulative effects on emissions, while 21]
+
+  Document: Optimized-ship-path-planning-integrating-historical-trajectory_2025_Ocean-En.pdf
+    stakeholder (4 items):
+      - Design and Research Institute
+      - port authorities
+      - shipping industry
+      - maritime authorities
+    data_source (1 items):
+      - AIS data
+    gap (2 items):
+      - limited to international liner shipping (Naus, 2020)
+      - limited channel capacity (Venturini et al
+
+  Document: Operationalisation-of-ecosystem-services-in-support-of-ecosystem_2021_Marine.pdf
+    conflict (1 items):
+      - Trade-offs between fishery and nature conservation
+    method (6 items):
+      - based on a questionnaire
+      - ecosystem-based management
+      - participatory mapping
+      - Participatory mapping
+      - Participatory GIS
+      ... and 1 more
+    policy (1 items):
+      - Maritime Spatial Planning Directive
+    environmental (1 items):
+      - Cumulative Effect Assessment tool
+    objective (1 items):
+      - This research aims to define a set of scientific and operational rec-
+contribute significantly to fu
+
+  Document: Multi-strategy-based-artificial-bee-colony-algorithm-for-AUV_2024_Ocean-Engi.pdf
+
+  Document: Oscillatory-responses-of-a-spatially-random-seabed-in-the-vicin_2024_Ocean-E.pdf
+
+  Document: Numerical-simulation-of-planing-hull-motions-in-calm-water-_2023_Ocean-Engin.pdf
+
+  Document: Overcoming-challenges-and-identifying-opportunities-for-marine-_2025_Marine-.pdf
+    stakeholder (2 items):
+      - local communities
+      - Fishing communities
+    gap (1 items):
+      - lack of personnel and unclear administrative procedures,
+outcomes of future MPAs [29]and in context-
+
+  Document: Prioritising-multiple-objectives-in-marine-spatial-pla_2023_Ocean---Coastal-.pdf
+    stakeholder (3 items):
+      - fishing industry
+      - local communities
+      - fishing industry
+    institution (2 items):
+      - Marine Conservation Institute
+      - Fisheries New Zealand and the Department
+    method (14 items):
+      - Zonation
+      - Zonation
+      - Zonation
+      - Zonation
+      - Zonation
+      ... and 9 more
+    species (5 items):
+      - snapper
+      - whiting
+      - bluefin tuna
+      - Snapper
+      - albatross
+    environmental (1 items):
+      - biodiversity loss (Edgar et al
+    gap (2 items):
+      - limited to commercial parison with our research
+      - limited recreational fishing beyond
+spatial modelling incorporating additional fishing related econo
+
+  Document: Overcoming-worldwide-Marine-Spatial-Planning--MSP--challe_2023_Ocean---Coast.pdf
+    stakeholder (2 items):
+      - Maritime Authorities
+      - government agencies
+    institution (1 items):
+      - After tabulating Ireland Towards a Marine Spatial Plan The Department
+    method (2 items):
+      - using a questionnaire
+      - Ecosystem-based Management
+    data_source (1 items):
+      - AIS
+
+  Document: Public-participation-in-marine-spatial-planning-in-France_2024_Ocean---Coast.pdf
+    institution (1 items):
+      - French National Research Agency
+    data_source (1 items):
+      - landsat
+    gap (1 items):
+      - lack of interest due to ineffective past
+whotakeaverybroadstrategicview,reinforcingtheapproachfavore
+
+  Document: Rescue-plan-of-unmanned-life-saving-vehicle-in-multi-obstacle-w_2025_Ocean-E.pdf
+
+  Document: Piloting-a-culturally-significant-areas-framework-for-spatial-pl_2025_Marine.pdf
+    stakeholder (6 items):
+      - government agencies
+      - local communities
+      - indigenous communities
+      - indigenous community
+      - indigenous people
+      ... and 1 more
+    institution (2 items):
+      - South African National Biodiversity Institute
+      - The South African Heritage Resources Agency
+    method (2 items):
+      - participatory mapping
+      - invest
+    species (1 items):
+      - sea turtle
+
+  Document: Progress-in-the-modelling-and-management-of-offshore-wind-f_2026_Ocean-Engin.pdf
+    stakeholder (1 items):
+      - Offshore wind developers
+    policy (1 items):
+      - The EU Directive
+    data_source (2 items):
+      - ERA5 
+      - ECMWF
+    gap (6 items):
+      - limited gains at higher wind speeds
+      - limited wake-loss reduction
+      - limited field data
+      - limited method and scale)
+      - limited to and management strategies in offshore wind farms, highlighting both
+small-scale or short-
+      ... and 1 more
+
+  Document: Prospects-of-marine-spatial-planning-in-T_2025_Regional-Studies-in-Marine-Sc.pdf
+    stakeholder (1 items):
+      - fishing industry
+    institution (2 items):
+      - General Fisheries Commission
+      - Strategic Plan of the Ministry
+    method (8 items):
+      - ecosystem-based management
+      - EBM
+      - EBM
+      - EBM
+      - ecosystem-based management
+      ... and 3 more
+    policy (2 items):
+      - The 2023 Tourism Strategy
+      - Integrated Maritime Policy
+    species (7 items):
+      - sea turtle
+      - Caretta caretta
+      - Monachus monachus
+      - Caretta caretta
+      - Monachus monachus
+      ... and 2 more
+    gap (1 items):
+      - lack of clear definitions, becomes a critical knowledge acquired
+
+  Document: Research-on-a-dynamic-heuristic-algorithm-for-time-optimal-p_2026_Ocean-Engi.pdf
+
+  Document: Research-on-marine-gas-turbine-acoustic-signals-anomaly-detecti_2025_Ocean-E.pdf
+    method (1 items):
+      - through statistical analysis
+
+  Document: Robotic-organism-targets-regional-coverage-capture-path-planni_2023_Ocean-En.pdf
+    species (1 items):
+      - sea cucumber
+
+  Document: Research-on-effective-trajectory-planning--tracking--and-reco_2025_Ocean-Eng.pdf
+
+  Document: Risk-based-path-planning-for-autonomous-underwater-vehicles_2022_Ocean-Engin.pdf
+    stakeholder (1 items):
+      - McFerrin Department
+    institution (2 items):
+      - Artie McFerrin Department
+      - Fisheries and Marine Institute
+    data_source (1 items):
+      - marinetraffic
+    environmental (9 items):
+      - oil spill is 1of the major accidents in the ocean that can damage surface oil plumes, capt
+      - oil spill response
+      - oil spill detection
+      - oil spill in the Northern Alaska coast (Maksym et al
+      - oil spill a rigorous path planning method for AUVs from a safety perspective
+      ... and 4 more
+    gap (1 items):
+      - limited environmental information can be obtained
+the max waypoint risk index drops gradually with t
+
+  Document: Risk-aware-obstacle-avoidance-motion-planning-for-a-robo_2026_Ocean-Engineer.pdf
+    institution (1 items):
+      - School of Intelligence Science and Technology and the Institute
+    gap (1 items):
+      - limited yaw torque
+
+  Document: Quiet-power--How-security-interests-shape-offshore-wi_2025_Energy-Research--.pdf
+    stakeholder (3 items):
+      - environmental organizations
+      - fishing communities
+      - offshore wind developers
+    institution (4 items):
+      - Stockholm Environment Institute
+      - Swedish Energy Agency
+      - Swedish Defence Research Agency
+      - Baltic Energy Agency
+    policy (2 items):
+      - EU Council Regulation
+      - REPowerEU and Council Regulation
+    data_source (1 items):
+      - ICES
+    environmental (1 items):
+      - cumulative impact review, and stakeholder engagement – Importantly, these defence concerns reflect
+    gap (3 items):
+      - lack of trans- courses, actors, and tools at international, national, and local levels
+      - limited outside terri- shows how securitizing tools (e
+      - limited transparency,
+Despite this, informants consistently stressed that local actors often feel an
+
+  Document: Robotic-sampling-of-marine-microplastics--a-comprehensiv_2025_Ocean-Engineer.pdf
+    stakeholder (1 items):
+      - oil and gas industry
+    environmental (4 items):
+      - water quality monitoring
+      - Water quality monitoring Surface 1h 1
+      - water quality data in deep water due to the high water pres- Fig
+      - water quality sampling
+    gap (1 items):
+      - lack of AUV If optical-based detection methods (e
+
+  Document: Scenario-based-cumulative-impacts-assessment-on-iconic-s_2026_Environmental-.pdf
+    stakeholder (1 items):
+      - shipping industry
+    method (5 items):
+      - conducted a statistical analysis
+      - ecosystem-based management
+      - Maxent
+      - MaxEnt
+      - MaxEnt
+    data_source (5 items):
+      - GBIF data
+      - OBIS 
+      - obis
+      - Global Fishing Watch
+      - Sentinel 
+    species (1 items):
+      - sturgeon
+    environmental (23 items):
+      - water quality deterioration and environmental management approach during the restoration of fi
+      - eutrophication in the YRE, as revealed in the Bulletin of China's Ocean abundance and biodivers
+      - eutrophication of water quality (Wu et al
+      - cumulative impacts on global marine ecosystems Delta, this region is also 1of the river estuaries w
+      - cumulative impacts of climate and the total area, significantly expanding upon the pre-existing mar
+      ... and 18 more
+
+  Document: Shared-visions-for-marine-spatial-planning--Insights-fro_2022_Ocean---Coasta.pdf
+    data_source (1 items):
+      - GEBCO 
+
+  Document: Seychelles--blue-finance--A-blueprint-for-marine-conservat_2025_Marine-Polic.pdf
+    stakeholder (1 items):
+      - tourism industry
+    institution (1 items):
+      - Intergovernmental Oceanographic Commission
+
+  Document: Ship-path-planning-based-on-safety-potential-field-in-in_2022_Ocean-Engineer.pdf
+    data_source (1 items):
+      - AIS 
+
+  Document: Seascape-genomics--Assisting-marine-biodiversity-management-by-c_2025_Marine.pdf
+    method (1 items):
+      - ecosystem-based management
+    policy (2 items):
+      - Montreal Global Biodiversity Framework
+      - European Water Framework
+    data_source (3 items):
+      - Copernicus 
+      - copernicus
+      - ICES data
+    species (17 items):
+      - snapper
+      - common sole
+      - European hake
+      - Atlantic cod
+      - Atlantic bluefin
+      ... and 12 more
+    objective (1 items):
+      - we aim to support the understanding and access to
+information on seascape genetics and genomics for 
+
+  Document: Shouting-into-the-void--Democratising-ocean-literacy-through-i_2025_Marine-P.pdf
+    stakeholder (3 items):
+      - Indigenous communities
+      - local communities
+      - indigenous peoples
+    policy (1 items):
+      - National Planning Policy
+
+  Document: Sparse-to-full-reconstruction-of-ocean-wave-height-fields-us_2026_Ocean-Engi.pdf
+    data_source (1 items):
+      - dataset from the U
+    gap (4 items):
+      - lack of spatial coverage
+      - limited and costly
+      - limited sensor input
+      - unavailable or impractical
+
+  Document: Spatial-analyses-of-52-years-of-modelled-sea-state-data-for-the-_2015_Ocean-.pdf
+    environmental (1 items):
+      - oil spill response equipment (booms and skimmers) different statistical parameters (mean a
+    gap (1 items):
+      - limited applicability at wave heights higher than one meter
+
+  Document: Ship-path-planning-methods--A-state-of-the-art-survey_2025_Ocean-Engineering.pdf
+    stakeholder (1 items):
+      - shipping industry
+    policy (1 items):
+      - Ensuring compliance with the International Regulation
+    data_source (1 items):
+      - AIS
+    environmental (1 items):
+      - water quality monitoring and algorithm
+
+  Document: So-far-and-so-close--Opportunities-for-marine-spatial-p_2021_Ocean---Coastal.pdf
+    institution (1 items):
+      - Joint Technical Commission
+    method (1 items):
+      - ecosystem-based management
+    policy (1 items):
+      - Coastal Zone Directive
+    data_source (2 items):
+      - AIS 
+      - MarineTraffic
+    environmental (1 items):
+      - noise pollution (Wright et al
+
+  Document: SEAs-for-seas--Strategic-environmental-assessment-for-mor_2024_Environmental.pdf
+    stakeholder (1 items):
+      - Maritime and Hydrographic Agency
+    policy (7 items):
+      - Environmental Science and Policy
+      - Many activities already Directive
+      - As stipulated by European Directive
+      - The EU MSP Directive
+      - EU SEA Directive
+      ... and 2 more
+    environmental (1 items):
+      - Cumulative impact Cumulative effects are identified, based on a Cumulative effects are Cumulative 
+    gap (4 items):
+      - lack of available data and understanding on the marine environment
+on the set-up of the SEA free fro
+      - limited to academic research (Gușatu et al
+      - limited data of individual environmental indicators as re- extensive participation processes
+      - limited mechanisms for managing uncertainties and follow-up of
+effect on the utility of the adopted 
+
+  Document: Spatial-and-temporal-variation-of-surface-waves-in-shallow-w_2014_Ocean-Engi.pdf
+    data_source (2 items):
+      - ECMWF 
+      - ecmwf
+
+  Document: Spatial-coupling-and-decoupling-between-ecosystem-services-_2021_Ocean---Coa.pdf
+    stakeholder (2 items):
+      - indigenous peoples
+      - indigenous people
+    institution (1 items):
+      - Law of Municipalities of the Ministry
+    species (7 items):
+      - hake
+      - salmon
+      - Atlantic salmon
+      - Salmon
+      - sea urchin
+      ... and 2 more
+
+  Document: Spatial-distribution-of-waves-and-wave-induced-littoral-drift-_2021_Ocean-En.pdf
+
+  Document: Spatial-and-statistical-analysis-of-operational-conditions-influ_2022_Ocean-.pdf
+    stakeholder (1 items):
+      - maritime industry
+    institution (2 items):
+      - Russia Interstate Aviation Committee
+      - Maritime Coastguard Agency
+
+  Document: Sharing-the-waters--Application-of-a-marine-spatial-planning-ap_2022_Marine-.pdf
+    stakeholder (6 items):
+      - tourism industry
+      - shipping industry
+      - recreational boaters
+      - tourism operators
+      - maritime industry
+      ... and 1 more
+    institution (1 items):
+      - Marine Park Coordination Committee
+    method (1 items):
+      - Suitability analysis
+    policy (1 items):
+      - Act Recovery Strategy
+    data_source (2 items):
+      - AIS
+      - AIS 
+    environmental (8 items):
+      - underwater noise Lawrence Estuary (SLE) beluga (Delphinapterus leucas) lives downstream from indu
+      - underwater noise has increased steadily in the world's oceans since the ulations live downstream 
+      - underwater noise (Chion et al
+      - underwater noise radiated et al
+      - underwater noise in the area and continued the impact of noise on beluga and other whales in the 
+      ... and 3 more
+    gap (2 items):
+      - limited resources for monitoring and education,
+vessel presence increased in the bay to a maximum of
+      - gap in our approach is that we have yet to demonstrate if
+important means to achieve this
+
+  Document: Spatial-footprint-of-maritime-vessels-in-the-waters-of-a-fast-_2025_Marine-P.pdf
+    stakeholder (2 items):
+      - Environment and Sustainability Institute
+      - Fisheries and Conservation Department
+    institution (1 items):
+      - Fisheries and Conservation Department
+    data_source (4 items):
+      - AIS 
+      - OpenStreetMap 
+      - GEBCO 
+      - dataset of vessel movements
+    species (4 items):
+      - Chelonia mydas
+      - Chelonia mydas
+      - seagrass
+      - mangrove
+
+  Document: Spatial-temporal-big-data-analysis-of-ship-avoidance-patter_2025_Ocean-Engin.pdf
+    stakeholder (2 items):
+      - shipping companies
+      - port authorities
+    data_source (1 items):
+      - AIS data
+
+  Document: Spatial-configuration-and-static-characteristics-of-hoses-i_2022_Ocean-Engin.pdf
+    environmental (2 items):
+      - temperature 22.0
+      - temperature 1.0
+    gap (1 items):
+      - limited by experimental conditions, this article only
+tion that is highly consistent with the theore
+
+  Document: Spatial-planning-for-dugong-conservation--Assessing-habitat-suit_2025_Marine.pdf
+    stakeholder (1 items):
+      - local communities
+    method (1 items):
+      - Maxent
+    policy (1 items):
+      - Montreal Global Biodiversity Framework
+    data_source (7 items):
+      - GBIF
+      - gbif
+      - OBIS
+      - obis
+      - bio-oracle
+      ... and 2 more
+    species (7 items):
+      - dugong
+      - Dugong
+      - Dugong dugon
+      - Halophila ovalis
+      - Halodule uninervis
+      ... and 2 more
+    environmental (1 items):
+      - biodiversity loss and habitat degradation driven by anthropogenic dis- 2
+    gap (1 items):
+      - lack of funding [66]
+
+  Document: Spatial-topological-analysis-model-of-ship-encounter-sp_2020_Ocean-Engineeri.pdf
+    data_source (1 items):
+      - AIS
+
+  Document: State-constrained-path-planning-for-fast-sweeping-of-unmann_2026_Ocean-Engin.pdf
+
+  Document: Statistical-spatial-downscaling-of-significant-wave-height-in_2025_Ocean-Eng.pdf
+    stakeholder (1 items):
+      - government agencies
+    data_source (4 items):
+      - ERA5 data
+      - Copernicus 
+      - ECMWF 
+      - copernicus
+
+  Document: Spatially-perceptual-path-planning-for-AUVs-in-uncharted-mari_2024_Ocean-Eng.pdf
+
+  Document: Spatial-modeling-and-analysis-approach-for-ship-encounters-_2023_Ocean-Engin.pdf
+    institution (2 items):
+      - EMSA European Maritime Safety Agency
+      - Waterborne Transport Research Institute
+    policy (1 items):
+      - It provides Regulation
+    data_source (1 items):
+      - AIS
+
+  Document: The-Travelling-Schnauzer-Problem--Mission-planning-for-hetero_2025_Ocean-Eng.pdf
+
+  Document: Task-path-integrated-planning-with-3D-region-decomposition-fo_2026_Ocean-Eng.pdf
+    data_source (1 items):
+      - ices 
+
+  Document: Marine-spatial-planning-techniques-with-a-case-study-on-wave_2025_Renewable-.pdf
+    stakeholder (1 items):
+      - local communities
+    data_source (1 items):
+      - AIS
+    species (3 items):
+      - Whiting
+      - Atlantic salmon
+      - salmon
+
+  Document: The-Marine-Plan-Partnership--Indigenous-community-based-marin_2021_Marine-Po.pdf
+    stakeholder (6 items):
+      - Nations and Aggregate Organization
+      - Indigenous community
+      - indigenous community
+      - Tourism Operator
+      - indigenous peoples
+      ... and 1 more
+    method (2 items):
+      - Marxan
+      - Ecosystem Based Management
+    policy (2 items):
+      - MaPP also produced a broader Regional Action Framework
+      - Regional Action Framework
+    species (3 items):
+      - salmon
+      - Salmon
+      - Sea cucumber
+
+  Document: Mariculture-high-quality-development-process-and-spatial-diffe_2025_Marine-P.pdf
+    stakeholder (2 items):
+      - recreational fisher
+      - fishing communities
+    institution (1 items):
+      - Fisheries and Fisheries Administration Bureau of the Ministry
+    environmental (1 items):
+      - water quality and sediments interior
+    gap (1 items):
+      - gap in the Bohai and Yellow Sea
+
+  Document: Spatial-temporal-quantification-of-Yangtze-River-traffic-f_2025_Ocean-Engine.pdf
+    method (1 items):
+      - conducted a statistical analysis
+    data_source (3 items):
+      - AIS data
+      - AIS data
+      - AIS
+
+
+  Document: The-complex-relationships-between-marine-protected-areas-and-mar_2021_Marine.pdf
+    stakeholder (1 items):
+      - government bodies
+    institution (1 items):
+      - Joint Nature Conservation Committee
+    method (1 items):
+      - ecosystem-based management
+    policy (2 items):
+      - European Union Directive
+      - Integrated Maritime Policy
+
+  Document: Time-optimal-path-planning-and-tracking-based-on-nonlinear-mod_2023_Ocean-En.pdf
+
+  Document: Thresholds-of-seascape-fauna-composition-along-gradients-_2024_Science-of-Th.pdf
+    data_source (4 items):
+      - ICES
+      - ices
+      - VMS
+      - database of trawl surveys 
+    species (6 items):
+      - plaice
+      - Atlantic cod
+      - Engraulis encrasicolus
+      - Nephrops norvegicus
+      - Gadus morhua
+      ... and 1 more
+    environmental (3 items):
+      - temperature 5
+      - Cumulative impacts iables representing human pressures and environmental conditions
+      - cumulative impacts on the marine ecosystem power (R2 <0) are omitted automatically from the combine
+
+  Document: The-extension-of-marine-spatial-planning-to-the-management-of-th_2022_Marine.pdf
+    institution (1 items):
+      - ABNJ and AUNJ differ in terms of their prevailing management eries Commission
+    method (1 items):
+      - ecosystem-based management
+    policy (1 items):
+      - European Cohesion Policy
+
+  Document: The-human-dimension-dilemma-in-marine-spatial-planning_2022_Marine-Policy.pdf
+    stakeholder (6 items):
+      - Research and Innovation Agency
+      - local communities
+      - government agencies
+      - tourism industry
+      - Local communities
+      ... and 1 more
+    institution (1 items):
+      - Karimunjawa National Park Agency
+    method (2 items):
+      - conducted a case study
+      - invest
+    policy (1 items):
+      - Forestry Ministerial Regulation
+    species (4 items):
+      - Chelonia mydas
+      - Chelonia mydas
+      - seagrass
+      - mangrove
+    gap (3 items):
+      - lack of community knowledge of the environmental objectives of plan- planning faced resistance from 
+      - limited power over other stakeholders, they are forced to look for community
+      - lack of use of the human dimension,
+perhaps these details show the true interest of the authority in
+
+  Document: USV-path-planning-algorithm-based-on-plant-growth_2023_Ocean-Engineering.pdf
+    stakeholder (1 items):
+      - shipping industry
+
+  Document: Towards-a-collaborative-stakeholder-engagement-pathway-to-inc_2024_Environme.pdf
+    stakeholder (9 items):
+      - indigenous communities
+      - indigenous peoples
+      - local fisher
+      - local communities
+      - tourism operators
+      ... and 4 more
+    institution (1 items):
+      - International Whaling Commission
+    method (2 items):
+      - invest
+      - Ecosystem-Based Management
+    policy (1 items):
+      - Montreal Biodiversity Framework
+    species (1 items):
+      - Salmon
+    environmental (1 items):
+      - cumulative impacts of these deficiencies have led to weak and Raimy, 2022
+
+  Document: The-development-of-a-spatial-data-infrastructure-to-sup_2022_Ocean---Coastal.pdf
+    institution (2 items):
+      - OGC and IHO cooperation with the Ministry
+      - Hellenic Statistical Authority
+    policy (5 items):
+      - National Maritime Spatial Strategy
+      - National Maritime Space Strategy
+      - EU MSP Directive
+      - Cyprus for the application of EU MSP Directive
+      - European Interoperability Framework
+    data_source (4 items):
+      - EMODnet
+      - Copernicus 
+      - Sentinel
+      - EMODNET 
+    species (1 items):
+      - Posidonia
+
+  Document: USV-path-planning-algorithm-based-on-20D-A--and-IDWA-algor_2025_Ocean-Engine.pdf
+    stakeholder (1 items):
+      - maritime industry
+    method (1 items):
+      - conducted a case study
+    data_source (1 items):
+      - AIS 
+    environmental (1 items):
+      - ph 1 
+
+  Document: Using-GIS-fuzzy-set-modelling-to-integrate-social-ecological_2021_Ocean---Co.pdf
+    stakeholder (3 items):
+      - local community
+      - recreational fishers
+      - indigenous people
+    method (3 items):
+      - participatory mapping
+      - Participatory mapping
+      - participatory mapping
+    species (7 items):
+      - mullet
+      - snapper
+      - whiting
+      - seahorse
+      - grouper
+      ... and 2 more
+
+  Document: Using-ecosystem-service-assessments-to-support-partici_2020_Ocean---Coastal-.pdf
+    stakeholder (3 items):
+      - recreational user
+      - government authorities
+      - recreational users
+    method (2 items):
+      - using habitat mapping
+      - InVEST
+    species (1 items):
+      - seagrass
+    environmental (4 items):
+      - PH2
+      - PH3
+      - PH4 
+      - PH1
+    gap (4 items):
+      - limited understanding of marine ecosystems (Jones, 2002; Rose et al
+      - limited familiarity of marine stakeholders
+with the ecosystem services concept, assessment methods a
+      - limited understanding of marine ecosystems and
+obstacles resulting from the novelty and complexity o
+      - limited among marine stakeholders rine governance situations and management challenges, from marine
+
+
+  Document: Unveiling-the-mesophotic-South-Atlantic-reef-system--SARS---M_2025_Journal-o.pdf
+    stakeholder (1 items):
+      - Water and Sanitation Agency
+    method (1 items):
+      - invest
+    data_source (2 items):
+      - dataset of coral reefs from all oceans 
+      - dataset of coral gion
+    species (1 items):
+      - benthic fauna
+    environmental (1 items):
+      - cumulative effects of human maritime activities can directly impact sub-bottom profiler data to ref
+
+  Document: Towards-sustainable-marine-spatial-planning-of-aquac_2023_Ecological-Indicat.pdf
+    stakeholder (2 items):
+      - Prevention and Protection Agency
+      - fishing industry
+    institution (1 items):
+      - Water Research Institute
+    policy (3 items):
+      - Biological Quality Element ropean Directive
+      - Gulf of Manfredonia Framework
+      - EU Habitat Directive
+    data_source (1 items):
+      - Copernicus 
+    species (6 items):
+      - Cormorant
+      - Mytilus galloprovincialis
+      - Crassostrea gigas
+      - Posidonia oceanica
+      - seagrass
+      ... and 1 more
+    environmental (1 items):
+      - water quality (Halpern et al
+
+  Document: Wind-speed-forecasting-by-spatial-temporal-data-driven-model_2024_Ocean-Engi.pdf
+    institution (1 items):
+      - Danish Meteorological Institute
+    data_source (2 items):
+      - ECMWF
+      - database of atmospheric vari-
+ables extracted from CERA-20C is utilized
+
+  Document: The-emerging-intersection-between-marine-spatial-planning-and-o_2022_Marine-.pdf
+    stakeholder (4 items):
+      - local communities
+      - Recreational fishers
+      - Indigenous Peoples
+      - Indigenous peoples
+    institution (3 items):
+      - UN Statistical Commission
+      - United Nations Statistical Commission
+      - South African National Biodiversity Institute
+    method (5 items):
+      - performed a spatial analysis
+      - Ecosystem-based management
+      - ecosystem-based management
+      - ecosystem-based management
+      - EBM
+    policy (4 items):
+      - Thailand National Strategy
+      - Blue Planning Directive
+      - National MSP Framework
+      - Blue Economy Strategy
+    species (2 items):
+      - seagrass
+      - Seagrass
+    gap (3 items):
+      - limited in scope and could take advantage of extensive data- economic sectors (e
+      - lack of alignment between use-cases is initiative, Oceans to be protected by area-based measures by 
+      - limited if ac- framework in five countries, however, identified shared policy drivers
+counts focus o
+
+  Document: Using-systematic-conservation-planning-to-align-priority-areas-_2022_Biologi.pdf
+    stakeholder (3 items):
+      - recreational fisher
+      - tourism operators
+      - recreational fishers
+    institution (2 items):
+      - Flanders Marine Institute
+      - South African Heritage Resources Agency
+    method (15 items):
+      - Participatory mapping
+      - participatory mapping
+      - Marxan
+      - Marxan
+      - Marxan
+      ... and 10 more
+    data_source (4 items):
+      - marinetraffic
+      - ais
+      - VMS
+      - database of existing spatial data from details
+    species (1 items):
+      - tern
+    environmental (1 items):
+      - oil spill from ship-to-ship bunkering
+
+  Document: Strategic-Environmental-Assessment-in-marine-spatial-planning-of-_2021_Marin.pdf
+    institution (1 items):
+      - The Convention on Biological Commission
+    method (2 items):
+      - conducted a spatial analysis
+      - ecosystem-based management
+    policy (8 items):
+      - European SEA Directive
+      - Implementation guideline for the European SEA Directive
+      - The SEA Directive
+      - VASAB EBA Guideline
+      - The EBA Guideline
+      ... and 3 more
+    environmental (2 items):
+      - cumulative effects [26] and a lack of detailed monitoring programmes This study examines to what ex
+      - cumulative effects were only rarely considered (4SEAs include to fully engage stakeholders from the
+    gap (2 items):
+      - limited MSP process [72]
+      - lack of monitoring of the effects after plan implementation is criti- Decisions reflect Societal Cho
+
+  Document: Transboundary-marine-spatial-planning-across-Europe--Trends-and_2020_Marine-.pdf
+    institution (1 items):
+      - Finnish Environment Institute
+    method (7 items):
+      - Ecosystem-based Management
+      - EBM
+      - EBM
+      - ecosystem-based management
+      - ecosystem-based management
+      ... and 2 more
+    policy (9 items):
+      - Europe 2020 Strategy
+      - Blue Growth Strategy
+      - The Blue Paper on European Maritime Policy
+      - ICM requirements into the MSP Directive
+      - Towards a future Maritime Policy
+      ... and 4 more
+    data_source (1 items):
+      - database of the European MSP Platform
+    environmental (2 items):
+      - marine pollution (14), MPAs (10) and tourism (7)
+      - marine pollution have gained relatively little attention
+    gap (1 items):
+      - lack of attention to the implementation and
+has been organised by VASAB since 2014 and helps to buil
+
+  Document: 1.3.831.pdf
+    legal_reference (12 items):
+      - 2226 sayılı Kanun
+      - 2560 sayılı Kanun
+      - 831 SAYILI KANUN
+      - Madde 1
+      - Madde 2
+      ... and 7 more
+
+  Document: 1.5.1053.pdf
+    legal_reference (20 items):
+      - 6200 sayılı Kanun
+      - 5625 sayılı Kanun
+      - 7153 sayılı Kanun
+      - 1053 SAYILI KANUN
+      - 698 sayılı Kanun
+      ... and 15 more
+
+  Document: 1.3.4373.pdf
+    penalty (2 items):
+      - izin kaldırılır
+      - cezalandırılır
+    prohibition (1 items):
+      -  fidan veya ağaç dikmek yasaktır
+    legal_reference (21 items):
+      - 6462 sayılı Kanun
+      - 4373 SAYILI KANUN
+      - Madde 1
+      - Madde 2
+      - Madde 3
+      ... and 16 more
+
+  Document: 1.4.167.pdf
+    penalty (1 items):
+      - cezalandırılır
+    legal_reference (32 items):
+      - 2886 sayılı Kanun
+      - 5335 sayılı Kanun
+      - 7139 sayılı Kanun
+      - 6309 sayılı kanun
+      - 6977 sayılı kanun
+      ... and 27 more
+
+  Document: 20250724-16.pdf
+
+  Document: 1.3.6200.pdf
+    penalty (1 items):
+      - ızın iptal
+    temporal (1 items):
+      - 1yıl süreyle
+    legal_reference (72 items):
+      - 3996 sayılı Kanun
+      - 1312 sayılı Kanun
+      - 5018 sayılı Kanun
+      - 3127 sayılı kanun
+      - 4342 sayılı Kanun
+      ... and 67 more
+
+  Document: 1.5.3621_3621 Sayılı Kıyı Kanunu.pdf
+    distance (2 items):
+      - en az 100 metre
+      - en fazla 50 metre
+    penalty (2 items):
+      - cezalandırılır
+      - yaptırım
+    legal_reference (29 items):
+      - 7071 sayılı Kanun
+      - 7153 sayılı Kanun
+      - 7501 sayılı Kanun
+      - 7144 sayılı Kanun
+      - 4737 sayılı Kanun
+      ... and 24 more
+
+  Document: 29 Temmuz 2022 CUMA.pdf
+    legal_reference (32 items):
+      - 2872 sayılı Kanun
+      - MADDE 1
+      - MADDE 2
+      - MADDE 3
+      - MADDE 4
+      ... and 27 more
+
+  Document: 7.5.16806.pdf
+    distance (2 items):
+      -  1deniz mili
+      - 1852 m
+    penalty (1 items):
+      - yaptırım
+    legal_reference (23 items):
+      - MADDE 1
+      - MADDE 2
+      - MADDE 3
+      - MADDE 4
+      - MADDE 5
+      ... and 18 more
+
+  Document: 1.5.1380_Su Ürünleri Kanunu (No. 1380).pdf
+    distance (1 items):
+      - 20metreden fazla
+    penalty (1 items):
+      - İdari yaptırım
+    temporal (3 items):
+      - 90gün süre
+      - 3ay süre
+      - 3ay süre
+    prohibition (1 items):
+      -  imalatla kullanılması yasaktır
+    species (1 items):
+      - Midye
+    permit (1 items):
+      - izin verilir
+    legal_reference (61 items):
+      - 3288 sayılı Kanun
+      - 5957 sayılı Kanun
+      - 4950 sayılı Kanun
+      - 1163 sayılı Kanun
+      - 202 sayılı Kanun
+      ... and 56 more
+
+  Document: 21.5.1426_Deniz Trafik Düzeni Tüzüğü.pdf
+    distance (22 items):
+      -  200 metre
+      -  15 metre
+      -  150 metre
+      -  10 metre
+      -  20 deniz mili
+      ... and 17 more
+    prohibition (1 items):
+      -  yüzmek ve avlanmak yasaktır
+    species (2 items):
+      - kalkan
+      - Hamsi
+    legal_reference (53 items):
+      - Madde 1
+      - Madde 2
+      - Madde 3
+      - Madde 4
+      - Madde 5
+      ... and 48 more
+
+  Document: 7.5.18679_Özel Çevre Koruma Bölgeleri Mevzuatı.pdf
+    temporal (2 items):
+      - 30gün süre
+      - 6ay süreyle
+    protected_area (13 items):
+      -  Doğal sit alanı
+      -  Özel çevre koruma bölgesi
+      -  Tapu kütüklerinde doğal sit alanı
+      - 1983 tarihli ve 2873 sayılı Milli Park
+      -  1 inci derece doğal sit alanı
+      ... and 8 more
+    permit (1 items):
+      - izin verilir
+    legal_reference (15 items):
+      - 3573 sayılı Kanun
+      - MADDE 1
+      - MADDE 2
+      - MADDE 3
+      - MADDE 4
+      ... and 10 more
+
+  Document: 7.5.16726_Limanlar Yönetmeliği_Ulaştırma Mevzuatı.pdf
+    distance (16 items):
+      - 125 metre
+      - 200 metre
+      - 300 metre
+      -  2 mil
+      -  1 deniz mili
+      ... and 11 more
+    penalty (1 items):
+      - idari yaptırım
+    temporal (2 items):
+      - 1 nisan-15 kasım
+      - 60 gün süreli
+    prohibition (1 items):
+      -  kapasitesinden fazla yolcu alan geminin seferine izin verilmez
+    legal_reference (56 items):
+      - 2169 sayılı Kanun
+      - 4922 sayılı Kanun
+      - 618 sayılı Kanun
+      - 655 sayılı Kanun
+      - 5312 sayılı Kanun
+      ... and 51 more
+
+  Document: 7.5.18340_Özel Çevre Koruma Bölgeleri Mevzuatı.pdf
+    temporal (3 items):
+      - 10gün süreli
+      - 10yıl süreli
+      - 30gün süreyle
+    protected_area (1 items):
+      -  Özel çevre koruma bölgesi
+    permit (1 items):
+      - izin alınır
+    legal_reference (79 items):
+      - 7201 sayılı Teblig
+      - MADDE 1
+      - MADDE 2
+      - MADDE 3
+      - MADDE 4
+      ... and 74 more
+
+  Document: 7.5.39747_3194 Sayılı İmar Kanunu.pdf
+    legal_reference (8 items):
+      - MADDE 1
+      - MADDE 2
+      - MADDE 3
+      - MADDE 4
+      - MADDE 5
+      ... and 3 more
+
+  Document: 7.5.19788_Mekânsal Planlar Yapım Yönetmeliği.pdf
+    environmental (2 items):
+      - atık su arıtma tesisleri
+      - Atık su deşarj yerleri
+    protected_area (8 items):
+      -  Milli park
+      -  milli park
+      -  tabiatı koruma alanı
+      -  yaban hayatı koruma alanı
+      -  tabiat parkı
+      ... and 3 more
+    legal_reference (38 items):
+      - MADDE 1
+      - MADDE 2
+      - MADDE 3
+      - MADDE 4
+      - MADDE 5
+      ... and 33 more
+
+  Document: 1.5.2872_2872 Sayılı Çevre Kanunu.pdf
+    penalty (2 items):
+      - yaptırım
+      - cezalandırılır
+    environmental (3 items):
+      - atıksu miktarı oranında katılmak zorundadırlar
+      - atıksu toplama, arıtma ve bertaraf ücreti alınır
+      - atıksu miktarı nispetinde tahsil eder
+    prohibition (2 items):
+      -  uzaklaştırmak ve benzeri faaliyetlerde bulunmak yasaktır
+      -  kuruluş ve işletmelere bu faaliyetler için izin verilmez
+    protected_area (1 items):
+      -  Özel Çevre Koruma Bölgesi
+    coordinate (2 items):
+      - 9,10, 11,12
+      - 14,15,16,18
+    legal_reference (75 items):
+      - 7261 sayılı Kanun
+      - 5491 sayılı Kanun
+      - 703 sayılı Kanun
+      - 7153 sayılı Kanun
+      - 7554 sayılı Kanun
+      ... and 70 more
+
+  Document: 7.5.4882_Plansız Alanlar İmar Yönetmeliği.pdf
+    distance (2 items):
+      - en fazla 300 metre
+      - en fazla 300 metre
+    legal_reference (39 items):
+      - 1051 sayılı Kanun
+      - Madde 1
+      - Madde 2
+      - Madde 3
+      - Madde 4
+      ... and 34 more
+
+  Document: 7.5.4897_Kıyı Kanununun Uygulanmasına Dair Yönetmelik.pdf
+    distance (7 items):
+      - en az 100 metre
+      - en fazla 50 metre
+      -  100 metrelik
+      -  100 metrelik
+      - en az 50metre
+      ... and 2 more
+    penalty (1 items):
+      - izin iptal
+    temporal (1 items):
+      - 1ay süreyle
+    legal_reference (26 items):
+      - 3830 sayılı Kanun
+      - 2634 sayılı Kanun
+      - 4737 sayılı Kanun
+      - Madde 1
+      - Madde 2
+      ... and 21 more
+
+  Document: GeneratePdf_3194 Sayılı İmar Kanunu.pdf
+    temporal (2 items):
+      - 1yıl süre
+      - 1yıl süre
+    legal_reference (14 items):
+      - 6785 sayılı Kanun
+      - Madde 1
+      - Madde 2
+      - Madde 6
+      - Madde 7
+      ... and 9 more
+
+  Document: 1.5.2863_2863 Sayılı Kültür ve Tabiat Varlıklarını Koruma Kanunu.pdf
+    penalty (2 items):
+      - ızın iptal
+      - cezalandırılır
+    protected_area (7 items):
+      -  koruma alanı
+      -  Sit alanı
+      - 
+Koruma bölge kurulunca sit alanı
+      -  kaydı konulmuş olan taşınmaz kültür varlıkları ile arkeolojik sit alanı
+      - 
+sit alanı
+      ... and 2 more
+    coordinate (1 items):
+      - 18,55,57,58
+    legal_reference (97 items):
+      - 3386 sayılı Kanun
+      - 5226 sayılı Kanun
+      - 7201 sayılı Teblig
+      - 7153 sayılı Kanun
+      - 1319 sayılı Kanun
+      ... and 92 more
+
+  Document: 7.5.5217_Su Ürünleri Yetiştiriciliği Yönetmeliği.pdf
+    distance (1 items):
+      - asgari 40metre
+    temporal (1 items):
+      - 8ay süre
+    species (2 items):
+      - orkinos
+      - Orkinos
+    permit (2 items):
+      - izin verilir
+      - izin verilir
+    legal_reference (26 items):
+      - Madde 1
+      - Madde 2
+      - Madde 3
+      - Madde 4
+      - Madde 5
+      ... and 21 more
+
+  Document: 1.5.3194_3194 Sayılı İmar Kanunu.pdf
+    distance (1 items):
+      - 15metreden fazla
+    penalty (3 items):
+      - 1000Türk Lirası idari para cezası
+      - ruhsat iptal
+      - idari yaptırım
+    temporal (2 items):
+      - 1ay süreyle
+      - 30 gün süreyle
+    species (1 items):
+      - kalkan
+    permit (2 items):
+      - izin verilir
+      - izin verilir
+    legal_reference (99 items):
+      - 5302 sayılı Kanun
+      - 4928 sayılı Kanun
+      - 7221 sayılı Kanun
+      - 6495 sayılı Kanun
+      - 7410 sayılı Kanun
+      ... and 94 more
+
+  Document: 7.5.7221.pdf
+    distance (3 items):
+      -  250 m
+      -  75 metre
+      - 200-500 m
+    penalty (1 items):
+      - yaptırım
+    temporal (5 items):
+      - Yaz aylarında
+      - Kış aylarında
+      - 5yıl süreyle
+      - 5yıl süreyle
+      - 2 yıl süre
+    environmental (14 items):
+      - atıksu boşaltımı yasaktır
+      - atıksu bilgi sistemine girmekle yükümlüdür
+      - Atıksu arıtma tesislerinin tasarımında BOİ5 parametresi dikkate alınır
+      - atıksu standartları uygulanmaz
+      - atıksu üreten diğer tesisler
+      ... and 9 more
+    protected_area (5 items):
+      - 
+Özel çevre koruma bölgesi
+      - 
+Mutlak Koruma Alanı
+      - 
+Kısa Mesafeli Koruma Alanı
+      - 
+Orta Mesafeli Koruma Alanı
+      - 
+Uzun Mesafeli Koruma Alanı
+    legal_reference (62 items):
+      - 2872 sayılı Kanun
+      - 2560 sayılı Kanun
+      - Madde 1
+      - Madde 2
+      - Madde 3
+      ... and 57 more
+
+  Document: 7.5.23722_Planlı Alanlar İmar Yönetmeliği.pdf
+    distance (4 items):
+      -  0.18 metre
+      - 30.00 metreden az
+      - 15 metreden fazla
+      - 10 metreden az
+    penalty (1 items):
+      - yaptırım
+    environmental (1 items):
+      - atık su şebekesine bağlanır
+    protected_area (2 items):
+      -  milli park
+      - 
+tabiat parkı
+    permit (3 items):
+      - izin verilir
+      - izin verilir
+      - izin verilir
+    legal_reference (50 items):
+      - 634 sayılı Kanun
+      - 4708 sayılı Kanun
+      - 3194 sayılı Kanun
+      - 6235 sayılı Kanun
+      - 6306 sayılı Kanun
+      ... and 45 more
+
+
+KNOWLEDGE BASE STATISTICS
+----------------------------------------
+  Documents in KB: 273
+    legal_reference: 1039
+    method: 408
+    stakeholder: 296
+    environmental: 245
+    species: 239
+    data_source: 227
+    policy: 185
+    gap: 165
+    institution: 153
+    distance: 61
+    conflict: 43
+    protected_area: 37
+    temporal: 22
+    penalty: 19
+    permit: 10
+    objective: 7
+    prohibition: 6
+    coordinate: 3
+    conclusion: 2
+    finding: 2
+    result: 2
+
+================================================================================
+END OF REPORT

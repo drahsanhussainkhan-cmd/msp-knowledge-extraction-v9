@@ -1,0 +1,191 @@
+﻿id,source_file,gap_type,gap_description,severity,exact_text,context,page_number,confidence,marine_relevance,is_correct,is_relevant,error_type,notes
+1,Strategic-Environmental-Assessment-in-marine-spatial-planning-of-_2021_Marin.pdf,knowledge_gap,monitoring of the effects after plan implementation is criti- Decisions reflect Societal Choice and Interdisciplinarity [12],important,lack of monitoring of the effects after plan implementation is criti- Decisions reflect Societal Choice and Interdisciplinarity [12],"th considering
+environmental effects and the responsibilities for taking action in for EBA in MSP e.g. Appropriate Spatial & Temporal Scales, Integrated
+such cases is largely left to discretion and to",8,0.8,0,y,y,,Genuine methodological gap: lack of monitoring of plan implementation effects in MSP with SEA
+2,A-spatial-temporal-data-mining-method-for-the-extraction-of-_2024_Ocean-Engi.pdf,knowledge_gap,to cargo ships,important,limited to cargo ships,". The contained ship type is mainly cargo ships. The east anchorage of Caofeidian and channels in which ships enter and
+area with the highest density of ships is near the Dagukou north leave the Caofe",18,0.8,0,y,y,,Genuine data limitation: study scope restricted to cargo ships only
+3,35.pdf,data_gap,"ability to use information for
+into planning and decision making [59]",important,"lack of ability to use information for
+into planning and decision making [59]","data. Even when open data practices are encouraged as part
+knowledge-based, and with specific recommendations for best available of project approval, there are issues around data capture and storage i",7,0.8,0,y,y,,Genuine capacity gap in translating data into MSP decision-making
+4,Finding-harmony-in-the-sea--Resolving-conflicts-by-reg_2024_Ocean---Coastal-.pdf,research_need,communication and stakeholder participation (Jones et al,minor,lack of communication and stakeholder participation (Jones et al,"ed oyster farming or local governments that provide overarching legal and policy frame-
+within the national park and commercial harbors was not recognized by works but potentially result in lower mana",10,0.8,0,y,y,,Genuine governance gap; lack of communication and stakeholder participation in MSP and marine park management
+5,Explicit-risk-Aware-belief-space-planning-for-underwater-ac_2026_Ocean-Engin.pdf,knowledge_gap,"ers localization and risk during interaction and performs a reasonable
+by a small region of feasible solutions that downgrades the ability to trade-off",important,"limited ers localization and risk during interaction and performs a reasonable
+by a small region of feasible solutions that downgrades the ability to trade-off","he results are shown in Table a, optimal uncertainty reduction but suffers great risk during motion as
+the localization uncertainty is certainly reduced compared with nom- shown in Fig. 12a. Therefor,",9,0.8,0,n,n,false_positive,Garbled text from AUV robotics paper about localization and risk; not a marine research or knowledge gap
+6,Exploring-barriers-to-the-implementation-of-geospatial-technolog_2024_Marine.pdf,data_gap,to for research by taxing the oil companies exploring the nearby areas,important,missing to for research by taxing the oil companies exploring the nearby areas,"needs. If a country is example, one practitioner reported in their interview a sustainable
+developing iterative plans, such as Germany, that only uses pre-collected financing strategy for monitoring i",7,0.8,0,y,y,,Genuine funding gap: missing sustainable financing for marine research and monitoring
+7,Adaptive-path-planning-for-dry-bulk-carriers-under-sudden-mar_2026_Ocean-Eng.pdf,methodological_gap,emission improvements,important,limited emission improvements,"uction in total cost,
+Detour plan2 0.50 0.03 a 1.75 % reduction in emissions, and only a 0.40 % increase in sailing
+Detour plan3 0.50 0.03
+time. Detour Strategies 1 and 2 also yielded small cost reduc",12,0.8,0,y,y,,Genuine limitation: detour strategies yield only limited emission improvements for ship routing
+8,A-route-planning-method-for-small-ships-based-on-historic_2026_Ocean-Enginee.pdf,data_gap,in external regions except near berthing zones,important,absent in external regions except near berthing zones,"at removing directional the marina. Unlike the interior of the marina, where routes tend to
+information from Route 1 and Route 2 planned routes only slightly maximize traversal through dredged areas, ",18,0.8,0,y,y,,Genuine data gap: route data absent in external regions of marina
+9,Sparse-to-full-reconstruction-of-ocean-wave-height-fields-us_2026_Ocean-Engi.pdf,data_gap,and costly,important,limited and costly,"sensor measurements to the full spatio-temporal
+tions. The observed mean field highlights the spatial variability of wave state, making it a far more robust and capable framework for recon-
+climate al",12,0.8,0,y,y,,Genuine data gap: sensor measurements are limited and costly for ocean wave height field reconstruction
+10,51.pdf,data_gap,"data on women’s role in the sector is a fundamental experimental research requiring intervention on human or animal
+problem in designing women-friendly policy interventions in the sector",critical,"lack of data on women’s role in the sector is a fundamental experimental research requiring intervention on human or animal
+problem in designing women-friendly policy interventions in the sector","cademic discourses. This opposes the ground reality where women’s Ethics statement
+involvement in the pre-catch period, processing, selling, and financing
+fisheries is paramount. [63]By reviewing 106 ",12,0.8,0,y,y,,Genuine data gap: lack of data on women's role in fisheries sector is fundamental problem for policy design
+11,Mariculture-high-quality-development-process-and-spatial-diffe_2025_Marine-P.pdf,knowledge_gap,the Bohai and Yellow Sea,important,gap in the Bohai and Yellow Sea,"ch
+of the processing of aquaculture products in mariculture HQD have, to a allowed it to catch up with the Bohai and Yellow Sea area in the overall
+certain extent, alleviated the industrial developmen",10,0.8,0,n,n,false_positive,Describes a regional development disparity between sea areas rather than a research or knowledge gap
+12,Integrating-marine-spatial-planning-into-blue-economy-policie_2025_Marine-Po.pdf,research_need,"from MSP documents or is only implicitly considered
+itself does not implementation;
+within broader maritime or coastal management policies",important,"absent from MSP documents or is only implicitly considered
+itself does not implementation;
+within broader maritime or coastal management policies","t blue economy; document; align the
+long-term stability of legally binding frameworks. management need for clearer legal Pampa Azul
+A third typology encompasses countries where the blue economy is str",10,0.8,0,y,y,,Genuine policy gap; blue economy absent from MSP documents or only implicitly considered within broader maritime management
+13,37.pdf,knowledge_gap,"by crowding from other
+examples of real or potential conflicts among users, as an increase in the sectors (e",minor,"limited by crowding from other
+examples of real or potential conflicts among users, as an increase in the sectors (e","as associated infrastructure and amenities. Some
+Findings about ocean use conflicts and coexistence provide insights participants cited situations where traditional uses had been forced out
+into users",9,0.8,0,n,n,false_positive,Describes real-world ocean space crowding between user sectors rather than a research or knowledge gap
+14,37.pdf,methodological_gap,"government sup- culture, or history",important,"lack of government sup- culture, or history","rnment programs were found to limit participants offered little flexibility in their reactions; anticipated future
+multi-use, whereas informal, voluntary governance arrangements had conflict around th",9,0.8,0,y,y,,Genuine governance gap: lack of government support for multi-use marine planning; text garbled at line break
+15,51.pdf,data_gap,information has profound implications for fishery management,important,lack of information has profound implications for fishery management,"l experimental research requiring intervention on human or animal
+problem in designing women-friendly policy interventions in the sector. subjects.
+Along the same line, Harper et al. [54]emphasise the",12,0.8,0,y,y,,Genuine data gap: lack of information on fishery management has profound implications including for women's participation
+16,Exploring-barriers-to-the-implementation-of-geospatial-technolog_2024_Marine.pdf,data_gap,"investment in recruiting a skilled planning team also led to
+development stages of marine plans",important,"Lack of investment in recruiting a skilled planning team also led to
+development stages of marine plans","European and of capacity, resulting in underfunding of certain aspects of the process,
+non-European countries concerning data quality and suitability. Our including data collection, data management, l",7,0.8,0,y,y,,Genuine resource gap: lack of investment in skilled MSP planning teams
+17,Evaluation-of-offshore-wind-energy-zones-within-marine-spatial-_2024_Energy-.pdf,knowledge_gap,to these areas,minor,limited to these areas,"entirely
+most suitable port facilities for each high-potential zone. Importantly, a
+limited to these areas. Similarly, Denmark adopted and launched its
+pivotal decision must be made between prioritisi",10,0.8,0,y,y,,Genuine knowledge gap; offshore wind energy zone evaluation limited to specific areas rather than comprehensive spatial assessment
+18,Progress-in-the-modelling-and-management-of-offshore-wind-f_2026_Ocean-Engin.pdf,knowledge_gap,"to and management strategies in offshore wind farms, highlighting both
+small-scale or short-duration studies",critical,"limited to and management strategies in offshore wind farms, highlighting both
+small-scale or short-duration studies","de-off between 7. Conclusion
+computational cost and physical fidelity. LES offers unparallel insight
+into turbulent flow structures, atmospheric-boundary-layer (ABL) ef- This review has synthesised th",18,0.7,0,y,y,,Genuine knowledge gap: limited to small-scale or short-duration studies in offshore wind farm modelling and management
+19,Strategic-Environmental-Assessment-in-marine-spatial-planning-of-_2021_Marin.pdf,methodological_gap,MSP process [72],important,limited MSP process [72],"the tradition of good collabora- about uncertainties of predictions is emphasised [70]. A handbook from
+tion in MSP with international projects and regular meetings in the the Baltic Sea links tools f",8,0.7,0,y,y,,Genuine limitation identified in MSP process regarding uncertainty handling
+20,SEAs-for-seas--Strategic-environmental-assessment-for-mor_2024_Environmental.pdf,data_gap,"available data and understanding on the marine environment
+on the set-up of the SEA free from implicit biases from prior policy or (see Table 9)",critical,"lack of available data and understanding on the marine environment
+on the set-up of the SEA free from implicit biases from prior policy or (see Table 9)","ds Commission for Environ- various national and EU legal frameworks on SEA and MSP.
+mental Assessment is legally required to provide (procedural) advice on A crucial common barrier for SEA’s contribut",8,0.8,0,y,y,,Genuine data gap: lack of available data and understanding on the marine environment for SEA in MSP
+21,Disturbance-impacts-of-planned-offshore-wind-expansion-on-UK-_2025_Marine-Po.pdf,research_need,both grey and primary literature [59],minor,gap in both grey and primary literature [59],"xample, a
+present study agrees with a recent evidence review which finds that the
+modelling study estimated that for a 20-year operation lifetime, the
+potential climate regulating ecosystem services o",9,0.9,0,y,y,,Genuine data gap; knowledge gap in both grey and primary literature on offshore wind disturbance impacts on marine ecosystems
+22,Using-ecosystem-service-assessments-to-support-partici_2020_Ocean---Coastal-.pdf,methodological_gap,"familiarity of marine stakeholders
+with the ecosystem services concept, assessment methods and termi- 4",important,"limited familiarity of marine stakeholders
+with the ecosystem services concept, assessment methods and termi- 4","large geographical distances, or their availability
+service assessments as participatory tool (Beery et al., 2016; Dalton, might depend on unpredictable weather conditions. This makes regular
+2005; Ro",9,0.8,0,y,y,,Genuine knowledge gap: marine stakeholders have limited familiarity with ecosystem services concepts
+23,Integrating-marine-spatial-planning-into-blue-economy-policie_2025_Marine-Po.pdf,knowledge_gap,"to land spaces and relevant sectors of the
+Mexico MSP and blue Lack of legal Legally articulate
+economy policy are articulation between MSP and blue blue economy in LATAM countries [34]",critical,"limited to land spaces and relevant sectors of the
+Mexico MSP and blue Lack of legal Legally articulate
+economy policy are articulation between MSP and blue blue economy in LATAM countries [34]","terests traditional resource
+by DIGEIM indicate extraction.
+a clear link,
+facilitating blue
+economy promotion understood as a closed area. Therefore, geography can be key in pro-
+through resource moti",11,0.8,0,y,y,,Genuine policy gap; MSP limited to land spaces with lack of legal articulation between MSP and blue economy in LATAM countries
+24,Exploring-barriers-to-the-implementation-of-geospatial-technolog_2024_Marine.pdf,data_gap,to what they could handle,important,limited to what they could handle,"cs and the third
+Australia protecting remote areas, told us how they tried various GTs dimension (depth) are often simply not addressed in efforts such as
+and chose the one that produced targeted resu",7,0.9,0,y,y,,Genuine capacity limitation: practitioners limited by their technical abilities in using geospatial tools
+25,Marine-spatial-planning-initiatives-off-the-coast-of-large_2025_Ocean---Coas.pdf,knowledge_gap,"transparency in the stakeholder engagement process may whenthreekeypreconditionsaremet:1)anationalMSPframeworkhas
+conceal ineffective communication, listening and coordination with been transposed int",important,"Lack of transparency in the stakeholder engagement process may whenthreekeypreconditionsaremet:1)anationalMSPframeworkhas
+conceal ineffective communication, listening and coordination with been transposed into public policies, 2) a tradition within territorial
+stakeholdersandcitizens,asalreadyshowni","r,2021).Thefactthatthisisnotproperlyreportedmayindicate decadeaftertheadoptionoftheMSPDirective,callsintoquestionthe
+that,inpractice,itisweakthepublicinvolvementintheprimaryphases extentofitsimpactonl",14,0.8,0,y,y,,Genuine governance gap: lack of transparency in stakeholder engagement concealing ineffective communication in MSP
+26,Finding-harmony-in-the-sea--Resolving-conflicts-by-reg_2024_Ocean---Coastal-.pdf,research_need,"a legal framework for communicating regularly with stakeholders as well as management
+MSP has delayed the development of these main sectors",important,"lack of a legal framework for communicating regularly with stakeholders as well as management
+MSP has delayed the development of these main sectors","needs of marine users by offering a comprehensive spatial vision ensure efficient enforcement; (2) an improved MSP strategy by imple-
+and an integrated planning framework tailored to the varied re- me",11,0.9,0,y,y,,Genuine legal/governance gap: absence of MSP legal framework delays marine sector development
+27,27.pdf,research_need,integrate spatial [8] M,important,Future studies should integrate spatial [8] M,"., Bitsche, R., Kim, T., Yde, A., Henriksen, L.C., Natarajan, A.,
+Hansen, M.H. 2013. Description of the DTU 10MW Reference Wind Turbine.
+tivities must be compatible with existing uses, such as fishing",10,0.9,0,n,y,false_positive,Garbled text from bibliography; 'Future studies should integrate spatial [8] M' merges a recommendation with a reference citation
+28,Advancing-multi-use-in-offshore-wind-energy-planning--Perceived-_2025_Marine.pdf,methodological_gap,emphasis in the interviews,important,lack of emphasis in the interviews,"ac-
+commodating fishing activity, driven by ongoing conflicts described
+4. Discussion herein, has meant that consideration of how to promote biodiversity
+within wind farms has not been as much of a fo",8,0.8,0,y,y,,Genuine methodological gap: lack of emphasis on biodiversity promotion within wind farms in interview-based research
+29,The-human-dimension-dilemma-in-marine-spatial-planning_2022_Marine-Policy.pdf,methodological_gap,"power over other stakeholders, they are forced to look for community",important,"limited power over other stakeholders, they are forced to look for community","approach
+inherent in the stakeholders involved [91]. The responsible authority may work better. However, the problem to be aware of here is the trap of
+may have certain tendencies of rationality, such",8,0.8,0,y,y,,Genuine governance gap: power imbalances among stakeholders in MSP processes
+30,Institutional-barriers-to-integrated-marine-spatial-planning-_2022_Marine-Po.pdf,data_gap,social and economic evidence specific to the marine area,critical,limited social and economic evidence specific to the marine area,"s they start to develop, and people start to see
+legwork to kind of get people up to scratch build that knowledge. You just
+got more miles to tread.’ (Public Agency 3, ROI). the importance of them.’ (",10,0.8,0,y,y,,Genuine data gap; limited social and economic evidence specific to the marine area for integrated MSP
+31,SEAs-for-seas--Strategic-environmental-assessment-for-mor_2024_Environmental.pdf,data_gap,data of individual environmental indicators as re- extensive participation processes,important,limited data of individual environmental indicators as re- extensive participation processes,"4) 103920
+Belgium, England and Germany; namely, their cumulative assessments explicitly acknowledging the tiered nature of SEA within the larger
+follow a receptor-based method. However, adopting this ",9,0.8,0,n,y,false_positive,Garbled cross-line extraction; 'limited data of individual environmental indicators as re- extensive participation processes' merges unrelated text fragments
+32,An-optimized-deep-learning-framework-for-detecting-and-locali_2026_Ocean-Eng.pdf,data_gap,detections,important,absent detections,"n turbidity, motion blur, or surface spray. Particularly in failure scenarios
+detecting and localizing mooring lines from marine images using involving partly buried or covered faulty lines, these con",16,0.7,0,n,n,false_positive,Technical limitation in computer vision object detection under turbid conditions; not a marine research/knowledge gap
+33,Spatial-configuration-and-static-characteristics-of-hoses-i_2022_Ocean-Engin.pdf,data_gap,"by experimental conditions, this article only
+tion that is highly consistent with the theoretical and numerical results is verifies part of the calculation results of parameters (3)–(8)",important,"limited by experimental conditions, this article only
+tion that is highly consistent with the theoretical and numerical results is verifies part of the calculation results of parameters (3)–(8)","s
+space curve, and compares it with the theoretical result and the nu-
+merical result. After repeatedly adjusting the position and quality of the In order to verify the accuracy of mathematical models",18,0.7,0,y,y,,Genuine study limitation: experimental validation limited to partial parameter verification for marine hose configurations
+34,Institutional-barriers-to-integrated-marine-spatial-planning-_2022_Marine-Po.pdf,research_need,"understanding and appreciation of
+‘So, you must look at the people in charge",important,"lack of understanding and appreciation of
+‘So, you must look at the people in charge","dicated that leadership should come from both
+and Ireland’s Marine Atlas in ROI existed before the inception of MSP top down and bottom up to address cross-border conflicts and facilitate
+and mainly d",10,0.9,0,y,y,,Genuine governance gap; lack of understanding and appreciation of cross-border MSP leadership needs
+35,Using-ecosystem-service-assessments-to-support-partici_2020_Ocean---Coastal-.pdf,data_gap,"understanding of marine ecosystems and
+obstacles resulting from the novelty and complexity of the ecosystem management contexts",important,"limited understanding of marine ecosystems and
+obstacles resulting from the novelty and complexity of the ecosystem management contexts","e clear. Scenario ex- and other area-based marine management approaches. However,
+ercises can support this by illustrating how different planning op- effective marine engagement is often difficult, ma",10,0.8,0,y,y,,Genuine knowledge gap: limited understanding of marine ecosystems hinders ecosystem service assessments
+36,Spatial-planning-for-dugong-conservation--Assessing-habitat-suit_2025_Marine.pdf,research_need,funding [66],important,lack of funding [66],"ing able to support wildlife conservation, need to be managed
+especially vulnerable to accidental entanglement in fishing nets or col- more efficiently, mainly due to inadequate infrastructure and hum",9,0.9,0,y,y,,Genuine resource gap: lack of funding for marine conservation and protected area management
+37,Mainstreaming-coastally-just-and-equitable-marine-spatial-pl_2023_Ocean---Co.pdf,knowledge_gap,"knowledge and interest in marine issues:
+Given the diverging capacities of coastal communities and munici-
+palities to represent themselves in the MSP process and the notion of During the process [I f",important,"lack of knowledge and interest in marine issues:
+Given the diverging capacities of coastal communities and munici-
+palities to represent themselves in the MSP process and the notion of During the process [I felt] that the public does not have sufficient
+MSP as an integrative tool, it is not unreason","very little representation and
+in particular disadvantaged groups (e.g., women, youth, disabled
+even less recognition in the later stages of MSP.
+groups, ethnic minorities etc.).
+Some MSP planners asc",8,0.9,0,y,y,,Genuine knowledge gap; lack of knowledge and interest in marine issues among coastal communities and municipalities in MSP
+38,A-fusion-framework-with-spatial-perception-and-energy-aware-st_2025_Ocean-En.pdf,methodological_gap,"by the operational range of sonar systems, leading to a path of 2024 length, but the task was finished in a significantly longer
+the recurrent activation of local path planning algorithms",important,"limited by the operational range of sonar systems, leading to a path of 2024 length, but the task was finished in a significantly longer
+the recurrent activation of local path planning algorithms","evaluation circle-bi-RRT* algorithm successfully generated an optimal path with an
+average length of 2123, completing the path planning task in a remark-
+In unexplored ocean settings, the path plannin",11,0.8,0,y,y,,Genuine methodological gap; path planning limited by operational range of sonar systems in unexplored ocean settings
+39,Cetacean-habitat-modelling-to-inform-conservation-management_2021_Ocean---Co.pdf,data_gap,sighting data,important,lack of sighting data,"and gas exploration (seismic activity). It
+low-impact shipping corridors, informing the delineation, modification is important to realise that 19 out of the 34 species reported were not
+or adjustments",17,0.9,0,y,y,,Genuine data gap: lack of cetacean sighting data for habitat modelling and marine conservation planning
+40,Quiet-power--How-security-interests-shape-offshore-wi_2025_Energy-Research--.pdf,knowledge_gap,"transparency,
+Despite this, informants consistently stressed that local actors often feel and decisive veto power",important,"limited transparency,
+Despite this, informants consistently stressed that local actors often feel and decisive veto power","dynamics point to a form of “soft securitization,”
+Local governance tools include participation in MSP consultations, where security interests shape policy not through over emergency
+municipal plannin",9,0.8,0,y,y,,Genuine governance gap; limited transparency in offshore wind MSP with local actors facing decisive veto power from security interests
+41,An-ocean-of-ambiguity-in-Northern-European-marine-spatial-pla_2020_Marine-Po.pdf,research_need,"defini- mentation of a marine spatial plan could therefore be a pertinent topic
+tions and guidance on how to understand and plan for sustainability for future research",important,"lack of defini- mentation of a marine spatial plan could therefore be a pertinent topic
+tions and guidance on how to understand and plan for sustainability for future research","the planning authority, be it envi- negative ecosystem impacts (as indicated by other research e.g. Ref. [7,
+ronmental (Norwegian team), economic (Danish team) or general 21]). The influence of ambigu",8,0.9,0,y,y,,Genuine research need: lack of definitions and guidance for sustainability in MSP implementation
+42,Human-reliability-analysis-of-the-shipboard-oil-pollution-eme_2025_Ocean-Eng.pdf,data_gap,experience or impaired with an elevated risk of human error,important,lack of experience or impaired with an elevated risk of human error,"ages that are susceptible to human error. ship stability, particularly in damaged conditions necessitating technical
+During the post-incident assessment, observational methods may rely on expertise, d",8,0.7,0,n,n,false_positive,"Describes human error risk factor in oil pollution emergencies, not a research gap; 'lack of experience' is a situational condition not a knowledge gap"
+43,53.pdf,data_gap,"information on species status, de- continuity
+mographics, and habitats, but also on how measures are imple- b",important,"missing information on species status, de- continuity
+mographics, and habitats, but also on how measures are imple- b","otential ac-
+and presented in a way that demonstrates progress towards the tions to be taking to improve access to financial resources including:
+achievement of GES [91]. The data needs identified in ",22,0.8,0,y,y,,"Genuine data gap: missing information on species status, demographics, and habitats needed for GES indicators"
+44,Marine-spatial-planning-for-transboundary-issues-in-bays-o_2022_Ecological-I.pdf,data_gap,spatial distribution at the hierarchical MSP,important,lack of spatial distribution at the hierarchical MSP,"gion. And from
+inconsistency of Kernel density distribution of the sea use conflict this study, it was illustrated that MSP does work at provincial level MSP
+hotspot from provincial to municipal level",8,0.9,0,y,y,,Genuine gap: inconsistent spatial distribution data across hierarchical MSP levels
+45,29.pdf,data_gap,"habitat protection, Glob",important,"lack of habitat protection, Glob","ne reserves
+for reef sharks, Curr. Biol. 30 (3) (2020) 480–489, e485.
+Supplementary data associated with this article can be found in the [24] C.A. Birkmanis, J.C. Partridge, L.W. Simmons, M.R. Heupel",12,0.8,0,n,n,false_positive,Fragmented text extraction from reference section; truncated at line break yielding meaningless gap description
+46,Institutional-barriers-to-integrated-marine-spatial-planning-_2022_Marine-Po.pdf,methodological_gap,legitimacy to coordinate trade-offs public has not been consulted [82],important,limited legitimacy to coordinate trade-offs public has not been consulted [82],"Furthermore, interdepartmental, and ministerial marine coordi- passage of the other country [81]. The use of a Management Agreement
+nation groups have proved to be ceremonial and insufficient to foste",11,0.8,0,y,y,,Genuine governance gap; limited legitimacy to coordinate trade-offs in marine planning with public not consulted
+47,Exploring-barriers-to-the-implementation-of-geospatial-technolog_2024_Marine.pdf,data_gap,cause by corrupted governments,important,missing cause by corrupted governments,"ntioned above. Even in Denmark’s Booth & Brooks [7] examine a successful debt-for-nature swap in the
+ECOMAR framework, with its state-of-the-art datasets (European MSP Seychelles yet warn against the ",7,0.8,0,y,y,,Genuine governance gap: missing data/funding attributed to governance corruption issues
+48,Fine-scale-mapping-of-ocean-user-groups-to-support-species-and_2025_Marine-P.pdf,knowledge_gap,"from the analysis [40,81]",minor,"missing from the analysis [40,81]","st AIS is mandated on all vessels in excess of 300 GT in inter- Exeter Ethics Committee (Application ID: 492770).
+national waters, on all passenger vessels and on fishing vessels larger
+than 15m in Eu",10,0.8,0,y,y,,Genuine data gap: certain vessel categories missing from AIS-based analysis of ocean user groups
+49,49.pdf,knowledge_gap,"some quantified pressure-state relationships
+Parties with negotiations and regional coordination occurring within within the analysis",important,"lack of some quantified pressure-state relationships
+Parties with negotiations and regional coordination occurring within within the analysis","ght of Baltic Sea by 2030 for many of the state components. However, the
+a broader portfolio. This creates an effective expert/policymaker inter- probability of achieving environmental objectives is l",10,0.8,0,y,y,,Genuine knowledge gap; lack of quantified pressure-state relationships for Baltic Sea environmental objectives within analysis
+50,Coordination-of-planning-regulations-at-the-edge-of-water-and-land_2025_Mari.pdf,research_need,"holistic directions for spatial development of UBS
+cooperation between planning authorities, which might be achieved in port cities",important,"lack of holistic directions for spatial development of UBS
+cooperation between planning authorities, which might be achieved in port cities","roblem that refers to all of types of UBS is lack of coastal planning
+validity of the public participation and dissemination of planning pro- provisions regarding hydrotechnical infrastructure which c",9,0.8,0,y,y,,Genuine research need: lack of holistic spatial development directions and inter-authority cooperation for port cities

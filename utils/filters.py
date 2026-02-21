@@ -277,16 +277,73 @@ class CrossPageHandler:
 # === FROM V5.1 === MULTI-SIGNAL FALSE POSITIVE FILTER (Critical for Q1)
 # =============================================================================
 
+class GarbleDetector:
+    """
+    Detect garbled text from multi-column PDF extraction.
+
+    Cross-line garbling occurs when PDF columns are merged, producing
+    nonsensical text like "Cornwall benefits Maritime Strategy" or
+    "Many implementation studies 2 Directive".
+    """
+
+    def __init__(self):
+        # Pattern: multiple short capitalized fragments separated by spaces
+        self.fragment_pattern = re.compile(
+            r'(?:[A-Z][a-z]{0,3}\s+){4,}',  # 4+ short capitalized words in a row
+        )
+
+    def is_garbled(self, text: str) -> bool:
+        """
+        Check if extracted text appears to be garbled from PDF column merging.
+
+        Args:
+            text: The extracted text to check
+
+        Returns:
+            True if text appears garbled
+        """
+        if not text or len(text) < 10:
+            return False
+
+        # Check 1: Very long text with no sentence-ending punctuation
+        if len(text) > 200 and not re.search(r'[.!?;:]', text[:200]):
+            return True
+
+        # Check 2: Text contains newlines within what should be a title/name
+        # (e.g., "Full length article\nImplementing the EU MSP")
+        lines = text.strip().split('\n')
+        if len(lines) >= 2:
+            # Multi-line extraction where lines don't form a coherent phrase
+            for line in lines:
+                line = line.strip()
+                if line and len(line) < 30 and not line.endswith((',', '-', ':')):
+                    # Short standalone line fragment - likely garbled
+                    if not re.match(r'^[A-Z][a-z]+ [A-Z][a-z]+$', line):
+                        # Not a proper name pattern
+                        return True
+
+        # Check 3: Copyright/journal boilerplate mixed in
+        if re.search(r'(?:elsevier|springer|wiley|doi\.org|https?://|www\.)', text.lower()):
+            return True
+
+        # Check 4: CRediT statement fragments
+        if re.search(r'Writing\s*[-–]\s*(?:review|original|draft)|Methodology|Funding acquisition|Visualization|Validation', text):
+            return True
+
+        return False
+
+
 class FalsePositiveFilter:
     """
     Multi-signal false positive filter for non-MSP extractions.
 
-    This is CRITICAL for precision. Combines 5 signals:
+    This is CRITICAL for precision. Combines 6 signals:
     1. Marine keyword presence
     2. Building/imar term density
     3. Building-specific measurement patterns
     4. Law reference proximity (prevents extracting "Madde 5" as distance)
     5. Sentence structure heuristics
+    6. Non-marine domain detection (robotics, ML, path planning)
 
     Without this filter, the extractor would return many false positives
     from terrestrial planning documents, building regulations, etc.
@@ -390,6 +447,19 @@ class FalsePositiveFilter:
         r'\bplot\s+(?:ratio|coverage|area)\b',
     ]
 
+    # === Non-marine domain terms (robotics, ML, path planning) ===
+    NON_MARINE_DOMAIN_TERMS = [
+        'neural network', 'deep learning', 'machine learning',
+        'convolutional', 'recurrent neural', 'backpropagation',
+        'path planning', 'trajectory planning', 'motion planning',
+        'robot', 'robotic', 'unmanned aerial vehicle', 'UAV',
+        'autonomous vehicle', 'self-driving',
+        'image classification', 'object detection', 'semantic segmentation',
+        'reinforcement learning', 'supervised learning', 'unsupervised learning',
+        'training epoch', 'batch size', 'learning rate', 'loss function',
+        'CNN strategy', 'RNN', 'LSTM', 'transformer model',
+    ]
+
     # === Patterns indicating law/article references (should not extract) ===
     LAW_REFERENCE_PATTERNS = [
         r'(?:Madde|MADDE|Mad\.)\s*\d+',
@@ -434,6 +504,15 @@ class FalsePositiveFilter:
             re.compile(p, re.IGNORECASE | re.UNICODE)
             for p in self.LAW_REFERENCE_PATTERNS
         ]
+
+        # Non-marine domain patterns
+        non_marine_str = '|'.join(re.escape(t) for t in self.NON_MARINE_DOMAIN_TERMS)
+        self.non_marine_pattern = re.compile(
+            rf'\b({non_marine_str})\b', re.IGNORECASE
+        )
+
+        # Garble detector
+        self.garble_detector = GarbleDetector()
 
     def is_false_positive(self, sentence: str, match_text: str,
                           language: str = "auto",
@@ -480,7 +559,15 @@ class FalsePositiveFilter:
             sentence, match_text, context_window
         )
 
+        # === Signal 5: Check non-marine domain terms ===
+        non_marine_matches = self.non_marine_pattern.findall(sentence_lower)
+        non_marine_count = len(non_marine_matches)
+
         # === Decision Logic ===
+
+        # REJECT: Non-marine domain content with no marine terms
+        if non_marine_count >= 2 and marine_count == 0:
+            return True, f"non_marine_domain({non_marine_count}_nonmarine,0_marine)"
 
         # REJECT: High imar density with no marine terms
         if imar_count >= Config.IMAR_TERM_THRESHOLD and marine_count == 0:
@@ -550,3 +637,20 @@ class FalsePositiveFilter:
             return 0.5  # Neutral
 
         return marine_count / total
+
+    def is_document_marine_relevant(self, full_text: str, threshold: int = 5) -> bool:
+        """
+        Check if a document is marine-relevant at the document level.
+
+        Args:
+            full_text: Full document text
+            threshold: Minimum marine keyword count to be considered relevant
+
+        Returns:
+            True if document has sufficient marine content
+        """
+        text_lower = full_text.lower()
+        marine_count = 0
+        for lang_pattern in self.marine_patterns.values():
+            marine_count += len(lang_pattern.findall(text_lower))
+        return marine_count >= threshold

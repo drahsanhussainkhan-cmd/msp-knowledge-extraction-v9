@@ -1,0 +1,158 @@
+﻿id,source_file,institution_name,institution_type,role,jurisdiction,exact_text,context,page_number,confidence,marine_relevance,is_correct,is_relevant,error_type,notes
+1,Adaptive-path-planning-for-dry-bulk-carriers-under-sudden-mar_2026_Ocean-Eng.pdf,European Maritime Safety Agency,agency,,,European Maritime Safety Agency,"be
+Institute, 2022), playing a vital role in maintaining industrial supply resolved. The first concerns the construction of an operationally mean-
+chains and ensuring the timely delivery of strategic ",1,0.85,0.833,y,y,,EMSA; genuine EU agency for maritime safety; correctly identified
+2,36.pdf,The Italian National Institute,institute,,,The Italian National Institute,"F. Marcellinia,b, R.G. Boschettoc, A. Caprioloc, C. Corinaldesid,
+G. Giorgic, R.A. Mascoloc, E. Nepotea,b, A. Sagratia,b, R. Danovaroa,b
+aUniversita` Politecnica delle Marche, Department of Life and E",1,0.85,1.0,n,n,extraction_error,Truncated name; 'The Italian National Institute' is incomplete (could be ISPRA or many others)
+3,From-plate-to-plug--The-impact-of-offshore-renewable_2022_Renewable-and-Sust.pdf,HELCOM Helsinki Commission,committee,,,HELCOM Helsinki Commission,"12108
+2. Methods
+List of abbreviations
+2.1. Resolving spatio-temporal patterns of fishing activities in European
+AIS Automatic Identification System seas
+GFW Global Fishing Watch
+GW Capacities of offs",2,0.85,1.0,y,y,,HELCOM Helsinki Commission; genuine Baltic Sea marine governance body; correctly identified
+4,Engaging-stakeholders-in-marine-spatial-planning-for-collab_2023_Ocean---Coa.pdf,Finnish Geodetic Institute,institute,,,Finnish Geodetic Institute,"Each group discussion was divided into two parts. In the first part, the facilitator supported the discussion on benefits and impacts by clicking
+marine use GIS layers on and off for the geographical ",14,0.85,1.0,y,n,,Real Finnish research institute (now part of FGI/NLS); not directly a marine governance body but relevant to spatial data for MSP
+5,Achieving-coherence-between-the-Marine-Strategy-Framework-Direc_2023_Marine-.pdf,Rural Shipping Deputy Ministry,ministry,,,Rural Shipping Deputy Ministry,"ries are concerned, the main categories
+and Urban Environment, Directorate of
+Spatial Planning. identified were Input Controls measures (22 %), Management Coordi-
+➢ National Spatial Planning Council. ",4,0.85,1.0,y,y,,Rural Shipping Deputy Ministry; genuine Greek government entity involved in maritime spatial planning governance
+6,Addressing-transboundary-challenges--Exploring-the-interactive-re_2023_Marin.pdf,Norwegian Environment Agency,agency,,,Norwegian Environment Agency,"for Mobility, Directorate - World Maritime University
+UK General Maritime Transport - NHTV University of Applied Sciences
+Norway Scottish Government - Province of Noord-Holland
+Sweden Ministry of Clim",6,0.85,1.0,y,y,,Norwegian Environment Agency (Miljodirektoratet); genuine Norwegian government agency involved in MSP
+7,Accelerating-marine-spatial-planning-in-the-Western-Pacif_2025_Ocean---Coast.pdf,Maritime and Port Authority,agency,,,Maritime and Port Authority,"rastructure has been developed since 2019 (Pang and being more stressed since this might be an easier way to reconcile local
+Oei, 2020) and the Second Geospatial Master Planning was released in rights",3,0.85,1.0,y,y,,Maritime and Port Authority of Singapore (MPA); genuine government agency for maritime and port governance
+8,The-extension-of-marine-spatial-planning-to-the-management-of-th_2022_Marine.pdf,ABNJ and AUNJ differ in terms of their prevailing management eries Commission,committee,,,ABNJ and AUNJ differ in terms of their prevailing management eries Commission,"argues ranean Marine Mammals, located in the High Sea protected area, which
+for treating ABNJ as a dynamic concept that can evolve in tandem with was established through a formal agreement between Fra",3,0.85,1.0,n,n,extraction_error,Garbled extraction; 'ABNJ and AUNJ differ in terms of their prevailing management eries Commission' merges body text about areas beyond national jurisdiction with a commission name
+9,A-temporal-and-spatial-resolution-wind-and-wave-power-resou_2022_Ocean-Engin.pdf,The International Electrotechnical Commission,committee,,,The International Electrotechnical Commission,"field and wave
+United Arab Emirates. Due to the strategic location of this gulf, it can
+climate conditions. Holistic assessments of combined offshore wind and
+play an important role in providing the c",2,0.85,1.0,y,n,,IEC; genuine international standards body; correctly identified but limited direct relevance to marine governance
+10,Marine-renewable-energy-and-maritime-spatial-planning-in-Spain_2021_Marine-P.pdf,Environmental Hydraulics Institute,institute,,,Environmental Hydraulics Institute,"identification and carrying out of an initial evaluation of the existing wind
+Energy Saving resource in any area of the national territory, including the maritime-terrestrial public domain
+[35].
+ENOLA",7,0.85,1.0,y,y,,Environmental Hydraulics Institute (IHCantabria); genuine Spanish research institute for marine renewable energy and wind resource assessment
+11,36.pdf,These results will help policy Italian Ministry,ministry,,,These results will help policy Italian Ministry,"s/leg18/attachments/upload_file_consu-
+of Member State resources and sharing of the best and most economic- lenze/file_01s/000/000/015/ELENCO_INCARICHI_ CONSULENZA_I_
+effective practices, ultimately c",10,0.85,1.0,n,n,extraction_error,Garbled extraction; 'These results will help policy Italian Ministry' merges body text with an institution name
+12,36.pdf,The Port Authority,agency,,,The Port Authority,"st would be of € 53,000. € 18,564,000. Scenario 2 considers the training of already existing
+In this section of monitoring measures there is the second part of professionals operating in proximity of ",8,0.85,1.0,n,n,generic_term,Generic term; no specific port authority identified by name or location
+13,A-stochastic-numerical-model-for-wave-induced-dynamic-response_2023_Ocean-En.pdf,Coastal Development Institute,institute,,,Coastal Development Institute,"and Civil Engineering, China University of Mining and Technology, Xuzhou, 221116, China
+cState Key Laboratory of Coastal and Offshore Engineering, Dalian University of Technology, Dalian, 116024, Chin",1,0.85,1.0,n,n,extraction_error,Not a real institution; appears to be a garbled extraction from 'State Key Laboratory of Coastal and Offshore Engineering' affiliations
+14,Achieving-coherence-between-the-Marine-Strategy-Framework-Direc_2023_Marine-.pdf,National Expert Committee,committee,"for the implementation of MSFD and influential, according to their jurisdictions",,National Expert Committee,"olved in all MSP phases and they are very
+Competent Authorities (CA) responsible for the implementation of MSFD and influential, according to their jurisdictions. In Croatia, all MSFD relevant
+MSPD in",4,0.95,0.5,y,y,,National Expert Committee for MSFD and MSPD implementation; genuine governance body identified in marine policy context
+15,Enabling-conditions-for-effective-marine-spatial-planning_2022_Marine-Policy.pdf,The Aspen Institute,institute,,,The Aspen Institute,"r community-based comanagement of marine
+online version at doi:10.1016/j.marpol.2022.105141. protected areas in the United States, Mar. Policy 122 (2020), 104244.
+[28] J.P. Connell, A. Kubisch, L. Sch",8,0.85,1.0,y,n,,Genuine US policy think tank; correctly identified but not a marine governance institution
+16,So-far-and-so-close--Opportunities-for-marine-spatial-p_2021_Ocean---Coastal.pdf,Joint Technical Commission,committee,,"in the Atlantic Ocean in the 1970s
+common waters and part of each country’s Ex",Joint Technical Commission,"mmon fishing zone in the waters of 2020), and sensitive and ecological priority zones (Brazeiro et al., 2003;
+the Atlantic Ocean. Activities are mainly regulated by two bi-national de Mello et al., 20",2,0.85,1.0,y,y,,Comision Tecnica Mixta (Uruguay-Argentina); genuine bi-national commission for maritime governance
+17,Strategic-Environmental-Assessment-in-marine-spatial-planning-of-_2021_Marin.pdf,The Convention on Biological Commission,committee,,,The Convention on Biological Commission,"nternational legislation and policies, as well as runners in setting up national marine spatial plans in Europe [1,8]. Their
+fundamental European policies and directives set goals and objectives regio",1,0.85,0.5,n,y,extraction_error,Garbled extraction; 'The Convention on Biological Commission' is incorrect - likely a corruption of 'Convention on Biological Diversity' (CBD)
+18,Coastal-and-marine-spatial-planning-in-Europe--Cas_2020_Regional-Studies-in-.pdf,Helenic Statistical Authority,agency,,,Helenic Statistical Authority,"Regulation
+2020). (EC)No2371/2002of20December2002ontheconservationandsustainable
+EUROSTAT,2019a.CatchesinGreeceandBulgaria.Availableat:https://ec.europa. exploitationoffisheriesresourcesundertheCommon",8,0.85,0.5,y,n,,Hellenic Statistical Authority (ELSTAT); genuine Greek government agency; misspelled but identifiable; limited marine governance relevance
+19,Marine-renewable-energy-and-maritime-spatial-planning-in-Spain_2021_Marine-P.pdf,Diversification and Carried out by the Institute,institute,,,Diversification and Carried out by the Institute,"titute for Diversification and GIS tool that allows identification and carrying out of an initial evaluation of the existing wind
+Energy Saving resource in any area of the national territory, includin",7,0.85,1.0,n,n,extraction_error,Garbled extraction; 'Diversification and Carried out by the Institute' merges IDAE (Institute for Diversification and Energy Saving) with body text
+20,Achieving-coherence-between-the-Marine-Strategy-Framework-Direc_2023_Marine-.pdf,MSP Technical Committee,committee,,,MSP Technical Committee,"nment and Resources Ministry for Transport, Infrastructure tivities and uses with very strict protection regimes. Finally, in Spain
+Authority and Capital Projects, Planning coordinating CAs and enabli",4,0.85,1.0,y,y,,MSP Technical Committee; genuine governance body for coordinating MSP activities across competent authorities
+21,Prioritising-multiple-objectives-in-marine-spatial-pla_2023_Ocean---Coastal-.pdf,Fisheries New Zealand and the Department,department,,,Fisheries New Zealand and the Department,"ry data to this article can be found online at https://doi. Fisheries New Zealand, 2022b. Fisheries Assessment Plenary, May 2022: Stock
+org/10.1016/j.ocecoaman.2023.106886. Assessments and Stock Statu",10,0.85,1.0,n,y,extraction_error,Truncated extraction; 'Fisheries New Zealand and the Department' cuts off mid-name; Fisheries NZ is real but extraction is incomplete
+22,Finding-harmony-in-the-sea--Resolving-conflicts-by-reg_2024_Ocean---Coastal-.pdf,Taiwan Fishery Agency,agency,,,Taiwan Fishery Agency,"tion satellite-
+resenting small-scale fisheries (SSF), actively engage in recreational derived images sourced from SPOT-7 and employing a Transverse
+fishing, gill netting, and pole-and-line practices ",3,0.85,1.0,y,y,,Taiwan Fishery Agency (Council of Agriculture); genuine government agency for fisheries management
+23,35.pdf,Environmental Protection Agency,agency,,,Environmental Protection Agency,"funding, and data management,
+(Offshore Constitutional Settlements). In the United States, the Clean
+transparency, and sharing.
+Water State Revolving Fund (CWSRF) outlines financial assessments and
+In",6,0.85,0.5,y,n,,Environmental Protection Agency (US EPA); genuine government agency but not specifically a marine governance institution
+24,An-ocean-of-ambiguity-in-Northern-European-marine-spatial-pla_2020_Marine-Po.pdf,Danish Maritime Agency,agency,,,Danish Maritime Agency,"an MSP policy design is thus an inherent aspect of not just the MSP cieties”. The shared perception of the Danish and German planner of a
+planning culture in Germany but the German planning culture in",5,0.85,1.0,y,y,,Danish Maritime Authority (DMA/Soefartsstyrelsen); genuine Danish government agency for maritime regulation and MSP
+25,The-development-of-a-spatial-data-infrastructure-to-sup_2022_Ocean---Coastal.pdf,Hellenic Statistical Authority,agency,,,Hellenic Statistical Authority,"ction, tidal amplitude, marine energy networks.
+production plants. Hellenic Centre for Marine Physical, chemical and biological data of the
+6. Human activities/Uses The data concerning human activitie",6,0.85,1.0,y,n,,ELSTAT; genuine Greek government statistical agency; limited direct marine governance role
+26,Implementation-of-the-Marine-Strategy-Framework-Directive-in-Mac_2020_Marine.pdf,European Economic and Social Committee,committee,,,European Economic and Social Committee,",
+sures and impacts are essential for applying Ecosystem Based Cambridge, United Kingdom and New York, NY, USA, 2013.
+Management. [8] European Commission, Communication from the Commission to the Euro",10,0.85,1.0,y,y,,European Economic and Social Committee (EESC); genuine EU consultative body involved in marine policy communications
+27,The-emerging-intersection-between-marine-spatial-planning-and-o_2022_Marine-.pdf,United Nations Statistical Commission,committee,,,United Nations Statistical Commission,"genda-2030-en 5 High Level Panel for a Sustainable Ocean Economy, Action coalitions:
+4 Republic of Fiji National Ocean Policy, Ministry of Economy (12 May 2020), https://oceanpanel.org/action#live (Ac",2,0.85,1.0,y,n,,"United Nations Statistical Commission; genuine UN body but primarily statistical governance, not specifically marine"
+28,A-two-way-process---Social-capacity-as-a-driver-and-outcome-of_2023_Marine-P.pdf,Chico Mendes Institute,institute,,,Chico Mendes Institute,"mited water management, and infrastructure pro-
+jects. Addressing these impacts has expanded the scale of actions and
+Pirajuba´eMarine Extractive Reserve (PMER) is a federal sustainable- interactions ",5,0.85,1.0,y,y,,ICMBio (Instituto Chico Mendes de Conservacao da Biodiversidade); genuine Brazilian federal institute for biodiversity conservation including marine reserves
+29,Accelerating-marine-spatial-planning-in-the-Western-Pacif_2025_Ocean---Coast.pdf,United States Agency,agency,,,United States Agency,"the environmental The first paper screened was published in 1993 when the experience
+issues brought by rapid economic growth (United Nations Environ- of the first Coastal Resources Management Project ",3,0.85,1.0,n,n,extraction_error,Truncated name; likely USAID (United States Agency for International Development) but extraction is incomplete
+30,Risk-based-path-planning-for-autonomous-underwater-vehicles_2022_Ocean-Engin.pdf,Fisheries and Marine Institute,institute,,,Fisheries and Marine Institute,"7 1BJ, UK
+cMary Kay O’Connor Process Safety Center, Artie McFerrin Department of Chemical Engineering, Texas A&M University, College Station, TX, 77843-3122, USA
+dAutonomous Ocean Systems Centre, Memo",1,0.85,1.0,y,y,,Fisheries and Marine Institute of Memorial University; genuine Canadian marine research institution
+31,Integrating-marine-spatial-planning-into-blue-economy-policie_2025_Marine-Po.pdf,Burdwood Hoc Committee,committee,"of MSP
+Argentina • Marine Spatial Planning of • Interactive map of Marine • Pilot project under Pilo",,Burdwood Hoc Committee,"authority in
+charge of MSP
+Argentina • Marine Spatial Planning of • Interactive map of Marine • Pilot project under Pilot National Ministry Fishing / Energy / Mining /
+the Argentine Republic Protected",12,0.95,1.0,n,n,extraction_error,Garbled extraction; likely 'Ad Hoc Committee' related to Burdwood Bank MPA in Argentina but name is corrupted
+32,Assessment-of-offshore-wind-solar-energy-potentials-and-spat_2023_Ocean-Engi.pdf,International Energy Agency,agency,,,International Energy Agency,"This arrangement ensures
+speed farms (Musial et al., 2016). .24381/cds.adbb2d47)
+that the neighboring wind turbines maintain a spacing of 7D (Musial
+Visibility At least 15 km away from the /
+coast (Sk",3,0.85,0.5,y,n,,International Energy Agency (IEA); genuine intergovernmental organization but not specifically a marine governance institution
+33,50.pdf,Hellenic Statistical Authority,agency,,,Hellenic Statistical Authority,"for this user group;
+in Greece were not available from national or EU sources, relevant in-
+and (4) conducting a spatial analysis of this value based on specific
+formation was derived from the World H",2,0.85,1.0,y,n,,ELSTAT; genuine Greek government agency; limited marine governance relevance
+34,48.pdf,The European Commission,committee,,,The European Commission,"e to its understanding, compliance and
+studied, which represents the 15% of the total surface protected. At the enforcement.
+European level, there is current discussion about phasing out bottom Our as",7,0.85,1.0,y,y,,The European Commission; genuine EU executive institution central to marine policy and MSP directive
+35,Contrasting-performance-of-marine-spatial-planning-for-ach_2024_Ocean---Coas.pdf,Ministry of Fisheries and Department,department,,,Ministry of Fisheries and Department,"., 2017). Current approaches to MPA design are largely qualitative, the number of species predicted to be caught in a standardised trawl)
+relying on (since 2006) stakeholder collaborative processes im",2,0.85,1.0,n,y,extraction_error,Truncated extraction; 'Ministry of Fisheries and Department' cuts off mid-name - likely Ministry of Fisheries and Department of Conservation of New Zealand
+36,47.pdf,Technology Research Institute,institute,,,Technology Research Institute,"costs, a strategy that would
+demands. strengthen national military presence and control in key areas.
+This segment of the seminar showcased the innovative applications Wen Zhidong, Deputy Director of ",3,0.85,1.0,n,n,generic_term,Generic term; 'Technology Research Institute' is too vague to identify a specific institution - context mentions Chinese maritime technology
+37,Cetacean-habitat-modelling-to-inform-conservation-management_2021_Ocean---Co.pdf,Indonesian Geospatial Information Agency,agency,,,Indonesian Geospatial Information Agency,"derived the probability of the presence under a similar level of sampling effort as
+(cid:0) 2500 m (d_2500) km GEBCO and ArcGIS derived used to obtain the known occurrence data (Phillips and Dudík, 20",5,0.85,1.0,y,y,,BIG (Badan Informasi Geospasial); genuine Indonesian government agency providing geospatial data for cetacean habitat modelling
+38,Seychelles--blue-finance--A-blueprint-for-marine-conservat_2025_Marine-Polic.pdf,Intergovernmental Oceanographic Commission,committee,,,Intergovernmental Oceanographic Commission,"finance initiatives:
+2
+
+A. Hunt and R. Hilborn M a r i n e P o l i c y 179 (2025) 106717
+Under this swap, the Seychelles government did realize some, albeit MSP was proposed as a step-by step process ",3,0.85,0.5,y,y,,IOC-UNESCO; genuine intergovernmental body; correctly identified
+39,Assessment-of-offshore-wind-solar-energy-potentials-and-spat_2023_Ocean-Engi.pdf,International Renewable Energy Agency,agency,,,International Renewable Energy Agency,"n km).
+2) we use high-voltage alternating current (HVAC) when dc ≤56km while high-voltage direct current (HVDC) when dc >56km for transmission
+(Cavazzi and Dutton, 2016).
+3) Reference sources include ",7,0.85,0.5,y,y,,IRENA (International Renewable Energy Agency); genuine intergovernmental organization; relevant to offshore marine renewable energy
+40,GIS-based-analysis-on-the-spatial-patterns-of-global-mari_2022_Ocean-Enginee.pdf,Incidents published by European Maritime Safety Agency,agency,,"and take targeted measures to improve navi-
+Incidents published by European Maritime Safety Agency E",Incidents published by European Maritime Safety Agency,"ritime authorities
+(AGCS, 2020), 2,815 shipping casualties or incidents were reported in to more intuitively understand the traffic safety conditions of ships
+2019, up 5% year-on-year. The Annual Over",1,0.85,1.0,n,y,extraction_error,Garbled extraction; 'Incidents published by European Maritime Safety Agency' includes body text as part of the institution name
+41,Addressing-transboundary-challenges--Exploring-the-interactive-re_2023_Marin.pdf,Sweden Swedish Agency,agency,,,Sweden Swedish Agency,"ways of coherent MSP considerations. Most of the North Sea countries have
+5
+
+S. Li and S. Jay M a r i n e P o li c y 158(2023)105880
+Table 2
+Information about the selected TMSP projects.
+Cases Regiona",6,0.85,1.0,n,y,extraction_error,Garbled extraction; 'Sweden Swedish Agency' is truncated and duplicated - likely Swedish Agency for Marine and Water Management (SwAM)
+42,Marine-spatial-planning-and-ocean-accounting--Synergistic-tools_2022_Marine-.pdf,Intergovernmental Oceanographic Commission,committee,,,Intergovernmental Oceanographic Commission,"la e , v i C ˇc . i u P s i , r o J d . d V i e , r B b . o E ve g n o , h H , P .M . D . e P g e e re o i r r g a e , s,
+toward ecosystem-based management. IOC Manual and Guides: ICAM Dossier No. J. ",11,0.85,1.0,y,y,,IOC-UNESCO; genuine intergovernmental body; correctly identified
+43,45.pdf,The European Commission,committee,,,The European Commission,"quotas of
+sectoral crisis linked to a perception among certain fishers of regulatory commercial species, through POs. Similar to the French fishing quota
+overload and of a lack of legitimacy of fisher",6,0.85,1.0,y,y,,The European Commission; genuine EU executive institution involved in fisheries quota and PO management
+44,Marine-Spatial-Planning--Assessment-of-the-intensity-of-co_2022_Ocean---Coas.pdf,The Competent Authority,agency,,,The Competent Authority,"ern
+(2014/89) was incorporated into the Greek legislation through Law mainland Greece (Fig. 1). It consists of approximately 220 islands, the
+4546 (GG 101/A/12-June-2018) and the modified one through ",2,0.85,0.5,n,y,generic_term,"Generic term; 'The Competent Authority' is a legal concept referring to any designated authority, not a specific named institution"
+45,Effectively-managing-area-based-management-tools--A-new-toolkit_2025_Marine-.pdf,International Whaling Commission,committee,,,International Whaling Commission,"genic hazards, such threats faced by marine mammals throughout the world’s oceans. For
+as incidental by-catch (e.g., [9]) entanglement [7], and ship strike- example, the landmark Moratorium on whaling",1,0.85,1.0,y,y,,IWC; genuine intergovernmental body for whale conservation; correctly identified
+46,Forging-ahead--Climate-smart-maritime-spatial-planning-for-_2025_Marine-Poli.pdf,CSIC Spanish Institute,institute,,,CSIC Spanish Institute,"Conference Reports M a r i n e P o l i c y 171(2025)106503
+Table 1 Table 2
+Conference key topics and outcomes. Entities and projects represented.
+Climate Change Adaptation and Key outcomes UNESCO Unit",2,0.85,1.0,y,y,,CSIC (Consejo Superior de Investigaciones Cientificas); genuine Spanish national research council; correctly identified though name slightly abbreviated
+47,46.pdf,European Environmental Agency,agency,,,European Environmental Agency,"related tems, urban ecosystems, river and floodplains, agricultural ecosystems,
+to, but not limited to, marine and coastal ecosystem; (3) to establish and forest ecosystems - then the best actor to do",5,0.85,1.0,y,y,,European Environmental Agency (EEA); genuine EU agency for ecosystem monitoring and policy
+48,Piloting-a-culturally-significant-areas-framework-for-spatial-pl_2025_Marine.pdf,The South African Heritage Resources Agency,agency,,,The South African Heritage Resources Agency,"engage with diverse tional Heritage Resources Act [25 of 1999], Protection, Promotion,
+Development and Management of Indigenous Knowledge Act [6 of
+2019], and the 2019 National Policy on South African",2,0.85,0.5,y,n,,"SAHRA (South African Heritage Resources Agency); genuine government agency but heritage-focused, not specifically marine governance"
+49,31.pdf,Federal Maritime and Hydrographic Agency,agency,,,Federal Maritime and Hydrographic Agency,"erenewableenergies(seealso[79])inthewakeof Regional Council of Southwest Finland; Tom Woolley, Department of
+theenergycrisisandinlinewiththeambitiousgoalsoftheEuropean Housing, Local Government and He",18,0.85,1.0,y,y,,BSH (Bundesamt fuer Seeschifffahrt und Hydrographie); genuine German federal agency central to marine spatial planning
+50,Using-systematic-conservation-planning-to-align-priority-areas-_2022_Biologi.pdf,South African Heritage Resources Agency,agency,,,South African Heritage Resources Agency,"sources Act, 1998 (Act No, 18 Of
+incumbents in the Eastern Cape. We thank the following institutions and
+1998). Notice Declaring the Sardinia Bay Marine Protected Area. Government
+people for data cont",10,0.85,1.0,y,n,,"SAHRA; genuine government agency referenced in Sardinia Bay MPA context but heritage-focused, not specifically marine governance"

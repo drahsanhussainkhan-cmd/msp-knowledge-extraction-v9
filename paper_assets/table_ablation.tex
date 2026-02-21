@@ -1,0 +1,17 @@
+\begin{table}[htbp]
+\centering
+\caption{Ablation study: impact of removing each filtering component (20-document sample)}
+\label{tab:ablation}
+\begin{tabular}{lrrr}
+\hline
+Configuration & Extractions & $\Delta$ & \% Change \\
+\hline
+\textbf{Full System} & \textbf{232} & --- & --- \\
+No Marine Filter & 235 & +3 & +1.3\% \\
+No FP Filter & 243 & +11 & +4.7\% \\
+No Blacklists & 236 & +4 & +1.7\% \\
+No Dedup & 232 & +0 & +0.0\% \\
+No Legal Ref Filter & 234 & +2 & +0.9\% \\
+\hline
+\end{tabular}
+\end{table}

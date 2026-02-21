@@ -192,6 +192,10 @@ class SpeciesExtractor(BaseExtractor):
                        doc_type: DocumentType) -> Optional[SpeciesExtraction]:
         """Process a species match"""
         try:
+
+            # Skip bibliography and garbled text
+            if self._should_skip_match(converted_text, match.start(), match.group(0), category="species"):
+                return None
             groups = match.groupdict()
             sentence, context = self._get_sentence_context(converted_text, match.start(), match.end())
 

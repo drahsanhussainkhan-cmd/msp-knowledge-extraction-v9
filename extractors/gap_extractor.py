@@ -108,6 +108,10 @@ class GapExtractor(BaseExtractor):
                        offset: int, pattern: re.Pattern) -> Optional[GapIdentifiedExtraction]:
         """Process a gap match"""
         try:
+
+            # Skip bibliography and garbled text
+            if self._should_skip_match(search_text, match.start(), match.group(0), category="gap"):
+                return None
             groups = match.groupdict()
             gap_description = (groups.get('gap') or '').strip()
 

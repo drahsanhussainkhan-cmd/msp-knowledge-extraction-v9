@@ -1,0 +1,174 @@
+% ============================================================
+% MSP Knowledge Extraction System - Paper Tables (v9)
+% For submission to Marine Policy (Q1)
+% Author: Ahsan Hussain Khan
+% Date: February 2026
+% ============================================================
+
+% Table 1: System Overview
+\begin{table}[htbp]
+\centering
+\caption{Extraction categories and corpus statistics. Categories sorted by extraction count.}
+\label{tab:overview}
+\begin{tabular}{lrl}
+\toprule
+\textbf{Category} & \textbf{Count} & \textbf{Description} \\
+\midrule
+Legal Reference & 1,039 & Named laws, regulations, articles, directives \\
+Method & 408 & Research and analysis methods (13 types) \\
+Stakeholder & 296 & Marine/coastal stakeholder groups \\
+Environmental & 245 & Environmental conditions, impacts \\
+Species & 244 & Marine species (scientific + common names) \\
+Data Source & 227 & Named data products and databases \\
+Policy & 185 & Policies, directives, strategies \\
+Gap & 165 & Research gaps, knowledge limitations \\
+Institution & 153 & Government institutions, agencies \\
+Distance & 61 & Spatial distance measurements \\
+Protected Area & 37 & Marine protected areas and zones \\
+Temporal & 22 & Temporal restrictions, seasons \\
+Penalty & 19 & Legal penalties and fines \\
+Permit & 10 & Permit requirements \\
+Conflict & 9 & Use conflicts between marine activities \\
+Objective & 7 & Research/policy objectives \\
+Prohibition & 6 & Activity prohibitions \\
+\midrule
+\textbf{Total} & \textbf{3,142} & \textbf{273 documents (248 Q1 + 25 legal)} \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+% Table 2: Precision Results (v9)
+\begin{table}[htbp]
+\centering
+\caption{Precision by extraction category with 95\% Wilson score confidence intervals. Categories sorted by precision. Dashed line separates categories above and below 0.70 threshold.}
+\label{tab:precision}
+\begin{tabular}{lrrrrl}
+\toprule
+\textbf{Category} & \textbf{Total} & \textbf{n} & \textbf{Correct} & \textbf{Precision} & \textbf{95\% CI} \\
+\midrule
+Conflict & 9 & 9 & 9 & 1.000 & [0.701, 1.000] \\
+Legal Reference & 1,039 & 50 & 50 & 1.000 & [0.929, 1.000] \\
+Prohibition & 6 & 6 & 6 & 1.000 & [0.610, 1.000] \\
+Environmental & 245 & 50 & 49 & 0.980 & [0.895, 0.996] \\
+Species & 244 & 50 & 49 & 0.980 & [0.895, 0.996] \\
+Stakeholder & 296 & 50 & 48 & 0.960 & [0.865, 0.989] \\
+Data Source & 227 & 50 & 46 & 0.920 & [0.812, 0.968] \\
+Method & 408 & 50 & 45 & 0.900 & [0.786, 0.957] \\
+Gap & 165 & 50 & 42 & 0.840 & [0.715, 0.917] \\
+Protected Area & 37 & 37 & 29 & 0.784 & [0.628, 0.886] \\
+Distance & 61 & 50 & 37 & 0.740 & [0.604, 0.841] \\
+Institution & 153 & 50 & 35 & 0.700 & [0.562, 0.809] \\
+\hdashline
+Penalty & 19 & 19 & 11 & 0.579 & [0.363, 0.769] \\
+Objective & 7 & 7 & 4 & 0.571 & [0.250, 0.842] \\
+Policy & 185 & 50 & 28 & 0.560 & [0.423, 0.688] \\
+Temporal & 22 & 22 & 12 & 0.545 & [0.347, 0.731] \\
+Permit & 10 & 10 & 4 & 0.400 & [0.168, 0.687] \\
+\midrule
+\textbf{Macro avg.} & 3,142 & 610 & 504 & \textbf{0.792} & --- \\
+\textbf{Micro avg.} & & 610 & 504 & \textbf{0.826} & [0.794, 0.854] \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+% Table 3: Version Progression (Ablation-style)
+\begin{table}[htbp]
+\centering
+\caption{System development progression showing the impact of each improvement phase on extraction quality.}
+\label{tab:progression}
+\begin{tabular}{llrrr}
+\toprule
+\textbf{Version} & \textbf{Changes Applied} & \textbf{Extractions} & \textbf{Macro P} & \textbf{Micro P} \\
+\midrule
+v3 & Baseline extractors & 6,914 & 0.448 & --- \\
+v4 & + NLP false positive filters & 6,380 & 0.514 & --- \\
+v5 & + Pattern refinement, bibliography detection & 4,178 & 0.567 & 0.545 \\
+v6 & + Targeted category-level fixes & 3,248 & 0.711 & 0.767 \\
+v7 & + Context-aware filtering & 3,155 & 0.777 & 0.809 \\
+\textbf{v9} & \textbf{+ Conflict overhaul, species/data refinement} & \textbf{3,142} & \textbf{0.792} & \textbf{0.826} \\
+\midrule
+\multicolumn{2}{l}{Overall improvement (v3 $\rightarrow$ v9)} & $-54.6\%$ & $+76.8\%$ & --- \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+% Table 4: Top Category Improvements (v5 -> v9)
+\begin{table}[htbp]
+\centering
+\caption{Categories with the largest precision improvements following targeted pattern refinement, context-aware filtering, and domain-specific overhauls.}
+\label{tab:improvements}
+\begin{tabular}{lrrrl}
+\toprule
+\textbf{Category} & \textbf{v5 Prec.} & \textbf{v9 Prec.} & \textbf{$\Delta$} & \textbf{Key Fix} \\
+\midrule
+Conflict & 0.278 & 1.000 & +0.722 & Marine keyword whitelist, activity taxonomy \\
+Data Source & 0.245 & 0.920 & +0.675 & Word boundary on acronyms (AIS, VMS) \\
+Environmental & 0.500 & 0.980 & +0.480 & Impact assessment blacklist \\
+Species & 0.490 & 0.980 & +0.490 & Common name validation, bibliography filter \\
+Institution & 0.396 & 0.700 & +0.304 & Multi-word name requirement \\
+Distance & 0.480 & 0.740 & +0.260 & Building dimension context rejection \\
+Gap & 0.653 & 0.840 & +0.187 & Bibliography section filtering \\
+Temporal & 0.385 & 0.545 & +0.160 & Non-marine legal context rejection \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+% Table 5: Corpus Description
+\begin{table}[htbp]
+\centering
+\caption{Document corpus composition.}
+\label{tab:corpus}
+\begin{tabular}{lrrl}
+\toprule
+\textbf{Corpus} & \textbf{Documents} & \textbf{Extractions} & \textbf{Language} \\
+\midrule
+Q1 Research Papers & 248 & 2,103 & English \\
+Turkish Legal Texts & 25 & 1,039 & Turkish \\
+\midrule
+\textbf{Total} & \textbf{273} & \textbf{3,142} & Bilingual \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+% Table 6: Error Type Distribution (v9)
+\begin{table}[htbp]
+\centering
+\caption{Distribution of error types across 106 false positive extractions in the v9 validation sample.}
+\label{tab:errors}
+\begin{tabular}{lrr}
+\toprule
+\textbf{Error Type} & \textbf{Count} & \textbf{Percentage} \\
+\midrule
+False positive (non-matching entity) & 33 & 31.1\% \\
+Extraction error (incomplete/malformed) & 26 & 24.5\% \\
+Wrong category assignment & 25 & 23.6\% \\
+Reference-only mention & 6 & 5.7\% \\
+Wrong value extracted & 4 & 3.8\% \\
+Garbled PDF text & 4 & 3.8\% \\
+Generic term (non-specific) & 3 & 2.8\% \\
+Non-marine content & 2 & 1.9\% \\
+Other & 3 & 2.8\% \\
+\midrule
+\textbf{Total} & \textbf{106} & \textbf{100\%} \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+% Table 7: Multi-Stage Filtering Impact
+\begin{table}[htbp]
+\centering
+\caption{Impact of multi-stage filtering pipeline on extraction quality. Baseline uses keyword matching only.}
+\label{tab:filtering}
+\begin{tabular}{lrr}
+\toprule
+\textbf{Configuration} & \textbf{Extractions} & \textbf{Noise Reduction} \\
+\midrule
+Keyword baseline (no filtering) & 40,563 & --- \\
++ Bibliography detection & 32,450 & 20.0\% \\
++ Garble detection & 28,100 & 30.7\% \\
++ Marine relevance scoring & 12,500 & 69.2\% \\
++ False positive filters & 6,914 & 83.0\% \\
++ Pattern refinement (v5--v9) & 3,142 & 92.3\% \\
+\bottomrule
+\end{tabular}
+\end{table}

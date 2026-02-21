@@ -1,0 +1,408 @@
+================================================================================
+MSP GAP ANALYSIS REPORT
+Generated: 2026-02-19 16:25:38
+================================================================================
+
+Total gaps identified: 64
+Categories: integration, legal, data, research
+
+
+============================================================
+CATEGORY: DATA (8 gaps)
+============================================================
+
+  Gap #1
+    Type: missing_data_type
+    Severity: critical
+    Description: No bathymetric data for seabed mapping found in corpus
+    Recommendation: Acquire or collect bathymetry data
+
+  Gap #2
+    Type: missing_data_type
+    Severity: critical
+    Description: No biodiversity surveys for species distribution found in corpus
+    Recommendation: Acquire or collect biodiversity data
+
+  Gap #3
+    Type: missing_data_type
+    Severity: critical
+    Description: No fishing effort data for resource management found in corpus
+    Recommendation: Acquire or collect fishing_effort data
+
+  Gap #4
+    Type: missing_data_type
+    Severity: critical
+    Description: No socioeconomic data for impact assessment found in corpus
+    Recommendation: Acquire or collect socioeconomic data
+
+  Gap #5
+    Type: missing_data_type
+    Severity: critical
+    Description: No oceanographic data for physical characterization found in corpus
+    Recommendation: Acquire or collect oceanographic data
+
+  Gap #6
+    Type: missing_data_type
+    Severity: critical
+    Description: No water quality monitoring data found in corpus
+    Recommendation: Acquire or collect water_quality data
+
+  Gap #7
+    Type: coverage_gap
+    Severity: important
+    Description: 80% of data sources lack coverage information
+    Recommendation: Document spatial and temporal coverage for all datasets
+
+  Gap #8
+    Type: resolution_gap
+    Severity: minor
+    Description: 100% of data sources lack resolution information
+    Recommendation: Specify resolution for all spatial datasets
+
+============================================================
+CATEGORY: INTEGRATION (22 gaps)
+============================================================
+
+  Gap #1
+    Type: unmonitored_mpa
+    Severity: critical
+    Description: MPA 'koruma bölge kurulunca' designated but no monitoring data found
+    Recommendation: Establish monitoring program for 'koruma bölge kurulunca'
+
+  Gap #2
+    Type: unmonitored_mpa
+    Severity: critical
+    Description: MPA 'mutlak' designated but no monitoring data found
+    Recommendation: Establish monitoring program for 'mutlak'
+
+  Gap #3
+    Type: unmonitored_mpa
+    Severity: critical
+    Description: MPA 'kısa mesafeli' designated but no monitoring data found
+    Recommendation: Establish monitoring program for 'kısa mesafeli'
+
+  Gap #4
+    Type: unmonitored_mpa
+    Severity: critical
+    Description: MPA 'kaydı konulmuş olan taşınmaz kültür varlıkları ile arkeolojik' designated but no monitoring data found
+    Recommendation: Establish monitoring program for 'kaydı konulmuş olan taşınmaz kültür varlıkları ile arkeolojik'
+
+  Gap #5
+    Type: unmonitored_mpa
+    Severity: critical
+    Description: MPA 'doğal' designated but no monitoring data found
+    Recommendation: Establish monitoring program for 'doğal'
+
+  Gap #6
+    Type: unmonitored_mpa
+    Severity: critical
+    Description: MPA '2873 sayılı' designated but no monitoring data found
+    Recommendation: Establish monitoring program for '2873 sayılı'
+
+  Gap #7
+    Type: unmonitored_mpa
+    Severity: critical
+    Description: MPA 'doğal sit alanları ve' designated but no monitoring data found
+    Recommendation: Establish monitoring program for 'doğal sit alanları ve'
+
+  Gap #8
+    Type: unmonitored_mpa
+    Severity: critical
+    Description: MPA '1983 tarihli ve 2873 sayılı' designated but no monitoring data found
+    Recommendation: Establish monitoring program for '1983 tarihli ve 2873 sayılı'
+
+  Gap #9
+    Type: unmonitored_mpa
+    Severity: critical
+    Description: MPA 'tür' designated but no monitoring data found
+    Recommendation: Establish monitoring program for 'tür'
+
+  Gap #10
+    Type: unmonitored_mpa
+    Severity: critical
+    Description: MPA 'uzun mesafeli' designated but no monitoring data found
+    Recommendation: Establish monitoring program for 'uzun mesafeli'
+
+  Gap #11
+    Type: unmonitored_mpa
+    Severity: critical
+    Description: MPA 'lar kanunu uyarınca' designated but no monitoring data found
+    Recommendation: Establish monitoring program for 'lar kanunu uyarınca'
+
+  Gap #12
+    Type: unmonitored_mpa
+    Severity: critical
+    Description: MPA 'yaban hayatı' designated but no monitoring data found
+    Recommendation: Establish monitoring program for 'yaban hayatı'
+
+  Gap #13
+    Type: unmonitored_mpa
+    Severity: critical
+    Description: MPA 'tabiatı' designated but no monitoring data found
+    Recommendation: Establish monitoring program for 'tabiatı'
+
+  Gap #14
+    Type: unmonitored_mpa
+    Severity: critical
+    Description: MPA 'milli parklar kanunu uyarınca' designated but no monitoring data found
+    Recommendation: Establish monitoring program for 'milli parklar kanunu uyarınca'
+
+  Gap #15
+    Type: unmonitored_mpa
+    Severity: critical
+    Description: MPA 'planlama aşamasında' designated but no monitoring data found
+    Recommendation: Establish monitoring program for 'planlama aşamasında'
+
+  Gap #16
+    Type: unmonitored_mpa
+    Severity: critical
+    Description: MPA 'ile 1 inci ve 2 nci derece arkeolojik' designated but no monitoring data found
+    Recommendation: Establish monitoring program for 'ile 1 inci ve 2 nci derece arkeolojik'
+
+  Gap #17
+    Type: unmonitored_mpa
+    Severity: critical
+    Description: MPA 'tapu kütüklerinde doğal' designated but no monitoring data found
+    Recommendation: Establish monitoring program for 'tapu kütüklerinde doğal'
+
+  Gap #18
+    Type: unmonitored_mpa
+    Severity: critical
+    Description: MPA '1 inci derece doğal' designated but no monitoring data found
+    Recommendation: Establish monitoring program for '1 inci derece doğal'
+
+  Gap #19
+    Type: unmonitored_mpa
+    Severity: critical
+    Description: MPA 'orta mesafeli' designated but no monitoring data found
+    Recommendation: Establish monitoring program for 'orta mesafeli'
+
+  Gap #20
+    Type: method_legal_disconnect
+    Severity: important
+    Description: Method 'suitability_analysis' used in 6 research papers but not referenced in legal framework
+    Recommendation: Consider incorporating suitability_analysis requirements into MSP regulations
+
+  Gap #21
+    Type: method_legal_disconnect
+    Severity: important
+    Description: Method 'ecosystem_based_management' used in 37 research papers but not referenced in legal framework
+    Recommendation: Consider incorporating ecosystem_based_management requirements into MSP regulations
+
+  Gap #22
+    Type: method_legal_disconnect
+    Severity: important
+    Description: Method 'conservation_planning_tool' used in 47 research papers but not referenced in legal framework
+    Recommendation: Consider incorporating conservation_planning_tool requirements into MSP regulations
+
+============================================================
+CATEGORY: LEGAL (9 gaps)
+============================================================
+
+  Gap #1
+    Type: unregulated_activity
+    Severity: critical
+    Description: Activity 'shipping' discussed in research but no regulations found
+    Recommendation: Develop regulations for shipping activities
+
+  Gap #2
+    Type: unregulated_activity
+    Severity: critical
+    Description: Activity 'mining' discussed in research but no regulations found
+    Recommendation: Develop regulations for mining activities
+
+  Gap #3
+    Type: missing_penalty
+    Severity: important
+    Description: Prohibition on 'kapasitesinden fazla yolcu alan geminin seferine' has no associated penalty
+    Recommendation: Define specific penalties for kapasitesinden fazla yolcu alan geminin seferine violations
+
+  Gap #4
+    Type: missing_penalty
+    Severity: important
+    Description: Prohibition on 'imalatla kullanılması' has no associated penalty
+    Recommendation: Define specific penalties for imalatla kullanılması violations
+
+  Gap #5
+    Type: missing_penalty
+    Severity: important
+    Description: Prohibition on 'yüzmek ve avlanmak' has no associated penalty
+    Recommendation: Define specific penalties for yüzmek ve avlanmak violations
+
+  Gap #6
+    Type: missing_penalty
+    Severity: important
+    Description: Prohibition on 'uzaklaştırmak ve benzeri faaliyetlerde bulunmak' has no associated penalty
+    Recommendation: Define specific penalties for uzaklaştırmak ve benzeri faaliyetlerde bulunmak violations
+
+  Gap #7
+    Type: missing_penalty
+    Severity: important
+    Description: Prohibition on 'fidan veya ağaç dikmek' has no associated penalty
+    Recommendation: Define specific penalties for fidan veya ağaç dikmek violations
+
+  Gap #8
+    Type: missing_penalty
+    Severity: important
+    Description: Prohibition on 'kuruluş ve işletmelere bu faaliyetler için' has no associated penalty
+    Recommendation: Define specific penalties for kuruluş ve işletmelere bu faaliyetler için violations
+
+  Gap #9
+    Type: enforcement_gap
+    Severity: important
+    Description: 10 permit requirements lack specified issuing authority
+    Recommendation: Specify responsible authority for each permit type
+
+============================================================
+CATEGORY: RESEARCH (25 gaps)
+============================================================
+
+  Gap #1
+    Type: method_gap
+    Severity: critical
+    Description: Method 'gis_analysis' is underutilized (0 uses vs avg 10)
+    Recommendation: Encourage use of gis_analysis in future MSP studies
+
+  Gap #2
+    Type: method_gap
+    Severity: critical
+    Description: Method 'stakeholder_analysis' is underutilized (0 uses vs avg 10)
+    Recommendation: Encourage use of stakeholder_analysis in future MSP studies
+
+  Gap #3
+    Type: method_gap
+    Severity: critical
+    Description: Method 'ecological_modeling' is underutilized (0 uses vs avg 10)
+    Recommendation: Encourage use of ecological_modeling in future MSP studies
+
+  Gap #4
+    Type: method_gap
+    Severity: critical
+    Description: Method 'economic_analysis' is underutilized (0 uses vs avg 10)
+    Recommendation: Encourage use of economic_analysis in future MSP studies
+
+  Gap #5
+    Type: method_gap
+    Severity: critical
+    Description: Method 'cumulative_impact' is underutilized (0 uses vs avg 10)
+    Recommendation: Encourage use of cumulative_impact in future MSP studies
+
+  Gap #6
+    Type: method_gap
+    Severity: critical
+    Description: Method 'scenario_planning' is underutilized (0 uses vs avg 10)
+    Recommendation: Encourage use of scenario_planning in future MSP studies
+
+  Gap #7
+    Type: geographic_gap
+    Severity: important
+    Description: Protected area 'Doğal' mentioned in only 1 document(s)
+    Recommendation: Prioritize research in Doğal
+
+  Gap #8
+    Type: geographic_gap
+    Severity: important
+    Description: Protected area 'Tapu kütüklerinde doğal' mentioned in only 1 document(s)
+    Recommendation: Prioritize research in Tapu kütüklerinde doğal
+
+  Gap #9
+    Type: geographic_gap
+    Severity: important
+    Description: Protected area 'Milli Parklar Kanunu uyarınca' mentioned in only 1 document(s)
+    Recommendation: Prioritize research in Milli Parklar Kanunu uyarınca
+
+  Gap #10
+    Type: geographic_gap
+    Severity: important
+    Description: Protected area 'Planlama aşamasında' mentioned in only 1 document(s)
+    Recommendation: Prioritize research in Planlama aşamasında
+
+  Gap #11
+    Type: geographic_gap
+    Severity: important
+    Description: Protected area 'Koruma bölge kurulunca' mentioned in only 1 document(s)
+    Recommendation: Prioritize research in Koruma bölge kurulunca
+
+  Gap #12
+    Type: geographic_gap
+    Severity: important
+    Description: Protected area '1983 tarihli ve 2873 sayılı' mentioned in only 1 document(s)
+    Recommendation: Prioritize research in 1983 tarihli ve 2873 sayılı
+
+  Gap #13
+    Type: geographic_gap
+    Severity: important
+    Description: Protected area '1 inci derece doğal' mentioned in only 1 document(s)
+    Recommendation: Prioritize research in 1 inci derece doğal
+
+  Gap #14
+    Type: geographic_gap
+    Severity: important
+    Description: Protected area 'ile 1 inci ve 2 nci derece arkeolojik' mentioned in only 1 document(s)
+    Recommendation: Prioritize research in ile 1 inci ve 2 nci derece arkeolojik
+
+  Gap #15
+    Type: geographic_gap
+    Severity: important
+    Description: Protected area 'doğal sit alanları ve' mentioned in only 1 document(s)
+    Recommendation: Prioritize research in doğal sit alanları ve
+
+  Gap #16
+    Type: geographic_gap
+    Severity: important
+    Description: Protected area 'lar Kanunu uyarınca' mentioned in only 1 document(s)
+    Recommendation: Prioritize research in lar Kanunu uyarınca
+
+  Gap #17
+    Type: geographic_gap
+    Severity: important
+    Description: Protected area 'tabiatı' mentioned in only 1 document(s)
+    Recommendation: Prioritize research in tabiatı
+
+  Gap #18
+    Type: geographic_gap
+    Severity: important
+    Description: Protected area 'yaban hayatı' mentioned in only 1 document(s)
+    Recommendation: Prioritize research in yaban hayatı
+
+  Gap #19
+    Type: geographic_gap
+    Severity: important
+    Description: Protected area 'tür' mentioned in only 1 document(s)
+    Recommendation: Prioritize research in tür
+
+  Gap #20
+    Type: geographic_gap
+    Severity: important
+    Description: Protected area 'kaydı konulmuş olan taşınmaz kültür varlıkları ile arkeolojik' mentioned in only 1 document(s)
+    Recommendation: Prioritize research in kaydı konulmuş olan taşınmaz kültür varlıkları ile arkeolojik
+
+  Gap #21
+    Type: geographic_gap
+    Severity: important
+    Description: Protected area '2873 sayılı' mentioned in only 1 document(s)
+    Recommendation: Prioritize research in 2873 sayılı
+
+  Gap #22
+    Type: geographic_gap
+    Severity: important
+    Description: Protected area 'Mutlak' mentioned in only 1 document(s)
+    Recommendation: Prioritize research in Mutlak
+
+  Gap #23
+    Type: geographic_gap
+    Severity: important
+    Description: Protected area 'Kısa Mesafeli' mentioned in only 1 document(s)
+    Recommendation: Prioritize research in Kısa Mesafeli
+
+  Gap #24
+    Type: geographic_gap
+    Severity: important
+    Description: Protected area 'Orta Mesafeli' mentioned in only 1 document(s)
+    Recommendation: Prioritize research in Orta Mesafeli
+
+  Gap #25
+    Type: geographic_gap
+    Severity: important
+    Description: Protected area 'Uzun Mesafeli' mentioned in only 1 document(s)
+    Recommendation: Prioritize research in Uzun Mesafeli

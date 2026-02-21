@@ -160,6 +160,10 @@ class PenaltyExtractor(BaseExtractor):
                        doc_type: DocumentType) -> Optional[PenaltyExtraction]:
         """Process a penalty match"""
         try:
+
+            # Skip bibliography and garbled text
+            if self._should_skip_match(converted_text, match.start(), match.group(0), category="penalty"):
+                return None
             groups = match.groupdict()
             sentence, context = self._get_sentence_context(converted_text, match.start(), match.end())
 

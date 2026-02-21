@@ -92,6 +92,10 @@ class ObjectiveExtractor(BaseExtractor):
                        pattern: re.Pattern) -> Optional[ResearchObjectiveExtraction]:
         """Process an objective match"""
         try:
+
+            # Skip bibliography and garbled text
+            if self._should_skip_match(search_text, match.start(), match.group(0), category="objective"):
+                return None
             groups = match.groupdict()
             objective_text = (groups.get('obj') or '').strip()
 

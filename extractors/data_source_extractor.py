@@ -32,15 +32,32 @@ class DataSourceExtractor(BaseExtractor):
             ),
         ]
 
-        # English patterns
+        # English patterns - require named data source, not just "dataset"
         self.english_patterns = [
+            # Named data products: "Landsat imagery", "AIS data", "GEBCO bathymetry"
+            # Word boundaries on short acronyms to avoid substring matches (e.g. "ais" in "affairs")
             re.compile(
-                r'(?P<source_type>satellite|survey|database|dataset|imagery|remote\s+sensing)\s*'
-                r'(?:data\s+)?(?:from\s+)?(?P<source_name>[\w\s-]+)?',
+                r'(?P<source_name>Landsat|Sentinel|MODIS|Copernicus|\bAIS\b|\bVMS\b|\bGEBCO\b|'
+                r'\bERA5\b|\bECMWF\b|WorldClim|Bio-ORACLE|\bOBIS\b|\bGBIF\b|\bEMODnet\b|\bICES\b|SeaWiFS|'
+                r'OpenStreetMap|MarineTraffic|Global\s+Fishing\s+Watch)\s*'
+                r'(?P<source_type>data|imagery|dataset|database|products?)?',
                 re.IGNORECASE
             ),
+            # "satellite imagery from X", "survey data from X" - require "from" or "of" + name
             re.compile(
-                r'(?P<source_name>Landsat|Sentinel|MODIS|Copernicus|AIS|VMS)\s*(?:data|imagery)',
+                r'(?P<source_type>satellite|remote\s+sensing)\s+(?:imagery|data)\s+'
+                r'(?:from|of)\s+(?P<source_name>[A-Z][\w\s-]{2,40})',
+                re.IGNORECASE
+            ),
+            # "X survey" with numeric details (e.g., "survey with 1978 responses")
+            re.compile(
+                r'(?P<source_type>survey)\s+(?:with|of)\s+(?P<source_name>\d[\w\s,]+)',
+                re.IGNORECASE
+            ),
+            # "database of X" or "dataset of X" - require "of/from/containing" qualifier
+            re.compile(
+                r'(?P<source_type>database|dataset)\s+(?:of|from|containing)\s+'
+                r'(?P<source_name>[A-Z][\w\s-]{3,60})',
                 re.IGNORECASE
             ),
         ]
@@ -66,6 +83,10 @@ class DataSourceExtractor(BaseExtractor):
                        doc_type: DocumentType) -> Optional[DataSourceExtraction]:
         """Process a data source match"""
         try:
+
+            # Skip bibliography and garbled text
+            if self._should_skip_match(converted_text, match.start(), match.group(0), category="data_source"):
+                return None
             groups = match.groupdict()
             sentence, context = self._get_sentence_context(converted_text, match.start(), match.end())
 
