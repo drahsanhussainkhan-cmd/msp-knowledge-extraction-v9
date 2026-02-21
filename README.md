@@ -563,4 +563,12 @@ Academic research project. Developed as part of a PhD thesis on Marine Spatial P
 
 ---
 
+## Interactive Dashboard
+
+Explore the full system results, precision metrics, and architecture interactively:
+
+**[Live Dashboard](https://drahsanhussainkhan-cmd.github.io/msp-knowledge-extraction-v9/dashboard.html)**
+
+---
+
 *MSP Knowledge Extraction System v9 -- February 2026*
