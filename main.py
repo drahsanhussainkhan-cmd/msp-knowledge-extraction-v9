@@ -38,10 +38,6 @@ from gap_detection import (
     ResearchGapDetector, LegalGapDetector, DataGapDetector,
     IntegrationGapDetector, GapPrioritizer
 )
-from decision_support import (
-    MethodRecommender, EvidenceSynthesizer,
-    DataCollectionPlanner, LegalComplianceChecker
-)
 from outputs import ReportGenerator, DashboardGenerator, Visualizer
 from outputs.export import export_to_csv, export_to_json, export_gaps_to_csv
 

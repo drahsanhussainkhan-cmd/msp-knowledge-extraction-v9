@@ -1,6 +1,7 @@
-# MSP Knowledge Extraction & Decision Support System
+# MSP Knowledge Extraction System
 # Core dependencies
 pdfplumber>=0.9.0
+nltk>=3.8.0
 
 # Optional - for static chart generation
 matplotlib>=3.5.0
