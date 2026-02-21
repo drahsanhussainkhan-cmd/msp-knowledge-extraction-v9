@@ -4,7 +4,7 @@
 
 Author: **Ahsan Hussain Khan**
 PhD Student, Universidade de Santiago de Compostela
-Supervisors: David Mateo Fouz Varela, Manuel Marey Perez, Rodrigo Carballo Sanchez, Borja Alvarez Fernandez
+Supervisors: David Mateo Fouz Varela, Manuel Marey Perez.
 
 ---
 
